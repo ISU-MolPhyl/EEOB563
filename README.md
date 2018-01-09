@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Molecular Phylogenetics - Spring 2018
 
-You can use the [editor on GitHub](https://github.com/ISU-MolPhyl/EEOB563-Spring2018/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Iowa State University -- EEOB 563
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A graduate course covering on the theory and practice of phylogenetic analysis
 
-### Markdown
+**Instructor:** [Dennis Lavrov](https://sites.google.com/site/dennislavrov/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Time/Location:** Tuesday and Thursday, 9:00-10:50 AM in 203 Bessey Hall 
 
-```markdown
-Syntax highlighted code block
+**Web View:** [https://isu-molphyl.github.io/EEOB563-Spring2018/](https://isu-molphyl.github.io/EEOB563-Spring2018/)
 
-# Header 1
-## Header 2
-### Header 3
+## Reading Material
 
-- Bulleted
-- List
+* [*Lecture Notes: The Mathematics of Phylogenetics*](https://jarhodesuaf.github.io/PhyloBook.pdf) by [E. S. Allman]() & [John A. Rhodes](https://jarhodesuaf.github.io/)
 
-1. Numbered
-2. List
+## Software Requirements
 
-**Bold** and _Italic_ and `Code` text
+Please see the [installation guide](https://eeob-biodata.github.io/BCB546X-Fall2017/install) for information and updates about required software.
 
-[Link](url) and ![Image](src)
-```
+## Course Schedule
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The topics covered in this course can all be found here: [Spring 2018 Schedule](https://sites.google.com/site/eeob563/schedule2018).
+Be sure to check the schedule for updates.
 
-### Jekyll Themes
+## Syllabus
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ISU-MolPhyl/EEOB563-Spring2018/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+A copy of the course syllabus can be found at the following link: [Spring 2018 Syllabus](https://sites.google.com/site/eeob563/syllabus). A pdf is also available in this GitHub repository.
 
-### Support or Contact
+### [Lab1](https://github.com/EEOB-BioData/EEOB563-Spring2018/tree/master/Lab_01)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Lecture 1: Introduction to Unix [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_01/Week1_Lecture1.pdf)]
+    * Windows users, please see the [installation guide](https://eeob-biodata.github.io/BCB546X-Fall2017/) for instructions on installing a command-line tool.
+    * Material for this week can be found in the [Week 1](https://github.com/EEOB-BioData/BCB546X-Fall2017/tree/master/Week_01) folder.
+* Lecture 2: Delving more deeply into UNIX [[slides](https://eeob-biodata.github.io/BCB546X-Fall2017/Week_01/lecture_25Aug-MBH.html)]
+
+---
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
