@@ -1,4 +1,4 @@
-#GIT QUICK INTRO  
+# GIT QUICK INTRO  
 _Based on chapter 5 from Vince Buffalo's book "Bioinformatics Data Skills"_
 
 ## Why GIT?
