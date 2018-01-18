@@ -10,8 +10,7 @@ Why GIT?
 - Helps Keep Software Organized and Available After People Leave
 
 ## Installing Git
-If you’re on OS X, install Git through Homebrew (e.g., `brew install git`); on Linux, use apt-get (e.g., `apt-get install git`). On Windows, install [Git for Windows](http://gitforwindows.org/). Finally, you can always visit the [Git website](https://git-scm.com/) for both source code and executable versions of Git as well as multiple learning resources.
-
+If you’re on OS X or Linux, git should be already installed (use Homebrew (_e.g._, `brew install git`) or apt-get (_e.g._, `apt-get install git`), respectively, if you need to update). On Windows, install [Git for Windows](http://gitforwindows.org/). Finally, you can always visit the [Git website](https://git-scm.com/) for both source code and executable versions of Git as well as multiple learning resources.
 
 ## Basic Git
 
@@ -24,7 +23,7 @@ Another useful Git setting to enable now is terminal colors:
 
 ### Creating Repositories: git init and git clone
 
-To get started with Git, we first need to create a Git repository. There are two primary ways to it: by initializing one from an existing directory, or cloning a repository that exists elsewhere. We will try both of them :)
+To get started with Git, we first need to create a Git repository. There are two primary ways to it: by initializing one from an existing directory, or cloning a repository that exists elsewhere. We will start with the first :)
 
 First, let's create a new directory in your home directory (or your preferred location):  
 `mkdir -p ~/EEOB563/labs`  
@@ -33,13 +32,11 @@ Now, go to this directory and initialize it as a git repository:
 `cd ~/EEOB563/labs`  
 `git init`.
 
-However, we will start by cloning the GitHub repository for this course in your EEOB563 directory (or your preferred location):  
-`cd ~/EEOB563` #target directory  
-`git clone git@github.com:ISU-MolPhyl/EEOB563-Spring2018.git`
-
 ### Tracking Files in Git: git add and git status I
 
-Although you’ve initialized the EEOB563/labs as a Git repository, Git doesn’t automati‐ cally begin tracking every file in this directory. Rather, you need to tell Git which files to track using the subcommand `git add`. But fore doing it, let's check the status of our directory:  
+Although you’ve initialized the EEOB563/labs as a Git repository, Git doesn’t automati‐ cally begin tracking every file in this directory. Rather, you need to tell Git which files to track using the subcommand `git add`. 
+
+But before doing it, let's check the status of our directory:  
 `git status`  
 The command will tell you that we are on branch master, that there were no previous commits ("Initial commit") and that there is nothing to commit and no files in the direcotry.
 
@@ -60,10 +57,10 @@ Now, modify the README.md file (e.g., `echo '**Git** can be confusing!' >> READM
 
 ### Taking a Snapshot of Your Project: git commit
 
-OK, let's try it! Modify the file as explained above and commit the changes with the commit command:
+Modify the file as explained above and commit the changes with the commit command:
 `git commit -m "First commit"`  
 Notice, that we include a message in our commits.  If you try to skip it, a default text editor (likely vi) will open. Also notice that this message should be informative!  
-`git diff` shows you the difference between the files in your working directory and what’s been staged. If none of your changes have been staged, git diff shows the difference between your last commit and the current versions of files. 
+`git diff` shows you the difference between the files in your working directory and what’s been staged. If none of your changes have been staged, `git diff` shows the difference between your last commit and the current versions of files. 
 
 Earlier, we used `git add` to stage the changes. There’s an easy way to stage all tracked files’ changes and commit them in one command: `git commit -a -m "your commit message"`. The option -a tells `git commit` to automatically stage all modified tracked files in this commit.
 
@@ -103,7 +100,7 @@ Navigate to your account settings on GitHub, and in account settings, find the S
 
 ### Connecting with Git Remotes: git remote
 
-Let’s configure our local repository to use the GitHub repository we’ve just cre‐ ated as a remote repository. We can do this with:  `git remote add origin git@github.com:your_name/eeob563`
+Let’s configure our local repository to use the GitHub repository we’ve just created as a remote repository. We can do this with:  `git remote add origin git@github.com:your_name/eeob563`
 
 In this command, we specify not only the address of our Git repository at github , but also a name for it: origin. By convention, origin is the name of your primary remote repository.
 
