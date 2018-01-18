@@ -27,16 +27,17 @@ Be sure to check the schedule for updates.
 
 A copy of the course syllabus can be found at the following link: [Spring 2018 Syllabus](https://sites.google.com/site/eeob563/syllabus). A pdf is also available in this GitHub repository.
 
-### [Week 1](https://isu-molphyl.github.io/EEOB563-Spring2018/Week_01/)
+### Week 1
 * Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)]  
 * Lecture 2: Combinatorics of trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)]
 
-### [Week 2](https://isu-molphyl.github.io/EEOB563-Spring2018/Week_02/)
+### Week 2
 * Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)]
-* Computer Lab 1: Introduction to Unix/GitHub/SSH [[tutorial](https://sites.google.com/site/eeob563/computer-labs/Lab-1)]
+* [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1): Introduction to Unix/GitHub/SSH [[tutorial](https://sites.google.com/site/eeob563/computer-labs/Lab-1)]
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
 
-### [Week 3](https://isu-molphyl.github.io/EEOB563-Spring2018/Week_03/)
+### Week 3
+... to be continued :)
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
