@@ -10,8 +10,6 @@ A graduate course covering on the theory and practice of phylogenetic analysis
 
 **Web View:** [https://isu-molphyl.github.io/EEOB563-Spring2018](https://isu-molphyl.github.io/EEOB563-Spring2018/)
 
-**GitHub:** [https://github.com/ISU-MolPhyl/EEOB563-Spring2018](https://github.com/ISU-MolPhyl/EEOB563-Spring2018)
-
 ## Reading Material
 
 * [*Lecture Notes: The Mathematics of Phylogenetics*](https://jarhodesuaf.github.io/PhyloBook.pdf) by [E. S. Allman]() & [John A. Rhodes](https://jarhodesuaf.github.io/)
@@ -30,11 +28,11 @@ Be sure to check the schedule for updates.
 A copy of the course syllabus can be found at the following link: [Spring 2018 Syllabus](https://sites.google.com/site/eeob563/syllabus). A pdf is also available in this GitHub repository.
 
 ### [Week 1](https://isu-molphyl.github.io/EEOB563-Spring2018/Week_01/)
-* Lecture 1: Introduction to Molecular Phylogenetics[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)  
-* Lecture 2: Combinatorics of trees[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)
+* Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)]  
+* Lecture 2: Combinatorics of trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)]
 
 ### [Week 2](https://isu-molphyl.github.io/EEOB563-Spring2018/Week_02/)
-* Lecture 3: Homology and Sequence Alignment[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)
+* Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)]
 * Computer Lab 1: Introduction to Unix/GitHub/SSH [[tutorial](https://sites.google.com/site/eeob563/computer-labs/Lab-1)]
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
