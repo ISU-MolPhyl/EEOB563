@@ -1,13 +1,17 @@
 # GIT QUICK INTRO  
 _Based on chapter 5 from Vince Buffalo's book "Bioinformatics Data Skills"_
 
-## Why GIT?
+<img src="https://imgs.xkcd.com/comics/git.png" width="280"> 
+
+Why GIT? 
+--------
 - Allows You to Keep Snapshots of Your Project
 - Helps You Keep Track of Important Changes to Code
 - Helps Keep Software Organized and Available After People Leave
 
 ## Installing Git
 If you’re on OS X, install Git through Homebrew (e.g., `brew install git`); on Linux, use apt-get (e.g., `apt-get install git`). On Windows, install [Git for Windows](http://gitforwindows.org/). Finally, you can always visit the [Git website](https://git-scm.com/) for both source code and executable versions of Git as well as multiple learning resources.
+
 
 ## Basic Git
 

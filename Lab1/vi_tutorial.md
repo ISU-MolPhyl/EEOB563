@@ -1,5 +1,5 @@
 # VI tutorial
-![Image](/Users/dlavrov/Downloads/q6qh3roz0v7z.png)
+![Image](./vi.png)
 
 ## Some preliminaries  
 You can use `vi` to edit any text file. `vi` copies the file to be edited into a buffer, 
