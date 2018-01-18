@@ -33,11 +33,14 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 
 ### Week 2
 * Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)]
-* [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1): Introduction to Unix/GitHub/SSH [[tutorial](https://sites.google.com/site/eeob563/computer-labs/Lab-1)]
+* [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1): Introduction to Unix/GitHub/SSH  
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
+* [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment2.pdf) **due 09/25**
 
 ### Week 3
 ... to be continued :)
+
+
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
