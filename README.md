@@ -27,7 +27,7 @@ Be sure to check the schedule for updates.
 
 A copy of the course syllabus can be found at the following link: [Spring 2018 Syllabus](https://sites.google.com/site/eeob563/syllabus). A pdf is also available in this GitHub repository.
 
-### [Lab1](https://isu-molphyl.github.io/EEOB563-Spring2018/Lab1/)
+### [Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/Lab_1/)
 
 * Lab 1 tutorial: Introduction to Unix [[tutorial](https://sites.google.com/site/eeob563/computer-labs/Lab-1)]
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
