@@ -36,7 +36,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1): Introduction to Unix/GitHub/SSH  
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
-* [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment2.pdf) **due 09/25**
+* [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment2.pdf) (**due 01/25**)
 
 ### Week 3
 ... to be continued :)
