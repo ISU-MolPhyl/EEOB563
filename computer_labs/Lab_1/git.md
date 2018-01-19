@@ -1,7 +1,8 @@
 # GIT QUICK INTRO  
-_Based on chapter 5 from Vince Buffalo's book "Bioinformatics Data Skills"_
+_Based on chapter 5 from Vince Buffalo's book "Bioinformatics Data Skills"  
+Comics are from https://imgs.xkcd.com/comics_
 
-<img src="https://imgs.xkcd.com/comics/git.png" width="280"> 
+<img src="https://imgs.xkcd.com/comics/git.png" width="270" align="right">
 
 Why GIT? 
 --------
@@ -57,9 +58,11 @@ Now, modify the README.md file (e.g., `echo '**Git** can be confusing!' >> READM
 
 ### Taking a Snapshot of Your Project: git commit
 
+<img src="https://imgs.xkcd.com/comics/git_commit.png" width="400" align="right"> 
+
 Modify the file as explained above and commit the changes with the commit command:
 `git commit -m "First commit"`  
-Notice, that we include a message in our commits.  If you try to skip it, a default text editor (likely vi) will open. Also notice that this message should be informative!  
+Notice, that we include a message in our commits.  If you try to skip it, a default text editor (likely vi) will open. **Also notice that this message should be informative!**  
 `git diff` shows you the difference between the files in your working directory and what’s been staged. If none of your changes have been staged, `git diff` shows the difference between your last commit and the current versions of files. 
 
 Earlier, we used `git add` to stage the changes. There’s an easy way to stage all tracked files’ changes and commit them in one command: `git commit -a -m "your commit message"`. The option -a tells `git commit` to automatically stage all modified tracked files in this commit.
