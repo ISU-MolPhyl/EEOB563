@@ -22,8 +22,8 @@ Lab 1: [Unix, Git, SSH](https://sites.google.com/site/eeob563/computer-labs/Lab-
 
 ## Additional tutorials
 
-[Git/GitHub](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1/git.md)  
-[VI](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1/vi_tutorial.md)  
+[Git/GitHub](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1/git.pdf)  
+[VI](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1/vi_tutorial.pdf)  
 
 
 
