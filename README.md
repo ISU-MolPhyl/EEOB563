@@ -29,16 +29,28 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 
 ### Week 1
 * Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)]  
-* Lecture 2: Combinatorics of trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)]
+    * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
+    * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  Science 310: 979-980.  
+
+* Lecture 2: Trees and characters [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)]
 
 ### Week 2
 * Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)]
+    * Reading: Lemey, Salemi and Vandamme, Chapters 3: 3.1-3.10.  
+    * Discussion: Fitch (2000). Homology a personal view on some of the problems. TIG 16: 227.
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1): Introduction to Unix/GitHub/SSH  
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
 * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment2.pdf) (**due 01/25**)
 
-### Week 3
+### Week 3  
+* Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
+    * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony.  
+* Lecture 5: Searching tree space heuristically. Measures of character fit and character weighting.  
+    * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space.  
+    * Discussion: Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506.](https://www.nature.com/articles/nature21700)  
+
+### Week 4  
 ... to be continued :)
 
 
