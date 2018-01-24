@@ -16,9 +16,9 @@ A graduate course on the theory and practice of phylogenetic analysis
 
 ## Software Requirements
 
-We will be using UNIX and Git throughout the course. If you are a Linux or MacOS user, you already have these tools installed.  
+We will be using UNIX and Git throughout the course. If you are a Linux or MacOS user, you already have these tools installed.
 If you are a Windows user, see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing.  
-In addition, we will be using multiple phylogenetic programs in this class. All of them are free and most of them are already installed on HPC-Class. 
+In addition, we will be using multiple phylogenetic programs in this class. All of them are free and most of them are already installed on the HPC-Class.
 If you want to install them on your computer, use the links provided [here](https://isu-molphyl.github.io/EEOB563-Spring2018/links).
 
 ## Course Schedule
