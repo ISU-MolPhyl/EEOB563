@@ -48,10 +48,11 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 
 ### Week 3  
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
-    * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony.  
+    * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] 
 * Lecture 5: Searching tree space heuristically. Measures of character fit and character weighting.  
-    * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space.  
-    * Discussion: Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506.](https://www.nature.com/articles/nature21700)  
+    * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] 
+    * Discussion: Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506.](https://www.nature.com/articles/nature21700). 
+    [News and Views](https://www.nature.com/articles/543494a)  
 
 ### Week 4  
 ... to be continued :)
