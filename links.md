@@ -1,11 +1,9 @@
 # Useful links 
-General  
----
+## General  
 * [GenBank](http://www.ncbi.nih.gov/)   
 * [HPC-Class](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster) 
 
-Phylogenetic Programs 
----
+## Phylogenetic Programs 
 This is a small subset of available phylogenetic programs. If you are looking for more programs/options try [this list](http://evolution.genetics.washington.edu/phylip/software.html) compiled by [Joseph Felsenstein](http://evolution.genetics.washington.edu/felsenstein.html).
 
 ### Main phylogenetic programs we will use in class

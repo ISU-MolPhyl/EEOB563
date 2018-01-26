@@ -57,7 +57,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 ### Week 4  
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
-    * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [links](https://isu-molphyl.github.io/EEOB563-Spring2018/links). Alternatively, you can use HPC-class cluster.
+    * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563-Spring2018/links)]. Alternatively, you can use HPC-class cluster.
 * Lecture 6: Distance matrix methods. Clustering algorithms.
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
