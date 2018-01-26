@@ -49,12 +49,20 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 ### Week 3  
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
     * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] 
-* Lecture 5: Searching tree space heuristically. Measures of character fit and character weighting.  
+* Lecture 5: Searching tree space. Measures of character fit. Assessing clade support.  
     * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] 
     * Discussion: Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700). 
-    See also [News & Views](https://www.nature.com/articles/543494a)  
+    See also [News & Views](https://www.nature.com/articles/543494a). 
 
 ### Week 4  
+* [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_2): Multiple Sequence Alignment and Parsimony analysis.
+    * All users, make sure you have a GitHub account!
+    * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [links](https://isu-molphyl.github.io/EEOB563-Spring2018/links). Alternatively, you can use HPC-class cluster.
+* Lecture 6: Distance matrix methods. Clustering algorithms.
+    * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
+    * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
+
+### Week 5
 ... to be continued :)
 
 
