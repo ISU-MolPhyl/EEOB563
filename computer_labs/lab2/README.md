@@ -3,13 +3,13 @@ The objective of this lab is to learn how to do a parsimony analysis using PAUP 
 
 ## PAUP* Tutorial
 <img src="./1320160.gif" align="right" hspace="10">
-__PAUP\*__ (pronounced "pop star") is a phylogenetic program first developed in 1993 by David L. Swofford, currently at Duke University. The name PAUP used to mean "Phyogenetic Analysis Using Parsimony" because parsimony was the only optimality criterion employed at the time. The asterisk in the name PAUP* means and other methods, which were added later. The new name is "Phyogenetic Analysis Using PAUP". PAUP* 4.0 is able to perform distance, parsimony and likelihood analyses using DNA and amino-acid data. Among many strengths of the program are a rich array of options for dealing with phylogenetic trees including importing, combining, comparing, constraining, rooting and testing hypotheses. The program has been updated recently and is expected to be released as an open-source command-line version (but don't hold your breath!). We will be using PAUP for this lab because of its transparency in dealing with the parsimony analysis. MEGA 7 is an alternative (and free for academic use) program that can perform maximum parsimony and several other analyses.
+__PAUP\*__ (pronounced "pop star") is a phylogenetic program first developed in 1993 by David L. Swofford, currently at Duke University. The name PAUP used to mean "Phylogenetic Analysis Using Parsimony" because parsimony was the only optimality criterion employed at the time. The asterisk in the name PAUP* means and other methods, which were added later. The new name is "Phyogenetic Analysis Using PAUP". PAUP* 4.0 is able to perform distance, parsimony and likelihood analyses using DNA and amino-acid data. Among many strengths of the program are a rich array of options for dealing with phylogenetic trees including importing, combining, comparing, constraining, rooting and testing hypotheses. The program has been updated recently and is expected to be released as an open-source command-line version (but don't hold your breath!). We will be using PAUP for this lab because of its transparency in dealing with the parsimony analysis. MEGA 7 is an alternative (and free for academic use) program that can perform maximum parsimony and several other analyses.
 
 ### First things first
 
 You have two options for running PAUP: you can run it on your computer or use the HPC-class server. I'll describe the steps for running it on HPC-class.
 
-1. Open you terminal and ssh to HPC class: `ssh isu_name@hpc.itd.iastate.edu`;
+1. Open you terminal and ssh to HPC class: `ssh isu_name@hpc-class.itd.iastate.edu`;
 2. While you are in the home directory, modify your `.bash_profile` file:
 	- open it in vi: `vi .bash_profile`;
 	- use down arrow to go to the `PATH=...` line;
