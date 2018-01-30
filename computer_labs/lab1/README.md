@@ -18,12 +18,12 @@ fields, you will be using this account again in the future. Join GitHub here:
 
 ## Lab tutorial
 
-Lab 1: [Unix, Git, SSH](https://sites.google.com/site/eeob563/computer-labs/Lab-1)
+Lab 1: [Unix, Git, SSH](https://sites.google.com/site/eeob563/computer-labs/lab1)
 
 ## Additional tutorials
 
-[Git/GitHub](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1/git.pdf)  
-[VI](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1/vi_tutorial.pdf)  
+[Git/GitHub](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1/git.pdf)  
+[VI](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1/vi_tutorial.pdf)  
 
 
 
