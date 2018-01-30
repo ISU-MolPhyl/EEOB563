@@ -41,7 +41,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 * Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)]
     * Reading: Lemey, Salemi and Vandamme, Chapters 3: 3.1-3.10.  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. TIG 16: 227.
-* [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_1): Introduction to Unix/GitHub/SSH  
+* [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
 * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment2.pdf) (**due 01/25**)
@@ -55,7 +55,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     See also [News & Views](https://www.nature.com/articles/543494a). 
 
 ### Week 4  
-* [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/Lab_2): Multiple Sequence Alignment and Parsimony analysis.
+* [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
     * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563-Spring2018/links)]. Alternatively, you can use HPC-class cluster.
 * Lecture 6: Distance matrix methods. Clustering algorithms.
