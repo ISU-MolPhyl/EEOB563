@@ -47,7 +47,7 @@ Did it work?  If not, try to see what went wrong by using the edit command (whic
 After you executed the file, you should get a note that "Processing of input file "cob\_aa.nxs" completed.  
 
 **Congratulations!**
-For additional information see PAUP 3.1 manual (which is obsolete, but has an excellent background section on parsimony analysis) and the command reference document. 
+For additional information see [PAUP 3.1 manual](http://paup.scs.fsu.edu/Paup_Doc_31.pdf) (obsolete, but has an excellent background section on parsimony analysis) and the [command reference document](http://paup.csit.fsu.edu/Cmd_ref_v2.pdf). 
 
 ### Running maximum parsimony searches in PAUP
 1. Before we run the analysis in PAUP, it is a good practice to start a log file. This log file will store all of the output that PAUP* presents in the Terminal window and will be helpful to keep a record of your analysis for future reference:  
@@ -157,28 +157,28 @@ A parsimony program by Pablo Goloboff, Steve Farris, and Kevin Nixon that can:
 - analyse large data sets (i.e. 300-500 taxa);  
 - in reasonable times (minutes to find a shortest tree, hours to produce a reliable consensus).  
 
-Described in Goloboff PA, Farris JS, Nixon KC (2008). TNT, a free program for phylogenetic analysis. Cladistics 24:774–786. 
+Described in Goloboff PA, Farris JS, Nixon KC (2008). TNT, a free program for phylogenetic analysis. [Cladistics 24:774–786](http://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2008.00217.x/abstract). 
 
 The input data file can be in either TNT or basic Nexus format. The TNT format is derived from Hennig86 ⁄ NONA. The data file should start with a specification of the data type, which in the case of DNA/AA data is nstates dna/prot;. Next comes the xread command, followed by the number of characters, the number of taxa, and the data themselves (sequence data must be prealigned). Character states may be IUPAC codes, digits (for morphological characters), ? (for missing data), or - (for gaps). 
 
 Example:  
-xread  
-1095 46
-Sequence_name #1
-Sequence #1
-...
-Sequence_name #46
-Sequence #46
-; ' Note the semicolon ' 
+> xread  
+> 1095 46  
+> Sequence_name #1  
+> Sequence #1  
+> ...  
+> Sequence_name #46  
+> Sequence #46  
+> ; ' Note the semicolon '  
 
-To read in the data file, type in  
-`procedure [filename]` or just `p [filename]`, where filename is the name of your file. Usually you will name your data file with a .tnt extension, such as mydata.tnt. Before analyzing the data, you should make provision for saving the output to a log file. This can be done by entering `log [logfilename]`. Usually you should give a log file the .out extension and the same base name as the data file—something like mydata.out.
+To read in the data file, type in `procedure [filename]` or just `p [filename]`, where filename is the name of your file. Usually you will name your data file with a .tnt extension, such as mydata.tnt. Before analyzing the data, you should make provision for saving the output to a log file. This can be done by entering `log [logfilename]`. Usually you should give a log file the .out extension and the same base name as the data file—something like mydata.out.
 
 All program output is temporarily saved to an internal text-buffer. This text-buffer can be inspected with the `view` command. 
 
-A basic analysis consists of using multiple addition sequences followed by branch swapping. To do this enter `mult`. By deafult, this command will perform 10 random addition sequences followed by branch-swapping, saving up to 10 trees per replication (roughly equivalent to a ‘‘heuristic search’’ with random addition sequences in PAUP*). In the case of small data sets (15–30 taxa), exact solutions using branch-and-bound (which guarantee finding all trees optimal under current settings) can be produced within reasonable times with the ienum command. 
+A basic analysis consists of using multiple addition sequences followed by branch swapping. To do this enter 
+`mult;`. By deafult, this command will perform 10 random addition sequences followed by branch-swapping, saving up to 10 trees per replication (roughly equivalent to a "heuristic search" with random addition of sequences in PAUP*). In the case of small data sets (15–30 taxa), exact solutions using branch-and-bound (which guarantee finding all trees optimal under current settings) can be produced within reasonable times with the `ienum` command. 
 
-Once calculated, trees may be viewed by entering tplot. To save the trees for later reanalysis, create a file by entering tsave * [tree_filename]. Usually you will name your save file with a .tre extension. If there are multiple trees, their strict consensus can be found by entering nelsen. Resampling (jackknifing, bootstrapping, etc.) can be done by entering resample. All available commands can be seen by typing help and information about each of them – by typing help [command]. 
+Once calculated, trees may be viewed by entering tplot. To save the trees for later reanalysis, create a file by entering `tsave * [tree_filename]`. Usually you will name your save file with a .tre extension. If there are multiple trees, their strict consensus can be found by entering `nelsen`. Resampling (jackknifing, bootstrapping, etc.) can be done with `resample`. All available commands can be seen by typing `help` and information about each of them – by typing `help [command]`. 
 
 Now download the file cox1_nt.tnt to your working directory and try this command: tnt p cox1_nt.tnt, echo=, log cox1_nt.out, rep+1, mu10=ho3, le, ne, resample, quit, 
 
