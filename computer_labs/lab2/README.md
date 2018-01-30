@@ -151,7 +151,7 @@ I attached some additional examples of PAUP* blocks for your reference.
 An excellent tutorial on PAUP that goes beyond parsimony can be found [here](http://evomics.org/learning/phylogenetics/paup/).
 
 ## TNT Tutorial (optional)
-###TNT (Tree analysis using New Technology)
+### TNT (Tree analysis using New Technology)
 
 A parsimony program by Pablo Goloboff, Steve Farris, and Kevin Nixon that can:  
 - analyse large data sets (i.e. 300-500 taxa);  
@@ -180,11 +180,9 @@ A basic analysis consists of using multiple addition sequences followed by branc
 
 Once calculated, trees may be viewed by entering tplot. To save the trees for later reanalysis, create a file by entering `tsave * [tree_filename]`. Usually you will name your save file with a .tre extension. If there are multiple trees, their strict consensus can be found by entering `nelsen`. Resampling (jackknifing, bootstrapping, etc.) can be done with `resample`. All available commands can be seen by typing `help` and information about each of them – by typing `help [command]`. 
 
-Now download the file cox1_nt.tnt to your working directory and try this command: tnt p cox1_nt.tnt, echo=, log cox1_nt.out, rep+1, mu10=ho3, le, ne, resample, quit, 
+Now copy the file cox1_nt.tnt to your working directory and try this command: `tnt p cox1_nt.tnt, echo=, log cox1_nt.out, rep+1, mu10=ho3, le, ne, resample, quit,` 
 
 What did you do and where are your results?
 
-Additional information:
-Links to PAUP* and TNT
-PAUP Command Reference Document and TNT Wiki
-PAUP blocks
+### Additional information
+[TntWiki](http://phylo.wikidot.com/tntwiki)
