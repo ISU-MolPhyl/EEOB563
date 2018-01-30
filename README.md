@@ -61,6 +61,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 * Lecture 6: Distance matrix methods. Clustering algorithms.
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
+* [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment3.pdf) (**due 02/06**)
 
 ### Week 5
 ... to be continued :)
