@@ -65,7 +65,7 @@ We will use the same datasets for this exercise as you used for your homework: a
 
 The first line of the input file contains the number of species and the number of characters (in this case sites). The information for each species follows, starting with a ten-character species name (which can include blanks and some punctuation marks), and continuing with the characters for that species.
 
-Example of an input file in sequential format:
+Example of an input file in interleaved format:
 ![IMG](./phylip.png)
 
 ### Creating distance matrices
