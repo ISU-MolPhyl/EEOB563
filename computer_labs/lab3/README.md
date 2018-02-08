@@ -1,6 +1,6 @@
 ## Lab 3 - Distance analysis with PAUP, PHYLIP, and FastME 
 
-This lab teaches about/reviews three important systems that we'll be using through the semester.
+In this lab we will learn about three phylogenetic programs that can be used for distance analysis
 
 ## Prerequisites:
 
