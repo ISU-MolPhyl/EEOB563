@@ -68,9 +68,9 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations. 
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab3): Distance analysis with PHYLIP and FastME.
-* [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment4.pdf) (**will be posted on 02/08**)
+* [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment4.pdf)
 
-### Week 6
+### Week 6 
 * Lecture 8: Introduction to Maximum Likelihood.
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood.
