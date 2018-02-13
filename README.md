@@ -63,22 +63,23 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment3.pdf) (**due 02/06**)
 
-### Week 5 (current)
+### Week 5
 * Lecture 7: Clustering algorithms (cont.). Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)]
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations. 
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab3): Distance analysis with PHYLIP and FastME.
 * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment4.pdf) (**due 02/15**)  
 
-### Week 6 
+### Week 6 (current)
 * Lecture 8: Introduction to Maximum Likelihood.
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood.
     * Discussion: Pittis and Gabaldón (2016). Late acquisition of mitochondria by a host with chimaeric prokaryotic ancestry. [Nature 531: 101-104](https://www.nature.com/articles/nature16941).
 
 ### Week 7  
-... to be continued :)
-
+* [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
+* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics.
+    * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
