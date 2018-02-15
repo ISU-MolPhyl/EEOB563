@@ -75,9 +75,11 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood.
     * Discussion: Pittis and Gabaldón (2016). Late acquisition of mitochondria by a host with chimaeric prokaryotic ancestry. [Nature 531: 101-104](https://www.nature.com/articles/nature16941).
+    See also [News & Views](https://www.nature.com/articles/nature16876)
 
 ### Week 7  
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
+* [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**will be posted 02/20**)
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics.
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
