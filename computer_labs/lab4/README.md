@@ -22,6 +22,9 @@ In general, four arguments are required:
 
 Now go to the [tutorial](https://sco.h-its.org/exelixis/web/software/raxml/hands_on.html) webpage and complete steps 3-10 (but skip step #8).
 
+**Important!** You won't be able to use Dendroscope on HPC-Class.  However, we can use the `nw_display` 
+program from the `newick_utils` module.
+
 ## Part 2: ML analysis using RaxML on the hpc-class cluster
 We have already used [hpc-class](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster) cluster interactively in previous labs. Here we will learn how to submit and mange jobs using **Slurm Workload manager**. The two advantages of using this manager is that you can run your program for a longer time (up to several days) and can use multiple processors.
 
