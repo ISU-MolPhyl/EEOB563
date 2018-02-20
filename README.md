@@ -70,14 +70,14 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab3): Distance analysis with PHYLIP and FastME.
 * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment4.pdf) (**due 02/15**)  
 
-### Week 6 (current)
-* Lecture 8: Introduction to Maximum Likelihood.
+### Week 6
+* Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_13-15_18.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
-* Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood.
+* Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_13-15_18.pdf)]
     * Discussion: Pittis and Gabaldón (2016). Late acquisition of mitochondria by a host with chimaeric prokaryotic ancestry. [Nature 531: 101-104](https://www.nature.com/articles/nature16941).
     See also [News & Views](https://www.nature.com/articles/nature16876)
 
-### Week 7  
+### Week 7 (current)  
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
 * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**will be posted 02/20**)
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics.
