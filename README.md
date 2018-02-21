@@ -83,5 +83,25 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics.
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
+### Week 8
+* Lecture 11: Applications of Bayesian methods
+    * Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
+    See also [News & Views](https://www.nature.com/articles/nature21113).
+* Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
+    * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
+    advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
+
+### Week 9  
+* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
+* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**to be posted 3/6**)
+* **03/08 Midterm Exam**
+    * Review reading: Yang and Rannala (2012). Molecular phylogenetics: principles and practice. [Nature Review Genetics, 13:303-314](https://www.nature.com/articles/nrg3186.pdf)
+
+### Week 10: Spring Break!
+* Don’t forget about your project outline! (**due 3/20**)
+
+... to be continued
+
+
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
