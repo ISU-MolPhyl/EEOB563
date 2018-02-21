@@ -80,6 +80,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 ### Week 7 (current)  
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
 * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**due 02/27**)
+
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics.
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
@@ -94,6 +95,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 ### Week 9  
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
 * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**to be posted 3/6**)
+
 * **03/08 Midterm Exam**
     * Review reading: Yang and Rannala (2012). Molecular phylogenetics: principles and practice. [Nature Review Genetics, 13:303-314](https://www.nature.com/articles/nrg3186.pdf)
 
