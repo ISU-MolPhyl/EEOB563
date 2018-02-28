@@ -81,11 +81,11 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
 * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**due 02/27**)
 
-* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics.
+* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
 ### Week 8 (current)
-* Lecture 11: Applications of Bayesian methods
+* Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]
     * Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
     See also [News & Views](https://www.nature.com/articles/nature21113).
 * Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
@@ -101,6 +101,15 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 
 ### Week 10: Spring Break!
 * Don’t forget about your project outline! (**due 3/20**)
+
+### Week 11
+* Midterm exam review and final project discussion
+    * [ ] Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. 
+    In addition, create a GitHub/GitLab repository for the final project and send me the link.
+
+* Gene trees and species trees.
+    * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
+    * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/   content/114/45/12003).
 
 ... to be continued
 
