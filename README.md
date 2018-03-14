@@ -92,14 +92,14 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
     advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
 
-### Week 9 (current)  
+### Week 9 
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
-* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/27**)[dataset](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
+* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/27**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
 
 * **03/08 Midterm Exam**
     * Review reading: Yang and Rannala (2012). Molecular phylogenetics: principles and practice. [Nature Review Genetics, 13:303-314](https://www.nature.com/articles/nrg3186.pdf)
 
-### Week 10: Spring Break!
+### Week 10: Spring Break! (current)
 * Don’t forget about your project outline! (**due 3/20**)
 
 ### Week 11
