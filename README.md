@@ -99,17 +99,17 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 * **03/08 Midterm Exam**
     * Review reading: Yang and Rannala (2012). Molecular phylogenetics: principles and practice. [Nature Review Genetics, 13:303-314](https://www.nature.com/articles/nrg3186.pdf)
 
-### Week 10: Spring Break! (current)
+### Week 10: Spring Break! 
 * Don’t forget about your project outline! (**due 3/20**)
 
-### Week 11
+### Week 11 (current)
 * Midterm exam review and final project discussion
     * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. 
     In addition, create a GitHub/GitLab repository for the final project and send me the link.
 
 * Gene trees and species trees.
     * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
-    * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/   content/114/45/12003).
+    * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
 
 ... to be continued
 
