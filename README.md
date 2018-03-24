@@ -107,9 +107,17 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. 
     In addition, create a GitHub/GitLab repository for the final project and send me the link.
 
-* Gene trees and species trees.
+* Lecture 13 (ha!): Gene trees and species trees.
     * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
     * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
+
+### Week 12
+* Lecture 14: Neutral and adaptive protein evolution.
+    * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
+    * Discussion:  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
+
+* [Computer Lab 6](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab6): Hypotheses testing with PAML.
+* [Assignment 7 and last](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment7.pdf) (**will be posted on 03/29**)
 
 ... to be continued
 
