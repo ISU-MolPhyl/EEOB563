@@ -29,7 +29,7 @@ The strength of PAML is its collection of sophisticated substitution models.  Tr
 You can download the PAML package from its [website](http://abacus.gene.ucl.ac.uk/software/paml.html). PAML is also installed on HPC-class (module paml). To use run:  
 `salloc -N 1 -n 1 -t 2:00:00;  
 module load paml;  
-<name_of_paml_program>`
+name_of_paml_program`
 
 You can also install it on your computer from its [website](http://abacus.gene.ucl.ac.uk/software/paml.html).
 
