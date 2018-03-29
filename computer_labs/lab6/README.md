@@ -69,7 +69,7 @@ In this exercise you will investigate the sensitivity of your estimate of ω to 
 	- Change the name of the main result file (via `outfile=` in the control file) or you will overwrite your previous results
 	- Change the model assumptions about codon frequencies (via CodonFreq=) and kappa (via `kappa=` and `fix_kappa=`).
 4. Repeat step 3 for each set of assumptions about codon frequencies and kappa given as comments at the bottom of the example control file.
-5. In your favorite spreadsheet program create a table like “Table E2” in the slides (tableE2.pdf) and fill it in with your results.
+5. In your favorite spreadsheet program create a table like [this](./help_files/tableE2.pdf) and fill it in with your results.
 6. Use your table to determine which assumptions yield the largest and smallest values of S. What is the effect on omega?
 
 ### exercise 3: testing hypotheses about molecular evolution of LDH
