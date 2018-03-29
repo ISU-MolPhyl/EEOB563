@@ -69,7 +69,7 @@ In this exercise you will investigate the sensitivity of your estimate of ω to 
 	- Change the name of the main result file (via `outfile=` in the control file) or you will overwrite your previous results
 	- Change the model assumptions about codon frequencies (via CodonFreq=) and kappa (via `kappa=` and `fix_kappa=`).
 4. Repeat step 3 for each set of assumptions about codon frequencies and kappa given as comments at the bottom of the example control file.
-5. In your favorite spreadsheet program create a table like [this](./help_files/tableE2.pdf) and fill it in with your results.
+5. In your favorite spreadsheet program create a table like [this](./help_files/TableE2.pdf) and fill it in with your results.
 6. Use your table to determine which assumptions yield the largest and smallest values of S. What is the effect on omega?
 
 ### exercise 3: testing hypotheses about molecular evolution of LDH
@@ -85,7 +85,7 @@ In this exercise we will explore the variation in selective pressure among branc
 3. As in the previous exercises, you will need to change the control files and re-run `codeml`. The objective is to compute the likelihood, and estimate omega parameters, under different models of how selection pressure changes in different parts of the tree. Because the relevant model information is contained in the tree file, you will need several tree files (obtained from the course web site) and change the control file so that it reads the different tree files.
 	- As previously, you should change the name of the main result file (via `outfile=` in the control file) or you will overwrite your previous results.
 	- Change the model assumptions about branch specific omega values by changing the tree files (viatreefile= and model=) set within the control file.
-4. Repeat step 3 for each of the four tree files that have been provided to you. Again, keep track of your results by using a table like [Table3](./helpfiles/tableE3.pdf). In addition, carry out likelihood ratio tests (LRT) of the hypotheses below. Use 1 degree of freedom for each LRT. Helpful: [Chi-Square Calculator](http://www.socscistatistics.com/pvalues/chidistribution.aspx).
+4. Repeat step 3 for each of the four tree files that have been provided to you. Again, keep track of your results by using a table like [Table3](./helpfiles/TableE3.pdf). In addition, carry out likelihood ratio tests (LRT) of the hypotheses below. Use 1 degree of freedom for each LRT. Helpful: [Chi-Square Calculator](http://www.socscistatistics.com/pvalues/chidistribution.aspx).
 	- H0 vs. H1
 	- H0 vs. H2
 	- H2 vs. H3
@@ -110,7 +110,7 @@ M2a (selection) is an extension of M1a (neutral), adding a third ω class that i
 		- For M8 set ncatG=10
 	* Once the analysis is complete, rename the rst file because subsequent runs will overwrite it!
 	* Repeat steps a. through f. for each of the six codon models listed above.
-4. Keep track of your [results](./help_files/ex4_HelpFile.pdf) by using a table like [this](./help_files/tableE4.pdf).
+4. Keep track of your [results](./help_files/ex4_HelpFile.pdf) by using a table like [this](./help_files/TableE4.pdf).
 5. In addition, carry out the following likelihood ratio tests:
 	* M0 vs. M3 (4 degrees of freedom)
 	* M1a vs. M2a (2 degrees of freedom)
