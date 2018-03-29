@@ -48,7 +48,7 @@ Plot log-likelihood scores against the values of ω and determine the maximum li
 
 2. Create a directory where you want your results to go, and place all your files within it. Now open a terminal, move to the directory that contains your files, and run CODEML.
 
-3. Familiarize yourself with the results (ex1_HelpFile.pdf). If you have not edited the control file the results will be written to a file called results.txt. Identify the line within the results file that gives the likelihood score for the example dataset.
+3. Familiarize yourself with the [results](./help_files/ex1_HelpFile.pdf). If you have not edited the control file the results will be written to a file called results.txt. Identify the line within the results file that gives the likelihood score for the example dataset.
 
 4. Now change the control files and re-run CODEML. The objective is to compute the likelihood of the example dataset given a fixed value of omega.
 	- Change the name of your result file (via `outfile=` in the control file) or you will overwrite your previous results!  
@@ -62,7 +62,7 @@ Plot log-likelihood scores against the values of ω and determine the maximum li
 In this exercise you will investigate the sensitivity of your estimate of ω to the other parameters in the model, in particular transition/transversion ratio (κ), and assumed model for codon frequencies (πi’s). After you collect the required data you will determine which assumptions yield the largest and smallest values of S, and what is the effect on ω.
 
 1. Examine the files for Exercise 2 (downloaded in the previous exercise). It would be best to create a new directory for exercise 2.
-2. Run `codeml` using the settings in the control file for exercise 2. Familiarize yourself with the results (ex2_HelpFile.pdf). In addition to the likelihood score you must be able to identify the part of the result file that provides estimates of the following:
+2. Run `codeml` using the settings in the control file for exercise 2. Familiarize yourself with the [results](./help_files/ex2_HelpFile.pdf). In addition to the likelihood score you must be able to identify the part of the result file that provides estimates of the following:
 	- Number of synonymous or nonsynonymous sites (S and N)
 	- Synonymous and nonsynonymous rates (dS and dN)
 3. As in exercise 1, you will need to change the control files and re-run CODEML. The objective is to compute the likelihood of the example dataset under different model assumptions. To do this you must:
@@ -81,7 +81,7 @@ In this exercise we will explore the variation in selective pressure among branc
 	- H1: episodic change in selection pressure in Ldh-C (only in the branch that immediately follows the gene duplication event).
 	- H2: Long term shift in selection pressure in Ldh-C only; Ldh-C has a permanent change in selection pressure (as compared to its ancestors) whereas Ldh-A remains subject to the ancestral level of selection pressure.
 	- H3: Long term shift in selection on both Ldh-C and Ldh-A; those lineages are subject to selection pressures different from each other and from the ancestor.
-2. Run `codeml` using the settings in the control file for Exercise 3. Familiarize yourself with the results (ex3_HelpFile.pdf). In addition to the likelihood score you must be able to identify the branch-specific estimates of the omega parameter. (In the first run, the branch specific values for omega will all be the same. In later runs there will be differences among some branches).
+2. Run `codeml` using the settings in the control file for Exercise 3. Familiarize yourself with the [results](./help_files/ex3_HelpFile.pdf). In addition to the likelihood score you must be able to identify the branch-specific estimates of the omega parameter. (In the first run, the branch specific values for omega will all be the same. In later runs there will be differences among some branches).
 3. As in the previous exercises, you will need to change the control files and re-run `codeml`. The objective is to compute the likelihood, and estimate omega parameters, under different models of how selection pressure changes in different parts of the tree. Because the relevant model information is contained in the tree file, you will need several tree files (obtained from the course web site) and change the control file so that it reads the different tree files.
 	- As previously, you should change the name of the main result file (via `outfile=` in the control file) or you will overwrite your previous results.
 	- Change the model assumptions about branch specific omega values by changing the tree files (viatreefile= and model=) set within the control file.
@@ -110,7 +110,7 @@ M2a (selection) is an extension of M1a (neutral), adding a third ω class that i
 		- For M8 set ncatG=10
 	* Once the analysis is complete, rename the rst file because subsequent runs will overwrite it!
 	* Repeat steps a. through f. for each of the six codon models listed above.
-4. Keep track of your results (ex4_HelpFile.pdf) by using a table like “Table E4” shown in the slides (tableE4.pdf).
+4. Keep track of your [results](./help_files/ex4_HelpFile.pdf) by using a table like [this](./help_files/tableE4.pdf).
 5. In addition, carry out the following likelihood ratio tests:
 	* M0 vs. M3 (4 degrees of freedom)
 	* M1a vs. M2a (2 degrees of freedom)
