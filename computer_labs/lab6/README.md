@@ -85,7 +85,7 @@ In this exercise we will explore the variation in selective pressure among branc
 3. As in the previous exercises, you will need to change the control files and re-run `codeml`. The objective is to compute the likelihood, and estimate omega parameters, under different models of how selection pressure changes in different parts of the tree. Because the relevant model information is contained in the tree file, you will need several tree files (obtained from the course web site) and change the control file so that it reads the different tree files.
 	- As previously, you should change the name of the main result file (via `outfile=` in the control file) or you will overwrite your previous results.
 	- Change the model assumptions about branch specific omega values by changing the tree files (viatreefile= and model=) set within the control file.
-4. Repeat step 3 for each of the four tree files that have been provided to you. Again, keep track of your results by using a table like “Table E3” shown in the slides (tableE3.pdf). In addition, carry out likelihood ratio tests (LRT) of the hypotheses below. Use 1 degree of freedom for each LRT. Helpful: Chi-Square Calculator.
+4. Repeat step 3 for each of the four tree files that have been provided to you. Again, keep track of your results by using a table like [Table3](./helpfiles/tableE3.pdf). In addition, carry out likelihood ratio tests (LRT) of the hypotheses below. Use 1 degree of freedom for each LRT. Helpful: [Chi-Square Calculator](http://www.socscistatistics.com/pvalues/chidistribution.aspx).
 	- H0 vs. H1
 	- H0 vs. H2
 	- H2 vs. H3
