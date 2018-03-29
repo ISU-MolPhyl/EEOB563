@@ -3,7 +3,7 @@
 <img src="./pict/dper_f.jpg" align="right" hspace="10">
 The objective of this activity is to help you understand how to use PAML program, and how to test hypothese using the Maximum Likelihood approach.  There are many more applications of PAML (see below).  Check its [manual](http://abacus.gene.ucl.ac.uk/software/pamlDOC.pdf) and [FAQs](http://abacus.gene.ucl.ac.uk/software/pamlFAQs.pdf) for additional ideas. 
 
-The exercises we will be doing today follow a tutorial prepared by Joe Bielawski for a [book chapter](./PAML_chapter.pdf) by Bielawski and Yang (2005).
+The exercises we will be doing today follow a [tutorial](http://evomics.org/learning/phylogenetics/paml/) prepared by Joe Bielawski based on a [book chapter](./PAML_chapter.pdf) by Bielawski and Yang (2005).
 
 ### Introduction
 PAML is *a package* of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood. It is maintained and distributed for academic use free of charge by Ziheng Yang. Examples of analyses that can be performed using the package include:  
