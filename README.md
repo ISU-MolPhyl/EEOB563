@@ -118,6 +118,21 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab6): Hypotheses testing with PAML.
 
+### Week 13
+* Lecture 15: Timing the evolutionary events
+    * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
+    * Discussion: Worobey et al. (2016). 1970s and ‘Patient 0’ {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
+
+* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab7): Taming the BEAST.
+
+### Week 14
+* Lecture 16: Ancestral State Reconstruction and Comparative tests
+    * Reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
+    * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. Nature 532: 228-231.
+
+* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab8): BayesTraits.
+    * Reading (again): Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
+    * **Final project draft due::** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/17.
 ... to be continued
 
 
