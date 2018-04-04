@@ -1,7 +1,7 @@
 # Lab #7: Taming the BEAST  
 ## Divergence Time Estimation using BEAST 2  
 
-<img src="./img/beast2.png" align="right" hspace="10">  the
+<img src="./img/beast2.png" align="right" hspace="10">
 
 ### Introduction  
 [BEAST 2](https://www.beast2.org/) is a cross-platform program for Bayesian phylogenetic 
