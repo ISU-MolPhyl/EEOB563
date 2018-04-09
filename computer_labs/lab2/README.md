@@ -7,7 +7,7 @@ __PAUP\*__ (pronounced "pop star") is a phylogenetic program first developed in 
 
 ### First things first
 
-You have two options for running PAUP: you can run it on your computer or use the HPC-class server. I'll describe the steps for running it on HPC-class.
+You have two options for running PAUP: you can [install](http://phylosolutions.com/paup-test/) it on your computer or use the HPC-class server. I'll describe the steps for running it on HPC-class.
 
 1. Open you terminal and ssh to HPC class: `ssh isu_name@hpc-class.itd.iastate.edu`;
 2. While you are in the home directory, modify your `.bash_profile` file:
