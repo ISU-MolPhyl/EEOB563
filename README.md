@@ -140,7 +140,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     * Discussion: Watts et al. 2016. Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. Current biology 2: 958-967.
 
 * Lecture 18: Signal vs. noise in phylogenetic reconstruction <!--- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].--->.
-    * Discussion: Philippe et al. 2011. Resolving difficult phylogenetic questions: why more sequences are not enough. PLoS Biol. 9, e1000602.
+    * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407).
 
     
 * **Revised final project due on 4/22 at 11:59pm (commit to GitHub and email me the link)**
