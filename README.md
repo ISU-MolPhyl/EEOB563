@@ -125,7 +125,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab7): Taming the BEAST.
 
-### Week 14 (Current)
+### Week 14 
 * Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
     * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
@@ -134,7 +134,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     * Reading (again): Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
     * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/17.  
 
-### Week 15 
+### Week 15 (Current)
 * Lecture 17: Phylogenomics and the tree of life <!--- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].--->
     * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  Nature Reviews.  Genetics.  6: 361-375. <!--- Need to change --->
     * Discussion: Watts et al. 2016. Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. Current biology 2: 958-967.
@@ -147,8 +147,23 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
 
 ### Final Presentations:
 * 04/24: 9:00-10:50am
+  * Michael
+  * Thea
+  * Tim
+  * Emmanuel
+  * Jacob (?)
 * 04/26: 9:00-10:50am
-* 05/02: 7:00-9:00pm  
+  * Minjeong
+  * Monica
+  * Tamara
+  * Bridget
+  * Hylia
+  * Sheridan
+* 05/02: 7:00-9:00pm
+  * Dandan
+  * Ting
+  * Morgan
+  * Basanta
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
