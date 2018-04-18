@@ -151,11 +151,10 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
   * Thea
   * Tim
   * Emmanuel
-  * Jacob (?)
+  * Jacob
 * 04/26: 9:00-10:50am
   * Minjeong
   * Monica
-  * Tamara
   * Bridget
   * Hylia
   * Sheridan
@@ -164,6 +163,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
   * Ting
   * Morgan
   * Basanta
+  * Tamara
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
