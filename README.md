@@ -145,7 +145,7 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
     
 * **Revised final project due on 4/22 at 11:59pm (commit to GitHub and email me the link)**
 
-### Final Presentations:
+### Final Presentations [[Scoring rubric](./scoring_rubric.pdf)]:
 * 04/24: 9:00-10:50am
   * Michael
   * Thea
@@ -164,6 +164,8 @@ A copy of the course syllabus can be found at the following link: [Spring 2018 S
   * Morgan
   * Basanta
   * Tamara
+
+
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
