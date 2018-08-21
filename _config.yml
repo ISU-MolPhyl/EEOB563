@@ -1,16 +1,1 @@
-title: EEOB/BCB 546X
-description: Content for EEOB563 - Molecular Phylogenetics, a graduate-level course taught at Iowa State University.
-url: "https://eeob-biodata.github.io/EEOB-BCB-546X"
-remote_theme: alexander-heimbuch/millidocs
-
-markdown: kramdown
-kramdown:
-syntax_highlighter_opts:
-  disable : true
-
-exclude:
-- Gemfile
-- Gemfile.lock
-- README.md
-
-#theme: jekyll-theme-dinky
+theme: jekyll-theme-dinky
