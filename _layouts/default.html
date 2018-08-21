@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" >
+	{% include head.html %}
+	<body>
+		<div class="wrapper">
+			{% include sidebar.html %}
+			<main class="content">
+				<div class="inner">
+					{{ content }}
+					<hr>
+					<div class="row">
+						<div class="col-md-3 col-sm-12">
+							<small>
+		                	<a rel="license" href="https://github.com/EEOB-BioData/EEOB-BCB-546X"><img style="border-width:0" src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="" width="100" /></a>
+		                	<!-- <br>Content created by <a href="https://github.com/EEOB-BioData">EEOB-BioData</a> faculty at Iowa State University.
+		                	<br>Hosted by <a href="https://github.com/">GitHub</a> Pages.
+		                	<br>Jekyll theme based on <a href="https://github.com/alexander-heimbuch/millidocs">Millidocs</a>. -->
+		                    </small>
+		                </div>
+						<div class="col-md-9 col-sm-12">
+							<small>
+		                	Content created by <a href="https://github.com/EEOB-BioData">EEOB-BioData</a> faculty at <a href="https://www.iastate.edu/">Iowa State University</a>.
+		                	<br>Hosted by <a href="https://github.com/">GitHub</a> Pages.
+		                	<br>Jekyll theme based on <a href="https://github.com/alexander-heimbuch/millidocs">Millidocs</a>.
+		                    </small>
+		                </div>
+		            </div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<small>
+		                	Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+		                    </small>
+		                </div>
+		            </div>
+				</div>
+			</main>
+		</div>
+		{% include scripts.html %}
+	</body>
+</html>
