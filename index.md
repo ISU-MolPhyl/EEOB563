@@ -28,4 +28,4 @@ Tuesday and Thursday, 9:00-10:50 PM in 203 Bessey Hall
   </tbody>
 </table>
 
-<a href="https://github.com/EEOB-BioData/BCB546X-Fall2018/blob/master/documents/BCB546X_Syllabus_f2018.pdf"><button type="button" class="btn btn-primary">Course Syllabus</button></a>
+<a href="https://sites.google.com/site/eeob563/syllabus"><button type="button" class="btn btn-primary">Course Syllabus</button></a>
