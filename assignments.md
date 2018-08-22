@@ -2,7 +2,7 @@
 layout: page
 title: EEOB 563 - Assignments
 sidebar: Assignments
-navigation: 4
+navigation: 5
 icon: <i class='fa fa-check-circle'></i> 
 ---
 
