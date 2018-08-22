@@ -6,34 +6,20 @@ navigation: 4
 icon: <i class='fa fa-flask'></i> 
 ---
 
-# EEOB 563 Installation Guide
+# Computer Laboratories
 
-## Unix & Git
+* [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
 
-We will be using UNIX and Git throughout the course. If you are a Linux or MacOS user, you already have these tools installed.
-If you are a Windows user, see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing.  
-In addition, we will be using multiple phylogenetic programs in this class. All of them are free and most of them are already installed on the HPC-Class.
-If you want to install them on your computer, use the links provided [here](https://isu-molphyl.github.io/EEOB563-Spring2018/links).
+* [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
 
+* [Computer Lab 3](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab3): Distance analysis with PHYLIP and FastME.
 
-### Windows Users
+* [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
 
-A Unix environment can be emulated using the “​Git Bash​” program, by partitioning your hard drive and installing Ubuntu (a free version of Linux),​ or by installing Cygwin​. These solutions for PC users may not be ideal for all course exercises and we can provide access to Mac computers if you would prefer to go this route.
+* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
 
-* Git Bash: ​[https://openhatch.org/missions/windows-setup/install-git-bash](https://openhatch.org/missions/windows-setup/install-git-bash) 
-* Ubuntu: [​https://help.ubuntu.com/community/Wubi](https://help.ubuntu.com/community/Wubi)
-* Cygwin: ​[https://www.cygwin.com](https://www.cygwin.com)
+* [Computer Lab 6](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab6): Hypotheses testing with PAML.
 
-## Text Editors 
+* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab7): Taming the BEAST.
 
-We highly recommend that you use an advanced text editor for this course and your research. Here are some that we like:
-
-* vim or emacs (Unix, Mac OS X)
-* [Sublime Text](http://www.sublimetext.com/) (Unix, Mac OS X, Windows)
-* [Atom](https://atom.io/) (Unix, Mac OS X, Windows)
-* [BBEdit](https://www.barebones.com/products/bbedit/) (Mac OS X)
-
-## Slack
-
-All course communication will be conducted via slack. You should have gotten an invitation to join the course slack team called **BioDataSkills** (if not, please contact one of the instructors). Please be sure to check slack regularly for course updates. It is recommended that you download the Slack desktop app ([https://slack.com/downloads](https://slack.com/downloads)), which makes it easier to stay on top of messages. 
-
+* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab8): BayesTraits.
