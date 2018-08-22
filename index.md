@@ -12,7 +12,6 @@ icon: <i class='fa fa-home'></i>
 
 Welcome to EEOB 563! This course is designed to introduce you to the theory and practice of phylogenetic analysis. The course emphasizes a hands-on approach to molecular phylogenetics and combines lecture presentations with computer exercises and discussion of original scientific literature.
 
-<a href="https://github.com/EEOB-BioData/BCB546X-Fall2018/blob/master/documents/BCB546X_Syllabus_f2018.pdf"><button type="button" class="btn btn-primary">Course Syllabus</button></a>
 
 ### Fall 2018 Time and Location
 
@@ -29,3 +28,4 @@ Tuesday and Thursday, 9:00-10:50 PM in 203 Bessey Hall
   </tbody>
 </table>
 
+<a href="https://github.com/EEOB-BioData/BCB546X-Fall2018/blob/master/documents/BCB546X_Syllabus_f2018.pdf"><button type="button" class="btn btn-primary">Course Syllabus</button></a>
