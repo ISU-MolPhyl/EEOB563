@@ -6,7 +6,7 @@ navigation: 2
 icon: <i class='fa fa-calendar'></i> 
 ---
 
-# Spring 2018 EEOB 563 Schedule
+# Schedule
 
 I will update this page before every class with the slides and links to in-class materials. 
 To view the planned schedule of course activities, view the class calendar using the button below.
