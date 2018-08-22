@@ -1,7 +1,7 @@
 ---
 layout: page
-title: EEOB 563 - Labs
-sidebar: Labs
+title: EEOB 563 - Links
+sidebar: Links
 navigation: 6
 icon: <i class='fa fa-link'></i> 
 ---
