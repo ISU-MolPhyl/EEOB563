@@ -1,9 +1,9 @@
 ---
 layout: page
-title: EEOB 563 - Software
-sidebar: Software
-navigation: 3
-icon: <i class='fa fa-laptop'></i> 
+title: EEOB 563 - Labs
+sidebar: Labs
+navigation: 4
+icon: <i class='fa fa-flask'></i> 
 ---
 
 # EEOB 563 Installation Guide
