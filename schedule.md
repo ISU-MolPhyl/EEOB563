@@ -13,22 +13,6 @@ To view the planned schedule of course activities, view the class calendar using
 
 <a href="https://docs.google.com/spreadsheets/d/1H54ZcrBIUA7WJbbxK7UEwFwFSNZjG-ZJSM0Gs5nR0Uw/edit?usp=sharing"><button type="button" class="btn btn-primary">Class Calendar</button></a>
 
-## Accessing Data and Class Files
-
-All of the files used for in-class activities and assignments are published online in a public GitHub repository. 
-It is expected that you will pull any new changes to this repository at the beginning of class. This will enable you to access new data files and scripts needed for in-class activities. 
-
-The 2018 repository can be found at: [https://github.com/EEOB-BioData/BCB546X-Fall2018](https://github.com/EEOB-BioData/BCB546X-Fall2018). 
-
-## Course Schedule
-
-The topics covered in this course can all be found here: [Spring 2018 Schedule](https://sites.google.com/site/eeob563/schedule2018).
-Be sure to check the schedule for updates.
-
-## Syllabus
-
-A copy of the course syllabus can be found at the following link: [Spring 2018 Syllabus](https://sites.google.com/site/eeob563/syllabus). A pdf is also available in this GitHub repository.
-
 ### Week 1
 * Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)]  
     * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
