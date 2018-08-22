@@ -1,3 +1,11 @@
+---
+layout: page
+title: EEOB 563 - Labs
+sidebar: Labs
+navigation: 6
+icon: <i class='fa fa-link'></i> 
+---
+
 # Useful links 
 ## General  
 * [GenBank](http://www.ncbi.nih.gov/)   
