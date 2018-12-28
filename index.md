@@ -37,8 +37,7 @@ The 2019 repository can be found at: [https://github.com/EEOB-BioData/EEOB563-Sp
 
 ## Course Schedule
 
-The topics covered in this course can all be found here: [Spring 2019 Schedule](https://docs.google.com/spreadsheets/d/1okuP20eZHE3TKdtxlqVbEp3xEcYB6wGZh_O1muiiXb0/edit?usp=sharing).
-Be sure to check the schedule on the left for updates, notes, and announcements.
+Check the [course schedule](https://isu-molphyl.github.io/EEOB563/schedule.html) page for current schedule, notes, and updates.  All the topics covered in this course can be found in [Spring 2019 Calendar](https://docs.google.com/spreadsheets/d/1okuP20eZHE3TKdtxlqVbEp3xEcYB6wGZh_O1muiiXb0/edit?usp=sharing).
 
 ## Syllabus
 
