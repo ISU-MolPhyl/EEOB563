@@ -11,23 +11,23 @@ icon: <i class='fa fa-calendar'></i>
 I will update this page before every class with the slides and links to in-class materials. 
 To view the planned schedule of course activities, view the class calendar using the button below.
 
-<a href="https://docs.google.com/spreadsheets/d/1H54ZcrBIUA7WJbbxK7UEwFwFSNZjG-ZJSM0Gs5nR0Uw/edit?usp=sharing"><button type="button" class="btn btn-primary">Class Calendar</button></a>
+<a href="https://docs.google.com/spreadsheets/d/1okuP20eZHE3TKdtxlqVbEp3xEcYB6wGZh_O1muiiXb0/edit?usp=sharing"><button type="button" class="btn btn-primary">Class Calendar</button></a>
 
 ### Week 1
-* Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)]  
+* Lecture 1: Introduction to Molecular Phylogenetics <!-- [[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)]  -->
     * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  Science 310: 979-980.  
 
-* Lecture 2: Trees and characters [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)]
+* Lecture 2: Trees and characters <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)] -->
 
 ### Week 2
-* Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)]
+* Lecture 3: Homology and Sequence Alignment <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)] -->
     * Reading: Lemey, Salemi and Vandamme, Chapters 3: 3.1-3.10.  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. TIG 16: 227.
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
-* [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment2.pdf) (**due 01/25**)
+<!--- * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment2.pdf) (**due 01/25**)
 
 ### Week 3  
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
@@ -118,11 +118,11 @@ To view the planned schedule of course activities, view the class calendar using
     * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/17.  
 
 ### Week 15 (Current)
-* Lecture 17: Phylogenomics and the tree of life <!--- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].--->
-    * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  Nature Reviews.  Genetics.  6: 361-375. <!--- Need to change --->
+* Lecture 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  Nature Reviews.  Genetics.  6: 361-375. Need to change
     * Discussion: Watts et al. 2016. Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. Current biology 2: 958-967.
 
-* Lecture 18: Signal vs. noise in phylogenetic reconstruction <!--- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].--->.
+* Lecture 18: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407).
 
     
@@ -147,3 +147,4 @@ To view the planned schedule of course activities, view the class calendar using
   * Morgan
   * Basanta
   * Tamara
+  --->
