@@ -27,9 +27,9 @@ To view the planned schedule of course activities, view the class calendar using
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
-<!--- * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment2.pdf) (**due 01/25**)
+* [Assignment 2](https://isu-molphyl.github.io/EEOB563/assignments/assignment2.pdf) (**due 01/31**)
 
-### Week 3  
+<!--- ### Week 3  
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
     * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] 
 * Lecture 5: Searching tree space. Measures of character fit. Assessing clade support.  
