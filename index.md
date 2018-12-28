@@ -37,8 +37,8 @@ The 2019 repository can be found at: [https://github.com/EEOB-BioData/EEOB563-Sp
 
 ## Course Schedule
 
-The topics covered in this course can all be found here: [Spring 2018 Schedule](https://sites.google.com/site/eeob563/schedule2018).
-Be sure to check the schedule for updates.
+The topics covered in this course can all be found here: [Spring 2019 Schedule](https://docs.google.com/spreadsheets/d/1okuP20eZHE3TKdtxlqVbEp3xEcYB6wGZh_O1muiiXb0/edit?usp=sharing).
+Be sure to check the schedule on the left for updates, notes, and announcements.
 
 ## Syllabus
 
