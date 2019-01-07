@@ -31,7 +31,7 @@ Tuesday and Thursday, 9:00-10:50 PM in 203 Bessey Hall
 
 ### Textbook
 
-Elizabeth S. Allman, John A. Rhodes. Lecture Notes: The Mathematics of Phylogenetics.  2016. 
+Elizabeth S. Allman, John A. Rhodes. [Lecture Notes: The Mathematics of Phylogenetics.  2016](https://jarhodesuaf.github.io/PhyloBook.pdf). 
 For your convenience, I compiled a list of mathematical symbols used in the textbook.
 
 ### Accessing Data and Class Files
