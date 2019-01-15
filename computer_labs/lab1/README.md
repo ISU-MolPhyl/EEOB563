@@ -5,7 +5,7 @@ This lab teaches about/reviews three important systems that we'll be using throu
 ## Prerequisites:
 
 ### Install GitBash if you haven't done this already.
-Follow the installation instructions provided in [install.md](https://github.com/ISU-MolPhyl/EEOB563-Spring2018/blob/master/install.md).
+Follow the installation instructions provided in [install.md](https://github.com/ISU-MolPhyl/EEOB563/blob/master/install.md).
 
 ### Get a GitHub User Account
 

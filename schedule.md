@@ -15,10 +15,10 @@ To view the planned schedule of course activities, view the class calendar using
 
 ### Week 1
 * Lecture 1: Introduction to Molecular Phylogenetics <!-- [[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)]  -->
-    * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
-    * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  Science 310: 979-980.  
 
 * Lecture 2: Trees and characters <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)] -->
+    * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
+    * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  Science 310: 979-980.  
 
 ### Week 2
 * Lecture 3: Homology and Sequence Alignment <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)] -->
