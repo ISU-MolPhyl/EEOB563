@@ -39,7 +39,7 @@ For your convenience, I compiled a list of mathematical symbols used in the text
 All of the files used for in-class activities and assignments are published online in a public GitHub repository. 
 It is expected that you will pull any new changes to this repository at the beginning of class. This will enable you to access new data files and scripts needed for in-class activities. 
 
-The 2019 repository can be found at: [https://github.com/EEOB-BioData/EEOB563-Spring2019](https://github.com/EEOB-BioData/BCB546X-Fall2018). 
+The 2019 repository can be found at: [https://github.com/ISU-MolPhyl/EEOB563-Spring2019](https://github.com/ISU-MolPhyl/EEOB563-Spring2019). 
 
 ### Course Schedule
 
