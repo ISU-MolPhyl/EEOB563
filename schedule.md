@@ -14,7 +14,7 @@ To view the planned schedule of course activities, view the class calendar using
 <a href="https://docs.google.com/spreadsheets/d/1okuP20eZHE3TKdtxlqVbEp3xEcYB6wGZh_O1muiiXb0/edit?usp=sharing"><button type="button" class="btn btn-primary">Class Calendar</button></a>
 
 ### Week 1
-* Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://github.com/ISU-MolPhyl/EEOB563-Spring2019/lecture_notes/01_15_19.pdf)]
+* Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://github.com/ISU-MolPhyl/EEOB563-Spring2019/raw/master/lecture_notes/01_15_19.pdf)]
 	* [Assignment 1](./assignments.md) (**due 1/17**)
 
 * Lecture 2: Trees and characters <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)] -->
