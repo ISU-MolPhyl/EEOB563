@@ -14,18 +14,18 @@ To view the planned schedule of course activities, view the class calendar using
 <a href="https://docs.google.com/spreadsheets/d/1okuP20eZHE3TKdtxlqVbEp3xEcYB6wGZh_O1muiiXb0/edit?usp=sharing"><button type="button" class="btn btn-primary">Class Calendar</button></a>
 
 ### Week 1
-* Lecture 1: Introduction to Molecular Phylogenetics <!-- [[slides](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_09_18.pdf)]  -->
-	* [Assignment 1](./assignments.md)(**due 1/17**)
+* Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/01_15_19.pdf)]
+	* [Assignment 1](./assignments.md) (**due 1/17**)
 
 * Lecture 2: Trees and characters <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)] -->
-    * Assigment 1.
+    * [Assignment 1](./assignments.md) is due.
     * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  [Science 310: 979-980](http://science.sciencemag.org/content/310/5750/979.full.pdf).  
 
 ### Week 2
 * Lecture 3: Homology and Sequence Alignment <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)] -->
-    * Reading: Lemey, Salemi and Vandamme, Chapters 3: 3.1-3.10.  
-    * Discussion: Fitch (2000). Homology a personal view on some of the problems. TIG 16: 227.
+    * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
+    * Discussion: Fitch (2000). Homology a personal view on some of the problems. [TIG 16: 227](https://doi.org/10.1016/S0168-9525(00)02005-9).
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
     * All users, make sure you have a GitHub account!
     * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
