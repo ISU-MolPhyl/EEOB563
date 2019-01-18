@@ -26,9 +26,11 @@ To view the planned schedule of course activities, view the class calendar using
 * Lecture 3: Homology and Sequence Alignment <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)] -->
     * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. [TIG 16: 227](https://doi.org/10.1016/S0168-9525(00)02005-9).
-* [Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
-    * All users, make sure you have a GitHub account!
-    * Windows users, please see the [installation guide](https://isu-molphyl.github.io/EEOB563-Spring2018/install) for instructions on installing a command-line tool.
+* [Computer Lab 1](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1): Introduction to Unix/GitHub/SSH
+    * All users, make sure you have a GitHub account!  See [installation guide](https://isu-molphyl.github.io/EEOB563/install) for instructions.
+    * If you haven't used UNIX before, I strongly recommend working true tutorials one and two [here](http://www.ee.surrey.ac.uk/Teaching/Unix/) 
+    before the class (Note, that you can unix in your browser! (e.g., [here](https://www.tutorialspoint.com/unix_terminal_online.php)))
+    * Windows users, install GitBash on your computer. See [installation guide](https://isu-molphyl.github.io/EEOB563//install) for instructions.
 * [Assignment 2](https://isu-molphyl.github.io/EEOB563/assignments/assignment2.pdf) (**due 01/31**)
 
 <!--- ### Week 3  
