@@ -4,17 +4,15 @@ This lab teaches about/reviews three important systems that we'll be using throu
 
 ## Prerequisites:
 
-### Install GitBash if you haven't done this already.
-Follow the installation instructions provided in [install.md](https://github.com/ISU-MolPhyl/EEOB563/blob/master/install.md).
+### Learn/review some basic Unix commands before the class.  
+If you are new to Unix, go through tutorials one and two [here](http://www.ee.surrey.ac.uk/Teaching/Unix/).  
+
+### Install GitBash if you are a Windows user.
+Download the most recent version of the program from [here](https://gitforwindows.org/).
 
 ### Get a GitHub User Account
 
-Create a user account on GitHub if you don't have one already. 
-Be sure to choose a user ID that you are happy using for the rest 
-of your professional career. GitHub is a very important tool for 
-computational biology and if you continue working in data-intensive 
-fields, you will be using this account again in the future. Join GitHub here:
-[https://github.com/join](https://github.com/join).
+Create a user account on [GitHub](https://github.com/join) if you don't have one already. Be sure to choose a user ID that you are happy using for the rest of your professional career.
 
 ## Lab tutorial
 
