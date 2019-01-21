@@ -50,7 +50,7 @@ To update a Git reposity, enter the following command:
 
 ## Lab tutorial
 
-Lab 1: [Unix, Git, SSH](Unix.md)
+Lab 1: [Unix, Git, SSH](UNIX.md)
 
 ## Additional tutorials
 

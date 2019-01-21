@@ -8,7 +8,7 @@ icon: <i class='fa fa-flask'></i>
 
 # Computer Laboratories
 
-[Computer Lab 1](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
+[Computer Lab 1](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
 
 [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
 
