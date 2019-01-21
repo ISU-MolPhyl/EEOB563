@@ -60,7 +60,10 @@ Here are ten additional commands that will come in handy:
 What do these commands do?  
 Check their manuals and/or discuss with your classmates!
 
+
 ## III) Input/Output (I/O) redirection and shell metacharacters:
+
+<img src="./unix2.jpg" align="center" hspace="10">
 
 The shell and many UNIX commands take their input from standard input (stdin), write output to standard output (stdout), and write error output to standard error (stderr). By default, standard input is connected to the terminal keyboard and standard output and error to the terminal screen. However, each of these "streams" can be redirected using a redirection metacharacter followed by the desired destination.
 
