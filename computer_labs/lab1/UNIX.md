@@ -38,7 +38,7 @@ To make sure that we are all on the same page, predict the action of the followi
 `cd -`;  
 `pwd`;   
 
-Note, that if all this is new to you, you may need to start with a [more basic tutorial](https://www.hpc.iastate.edu/guides/unix-introduction).
+Note, that if all this is new to you, you may need to start with a [more basic tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
 > ### Useful shell features
 > There are two extremely useful features provided by most shells.  
@@ -66,7 +66,6 @@ The shell and many UNIX commands take their input from standard input (stdin), w
 
 Metacharacters are special characters in entered as part of a Unix command that the shell interprets rather than passes to the command. Here is a list of most of them. 
 
-===
 | Symbol | Meaning            | Explanation/Example |
 | :---:  | ---                | ---                 |
 | >	      | Output redirection | redirect the output from a program |
@@ -80,11 +79,9 @@ Metacharacters are special characters in entered as part of a Unix command that 
 | $(cmd) | Command Substitution | ls -l $(which less) |
 | \|    | The Pipe (\|)	use output of one command as input for another | cat <file> \| wc |
 | &     | Run command in the background |             |
-===
+
 
 ## IV) A short tutorial to play with Unix commands:
-
-(Note, that you can unix in your browser! (e.g., [here](https://www.tutorialspoint.com/unix_terminal_online.php)))
 
 1) Go to your home directory;
 
