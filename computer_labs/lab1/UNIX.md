@@ -75,7 +75,7 @@ Metacharacters are special characters in entered as part of a Unix command that 
 | *      | wildcard for zero or more characters | ls -l *.txt |
 | ?      | File substitution wildcard; one character | ls -l ???_data.txt |
 | [ ]	  | File substitution wildcard; any character between brackets||
-| `cmd` | Command Substitution | ls -l \`which less\` |
+| \`cmd\` | Command Substitution | ls -l \`which less\` |
 | $(cmd) | Command Substitution | ls -l $(which less) |
 | \|    | The Pipe (\|)	use output of one command as input for another | cat <file> \| wc |
 | &     | Run command in the background |             |
