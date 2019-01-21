@@ -17,7 +17,7 @@ To view the planned schedule of course activities, view the class calendar using
 * Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/01_15_19.pdf)]
 	* [Assignment 1](./assignments.md) (**due 1/17**)
 
-* Lecture 2: Trees and characters <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_11_18.pdf)] -->
+* Lecture 2: Trees and characters [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/docs/lecture_notes/01_17_19.pdf)]
     * [Assignment 1](./assignments.md) is due.
     * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  [Science 310: 979-980](http://science.sciencemag.org/content/310/5750/979.full.pdf).  
