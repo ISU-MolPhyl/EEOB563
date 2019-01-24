@@ -50,12 +50,12 @@ To update a Git reposity, enter the following command:
 
 ## Lab tutorial
 
-Lab 1: [Unix, Git, SSH](UNIX.md)
+Lab 1: [Unix, Git, SSH](https://data-skills.github.io/tutorials/UNIX.pdf)
 
 ## Additional tutorials
 
-[Git/GitHub](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1/git.pdf)  
-[VI](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab1/vi_tutorial.pdf)  
+[Git/GitHub](https://data-skills.github.io/tutorials/git.pdf)  
+[VI](https://data-skills.github.io/tutorials/UNIX.md/vi_tutorial.pdf)  
 
 
 
