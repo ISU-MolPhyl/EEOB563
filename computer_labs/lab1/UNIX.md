@@ -86,6 +86,22 @@ Metacharacters are special characters in entered as part of a Unix command that 
 
 ## IV) VI (visual editor)
 
+`vi` is a screen-oriented (rather than teleprinter-oriented :) text editor originally created for the Unix operating system. While there are several other editors available in Unix, `vi` is the default editor for many UNIX programs, including git.
+
+### Opening a file  
+Type `vi [filename]` to open an existing or a new file.  Notice the tildes at the left side, which indicates empty lines and the name and status of the file on the last line (called the prompt line or the status line).  
+
+### Two faces of vi  
+**Improtant!**  
+When you open a file, you start out in the *command* mode, one of the two modes in which vi operates (the other being the *insert* mode).   In the command mode every keystroke represents a command, rather than a text that you try to type. To switch to the *insert* mode, you use `i`, `I`, `a`, `A` etc. commands. To get back to the command mode, you use the `ESC` key.
+
+### Basic editing
+After you entered the editing mode, you can move by using arrow keys, delete pre-existing text with the `delete` key, and type your new text as in any other editor (but note that you can't use the mouse in non-GUI versions of vi). To switch back to the command mode, use the `ESC` key. 
+
+### To save and quit a file  
+Use `ZZ` command to save edits and quit (note that ZZ is capitalized; vi commands are case sensitive). However, it is very common in `vi` to use commands from another editor, called `ex` (in fact, vi is the visual for that editor!). To save and quit a file using the `ex` command, you type `:wq` or `:x`. You type `:q!` to exit the editor without saving the file.
+
+There is much-much more you can do with `vi`. Here is a short [tutorial](.
 
 ## V) A short tutorial to play with Unix commands:
 
