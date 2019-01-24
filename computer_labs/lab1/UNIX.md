@@ -3,7 +3,7 @@
 ## UNIX 
 <img src="./dilbert-unix.gif" align="center" hspace="10">
 
-The objective of this tutorial is to introduce you to several tool that we will use through the semester. It is impossible to teach/learn any of them in one lab period, so you will have to learn and practice them through the entire course and beyond. These tools were first developed and used on [UNIX](https://en.wikipedia.org/wiki/Unix), so we will start with reviewing/learning about this system. Although UNIX's  [Command-Line Interface](https://en.wikipedia.org/wiki/Command-line_interface) may seem archaic, it is the single most powerful tool in a bioinformaticians toolbox. Some basic understanding of how to use the Command Line to move, modify and view files containing molecular and descriptive data is an absolute requirement for modern biological analysis.
+The objective of this tutorial is to introduce you to [UNIX](https://en.wikipedia.org/wiki/Unix). Although UNIX's  [Command-Line Interface](https://en.wikipedia.org/wiki/Command-line_interface) may seem archaic, it is the single most powerful tool in a bioinformaticians toolbox. Some basic understanding of how to use the Command Line to move, modify and view files containing molecular and descriptive data is an absolute requirement for modern biological analysis.
 
 ## A few definitions:
 **UNIX:** A computer operating system originally developed in 1969 by a group of AT&T employees at Bell Labs. Unix was designed to be portable, multi-tasking and multi-user in a time-sharing configuration. Unix systems are characterized by various concepts: the use of plain text for storing data; a hierarchical file system; treating devices and certain types of inter-process communication (IPC) as files; and the use of a large number of small programs instead of a single monolithic program that includes all of the same functionality. These concepts are known as the Unix philosophy.
@@ -84,15 +84,18 @@ Metacharacters are special characters in entered as part of a Unix command that 
 | &     | Run command in the background |             |
 
 
-## IV) A short tutorial to play with Unix commands:
+## IV) VI (visual editor)
 
-1) Go to your home directory;
+
+## V) A short tutorial to play with Unix commands:
+
+1) Go to your home directory on HPC-class and check its content;
 
 2) In your home directory create a new directory called EEOB563\_labs;
 
-3) Create a directory called lab1 within EEOB563_labs
+3) Create a directory called lab1 within EEOB563_labs;
 
-4) Use cal, one of several neat, small, “miscellaneous” commands available in UNIX to create a calendar for the month and the year of your birth and save it to a file called calendar.txt.  
+4) Use cal, one of several neat, small, “miscellaneous” commands available in UNIX to create a calendar for the month and the year of your birth and save it to a file called calendar.txt;  
 
 5) How can you see the content of that file?
 
