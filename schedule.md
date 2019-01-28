@@ -22,7 +22,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  [Science 310: 979-980](http://science.sciencemag.org/content/310/5750/979.full.pdf).  
 
-### Week 2 (Current)
+### Week 2
 * Lecture 3: Homology and Sequence Alignment <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)] -->
     * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. [TIG 16: 227](https://doi.org/10.1016/S0168-9525(00)02005-9).
@@ -31,7 +31,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Post any question you may have on Slack.
 * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment2.pdf) (**due 01/31**)
 
-### Week 3  
+### Week 3 (Current) 
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
     * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] -->
 * Lecture 5: Searching tree space. Measures of character fit. Assessing clade support.  
@@ -40,16 +40,16 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion (leaders _Shofi and Lauren_): Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700). 
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
-<!--- ### Week 4  
+### Week 4  
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
-    * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563-Spring2018/links)]. Alternatively, you can use HPC-class cluster.
-* Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)]
+    * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
+* Lecture 6: Distance matrix methods. Clustering algorithms. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)] -->
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
-* [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment3.pdf) (**due 02/06**)
+<!-- * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment3.pdf) (**due 02/06**) -->
 
-### Week 5
+<!--- ### Week 5
 * Lecture 7: Clustering algorithms (cont.). Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)]
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations. 
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
