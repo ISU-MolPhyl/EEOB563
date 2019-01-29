@@ -33,12 +33,12 @@ To view the planned schedule of course activities, view the class calendar using
 
 ### Week 3 (Current) 
 **Too cold for phylogenetics!**
+    * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment2.pdf) is due on 1/31.
 
 ### Week 4
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
     * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] -->
 * Lecture 5: Searching tree space. Measures of character fit. Assessing clade support.  
-    * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment2.pdf) is due.
     * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] -->
     * Discussion (leaders _Shofi and Lauren_): Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700). 
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
