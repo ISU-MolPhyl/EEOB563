@@ -32,7 +32,7 @@ To view the planned schedule of course activities, view the class calendar using
 * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment2.pdf) (**due 01/31**)
 
 ### Week 3 (Current) 
-** Too cold for phylogenetics! **
+**Too cold for phylogenetics!**
 
 ### Week 4
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
