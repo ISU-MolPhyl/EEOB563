@@ -35,7 +35,7 @@ To view the planned schedule of course activities, view the class calendar using
 **Too cold for phylogenetics!**
     * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment2.pdf) is due on 1/31.
 
-### Week 4
+### Week 4 (Feb 5,7)
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
     * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] -->
 * Lecture 5: Searching tree space. Measures of character fit. Assessing clade support.  
@@ -43,14 +43,14 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion (leaders _Shofi and Lauren_): Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700). 
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
-<!-- ### Week 4  
+### Week 5 (Feb 12, 14) 
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
     * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
-* Lecture 6: Distance matrix methods. Clustering algorithms. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)] ->
+* Lecture 6: Distance matrix methods. Clustering algorithms. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)] -->
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
-* [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment3.pdf) (**due 02/06**) -->
+<!-- * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment3.pdf) (**due 02/06**) -->
 
 <!--- ### Week 5
 * Lecture 7: Clustering algorithms (cont.). Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)]
