@@ -69,7 +69,7 @@ For relatively messy, but not very big data sets, the best algorithm consists of
 
 The info about the program can be printed with `help mult;`, while parameters can be seen with `mult:;` and changed with `mult:options;`  Once calculated, trees may be viewed by entering `tplot`. To save the trees for later reanalysis, create a file by entering `tsave * [tree_filename]`. 
 
-## More complex search with xmult
+## More complex search with `xmult`
 
 There are four basic types of special algorithms implemented in TNT: ratchet, drifting, sectorial searches, and fusing.  
 
