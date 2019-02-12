@@ -44,7 +44,7 @@ To view the planned schedule of course activities, view the class calendar using
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
 ### Week 5 (Current)  
-* [Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
+* [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
     * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
     * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment3.pdf) (**due 02/21**)
