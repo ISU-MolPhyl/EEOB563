@@ -10,7 +10,7 @@ icon: <i class='fa fa-flask'></i>
 
 [Computer Lab 1](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1): Introduction to Unix/GitHub/SSH  
 
-[Computer Lab 2](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
+[Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
 
 [Computer Lab 3](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab3): Distance analysis with PHYLIP and FastME.
 
