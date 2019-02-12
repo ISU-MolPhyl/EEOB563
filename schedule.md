@@ -50,7 +50,7 @@ To view the planned schedule of course activities, view the class calendar using
     * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment3.pdf) (**due 02/21**)
 * Lecture 6: Distance matrix methods. Clustering algorithms. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)] -->
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
-    * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
+    * Discussion (leaders _Devin and Jordan_): Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
 ### Week 6
 * Lecture 7: Model-based distances. <!--- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_01-02_06.pdf)] -->
