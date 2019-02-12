@@ -57,7 +57,8 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations. 
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab3): Distance analysis with PHYLIP and FastME.  
-<!-- * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment4.pdf) (**due 02/15**)  
+
+<!--* [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment4.pdf) (**due 02/15**)  
 
 ### Week 6
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_13-15_18.pdf)]
