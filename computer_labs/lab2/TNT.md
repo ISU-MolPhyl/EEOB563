@@ -116,11 +116,13 @@ One way to modify:
 If some taxon has its position in the tree very poorly defined, it may strongly decrease the support for many groups in the tree.  If you wish to find out whether the rest of the tree is well supported, you can eliminate the taxon from the consensus when resampling.  To find out which taxon is floating around you may have to first do a more superficial estimation, saving the trees, and trying to prune different taxa (note that in such case you have to take the precaution of not collapsing the trees with SPR or TBR, as otherwise you may never find the floating taxon: once you found it, you turn collapsing back to SPR or TBR –the most effective—and do a more careful estimation of the resampling frequencies eliminating the evil terminals).
 
 Usually you will name your save file with a .tre extension. -->
-If there are multiple trees, their strict consensus can be found by entering `nelsen`. Resampling (jackknifing, bootstrapping, etc.) can be done by entering `resample.`  
-Now download the file cox1_nt.tnt to your working directory and try this command: `tnt p cox1_nt.tnt, echo=, log cox1_nt.out, rep+1, mu10=ho3, le, ne, resample, quit,`
 
-Trees were produced and analysed in TNT 1.5-beta (Goloboff et al. 2008). In total 74 taxa were
+If there are multiple trees, their strict consensus can be found by entering `nelsen`. Resampling (jackknifing, bootstrapping, etc.) can be done by entering `resample.`  
+Now download the file cox1_nt.tnt to your working directory and try this command:  
+`tnt p cox1_nt.tnt, echo=, log cox1_nt.out, rep+1, mu10=ho3, le, ne, resample, quit,`
+
+<!--Trees were produced and analysed in TNT 1.5-beta (Goloboff et al. 2008). In total 74 taxa were
 scored for 457 characters. Using the new technology search function, with ratchet and drift set to
 their defaults (10 iterations and 10 cycles respectively) and with 100 random additional sequences,
 our data produced 93 MPTs of length 1734. Bremer supports were also calculated using TNT 1.5-
-beta. 
+beta. -->
