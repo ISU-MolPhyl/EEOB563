@@ -121,6 +121,8 @@ If there are multiple trees, their strict consensus can be found by entering `ne
 Now download the file cox1_nt.tnt to your working directory and try this command:  
 `tnt p cox1_nt.tnt, echo=, log cox1_nt.out, rep+1, mu10=ho3, le, ne, resample, quit,`
 
+**What did you do?**
+
 <!--Trees were produced and analysed in TNT 1.5-beta (Goloboff et al. 2008). In total 74 taxa were
 scored for 457 characters. Using the new technology search function, with ratchet and drift set to
 their defaults (10 iterations and 10 cycles respectively) and with 100 random additional sequences,
