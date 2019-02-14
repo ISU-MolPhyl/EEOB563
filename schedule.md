@@ -23,7 +23,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  [Science 310: 979-980](http://science.sciencemag.org/content/310/5750/979.full.pdf).  
 
 ### Week 2
-* Lecture 3: Homology and Sequence Alignment <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_16_18.pdf)] -->
+* Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/02_Homology_and_alignments.pdf)]
     * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. [TIG 16: 227](https://doi.org/10.1016/S0168-9525(00)02005-9).
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1): Introduction to Unix/GitHub/SSH
@@ -37,9 +37,9 @@ To view the planned schedule of course activities, view the class calendar using
 
 ### Week 4  
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
-    * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] -->
+    * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/03_Maximum_parsimony.pdf)]
 * Lecture 5: Searching tree space. Measures of character fit. Assessing clade support.  
-    * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/01_23-25_18.pdf)] -->
+    * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/03_Maximum_parsimony.pdf)]
     * Discussion (leaders _Shofi and Lauren_): Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700). 
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
