@@ -17,3 +17,5 @@ All of the material required for grading must be submitted on the [course Canvas
 
 [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment3.pdf)
 
+[Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment4.pdf)
+
