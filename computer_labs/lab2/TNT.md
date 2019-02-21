@@ -1,4 +1,7 @@
-# TNT (Tree analysis using New Technology)## IntroductionTNT is a parsimony program by Pablo Goloboff, Steve Farris, and Kevin Nixon that can:  
+# TNT (Tree analysis using New Technology)**Quick links to:**   
+[Basic search](#basic)  
+[New technology search](#advanced)  
+[Evaluating support](#support)## IntroductionTNT is a parsimony program by Pablo Goloboff, Steve Farris, and Kevin Nixon that can:  
 
 * analyse large data sets (i.e. 300-500 taxa)* in reasonable times (minutes to find a shortest tree, hours to produce a reliable consensus).The program is described in Goloboff PA, Farris JS, Nixon KC (2008).  TNT, a free program for phylogenetic analysis. Cladistics 24:774–786.The program is often used in the Cladistics community.
 ## Data file format  
@@ -56,7 +59,7 @@ _Thrid_, use `taxname = ;` to use taxon names for terminal nodes.
 
 _Finally_ `log [logfilename];` will keep the log of your analysis.  
 
-
+<a name="basic"></a>
 ## Basic heuristic analysis with `mult`
 For relatively messy, but not very big data sets, the best algorithm consists of multiple random addition sequences plus TBR (RAS+TBR); this is invoked with the `mult` command. Further branch-swapping starting from the trees in memory ("RAM") can be used to find the additional trees.
 
@@ -67,9 +70,33 @@ For relatively messy, but not very big data sets, the best algorithm consists of
 `mult;` will do a basic analysis consisting of 10 random addition of sequences followed by branch-swapping with TBR, saving up to 10 trees per replication.  
 `bbreak=tbr;` 
 
-The info about the program can be printed with `help mult;`, while parameters can be seen with `mult:;` and changed with `mult:options;`  Once calculated, trees may be viewed by entering `tplot`. To save the trees for later reanalysis, create a file by entering `tsave * [tree_filename]`. 
+The info about the program can be printed with `help mult;`, while parameters can be seen with `mult:;` and changed with `mult:options;`  Once calculated, trees may be viewed by entering `tplot`. To save the trees for later reanalysis, create a file by entering `tsave * [tree_filename]`.
 
+Here is an [example of a TNT search](http://phylobotanist.blogspot.com/2015/03/parsimony-analysis-in-tnt-using-command.html) using mult command:
+> ```
+hold 100000 ;  
+log tnt_run_log ;  
+taxname = ;  
+mult=replic 100 tbr;
+bbreak = tbr ;  
+nelsen * ;  
+tchoose { strict } ;  
+ttags = ;  'store tree tags for subsequent tree printing command(s)' 
+blength *;  
+ttags );  'stop storing tags (but don't erase them)' 
+export - consensus_tree.tre ; 'export > consensus_tree.tre '   
+ttags -;  'clear all existing tags'
+ttags = ;  
+collapse tbr ;  
+resample replications 100 ;  
+keep 1 ;  
+ttags );  
+export - boots.tre proc/;  
+```
+
+<a name="advanced"></a>
 ## More complex search with `xmult`
+
 
 There are four basic types of special algorithms implemented in TNT: ratchet, drifting, sectorial searches, and fusing.  
 
@@ -106,9 +133,39 @@ These algorithms are implemented in the `xmult` command.  The default for the co
 One way to modify:
 `xmult=hits 10 noupdate nocss replic 10 ratchet 10 fuse 1 drift 5 hold 100 noautoconst keepall;`
 
+Here is [an example](http://phylobotanist.blogspot.com/2015/03/parsimony-analysis-in-tnt-using-command.html) of using the xmult command in a search:
+>```
+log tnt_run_log ;
+mxram 2000;
+nstates NOGAPS;
+nstates dna;
+hold 100000 ;
+taxname = ;
+'-----------'
+xmult=hits 10 noupdate nocss replic 10 ratchet 10 fuse 1 drift 5 hold 100 noautoconst keepall;
+bbreak = tbr ;
+nelsen * ;
+tchoose { strict } ;
+ttags = ;
+blength *;
+ttags );
+ttags ;
+export - consensus_tree.tre ;
+ttags -;
+'-----------'
+ttags = ;
+resample replications 100 [ mult=replic 10 tbr hold 1000 ];
+keep 1 ;
+ttags );
+ttags ;
+export - boots.tre;
+proc/;
+```
+
 
 >A careful consideration of how the data set behaves to changes in parameters is the best way to proceed, but if you have no idea of how a data set behaves, or don't know how to set the parameters for a search, you may trust to the program the choice of parameters.  This is done with the `level` option of the `xmult` command).  The level must be a number between 0 and 10 (0 is very superficial; 10 is extremely exhaustive).  If using a driven search (i.e. more than a single hit of the xmult command), you may have the program check whether best score is being found easily or not (and then decrease or increase the search level accordingly).  This is set with the `chklevel` option of the `xmult` command.
 
+<a name="support"></a>
 ## Measures of character support
  
 <!--TNT implements two types of character support measures: Bremer supports and resampling.  The Bremer supports are calculated from the trees in memory: it is up to the user to find suboptimal trees.  The resampling can be of different types, some of which are preferrable to others.  Standard bootstrapping is influenced by uninformative characters (and by characters irrelevant to monophyly of a given group).  Bootstrapping (both standard and Poisson) and jacknifing (except for a resampling probability of 50%) are affected by character weight and transformation costs (e.g. additive characters).  Symmetric resampling is affected by none.  Outputting results with the frequency may produce alterations in the apparent support for groups with very low support (and it cannot measure support for groups with very low support).  Both GC and frequency slopes solve this problem (for slopes, supported groups have negative slopes; the closer to 0, the better supported the group).  The supports can be measured on the groups present in any given tree (normally, a most parsimonious tree, but using other trees provides a way to measure how strongly contradicted some groups are).  The slopes must be measured by reference to a pre-existing tree.

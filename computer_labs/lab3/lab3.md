@@ -1,4 +1,4 @@
-# Lab #3 (PAUP, PHYLIP, and FASTME)
+# Lab #3. Distance analysis with PAUP, PHYLIP, and FastME.
 
 ## General considerations
 
@@ -48,11 +48,11 @@ Run neighbor-joining search with 5 distances listed above.
 [PHYLIP](http://evolution.genetics.washington.edu/phylip.html) is a package of phylogenetic programs written by [Joe Felsenstein](http://evolution.gs.washington.edu/felsenstein.html) group and first released in 1980. 
 The programs can infer phylogenies by parsimony, compatibility, distance matrix methods, and likelihood. You probably won't use PHYLIP for conventional 
 phylogenetic analysis as newer programs are much faster and often incorporate additional models of sequence 
-evolution. However, some types of analyses available in PHYLIP are difficult to impossible to find in other programs. An additional advantage of this package is its thorough, well organized, and up to date [documentation](http://evolution.genetics.washington.edu/phylip/phylip.html). 
+evolution. However, some types of analyses available in PHYLIP are difficult to impossible to find in other programs. An additional advantage of this package is its thorough, well organized, and up to date [documentation](http://evolution.genetics.washington.edu/phylip/phylip.html). Phylip is installed as a module on HPC-class and can be loaded with `module load phylip`.
 
 Unlike PAUP, which installs as a single program, PHYLIP is a collection of 35+ programs that are intended to be used sequentially. You start a program by typing its name at the unix prompt.  
 
-Here is outline of the exercise (from a nice chapter in Current Protocols in Bioinformatics ) with the name of the programs listed in ALLCAPs. 
+Here is outline of the exercise (from a nice chapter in Current Protocols in Bioinformatics) with the name of the programs listed in ALLCAPs. 
 
 ![IMG](./nbi060301.gif)
 
@@ -109,8 +109,14 @@ The `fitch` program carries out Fitch-Margoliash, Least Squares, and ME methods 
 > - Can you figure out how to do different PHYLIP analysis from a command line (without interactive menues)?
 
 ## Part3: FastME (Optional)
-`FastME` is a newer program from [Olivier Gascuel](http://www.lirmm.fr/~gascuel/) group whose main task is to estimate phylogenies using distance methods from nucleotide or amino acid multiple sequences alignments (MSA). It provides a wide range of options that were designed to ease standard phylogenetic analyses. The main strengths of FastME lies the availability of several distance algorithms and optimization principles (OLS and Balanced Minimum Evolution, iterative taxon addition, NJ, UNJ, BioNJ) for tree estimation coupled with various options to search the space of phylogenetic tree topologies (NNIs, SPRs). It also provides a parallelized implementation of the non-parametric bootstrap method to evaluate branch supports. You can use FastME with PHYLIP-like interface or with the command line options. [Online version](http://www.atgc-montpellier.fr/fastme/) is also available (but you should avoid it to practice your command line skills).
+`FastME` is a newer program from [Olivier Gascuel](http://www.lirmm.fr/~gascuel/) group whose main task is to estimate phylogenies using distance methods from nucleotide or amino acid multiple sequences alignments (MSA). 
+
+The main strengths of FastME lies the availability of several distance algorithms and optimization principles for tree estimation coupled with various options to search the space of phylogenetic tree topologies (NNIs, SPRs). It also provides a parallelized implementation of the non-parametric bootstrap method to evaluate branch supports. 
+
+FastME is installed as a module on HPC-class and can be loaded with `module load fastme`. You can use it with PHYLIP-like interface or with the command line options. [Online version](http://www.atgc-montpellier.fr/fastme/) is also available (but you should avoid it to practice your command line skills).
+
+### Exercise:
 
 > - Check the user guide for the program at [http://www.atgc-montpellier.fr/fastme/usersguide.php](http://www.atgc-montpellier.fr/fastme/usersguide.php)
-> - Replicate some of the analysis we did in the previous sections using FastME.
+> - Replicate the analysis we did in the previous sections using FastME.
 
