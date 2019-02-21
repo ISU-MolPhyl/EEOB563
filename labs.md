@@ -12,7 +12,7 @@ icon: <i class='fa fa-flask'></i>
 
 [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
 
-[Computer Lab 3](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab3): Distance analysis with PHYLIP and FastME.
+[Computer Lab 3](https://isu-molphyl.github.io/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.
 
 [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
 
