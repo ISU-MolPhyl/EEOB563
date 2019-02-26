@@ -66,11 +66,10 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion (leaders _Amruta and Dennis_): Kauffman et al. (2018). A major lineage of non-tailed dsDNA viruses as unrecognized killers of marine bacteria. [Nature 554: 118-122](https://www.nature.com/articles/nature25474). <!--
     See also [News & Views](https://www.nature.com/articles/nature16876) -->
 
-### Week 8 (March 5, 7) 
+### Week 8 (March 5, 7)   
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
 <!-- * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**due 03/12**) -->
-
-* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]
+* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]-->
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
 <!-- ### Week 9
