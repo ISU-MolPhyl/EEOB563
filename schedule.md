@@ -52,46 +52,47 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion (leaders _Devin and Jordan_): Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
-### Week 6 (Current)  
+### Week 6  
 * Lecture 7: Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
 <!--    * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances. -->
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
-    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment4.pdf) (**due 02/27**)
+    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment4.pdf) (**due 02/28**)
 
-### Week 7
+### Week 7 (Current)
 * Lecture 8: Introduction to Maximum Likelihood. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_13-15_18.pdf)] -->
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_13-15_18.pdf)] -->
     * Discussion (leaders _Amruta and Dennis_): Kauffman et al. (2018). A major lineage of non-tailed dsDNA viruses as unrecognized killers of marine bacteria. [Nature 554: 118-122](https://www.nature.com/articles/nature25474). <!--
     See also [News & Views](https://www.nature.com/articles/nature16876) -->
 
-<!--
-### Week 7 
+### Week 8 (March 5, 7) 
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
-* [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**due 02/27**)
+<!-- * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**due 03/12**) -->
 
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
-### Week 8
+<!-- ### Week 9
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]
     * Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
     See also [News & Views](https://www.nature.com/articles/nature21113).
 * Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
     * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
     advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
+-->
 
-### Week 9 
+### Week 9 (March 12, 14)
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
-* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/27**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
-
-* **03/08 Midterm Exam**
+<!-- * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/27**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
+-->
+* **03/14 Midterm Exam**
     * Review reading: Yang and Rannala (2012). Molecular phylogenetics: principles and practice. [Nature Review Genetics, 13:303-314](https://www.nature.com/articles/nrg3186.pdf)
 
 ### Week 10: Spring Break! 
-* Don’t forget about your project outline! (**due 3/20**)
+* Don’t forget about your project outline! (**due 3/26**)
 
+<!--- 
 ### Week 11 
 * Midterm exam review and final project discussion
     * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. 
