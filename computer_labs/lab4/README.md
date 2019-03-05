@@ -5,13 +5,6 @@ Several programs implement the maximum likelihood method for molecular sequences
 
 An important additional goal of this lab is to lean how to interact properly with the HPC-class cluster both in an interactive mode and using the Slurm Workload manager.
 
->**Tip:** To view phylogenetic trees on HPC-class, use the `nw_display` program from the `newick_utils` module. However, you'll need to use older RISA modules:
->
-```
-module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core
-module use /opt/rit/modules
-```
-
 ## Using HPC-class in an interactive mode
 When we log in to [HPC-class](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster), we interact with the head module. This is ok if we use simple UNIX commands, but would slow down the system dramatically (and bring down the wrath of other users), if we perform long computational tasks. Instead, we'll use the `salloc` command to request access to compute nodes on the cluster. For this exercise use the `salloc -N 1 -n 8 -t 2:00:00` command to request 8 cores on 1 node for 2 hours.
 

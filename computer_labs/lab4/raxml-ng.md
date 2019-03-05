@@ -122,10 +122,14 @@ raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T1
 ```  
 We can use a tree viewer (I use FigTree a lot) to visualize the ML tree with mapped bootstrap values (you have to choose "label" option under the "display node support".
 
+>**Tip:** To view a phylogenetic trees on the terminal, use the `nw_display` program from the `newick_utils` module. 
+However, you'll need to use the older RISA modules:
+>
 ```
-T13.raxml.support
+module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core
+module use /opt/rit/modules
+module load newick_utils
 ```
-using some tree viewer.  
 
 Alternatively, we can compute so-called *Transfer Bootstrap Expectation* support metric [(Lemoine et al. 2018)](https://www.nature.com/articles/s41586-018-0043-0), which is supposedly more appropriate for very large trees:   
 ```
@@ -184,7 +188,7 @@ In partitioned analyses, there are three common ways to estimate branch lengths 
 - **scaled** (**proportional**): a global set of branch lengths is estimated like in `linked` mode,  but each partition has an individual scaling factor; per-partition branch lengths are obtained by multiplying the global branch lengths with these individual scalers. This approach is a compromise that allows to model distinct evolutionary rates across partitions while introducing only a moderate number of free parameters (`#branches + #partitions`).
 
 
-# Not it is your turn.
+# Now it is your turn.
 **1)** Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support.
 
 **2)** Calculate the likelihood score for the following models of DNA evolution: Jukes-Cantor (JC), JC with rate heterogeneity (JC+G), GTR (GTR), GTR with the Gamma model of rate heterogeneity, but empirical base frequencies (GTR+G+FC), same buth with ML estimate of the base frequencies (GTR+G+FO), as previously by with 4 free rates instead of GAMMA-distributed rates (GTR+R4+FO). Use the best tree from above and E1-E6 prefixes for these analyses. 
