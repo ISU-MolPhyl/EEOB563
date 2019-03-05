@@ -1,4 +1,7 @@
-**IMPORTANT NOTE**: This tutorial describes the functionality of the latest [RAxML-NG v. 0.8.0](https://github.com/amkozlov/raxml-ng/releases/tag/0.8.0) and is derived from the tutorial provided by its authors.
+**IMPORTANT NOTE**: This tutorial describes the functionality of the latest 
+[RAxML-NG v. 0.8.0](https://github.com/amkozlov/raxml-ng/releases/tag/0.8.0) 
+and is based on the [tutorial](https://github.com/amkozlov/raxml-ng/wiki/Tutorial) 
+provided by its authors.
 
 <!--
 * [Intro](#intro)
