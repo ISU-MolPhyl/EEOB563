@@ -189,6 +189,17 @@ In partitioned analyses, there are three common ways to estimate branch lengths 
 - **unlinked**: each partition has its own, independent set of branch lengths. This model allows for the highest flexibility, but it also introduces a huge number of free parameters (`#branches * #partitions`), which makes it prone to overfitting.
 - **scaled** (**proportional**): a global set of branch lengths is estimated like in `linked` mode,  but each partition has an individual scaling factor; per-partition branch lengths are obtained by multiplying the global branch lengths with these individual scalers. This approach is a compromise that allows to model distinct evolutionary rates across partitions while introducing only a moderate number of free parameters (`#branches + #partitions`).
 
+## Topological constraint
+#### `--constraint-tree FILE` option specifies a constraint tree 
+
+If the constraint tree is _comprehensive_ (i.e., it includes all taxa found in the MSA), then RAxML will simply resolve polytomies in the way that maximizes the likelihood. Conversely, if some taxa are missing from the constraint, they will be placed freely in the resulting ML tree.
+
+## Outgroup rooting
+#### `--outgroup  o1,o2,..,oN` option specifies outgroups whe drawing a tree
+
+The outgroup can be a single taxon (`--outgroup Human`) or a list of taxa which form a monophyletic group (`--outgroup Human,Chimp,Gorilla`).
+
+*Please note that outgroup rooting is just a drawing option and will not affect tree inference process or score in any way!*
 
 ## Now it is your turn.
 **1)** Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support using 50 bs replicates.
