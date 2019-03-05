@@ -187,7 +187,7 @@ In partitioned analyses, there are three common ways to estimate branch lengths 
 
 
 # Now it is your turn.
-**1)** Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support.
+**1)** Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support using 50 bs replicates.
 
 **2)** Calculate the likelihood score for the following models of DNA evolution: Jukes-Cantor (JC), JC with rate heterogeneity (JC+G), GTR (GTR), GTR with the Gamma model of rate heterogeneity, but empirical base frequencies (GTR+G+FC), same buth with ML estimate of the base frequencies (GTR+G+FO), as previously by with 4 free rates instead of GAMMA-distributed rates (GTR+R4+FO). Use the best tree from above and E1-E6 prefixes for these analyses. 
 
