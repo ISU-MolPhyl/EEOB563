@@ -18,7 +18,7 @@ RAxML-NG replaces standard RAxML as well as the corresponding supercomputer vers
 
 ## Before you start:
 * Download and install RAxML-NG ([instructions](https://github.com/amkozlov/raxml-ng/wiki/Installation))
-* Download toy datasets: https://github.com/amkozlov/ng-tutorial
+* Update the course repository to download the data files
 
 Check that you have RAxML-NG version 0.8.0 BETA or later:
 ```
