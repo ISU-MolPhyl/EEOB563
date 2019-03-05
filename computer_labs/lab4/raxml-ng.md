@@ -151,9 +151,7 @@ Was it worth doing the ML analysis?  Wasn't the parsimony/distance tree good eno
 One way to answer these question is to compute the likelihoods of MP, NJ, and ML trees by just optimizing model and/or branch length parameters and not changing the topology itself.
 
 ### `--evaluate` command calculates likelihood of a tree
-
 * `--opt-model on/off` you can enable/disable model parameter optimization.
-
 * `--opt-branches on/off` you can enable/disable branch length optimization. 
 
 The commands looks like:
