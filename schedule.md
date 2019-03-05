@@ -60,9 +60,9 @@ To view the planned schedule of course activities, view the class calendar using
     * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment4.pdf) (**due 02/28**)
 
 ### Week 7
-* Lecture 8: Introduction to Maximum Likelihood. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_13-15_18.pdf)] -->
+* Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
-* Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. <!-- [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_13-15_18.pdf)] -->
+* Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/05_Maximum_likelihood.pdf)]
     * Discussion (leaders _Amruta and Dennis_): Kauffman et al. (2018). A major lineage of non-tailed dsDNA viruses as unrecognized killers of marine bacteria. [Nature 554: 118-122](https://www.nature.com/articles/nature25474). <!--
     See also [News & Views](https://www.nature.com/articles/nature16876) -->
 
