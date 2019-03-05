@@ -37,7 +37,7 @@ RAxML-NG supports alignments in FASTA, PHYLIP and CATG formats.
 By default, RAxML-NG will try to automatically detect alignment format based on the file contents. You can also specify the alignment format explicitly with the `--msa-format` option. 
 
 ### `--model <MODEL>` option (required) specifies the model of evolution.
-Examples of possible models are `GTR+G` for nucleotide data, `JTT+G` for aa data, `BIN` for binary data, `MULTI8_MK` multistate data with 8 categories, among [many others]().
+Examples of possible models are `GTR+G` for nucleotide data, `JTT+G` for aa data, `BIN` for binary data, `MULTI8_MK` multistate data with 8 categories, among [many others](./models.md).
 
 # Output
 ### `--prefix <NAME>` option (optional) addes prefix to output files. 
