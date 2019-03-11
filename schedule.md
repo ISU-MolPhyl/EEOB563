@@ -82,14 +82,15 @@ To view the planned schedule of course activities, view the class calendar using
 -->
 
 ### Week 9 (March 12, 14)
-* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
-<!-- * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/27**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
+* Bayesian methods in phylogenetics. Midterm exam review. (Computer Lab 5 is postponed till after the Spring Break!) 
+<!-- [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
+     * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/27**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
 -->
 * **03/14 Midterm Exam**
     * Review reading: Yang and Rannala (2012). Molecular phylogenetics: principles and practice. [Nature Review Genetics, 13:303-314](https://www.nature.com/articles/nrg3186.pdf)
 
 ### Week 10: Spring Break! 
-* Don’t forget about your project outline! (**due 3/26**)
+* Don’t forget about your [final project](.final_project.md) outline! (**due 3/26**)
 
 <!--- 
 ### Week 11 
