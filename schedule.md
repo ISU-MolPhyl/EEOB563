@@ -66,7 +66,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion (leaders _Amruta and Dennis_): Kauffman et al. (2018). A major lineage of non-tailed dsDNA viruses as unrecognized killers of marine bacteria. [Nature 554: 118-122](https://www.nature.com/articles/nature25474). <!--
     See also [News & Views](https://www.nature.com/articles/nature16876) -->
 
-### Week 8 (Current)   
+### Week 8 
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
     * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**due 03/12**)
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]-->
@@ -81,8 +81,9 @@ To view the planned schedule of course activities, view the class calendar using
     advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
 -->
 
-### Week 9 (March 12, 14)
+### Week 9 (Current)  
 * Bayesian methods in phylogenetics. Midterm exam review. (Computer Lab 5 is postponed till after the Spring Break!) 
+    
 <!-- [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/27**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
 -->
