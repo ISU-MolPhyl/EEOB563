@@ -2,6 +2,10 @@
 ## Bayesian phylogenetics with MrBayes
 <img src="./bayes_neon.jpg" align="right" hspace="10">
 ### Introduction
+Bayesian inference in phylogeny (also called Bayesian phylogenetics) is based upon a quantity called the posterior probability distribution of trees, which is the probability of a tree given the observations (alignment of sequences) and the model. The conditioning is accomplished using Bayes's theorem. As the posterior probability distribution of trees is impossible to calculate analytically, phylogenetic programs using Bayesian approach (such as MrBayes or PhyloBayes) use a simulation technique called Markov chain Monte Carlo (or MCMC) to approximate the posterior probabilities of trees.
+
+### The goal
+
 The goal of this lab is to introduce you to MrBayes, one of the two major software packages for conducting Bayesian phylogenetic analysis (the other being BEAST, which we'll see later). 
 
 ### Getting Started.
@@ -20,4 +24,4 @@ The data for this exercise is in the directory data on GitHub repository.
 
 
 ### Tutorial
-Now go to the tutorial [website](https://sites.google.com/site/eeob563/computer-labs/lab-5).  There are three different exercises there.
+Now go to the [tutorial](./MrBayes.md).
