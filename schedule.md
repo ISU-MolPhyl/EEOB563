@@ -81,7 +81,7 @@ To view the planned schedule of course activities, view the class calendar using
     advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
 -->
 
-### Week 9 (Current)  
+### Week 9   
 * Bayesian methods in phylogenetics. Midterm exam review. (Computer Lab 5 is postponed till after the Spring Break!) 
     
 <!-- [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
@@ -93,15 +93,18 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 10: Spring Break! 
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/26**)
 
-<!--- 
 ### Week 11 
-* Midterm exam review and final project discussion
-    * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. 
-    In addition, create a GitHub/GitLab repository for the final project and send me the link.
+* Midterm exam review and [final project](./final_project.md) discussion
+    * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub/GitLab repository for the final project and send me the link.
 
-* Lecture 13 (ha!): Gene trees and species trees.
+* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
+	* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)  
+
+<!-- 
+Lecture 13 (ha!): Gene trees and species trees.
     * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
     * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
+-->
 
 ### Week 12 
 * Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/03_27_18.pdf)].
@@ -110,6 +113,7 @@ To view the planned schedule of course activities, view the class calendar using
 
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab6): Hypotheses testing with PAML.
 
+<!--- 
 ### Week 13 
 * Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
     * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
