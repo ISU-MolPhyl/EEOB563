@@ -293,9 +293,14 @@ Use the table below (or one like it) to summarize the marginal log-likelihoods e
 
 Phylogenetics software programs log-transform the likelihood to avoid underflow, because multiplying likelihoods results in numbers that are too small to be held in computer memory. Thus, we must use a different form of Bayes factors equation to calculate the ln-Bayes factor (we will denote this value K):
 
-K = ln[BF(M0,M1)] = ln[P(X | M0)] − ln[P(X | M1)], where ln[P(X | M0)] is the marginal lnL estimate for model M0. The value resulting from equation 4 can be converted to a raw Bayes factor by simply taking the exponent of K
+```
+K = ln[BF(M0,M1)] = ln[P(X | M0)] − ln[P(X | M1)]
+```
+where `ln[P(X | M0)]` is the marginal lnL estimate for model M0. The value resulting from equation 4 can be converted to a raw Bayes factor by simply taking the exponent of K:
 
+```
 BF (M0, M1) = e^K
+```
 
 Alternatively, you can interpret the strength of evidence in favor of M0 using the K and skip the equation above. In this case, we evaluate the K in favor of model M0 against model M1 so that:
 
