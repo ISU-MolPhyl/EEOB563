@@ -68,7 +68,7 @@ To view the planned schedule of course activities, view the class calendar using
 
 ### Week 8 
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
-    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**due 03/12**)
+    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment5.pdf) (**due 03/12**)
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]-->
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
@@ -93,12 +93,12 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 10: Spring Break! 
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/26**)
 
-### Week 11 
+### Week 11 (Current)
 * Midterm exam review and [final project](./final_project.md) discussion
     * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub/GitLab repository for the final project and send me the link.
 
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
-	* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)  
+	* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/hiv.nxs)  
 
 <!-- 
 Lecture 13 (ha!): Gene trees and species trees.
@@ -109,7 +109,7 @@ Lecture 13 (ha!): Gene trees and species trees.
 ### Week 12 
 * Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/03_27_18.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
-    * Discussion:  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
+    * Discussion (leaders Jade and Zachary):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
 
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab6): Hypotheses testing with PAML.
 
