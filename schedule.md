@@ -93,7 +93,7 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 10: Spring Break! 
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/26**)
 
-### Week 11 (Current)
+### Week 11 
 * Midterm exam review and [final project](./final_project.md) discussion
     * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub/GitLab repository for the final project and send me the link.
 
@@ -106,12 +106,12 @@ Lecture 13 (ha!): Gene trees and species trees.
     * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
 -->
 
-### Week 12 
-* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/03_27_18.pdf)].
+### Week 12 (Current)
+* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/04_02_19.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
     * Discussion (leaders Jade and Zachary):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
 
-* [Computer Lab 6](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab6): Hypotheses testing with PAML.
+* [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
 
 <!--- 
 ### Week 13 
