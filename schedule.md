@@ -69,7 +69,7 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 8 
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
     * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment5.pdf) (**due 03/12**)
-* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]-->
+* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/07_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
 <!-- ### Week 9
@@ -107,7 +107,7 @@ Lecture 13 (ha!): Gene trees and species trees.
 -->
 
 ### Week 12 (Current)
-* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/04_02_19.pdf)].
+* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
     * Discussion (leaders Jade and Zachary):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
 
