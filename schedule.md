@@ -68,8 +68,8 @@ To view the planned schedule of course activities, view the class calendar using
 
 ### Week 8 
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
-    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment5.pdf) (**due 03/12**)
-* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. <!--[[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]-->
+    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment5.pdf) (**due 03/12**)
+* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/07_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
 <!-- ### Week 9
@@ -98,7 +98,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub/GitLab repository for the final project and send me the link.
 
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
-	* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)  
+	* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/hiv.nxs)  
 
 <!-- 
 Lecture 13 (ha!): Gene trees and species trees.
@@ -106,12 +106,12 @@ Lecture 13 (ha!): Gene trees and species trees.
     * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
 -->
 
-### Week 12 
-* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/03_27_18.pdf)].
+### Week 12 (Current)
+* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
-    * Discussion:  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
+    * Discussion (leaders Jade and Zachary):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
 
-* [Computer Lab 6](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab6): Hypotheses testing with PAML.
+* [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
 
 <!--- 
 ### Week 13 
