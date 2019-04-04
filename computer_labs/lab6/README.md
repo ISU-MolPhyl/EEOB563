@@ -26,19 +26,20 @@ The strength of PAML is its collection of sophisticated substitution models.  Tr
 ### Getting Started.
 #### Software
 
-You can download the PAML package from its [website](http://abacus.gene.ucl.ac.uk/software/paml.html). PAML is also installed on HPC-class (module paml). To use run:  
-`salloc -N 1 -n 4 -t 2:00:00;  
+PAML is alredy installed on the HPC-class (module paml). To use it, run:  
+
+```
+salloc -N 1 -n 4 -t 2:00:00;  
 module load paml;  
-name_of_paml_program`
+name_of_the_paml_program
+```
 
-You can also install it on your computer from its [website](http://abacus.gene.ucl.ac.uk/software/paml.html).
+You can also install PAML on your computer from its [website](http://abacus.gene.ucl.ac.uk/software/paml.html).
 
-*Note*, that for the exercises below we will use a single program from the paml package: `codeml`.
+*Note:* For the exercises below we will use a single program from the paml package: `codeml`.
 
 #### Data
-The data for this exercise is in the `data` directory on the GitHub repository.
-You should create a new directory (e.g., ~/eeob563_labs/lab6), and copy the files there.
-
+The data for this exercise is in the `lab6` directory on the GitHub repository.
 
 ### exercise 1: ML estimation of the dN/dS (ω) ratio “by hand”
 For this exercise, we will use a simple data set and the `codeml` program to illustrate maximum likelihood estimation of ω. The data set is GstD1 genes of _Drosophila melanogaster_ and _D. simulans_. The alignment has 600 codons. Our first objective is to evaluate the likelihood function for a variety of fixed values for the parameter ω.
@@ -46,13 +47,13 @@ Plot log-likelihood scores against the values of ω and determine the maximum li
 
 1. Unzip files for exercise 1 (and 2) and familiarize yourself with them. Pay close attention to the modified control file called codeml.ctl.ex1. When you are ready to run CODEML, delete the .ex1 extension (the control file must be called codeml.ctl).
 
-2. Create a directory where you want your results to go, and place all your files within it. Now open a terminal, move to the directory that contains your files, and run CODEML.
+2. Move to the directory that contains your files, and run CODEML.
 
 3. Familiarize yourself with the [results](./help_files/ex1_HelpFile.pdf). If you have not edited the control file the results will be written to a file called results.txt. Identify the line within the results file that gives the likelihood score for the example dataset.
 
 4. Now change the control files and re-run CODEML. The objective is to compute the likelihood of the example dataset given a fixed value of omega.
 	- Change the name of your result file (via `outfile=` in the control file) or you will overwrite your previous results!  
-	- Change the fixed value for omega by changing `omega=` in the control file. The values for this exercise are provided as comments at the bottom of the example control file that has been provided to you.  
+	- Change the fixed value for omega by changing `omega=` in the control file. The values for this exercise are provided as comments at the bottom of the example control file.  
 5. Repeat step 4 for each value of omega given in the comments of the example control file.  
 6. Plot the likelihood score (y-axis) against the fixed value for omega (x-axis). Use a logarithmic scale for the x-axis.  
 7. From the plot, try to guess the value of omega that will maximize the likelihood score (i.e., the MLE).
