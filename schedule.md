@@ -106,30 +106,30 @@ Lecture 13 (ha!): Gene trees and species trees.
     * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
 -->
 
-### Week 12 (Current)
+### Week 12 
 * Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
-    * Discussion (leaders Jade and Zachary):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
+    * Discussion (leaders _Jade and Zachary_):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
 
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
 
-<!--- 
-### Week 13 
+### Week 13 (Current)
 * Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
     * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
-    * Discussion: Worobey et al. (2016). 1970s and ‘Patient 0’ {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
-
+<!--    * Discussion: Worobey et al. (2016). 1970s and ‘Patient 0’ {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
+-->
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab7): Taming the BEAST.
 
-### Week 14 
+### Week 14 (April 16, 18)
 * Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
-    * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
+    * Discussion: (leaders _Katelyn and Jermaine_) Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
 
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab8): BayesTraits.
     * Reading (again): Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
-    * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/17.  
+    * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/23.  
 
+<!--- 
 ### Week 15 (Current)
 * Lecture 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  Nature Reviews.  Genetics.  6: 361-375. Need to change
