@@ -118,7 +118,7 @@ Lecture 13 (ha!): Gene trees and species trees.
     * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
 <!--    * Discussion: Worobey et al. (2016). 1970s and ‘Patient 0’ {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
 -->
-* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab7): Taming the BEAST.
+* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
 
 ### Week 14 (Current)
 * Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
