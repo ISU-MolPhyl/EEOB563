@@ -120,19 +120,19 @@ Lecture 13 (ha!): Gene trees and species trees.
 -->
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
 
-### Week 14 (Current)
+### Week 14 
 * Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
     * Discussion: (leaders _Katelyn and Jermaine_) Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
 
-* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab8): BayesTraits.
+* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * Reading (again): Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
     * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/23.  
 
-### Week 15 (April 23, 25)
+### Week 15 (Current and Last!)
 * Lecture 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  Nature Reviews.  Genetics.  6: 361-375. Need to change
-    * Discussion: Watts et al. 2016. Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. Current biology 2: 958-967.
+    * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  [Nature Reviews Genetics.  6: 361-375](https://www.nature.com/articles/nrg1603).
+    * Discussion: Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/science/article/pii/S0960982217301999).
 
 * Lecture 18: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407).
