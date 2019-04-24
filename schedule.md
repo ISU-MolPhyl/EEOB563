@@ -140,24 +140,23 @@ Lecture 13 (ha!): Gene trees and species trees.
     
 * **Revised final project due on 4/28 at 11:59pm (commit to GitHub and email me the link)**
 
-<!--- 
+<!---  --->
 ### Final Presentations [[Scoring rubric](./scoring_rubric.pdf)]:
-* 04/24: 9:00-10:50am
-  * Michael
-  * Thea
-  * Tim
-  * Emmanuel
-  * Jacob
-* 04/26: 9:00-10:50am
-  * Minjeong
-  * Monica
-  * Bridget
-  * Hylia
-  * Sheridan
-* 05/02: 7:00-9:00pm
-  * Dandan
-  * Ting
-  * Morgan
-  * Basanta
-  * Tamara
-  --->
+* 04/30: 9:00-10:50am
+  * Elizabeth
+  * Lauren  
+  * Jing 
+  * Jermaine
+  * Zakayo
+* 05/02: 9:00-10:50am
+  * Shofi
+  * Jade
+  * Amruta
+  * Jordan
+  * Dennis
+* 05/07: 8:00-9:30am
+  * Katelyn
+  * Devin
+  * Christian
+  * Zachary
+<!---  --->
