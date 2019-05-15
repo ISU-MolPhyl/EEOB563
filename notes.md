@@ -3,7 +3,7 @@ layout: page
 title: EEOB 563 - Lecture Notes
 sidebar: Notes
 navigation: 6
-icon: <i class='fas fa-book-open'></i> 
+icon: <i class='fa fa-book-open'></i> 
 ---
 
 # Textbook and lecture notes
