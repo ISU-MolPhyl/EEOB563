@@ -2,7 +2,7 @@
 layout: page
 title: EEOB 563 - Schedule
 sidebar: Schedule
-navigation: 2
+navigation: 6
 icon: <i class='fa fa-calendar'></i> 
 ---
 

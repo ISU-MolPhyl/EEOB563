@@ -2,7 +2,7 @@
 layout: page
 title: EEOB 563 - Software
 sidebar: Software
-navigation: 3
+navigation: 7
 icon: <i class='fa fa-laptop'></i> 
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: EEOB 563 - Lecture Notes
 sidebar: Notes
-navigation: 6
+navigation: 5
 icon: <i class='fa fa-clipboard'></i> 
 ---
 
