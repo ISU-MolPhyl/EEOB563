@@ -39,4 +39,3 @@ Now if you make changes, you will be able to preview them before pushing the sou
 
 Most of the files in the site directory determine the style and layout of the pages. This Jekyll theme only supports page, which are all composed in Markdown and should be located in the top directory. 
 
-Additionally, there is a directory called `slides`, which is where we can post the lecture slides. We can simply link to these slides using their relative paths: `[today's lecture slides](slides/today_lecture.html)`.

@@ -2,7 +2,7 @@
 layout: page
 title: EEOB 563 - Links
 sidebar: Links
-navigation: 6
+navigation: 7
 icon: <i class='fa fa-link'></i> 
 ---
 
