@@ -21,7 +21,9 @@ To view the planned schedule of course activities, view the class calendar using
     * [Assignment 1](./assignments.md) is due.
     * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  [Science 310: 979-980](http://science.sciencemag.org/content/310/5750/979.full.pdf).  
+
 <!--
+
 ### Week 2
 * Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/02_Homology_and_alignments.pdf)]
     * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
