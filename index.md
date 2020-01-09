@@ -48,6 +48,6 @@ Check the [course schedule](https://isu-molphyl.github.io/EEOB563/schedule.html)
 
 ### Syllabus
 
-A copy of the course syllabus can be found at the following link: [Spring 2020 Syllabus](https://sites.google.com/site/eeob563/syllabus). A pdf is also available in this GitHub repository.
+A copy of the course syllabus can be found in the course GitHub repository: [Spring 2020 Syllabus](a href="https://github.com/ISU-MolPhyl/EEOB563-Spring2020/docs/syllabus.md).
 
-<a href="https://sites.google.com/site/eeob563/syllabus"><button type="button" class="btn btn-primary">Course Syllabus</button></a>
+<a href="https://github.com/ISU-MolPhyl/EEOB563-Spring2020/docs/syllabus.md"><button type="button" class="btn btn-primary">Course Syllabus</button></a>
