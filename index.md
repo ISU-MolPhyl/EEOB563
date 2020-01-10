@@ -24,7 +24,7 @@ Tuesday and Thursday, 9:00-10:50 PM in 203 Bessey Hall
 <table>
   <tbody>
     <tr>
-      <td><a href="https://sites.google.com/site/dennislavrov/"><b>Dennis Lavrov</b></a><br /><a href="mailto:dlavrov@iastate.edu"><i class="fa fa-envelope"></i></a> <a href="https://github.com/dlavrov"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/lavrov_dv"><i class="fa fa-twitter"></i></a><br><a href="https://sites.google.com/site/dennislavrov/"><img src="https://pbs.twimg.com/profile_images/768926478624927744/AllbTyWK_400x400.jpg" height="100" width="100"/></a></td>
+      <td><a href="https://lavrovlab.github.io/"><b>Dennis Lavrov</b></a><br /><a href="mailto:dlavrov@iastate.edu"><i class="fa fa-envelope"></i></a> <a href="https://github.com/dlavrov"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/lavrov_dv"><i class="fa fa-twitter"></i></a><br><a href="https://lavrovlab.github.io/"><img src="https://avatars2.githubusercontent.com/u/6353241" height="100" width="100"/></a></td>
     </tr>
   </tbody>
 </table>
