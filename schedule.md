@@ -22,15 +22,14 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  [Science 310: 979-980](http://science.sciencemag.org/content/310/5750/979.full.pdf).  
 
-<!--
-
 ### Week 2
-* Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/02_Homology_and_alignments.pdf)]
+* Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/02_Homology_and_alignments.pdf)]
     * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. [TIG 16: 227](https://doi.org/10.1016/S0168-9525(00)02005-9).
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1): Introduction to Unix/GitHub/SSH
     * Complete all [prerequisites](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1) before coming to the class! 
     * Post any question you may have on Slack.
+<!--
     * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment2.pdf) (**due 01/31**)
 
 ### Week 3  
