@@ -33,7 +33,7 @@ If you get a message that the file already exist, don't overwrite it.
 Type `cat ~/.ssh/id_rsa.pub` and copy your public ssh key. 
 Go to your [GitHub account](www.github.com) and click on your picture in the upper right corner. Select "Settings".
 Choose "SSH and GPG keys" under "Personal settings". If you don't have it already, enter a new SSH key for hpc-class. 
-Paste your public ssh key there. Click on "Add your SSH ke.
+Paste your public ssh key there. Click on "Add your SSH key.
 
 ### Basic Git
 
@@ -74,19 +74,20 @@ Lab 1: [Unix, Git, SSH](https://data-skills.github.io/tutorials/UNIX.pdf)
 ### A useful trick
 
 It is rather tedious to type the whole `ssh <netID>@hpc-class.its.iastate.edu` command 
-and to enter the password every time you connect to HPC-class.  So here is a trick I use. 
-On my own laptop computer I created an .ssh directory by typing `ssh-keygen` in my home directory. 
-I used the following command to paste some settings into the config file (which may not yet exist) in .ssh directory:
+and to enter the password every time you connect to HPC-class.  So here is a trick for you! 
+On your own laptop computer create an .ssh directory by typing `ssh-keygen` in your home directory. 
+Use the following command to paste info into the config file (which may not yet exist) in .ssh directory:
 
 ```
 echo "host hpc-class
 HostName hpc-class.its.iastate.edu
-User dlavrov" >> .ssh/config
+User dlavrov" >> ~/.ssh/config
 ```
 Now enter the following command: `ssh-copy-id -i ~/.ssh/id_rsa.pub <your_username>@hpc-class.its.iastate.edu`.
 It will ask you for your hpc-class password.
 
-Next time you connect to HPC-class, just enter `ssh hpc-class`.  You won't need to enter your password!
+Next time you connect to HPC-class, just enter `ssh hpc-class`.  You won't need either to type anything else or to enter your password!
+Enjoy!
 
 
 
