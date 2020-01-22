@@ -18,9 +18,9 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [01. Phylogenetic trees](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/01_Phylogenetic_trees.pdf)
 
-<!--
-
 [02. Homology and alignment](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/02_Homology_and_alignments.pdf)
+
+<!--
 
 [03. Maximum Parsimony](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/03_Maximum_parsimony.pdf)
 
