@@ -29,49 +29,45 @@ To view the planned schedule of course activities, view the class calendar using
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1): Introduction to Unix/GitHub/SSH
     * Complete all [prerequisites](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1) before coming to the class! 
     * Post any question you may have on Slack.
-
-<!--
-    * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment2.pdf) (**due 01/31**)
+    * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment2.pdf) (**due 01/30**)
 
 ### Week 3  
-**Too cold for phylogenetics!**
-    * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment2.pdf) is due on 1/31.
-
-### Week 4  
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
-    * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/03_Maximum_parsimony.pdf)]
+    * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/03_Maximum_parsimony.pdf)]
 * Lecture 5: Searching tree space. Measures of character fit. Assessing clade support.  
-    * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/03_Maximum_parsimony.pdf)]
+    * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/03_Maximum_parsimony.pdf)]
     * Discussion (leaders _Shofi and Lauren_): Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700). 
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
+<!--
+### Week 4  
 ### Week 5   
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
     * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
-    * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment3.pdf) (**due 02/21**)
+    * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment3.pdf) (**due 02/21**)
 * Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion (leaders _Devin and Jordan_): Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
 ### Week 6  
-* Lecture 7: Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/04_Distance_methods.pdf)]
+* Lecture 7: Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
 * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
-    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment4.pdf) (**due 02/28**)
+    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment4.pdf) (**due 02/28**)
 
 ### Week 7
-* Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/05_Maximum_likelihood.pdf)]
+* Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
-* Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/05_Maximum_likelihood.pdf)]
+* Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/05_Maximum_likelihood.pdf)]
     * Discussion (leaders _Amruta and Dennis_): Kauffman et al. (2018). A major lineage of non-tailed dsDNA viruses as unrecognized killers of marine bacteria. [Nature 554: 118-122](https://www.nature.com/articles/nature25474).
     See also [News & Views](https://www.nature.com/articles/nature16876)
 
 ### Week 8 
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
-    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment5.pdf) (**due 03/12**)
-* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/07_Bayesian_phylogenetics.pdf)]
+    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment5.pdf) (**due 03/12**)
+* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/07_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 -->
 <!-- ### Week 9
@@ -100,7 +96,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub/GitLab repository for the final project and send me the link.
 
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
-	* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2019/assignments/hiv.nxs)  
+	* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/hiv.nxs)  
 
 
 Lecture 13 (ha!): Gene trees and species trees.
@@ -109,7 +105,7 @@ Lecture 13 (ha!): Gene trees and species trees.
 -->
 <!--
 ### Week 12 
-* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/08_Molecular_evolution.pdf)].
+* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
     * Discussion (leaders _Jade and Zachary_):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
 
