@@ -36,20 +36,20 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/03_Maximum_parsimony.pdf)]
 * Lecture 5: Searching tree space. Measures of character fit. Assessing clade support.  
     * Reading: Allman and Rhodes (2016).  Chapter 9: Tree Space. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/03_Maximum_parsimony.pdf)]
-    * Discussion (leaders _Shofi and Lauren_): Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700). 
+    * Discussion (leader _Phillip_): Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700). 
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
-<!--
 ### Week 4  
-### Week 5   
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
     * You may want to install ClustalW, Mafft, PAUP*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
-    * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment3.pdf) (**due 02/21**)
-* Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_Distance_methods.pdf)]
+    * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment3.pdf) (**due 02/11**)
+* Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
-    * Discussion (leaders _Devin and Jordan_): Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
+    * Discussion (leader _Jennifer_): Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
+<!--
+### Week 5   
 ### Week 6  
 * Lecture 7: Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
