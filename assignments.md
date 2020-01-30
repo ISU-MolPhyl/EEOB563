@@ -17,9 +17,10 @@ Due 1/16.  (Note: there are answers online – do not read them! We will discuss
 [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment2.pdf)  
 Due 1/30.
 
-<!--
 [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment3.pdf)
+Due 2/11
 
+<!--
 [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment4.pdf)
 
 [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment5.pdf)
