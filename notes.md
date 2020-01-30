@@ -20,10 +20,9 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [02. Homology and alignment](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/02_Homology_and_alignments.pdf)
 
-<!--
-
 [03. Maximum Parsimony](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/03_Maximum_parsimony.pdf)
 
+<!--
 [04. Distance Methods](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/04_Distance_methods.pdf)
 
 [05. Maximum Likelihood](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/05_Maximum_likelihood.pdf)
