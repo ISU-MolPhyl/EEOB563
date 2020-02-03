@@ -62,7 +62,7 @@ We can also exclude some positions from the alignment, if needed:
 **paup>** `exclude 1-10 373-382`
 5. Now we may be able to run the exhaustive search, but let's try to run branch and bound search instead.  
 _How long did it take to run this search?_ 
-6. Now let's return deleted taxa and excluded characters to the dataset:
+6. Now let's return deleted taxa and excluded characters to the dataset:  
 **paup>** `undelete all; include all`
 7. We will run a heuristic search instead. Check the options:  
 **paup>** `hsearch ?`  
