@@ -1,0 +1,222 @@
+[########################################################################################
+#                                                                                       #
+#                                    PAUP BLOCKS                                        #
+#                                                                                       #
+#                            Compiled by Dennis Lavrov                                  #
+#                                    07/19/2006                                         #
+#                                                                                       #
+#########################################################################################
+]
+[############################## PARSIMONY PAUP Block: ####################################]
+
+Begin PAUP;
+	LOG file=log.txt START;
+
+	set autoclose=yes warnreset=no increase=auto; [This turns off all user-prompts.]
+	set criterion = parsimony; [This specifies the parsimony method]
+
+	
+	outgroup 14-15; [ define outgroup taxa for the tree ]
+
+[========================== Simple Heuristic search =============================]	
+
+	HSearch addseq=simple swap=none; [Run a heuristic search with simple sequence addition and no branch swapping]
+
+	HSearch addseq=simple swap=NNI retain=yes ; [Run a heuristic search with simple sequence addition and nearest-neighbor interchange (NNI) branch swapping; retain previous trees in memory]
+
+	HSearch addseq=simple swap=SPR retain=yes; [Run a heuristic search with simple sequence addition and subtree pruning-regrafting (SPR) branch swapping; retain previous trees in memory]
+
+	HSearch addseq=simple swap=TBR retain=yes; [Run a the heuristic search with simple sequence addition and tree bisection-reconnection (TBR) branch swapping; retain previous trees in memory]
+
+	SaveTrees BrLens=yes File=parsimony.tre replace=yes;  [Save trees to the file parsimony.tre; replace if exists]
+	
+	describetrees all /plot=phylogram; []
+
+[========================== Random addition heuristic search =============================]
+
+	HSearch addseq=random swap=TBR nrep=100; [Run a heuristic search with random addition of sequences, 100 replicates and TBR branch swapping]
+
+	SaveTrees BrLens=yes File=parsimony.tre replace=yes;  [Add trees to the file parsimony.tre]
+
+	describetrees all /plot=phylogram; []
+
+	contree / Strict=yes Adams=yes MajRule=yes ShowTree=yes TreeFile=parsimony_consensus.tre replace=yes;
+
+[========================== Delete some taxa and characters =============================]
+
+	TaxSet Extra = 1-4; [Define a set of taxa]
+
+	Delete Extra; [ Remove a predefined set of taxa]
+
+	CharSet 3rd = 3-.\3; [Define a set of characters.  Here we define every third character starting from position #3]
+
+	Exclude 3rd;
+
+[========================== Run Exhaustive, BandB, and Heuristic searches =============================]
+
+	AllTrees fd=histogram; [Run an exhaustive search]
+
+	describetrees all /plot=phylogram;
+
+	bandb; [Run a branch-and-bound search]
+	
+	describetrees all /plot=phylogram;
+
+	hsearch addseq=random swap=TBR nrep=100;
+
+	describetrees all /plot=phylogram;
+
+	LOG STOP;
+
+End;
+
+[############################## DISTANCES PAUP BLOCK ####################################]
+
+Begin PAUP;
+
+	set autoclose=yes warnreset=no increase=auto; [This turns off all user-prompts.]
+	outgroup 14-15; [ define outgroup taxa for the tree ]
+
+[========================== Distance as an optimality criterion =============================]
+
+	set criterion = distance; [This specifies a distance method]
+	HSearch nreps=100; [By default this will run a Minimum Evolution analysis]
+	describe /plot=phylogram;
+
+	constraints wolfandhorse = ((Wolf, Horse)); [## We want to see what is the ME score when wolf and horse cluster together]
+	
+	HSearch enforce constraints=wolfandhorse;
+	describe /plot=phylogram;
+	
+[========================== Least-Squares Method =============================]
+
+	dset objective=ls power=2 negbrlen=prohibit;
+	HSearch nreps=100; [This will now run a Fitch-Margoliash variant of least-squares]
+	describe /plot=phylogram;
+
+[========================== Neighbor-Joining Clustering =============================]
+
+	dset distance = jc; [Set the distances to Jukes-Cantor distances]
+	NJ BreakTies=Random; [This estimates the tree by the Neighbor-Joining method with ties broken randomly]
+	SaveTrees BrLens=yes  MaxDecimals=4 File=distance.tre replace = yes;  [This saves the trees, including branch lengths to four decimal places, the file named smallData.NJ.tre]
+	basefreq;
+	dset distance=logdet;
+	NJ BreakTies=Random treefile=distance.tre append=yes brlens=yes; [This estimates the tree by the Neighbor-Joining method with ties broken randomly]	
+
+End;
+
+[############################## IMPORTING PAIRWISE DISTANCES INTO PAUP ####################################]
+
+Begin distances;
+Dimensions ntax=4;
+format nodiagonal;
+matrix
+t1
+t2 4
+t3 3 4
+t4 2 3 4 ;
+end;
+[! nj with user defined distances]
+Begin paup;
+dset distance=user;
+nj;
+end;
+
+[############################## ML CODING PAUP BLOCK ####################################]
+
+begin paup;
+	set autoclose=yes warnreset=no increase=auto;
+	outgroup 14-15; [ define outgroup taxa for the tree ]
+
+[========================== Partition the data by codon position =============================]
+
+	charset first = 1-.\3; 
+	charset second = 2-.\3;
+	charset third = 3-.\3;
+	charpartition by_codon = 1:first,2:second,3:third;
+
+[========================== Get a NJ tree =============================]
+		
+	dset distance=logdet; 
+	nj;
+
+[========================== Use this tree to estimate different parameters =============================]	
+
+	set criterion=likelihood;
+	lset nst=6 rmatrix=estimate basefreq=estimate rates=sitespec siterates=partition:by_codon;
+	lscores;
+
+[#### At this point we have to play with the model.  What will happen if we pool some substitutions into a single class? ###]
+	lscores /rclass=(a b c d e b);
+
+[#### OR if we use gamma model instead of partitioning ... ###]
+	lset rmatrix=estimate basefreq=estimate rates = gamma shape=estimate pinvar=estimate;
+	lscores;
+	
+[#### The last model gave us the best log-likelihood score, so we'll proceed with it ###]
+	
+	lset rmatrix=prev basefreq=prev shape = prev pinv=previous;
+  	hsearch start=1;
+
+[#### Now we will use the ML tree to optimize all the parameters again ###]
+
+	lset rmatrix=estimate basefreq=estimate shape=estimate pinvar=estimate;
+	lscores;
+
+	lset rmatrix=prev basefreq=prev rates = gamma shape = prev pinv=previous;
+  	hsearch start=1;
+
+[#### Did we get a different tree?  If yes, repeat the optimization/ML steps ###]
+
+	describetrees /plot=phylogram;
+	lset zerolentest=full; describetrees;
+	savetrees brlens=yes maxDecimals=4 file=likelihood.tre replace=yes;
+
+end;
+
+[############################## ML NON-CODING PAUP BLOCK ####################################]
+
+begin paup;
+	set autoclose=yes warnreset=no increase=auto;
+	
+	set criterion=parsimony; 
+	hsearch;
+
+	set criterion=likelihood;
+
+	lset nst=6 rmatrix=estimate basefreq=estimate rates=gamma shape = estimate;
+	lscores 1;
+	lset rmatrix=prev basefreq=prev rates = prev   shape = prev;
+  	hsearch start=1;
+ 	savetrees brlens=yes maxDecimals=4 file=output.ml.trees replace=yes;
+	
+
+end;
+
+[############################### ALL IN ONE (FROM PAUP WEBSITE) ####################################]
+
+begin paup;
+log file=log.txt start;
+
+set criterion=parsimony;
+hsearch nreps=10 addseq=random swap=tbr;
+savetrees file=mp.tre brlens;
+
+set criterion=distance;
+dset distance=logdet objective=me;
+hsearch nreps=10 addseq=random swap=tbr;
+savetrees file=me.tre brlens;
+
+set criterion=likelihood;
+lset nst=2 basefreq=empirical rates=gamma ncat=4;
+lset tratio=estimate shape=estimate;
+lscore 1;
+lset tratio=previous shape=previous;
+hsearch nreps=1 swap=tbr start=1;
+savetrees file=ml.tre brlens;
+
+log stop;
+end;
+
+[############################## CHECK http://paup.csit.fsu.edu/paupfaq/faq.html FOR MORE INFO ####################################]
+

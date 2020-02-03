@@ -1,13 +1,23 @@
 # PAUP* Tutorial
 <img src="./1320160.gif" align="right" hspace="10">
-__PAUP\*__ (pronounced "pop star") is a phylogenetic program first developed in 1993 by David L. Swofford, currently at Duke University. The name PAUP used to mean "Phylogenetic Analysis Using Parsimony" because parsimony was the only optimality criterion employed at the time. The asterisk in the name PAUP* means and other methods, which were added later. The new name is "Phyogenetic Analysis Using PAUP". PAUP* 4.0 is able to perform distance, parsimony and likelihood analyses using DNA and amino-acid data. Among many strengths of the program are a rich array of options for dealing with phylogenetic trees including importing, combining, comparing, constraining, rooting and testing hypotheses. The program has been updated recently and is expected to be released as an open-source command-line version (but don't hold your breath!). We will be using PAUP for this lab because of its transparency in dealing with the parsimony analysis. MEGA 7 is an alternative (and free for academic use) program that can perform maximum parsimony and several other analyses.
+__PAUP\*__ (pronounced "pop star") is a phylogenetic program first developed in 1993 by David L. Swofford, 
+currently at Duke University. The name PAUP used to mean "Phylogenetic Analysis Using Parsimony" because 
+parsimony was the only optimality criterion employed at the time. The asterisk in the name PAUP* 
+means and other methods, which were added later. The new name is "Phyogenetic Analysis Using PAUP". 
+PAUP* 4.0 is able to perform distance, parsimony and likelihood analyses using DNA and amino-acid data. 
+Among many strengths of the program are a rich array of options for dealing with phylogenetic trees 
+including importing, combining, comparing, constraining, rooting and testing hypotheses. The program 
+has been updated recently and is expected to be released as an open-source command-line version 
+(but don't hold your breath!). We will be using PAUP for this lab because of its transparency in dealing 
+with the parsimony analysis. [MEGA](https://www.megasoftware.net/) is an alternative program with GUI 
+that can perform maximum parsimony and several other analyses.
 
 ### First things first
 
 PAUP should be accessible to you on the HPC-class.  You can also install it on your computer from the following [site](http://phylosolutions.com/paup-test/).
 
 ### Getting the sequences
-1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in EEOB563-Spring2019 repository (EEOB563-Spring2018/computer_labs/lab2).
+1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in EEOB563-Spring2020 repository (EEOB563-Spring2020/computer_labs/lab2).
 
 ### Starting PAUP
 1. Start PAUP* by typing:  
@@ -30,7 +40,8 @@ After you executed the file, you should get a note that "Processing of input fil
 For additional information see [PAUP 3.1 manual](http://paup.scs.fsu.edu/Paup_Doc_31.pdf) (obsolete, but has an excellent background section on parsimony analysis) and the [command reference document](http://paup.csit.fsu.edu/Cmd_ref_v2.pdf). 
 
 ### Running maximum parsimony searches in PAUP
-1. Before we run the analysis in PAUP, it is a good practice to start a log file. This log file will store all of the output that PAUP* presents in the Terminal window and will be helpful to keep a record of your analysis for future reference:  
+1. Before we run the analysis in PAUP, it is a good practice to start a log file. 
+This log file will store all of the output that PAUP* presents in the Terminal window and will be helpful to keep a record of your analysis for future reference:  
 **paup>** `log file=paup_mpsearch.log`
 2. As we discussed in class, there are several strategies we can use to search for the most parsimonious tree. 
 Let's start by trying to do an exhaustive search:  
@@ -39,22 +50,26 @@ _Were you able to run this search?_
 3. Let's try to use branch and bound search instead:  
 **paup>** `BandB`  
 _Were you able to run this search?_
-4. Let's remove some sequences. But first you need to cancel your ongoing search by pressing "control+c" (the same combination is used to cancel most of the unix commands).
-Now, let's look at the taxa in our dataset  
+4. Let's remove some sequences. But first you need to cancel your ongoing search by pressing "control+c" 
+(the same combination is used to cancel most of the unix commands). Now, let's look at the taxa in our dataset  
 **paup>** `tstatus full`
 We can also check the status of all characters:  
 **paup>** `cstatus full`  
 Let's delete non-placental mammals:  
 **paup>** `delete 1-5`  
 Also delete cat, dog, and pig.  _How many taxa are left?_
+We can also exclude some positions from the alignment, if needed:
+**paup>** `exclude 1-10 373-382`
 5. Now we may be able to run the exhaustive search, but let's try to run branch and bound search instead.  
 _How long did it take to run this search?_ 
-6. Now let's return deleted taxa in the dataset:
-**paup>** `undelete all`
+6. Now let's return deleted taxa and excluded characters to the dataset:
+**paup>** `undelete all; include all`
 7. We will run a heuristic search instead. Check the options:  
 **paup>** `hsearch ?`  
-Recall, we do heuristic search by making an initial tree, rearrange its branches, and repeat this process multiple times.  Can you find options for these steps?
-A reasonable strategy for running a heuristic search would be to use use a random stepwise addition sequence with TBR branch swapping and 100 replicates:  
+Recall, we do heuristic search by making an initial tree, rearrange its branches, 
+and repeat this process multiple times.  Can you find options for these steps?
+A reasonable strategy for running a heuristic search would be to use use a random 
+stepwise addition sequence with TBR branch swapping and 100 replicates:  
 **paup>** `hsearch start=stepwise addseq=random nreps=100 swap=TBR`  
 _What was the best score found by this search?  How many trees had this score? Do we get the same two trees if we increase the number of replicates to 1000?_  
 8. There are several commands to look at the best trees:  
@@ -120,12 +135,12 @@ Open the cob_aa.nxs file in a text editor. Add two additional blocks under the d
 
 The top block defines two character sets, one includes 12 characters and the other includes 4 characters, and a taxon set termed "outgroups" that includes two taxa. 
 
-The PAUP block uses `exclude` command to explute two character sets and `outgroup` command to treat two taxa as outgroups (but remember, that changing outgroups only changes the way the tree is displayed and does not change the parsimony score!) In addition, a heuristic search is specified. 
+The PAUP block uses `exclude` command to exclude two character sets and `outgroup` command to treat two taxa as outgroups (but remember, that changing outgroups only changes the way the tree is displayed and does not change the parsimony score!) In addition, a heuristic search is specified. 
 
 Now execute this file in PAUP using the `execute` command:  
 **paup>** `exe cob_aa.nxs`  
 You can also specify the file at the same time as you invoke paup:  
 `paup cob_aa.nxs`
 
-I attached some additional examples of PAUP* blocks for your reference.
+I included some additional examples of PAUP* blocks in the file PAUP_blocks.txt in GitHub..
 An excellent tutorial on PAUP that goes beyond parsimony can be found [here](http://evomics.org/learning/phylogenetics/paup/).
