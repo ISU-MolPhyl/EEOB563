@@ -3,7 +3,7 @@
 __PAUP\*__ (pronounced "pop star") is a phylogenetic program first developed in 1993 by David L. Swofford, 
 currently at Duke University. The name PAUP used to mean "Phylogenetic Analysis Using Parsimony" because 
 parsimony was the only optimality criterion employed at the time. The asterisk in the name PAUP* 
-means and other methods, which were added later. The new name is "Phyogenetic Analysis Using PAUP". 
+means "and other methods", which were added later. The new name is "Phyogenetic Analysis Using PAUP". 
 PAUP* 4.0 is able to perform distance, parsimony and likelihood analyses using DNA and amino-acid data. 
 Among many strengths of the program are a rich array of options for dealing with phylogenetic trees 
 including importing, combining, comparing, constraining, rooting and testing hypotheses. The program 
@@ -37,7 +37,7 @@ Did it work?  If not, try to see what went wrong by using the edit command (whic
 After you executed the file, you should get a note that "Processing of input file "cob\_aa.nxs" completed.  
 
 **Congratulations!**
-For additional information see [PAUP 3.1 manual](http://paup.scs.fsu.edu/Paup_Doc_31.pdf) (obsolete, but has an excellent background section on parsimony analysis) and the [command reference document](http://paup.csit.fsu.edu/Cmd_ref_v2.pdf). 
+For additional information see [“Quick Start” tutorial](http://paup.phylosolutions.com/tutorials/quick-start/) and the [command reference document](http://www.phylo.org/sub_sections/PAUP_Cmd_ref_v2.pdf). 
 
 ### Running maximum parsimony searches in PAUP
 1. Before we run the analysis in PAUP, it is a good practice to start a log file. 
@@ -77,7 +77,7 @@ _What was the best score found by this search?  How many trees had this score? D
 **paup>** `describe`  
 We can define an outgroup before displaying the trees:  
 **paup>** `outgroup 1-2`  
-We can also incorporate branch length information by describing the optimal tree as a phylogram (a tree with parsimony branch lengths). 
+We can also incorporate branch length information by describing the optimal tree as a phylogram (a tree with parsimony branch lengths).  
 **paup>** `describe /plot=phylo`  
 Note the forward slash (/); this is important for many commands. Values before the slash indicate which trees you wish to include, options that apply to the primary command (describe) are placed after the slash;  
 9. We can also make a consensus tree to see how the trees differ from each other:
