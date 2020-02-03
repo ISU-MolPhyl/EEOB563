@@ -18,9 +18,9 @@ The PATH environment variable is a colon-delimited list of directories that your
 3. Type `paup` to make sure that you can run the program
 4. Type `q` to quit PAUP.
 
-### Updating the EEOB563-Spring2019 repository
+### Updating the EEOB563-Spring2020 repository
 
-We also need to update the EEOB563-Spring2019 repository (`mv EEOB563-Spring2019; git pull`) and go to the `computer_labs/lab2` directory.
+We also need to update the EEOB563-Spring2019 repository (`mv EEOB563-Spring2020; git pull`) and go to the `computer_labs/lab2` directory.
 
 ## Mafft
 
@@ -32,7 +32,8 @@ MAFFT is already installed on HPC class as one of the modules. You can load it w
 ### mafft --auto
 
 The simplest way to run mafft is by using the `--auto` option:  
-`mafft --auto <filename.fa> > <alignment.fa>`, where \<filename.fa\> is the name of a file of molecular sequences in FASTA format and <alignment.fa> is the name of the output file.
+`mafft --auto <filename.fa> > <alignment.fa>`, where `filename.fa` is the name of a file of molecular 
+sequences in FASTA format and `alignment.fa` is the name of the output file.
 
 ### Additional useful options
 #### Input
@@ -53,11 +54,14 @@ Two options generate reverse complement sequences, as necessary, and align them 
 `mafft --adjustdirectionaccurately input > output` is based on DP and slower.
 
 ## DATA
-1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in EEOB563-Spring2019 repository (EEOB563-Spring2019/computer_labs/lab2). If you still have problems with GitHub, you can download sequences directly into your directory using the following unix command:
-`wget https://sites.google.com/site/eeob563/computer-labs/lab-2/cob_aa.fasta` 
+1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in EEOB563-Spring2020 
+repository (EEOB563-Spring2020/computer_labs/lab2). If you still have problems with the GitHub, you can 
+download sequences directly into your directory using the following unix command:
+`wget https://raw.githubusercontent.com/ISU-MolPhyl/EEOB563-Spring2020/master/computer_labs/lab2/cob_aa.fasta` 
 2. Align these sequences using mafft and save them in fasta format.
 3. To use this alignment in PAUP, we'll need to convert it into the Nexus format.
-4. Read brief Wikipedia descriptions of [FASTA](https://en.wikipedia.org/wiki/FASTA_format) and [Nexus](https://en.wikipedia.org/wiki/Nexus_file) file formats.
+4. Read brief Wikipedia descriptions of [FASTA](https://en.wikipedia.org/wiki/FASTA_format) 
+and [Nexus](https://en.wikipedia.org/wiki/Nexus_file) file formats.
 
 ## PAUP
 
