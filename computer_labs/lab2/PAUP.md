@@ -58,7 +58,7 @@ We can also check the status of all characters:
 Let's delete non-placental mammals:  
 **paup>** `delete 1-5`  
 Also delete cat, dog, and pig.  _How many taxa are left?_
-We can also exclude some positions from the alignment, if needed:
+We can also exclude some positions from the alignment, if needed:  
 **paup>** `exclude 1-10 373-382`
 5. Now we may be able to run the exhaustive search, but let's try to run branch and bound search instead.  
 _How long did it take to run this search?_ 
