@@ -48,15 +48,15 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion (leader _Jennifer_): Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
-<!--
-### Week 5   
-### Week 6  
-* Lecture 7: Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/04_Distance_methods.pdf)]
+### Week 5 (Feb 11, 13)  
+* Lecture 7: NJ algorithm; Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
-* Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
-    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment4.pdf) (**due 02/28**)
 
+<!-- * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment4.pdf) (**due 02/28**)
+     * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
+
+### Week 6  
 ### Week 7
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
