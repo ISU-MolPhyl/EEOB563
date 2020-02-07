@@ -69,7 +69,7 @@ Lab 1: [Unix, Git, SSH](https://data-skills.github.io/tutorials/UNIX.pdf)
 ### Additional tutorials
 
 [Git/GitHub](https://data-skills.github.io/tutorials/git.pdf)  
-[VI](https://data-skills.github.io/tutorials/UNIX.md/vi_tutorial.pdf)  
+[VI](https://data-skills.github.io/tutorials/vi_tutorial.pdf)  
 
 ### A useful trick
 
