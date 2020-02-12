@@ -52,18 +52,21 @@ To view the planned schedule of course activities, view the class calendar using
 * Lecture 7: NJ algorithm; Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
+    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment4.pdf) (**due 02/28**)
 
-<!-- * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment4.pdf) (**due 02/28**)
-     * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
+<!--
+* Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
+-->
 
-### Week 6  
-### Week 7
+### Week 6 (Feb 18, 20) 
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/05_Maximum_likelihood.pdf)]
-    * Discussion (leaders _Amruta and Dennis_): Kauffman et al. (2018). A major lineage of non-tailed dsDNA viruses as unrecognized killers of marine bacteria. [Nature 554: 118-122](https://www.nature.com/articles/nature25474).
-    See also [News & Views](https://www.nature.com/articles/nature16876)
+    * Discussion (leader _Alexandra_): Zhang, L., Chen, F., Zhang, X. et al. (2020). The water lily genome and the early evolution of flowering plants. [Nature 577, 79–84](https://doi.org/10.1038/s41586-019-1852-5).
+    See also [Research Highlight](https://www.nature.com/articles/s41477-019-0587-5)
 
+<!--
+### Week 7
 ### Week 8 
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
     * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment5.pdf) (**due 03/12**)

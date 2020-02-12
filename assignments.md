@@ -20,8 +20,10 @@ Due 1/30.
 [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment3.pdf)
 Due 2/11
 
-<!--
 [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment4.pdf)
+Due 2/20
+
+<!--
 
 [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment5.pdf)
 
