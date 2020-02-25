@@ -45,7 +45,7 @@ Examples of possible models are `GTR+G` for nucleotide data, `JTT+G` for aa data
 
 ## Output
 #### `--prefix <NAME>` option (optional) addes prefix to output files. 
-RAxML-NG will generate several output files. Use the `--priefix <NAME> ` option to avoid over-writing them. 
+RAxML-NG will generate several output files. Use the `--prefix <NAME> ` option to avoid over-writing them. 
 
 ## Checking/optimizing your data
 
@@ -116,7 +116,7 @@ Bootstrap convergence can also be checked post-hoc using the `--bsconverge` comm
 raxml-ng --bsconverge --bs-trees <BOOTSTRAPS> --prefix T9 --seed 2 --threads 2 --bs-cutoff 0.01
 ```
 
-#### `-support` maps bootstrap values on the ML tree 
+#### `--support` maps bootstrap values on the ML tree 
 
 We can map bootstrap values onto the best-scoring/best-known ML tree. 
 We will use the ML tree obtained in the run `T3`: 
@@ -177,8 +177,8 @@ A more sophisticated paritioning may involve different substitution matrices and
 
 ```
 GTR+G+FO, COB=1-1248
-GTR+G+FO, COX=1249-4482/3,1250-4482/3
-HKY, COXp3=1250-4482/3
+GTR+G+FO, COXp1_2=1249-4482/3,1250-4482/3
+HKY, COXp3=1251-4482/3
 ```
 ### Beware of branch lengths
 #### `-brlen` option sets the branch linkage model
@@ -195,7 +195,7 @@ In partitioned analyses, there are three common ways to estimate branch lengths 
 If the constraint tree is _comprehensive_ (i.e., it includes all taxa found in the MSA), then RAxML will simply resolve polytomies in the way that maximizes the likelihood. Conversely, if some taxa are missing from the constraint, they will be placed freely in the resulting ML tree.
 
 ## Outgroup rooting
-#### `--outgroup  o1,o2,..,oN` option specifies outgroups whe drawing a tree
+#### `--outgroup  o1,o2,..,oN` option specifies outgroups when drawing a tree
 
 The outgroup can be a single taxon (`--outgroup Human`) or a list of taxa which form a monophyletic group (`--outgroup Human,Chimp,Gorilla`).
 
