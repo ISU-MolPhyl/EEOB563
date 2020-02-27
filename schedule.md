@@ -71,15 +71,18 @@ To view the planned schedule of course activities, view the class calendar using
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
+### Week 8 (Mar 3, 5)
+* Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/06_Bayesian_phylogenetics.pdf)]
+
 <!--
-### Week 8 
-* Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/02_22-27_18.pdf)]
-    * Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
+* Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
     See also [News & Views](https://www.nature.com/articles/nature21113).
+-->
 * Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
     * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
     advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
 
+<!--
 
 ### Week 9   
 * Bayesian methods in phylogenetics. Midterm exam review. (Computer Lab 5 is postponed till after the Spring Break!) 
