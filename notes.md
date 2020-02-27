@@ -26,10 +26,10 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [05. Maximum Likelihood](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/05_Maximum_likelihood.pdf)
 
-<!--
-
 [06. Bayesian Analysis](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/06_Bayesian_phylogenetics.pdf)
 
+
+<!--
 [07. Molecualar Evolution](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/07_Molecular_evolution.pdf)
 
 [08. Molecular Clocks](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_clocks.pdf)

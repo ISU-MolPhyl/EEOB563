@@ -68,7 +68,7 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 7 (Feb 25, 27)
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
     * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment5.pdf) (**due 03/05**)
-* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/07_Bayesian_phylogenetics.pdf)]
+* Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
 <!--
