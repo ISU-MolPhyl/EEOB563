@@ -73,6 +73,7 @@ To view the planned schedule of course activities, view the class calendar using
 
 ### Week 8 (Mar 3, 5)
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/06_Bayesian_phylogenetics.pdf)]
+    * Discussion (leader _Leila_): Williams et al., 2020. Phylogenomics provides robust support for a two-domains tree of life. [Nature Ecology and Evoluiton, 4:138–147](https://isu-molphyl.github.io/EEOB563-Spring2020/discussion_articles/williams2020_42635.pdf)
 
 <!--
 * Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
