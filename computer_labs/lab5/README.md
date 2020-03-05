@@ -22,7 +22,7 @@ mpirun -np 4 mb
 
 You can also install it on your computer from the [GitHub](https://github.com/NBISweden/MrBayes). 
 In addition, we will use [Tracer](https://github.com/beast-dev/tracer/releases/tag/v1.7.1) and 
-[FigTree](http://tree.bio.ed.ac.uk/software/figtree/), both of which have executables for Windows as well as Macs.
+[FigTree](https://github.com/rambaut/figtree/releases), both of which have executables for Windows as well as Macs.
 
 #### Data
 The data for this exercise is in the directory data on GitHub repository.
