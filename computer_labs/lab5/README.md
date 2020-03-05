@@ -20,7 +20,8 @@ salloc -N 1 -n 8 -t 2:00:00;
 mpirun -np 4 mb
 ```
 
-You can also install it on your computer from the [GitHub](https://github.com/NBISweden/MrBayes). In addition, we will use [Tracer](http://tree.bio.ed.ac.uk/software/tracer/) and 
+You can also install it on your computer from the [GitHub](https://github.com/NBISweden/MrBayes). 
+In addition, we will use [Tracer](https://github.com/beast-dev/tracer/releases/tag/v1.7.1) and 
 [FigTree](http://tree.bio.ed.ac.uk/software/figtree/), both of which have executables for Windows as well as Macs.
 
 #### Data
