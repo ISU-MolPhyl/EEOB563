@@ -24,7 +24,7 @@ Due 2/11
 Due 2/20
 
 [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment5.pdf)
-Due 3/3
+Due 3/5
 
 <!--
 [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment6.pdf)
