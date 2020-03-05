@@ -79,12 +79,10 @@ To view the planned schedule of course activities, view the class calendar using
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/26**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
 
 ### Week 9 (Mar 10, 12)
-* Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
-    * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
-    advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
+* Midterm review
+    * Reading: Yang and Rannala (2012). Molecular phylogenetics: principles and practice. [Nature Review Genetics, 13:303-314](https://www.nature.com/articles/nrg3186.pdf)
 
-* **03/12 Midterm Exam**
-    * Optional review reading: Yang and Rannala (2012). Molecular phylogenetics: principles and practice. [Nature Review Genetics, 13:303-314](https://www.nature.com/articles/nrg3186.pdf)
+**03/12 Midterm Exam**
 
 ### Week 10: Spring Break! 
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/24**)
@@ -94,6 +92,10 @@ To view the planned schedule of course activities, view the class calendar using
     See also [News & Views](https://www.nature.com/articles/nature21113).
 -->
 <!--
+
+* Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
+    * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
+    advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
 
 ### Week 11 
 * Midterm exam review and [final project](./final_project.md) discussion
