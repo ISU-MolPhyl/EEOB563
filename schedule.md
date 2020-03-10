@@ -75,8 +75,8 @@ To view the planned schedule of course activities, view the class calendar using
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Discussion (leader _Leila_): Williams et al., 2020. Phylogenomics provides robust support for a two-domains tree of life. [Nature Ecology and Evoluiton, 4:138–147](https://isu-molphyl.github.io/EEOB563-Spring2020/discussion_articles/williams2020_42635.pdf)
 
-* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2018/computer_labs/lab5): Bayesian analysis with MrBayes.
-     * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/assignment6.pdf) (**due 03/26**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2018/assignments/hiv.nxs)
+* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2020/computer_labs/lab5): Bayesian analysis with MrBayes.
+     * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment6.pdf) (**due 03/26**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/hiv.nxs)
 
 ### Week 9 (Mar 10, 12)
 * Midterm review
