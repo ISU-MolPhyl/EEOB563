@@ -18,7 +18,7 @@ Tracy Heath, Conor Meehan, and Brian Moore wrote an excellent MrBayes [tutorial]
 
 ## Getting Started
 ### Software
-Download the newest versions of MrBayes, Tracer, and FigTree, if you work on your own computer. 
+Download the newest versions of MrBayes, [Tracer](https://github.com/beast-dev/tracer/releases/tag/v1.7.1), and [FigTree[(https://github.com/rambaut/figtree/releases), if you work on your own computer. 
 
 ### Datasets
 

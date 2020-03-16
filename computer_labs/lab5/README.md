@@ -11,13 +11,18 @@ The goal of this lab is to introduce you to MrBayes, one of the two major softwa
 ### Getting Started.
 #### Software
 
-`MrBayes` is installed as a module (called mrbayes) on HPC-class. To use run:  
-`module load mrbayes;  
-salloc -N 1 -n 4 -t 2:00:00;  
-mpirun -np 4 mb`
+`MrBayes` is installed as an (older)  module (called mrbayes) on HPC-class. To use run:
+```
+module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core
+module use /opt/rit/modules
+module load mrbayes;  
+salloc -N 1 -n 8 -t 2:00:00;  
+mpirun -np 4 mb
+```
 
-You can also install it on your computer from the [GitHub](https://github.com/NBISweden/MrBayes). In addition, we will use [Tracer](http://tree.bio.ed.ac.uk/software/tracer/) and 
-[FigTree](http://tree.bio.ed.ac.uk/software/figtree/), both of which have executables for Windows as well as Macs.
+You can also install it on your computer from the [GitHub](https://github.com/NBISweden/MrBayes). 
+In addition, we will use [Tracer](https://github.com/beast-dev/tracer/releases/tag/v1.7.1) and 
+[FigTree](https://github.com/rambaut/figtree/releases), both of which have executables for Windows as well as Macs.
 
 #### Data
 The data for this exercise is in the directory data on GitHub repository.
