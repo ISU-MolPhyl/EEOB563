@@ -90,33 +90,25 @@ To view the planned schedule of course activities, view the class calendar using
 <!--
 * Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
     See also [News & Views](https://www.nature.com/articles/nature21113).
--->
-<!--
 
-* Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
-    * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
-    advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
+### Week 11 (Mar 24, 26) -- Coronavirus edition
+* Topic 12: Model selection and model averaging in Likelihood and Bayesian methods.
+    * READ: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
+    advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. 
+    [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
 
-### Week 11 
-* Midterm exam review and [final project](./final_project.md) discussion
-    * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub/GitLab repository for the final project and send me the link.
-
-* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
-	* [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/hiv.nxs)  
-
-
-Lecture 13 (ha!): Gene trees and species trees.
-    * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
-    * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
--->
-<!--
-### Week 12 
-* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_evolution.pdf)].
+* Topic 13: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
     * Discussion (leaders _Jade and Zachary_):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
 
+### Week 12 (Mar 31, Apr 2) -- Coronavirus edition
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
 
+* Topic 14: Gene trees and species trees.
+    * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
+    * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
+
+<!--
 ### Week 13
 * Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
     * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
@@ -162,4 +154,63 @@ Lecture 13 (ha!): Gene trees and species trees.
   * Devin
   * Christian
   * Zachary
+
+### Week 11 (Mar 24, 26) -- Coronavirus edition
+* Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
+    * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics:
+    advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793?808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
+    
+
+* Midterm exam review and [final project](./final_project.md) discussion
+    * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub/GitLab repository for the final project and send me the
+link. 
+
+* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
+  * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2020/assignments/hiv.nxs)
+
+
+Lecture 13 (ha!): Gene trees and species trees.
+    * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
+    * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/   
+content/114/45/12003.full).
+-->
+<!--
+### Week 12 
+* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_evolution.pdf)].
+    * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
+    * Discussion (leaders _Jade and Zachary_):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/         
+nature18959).
+
+* [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
+
+### Week 13
+* Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
+    * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355?367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
+<!--    * Discussion: Worobey et al. (2016). 1970s and ?Patient 0? {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
+
+* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
+
+### Week 14 
+* Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    * Reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
+    * Discussion: (leaders _Katelyn and Jermaine_) Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/      
+articles/nature17159).
+
+* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
+    * Reading (again): Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
+    * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your    
+reviews by 4/23.  
+
+### Week 15 (Current and Last!)
+* Lecture 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  [Nature Reviews Genetics.  6: 361-375](https://www.nature.com/articles/nrg1603).
+    * Discussion: Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/    
+science/article/pii/S0960982217301999).
+
+* Lecture 18: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407).
+
+    
+* **Revised final project due on 4/28 at 11:59pm (commit to GitHub and email me the link)**
+
 <!---  --->
