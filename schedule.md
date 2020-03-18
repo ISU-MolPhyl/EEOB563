@@ -96,7 +96,8 @@ To view the planned schedule of course activities, view the class calendar using
     * READ: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics: 
     advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. 
     [Systematic Biology, 53:793–808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
-
+    * Discussion: Abadi et al. 2019. Model selection may not be a mandatory step for
+    phylogeny reconstruction. [Nature Communications 10:934}(https://doi.org/10.1038/s41467-019-08822-w)
 * Topic 13: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
     * Discussion (leaders _Jade and Zachary_):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
