@@ -96,9 +96,9 @@ To view the planned schedule of course activities, view the class calendar using
     * Post at least one comment question in the reading-discussion channel on Slack and answer/comment on another post.
 * Topic 13: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_evolution.pdf)].
     * In lieu of the lecture, read: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
-    * For additional details and examples, read Yang 2019. Adaptive Molecular Evolution. In. Balding et al. (Eds). [Handbook of Statistical Genomics, 4ed.](https://doi.org/10.1002/9781119487845.ch13).  
+    * For additional details and examples, read (optional): Yang 2019. Adaptive Molecular Evolution. In. Balding et al. (Eds). [Handbook of Statistical Genomics, 4ed.](https://doi.org/10.1002/9781119487845.ch13).  
     * In lieu of the discussion, read: Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
-    * * Post at least one comment question in the reading-discussion channel on Slack and answer/comment on another post.
+    * Post at least one comment question in the reading-discussion channel on Slack and answer/comment on another post.
 
 <!--
 * Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
