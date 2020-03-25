@@ -28,10 +28,11 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [06. Bayesian Analysis](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/06_Bayesian_phylogenetics.pdf)
 
+[07. Molecualar Evolution](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/07_Hypothesis_testing.pdf)
+
+[08. Molecualar Evolution](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_evolution.pdf)
 
 <!--
-[07. Molecualar Evolution](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/07_Molecular_evolution.pdf)
-
 [08. Molecular Clocks](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_clocks.pdf)
 
 [09. Comparative Methods](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/09_Comparative_methods.pdf)

@@ -88,7 +88,7 @@ To view the planned schedule of course activities, view the class calendar using
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/24**)
 
 ### Week 11 (Mar 24, 26) -- COVID-19 edition
-* Topic 12: Model selection and model averaging in Likelihood and Bayesian methods.
+* Topic 12: Model selection and model averaging in Likelihood and Bayesian methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/07_Hypothesis_testing.pdf)].
     * In lieu of the lecture, read: Sullivan and Joyce 2005.  Model Selection in Phylogenetics 
     [Annnu. Rev. Ecol. Evol. Syst, 36:445–466](https://www.annualreviews.org/doi/abs/10.1146/annurev.ecolsys.36.102003.152633).
     * In lieu of the discussion, read: Abadi et al. 2019. Model selection may not be a mandatory step for
