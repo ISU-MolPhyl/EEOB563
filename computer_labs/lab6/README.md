@@ -47,18 +47,18 @@ illustrate maximum likelihood estimation of ω. The data set is GstD1 genes of
 _Drosophila melanogaster_ and _D. simulans_. The alignment has 600 codons. 
 Our first objective is to evaluate the likelihood function for a variety of fixed values for the parameter ω.
 Plot log-likelihood scores against the values of ω and determine the maximum likelihood estimate of ω. 
-Check your finding by running CODEML’s hill-climbing algorithm.
+Check your finding by running CODEML’s hill-climbing algorithm.  
 
 1. Unzip files for exercise 1 (and 2) and familiarize yourself with them. 
 Pay close attention to the modified control file called codeml.ctl.ex1. 
 When you are ready to run CODEML, delete the .ex1 extension (the control 
-file must be called codeml.ctl for the program to run).
+file must be called codeml.ctl for the program to run).  
 
-2. Move to the directory that contains your files, and run CODEML.
+2. Move to the directory that contains your files, and run CODEML.  
 
 3. Familiarize yourself with the [results](./help_files/ex1_HelpFile.pdf). 
 If you have not edited the control file the results will be written to a file called results.txt. 
-Identify the line within the results file that gives the likelihood score for the example dataset.
+Identify the line within the results file that gives the likelihood score for the example dataset. 
 
 4. Now change the control files and re-run CODEML. The objective is to 
 compute the likelihood of the example dataset given a fixed value of omega.
