@@ -42,16 +42,26 @@ You can also install PAML on your computer from its [website](http://abacus.gene
 The data for this exercise is in the `lab6` directory on the GitHub repository.
 
 ### exercise 1: ML estimation of the dN/dS (ω) ratio “by hand”
-For this exercise, we will use a simple data set and the `codeml` program to illustrate maximum likelihood estimation of ω. The data set is GstD1 genes of _Drosophila melanogaster_ and _D. simulans_. The alignment has 600 codons. Our first objective is to evaluate the likelihood function for a variety of fixed values for the parameter ω.
-Plot log-likelihood scores against the values of ω and determine the maximum likelihood estimate of ω. Check your finding by running CODEML’s hill-climbing algorithm.
+For this exercise, we will use a simple data set and the `codeml` program to 
+illustrate maximum likelihood estimation of ω. The data set is GstD1 genes of 
+_Drosophila melanogaster_ and _D. simulans_. The alignment has 600 codons. 
+Our first objective is to evaluate the likelihood function for a variety of fixed values for the parameter ω.
+Plot log-likelihood scores against the values of ω and determine the maximum likelihood estimate of ω. 
+Check your finding by running CODEML’s hill-climbing algorithm.
 
-1. Unzip files for exercise 1 (and 2) and familiarize yourself with them. Pay close attention to the modified control file called codeml.ctl.ex1. When you are ready to run CODEML, delete the .ex1 extension (the control file must be called codeml.ctl).
+1. Unzip files for exercise 1 (and 2) and familiarize yourself with them. 
+Pay close attention to the modified control file called codeml.ctl.ex1. 
+When you are ready to run CODEML, delete the .ex1 extension (the control 
+file must be called codeml.ctl for the program to run).
 
 2. Move to the directory that contains your files, and run CODEML.
 
-3. Familiarize yourself with the [results](./help_files/ex1_HelpFile.pdf). If you have not edited the control file the results will be written to a file called results.txt. Identify the line within the results file that gives the likelihood score for the example dataset.
+3. Familiarize yourself with the [results](./help_files/ex1_HelpFile.pdf). 
+If you have not edited the control file the results will be written to a file called results.txt. 
+Identify the line within the results file that gives the likelihood score for the example dataset.
 
-4. Now change the control files and re-run CODEML. The objective is to compute the likelihood of the example dataset given a fixed value of omega.
+4. Now change the control files and re-run CODEML. The objective is to 
+compute the likelihood of the example dataset given a fixed value of omega.
 	- Change the name of your result file (via `outfile=` in the control file) or you will overwrite your previous results!  
 	- Change the fixed value for omega by changing `omega=` in the control file. The values for this exercise are provided as comments at the bottom of the example control file.  
 5. Repeat step 4 for each value of omega given in the comments of the example control file.  
@@ -60,9 +70,14 @@ Plot log-likelihood scores against the values of ω and determine the maximum li
 8. Now change the control file so that CODEML will use its hill-climbing algorithm to find the MLE; setfix_omega=0 in the control file. Compare the result to your guess from step 7.
 
 ### exercise 2: sensitivity of the dN/dS ratio to assumptions
-In this exercise you will investigate the sensitivity of your estimate of ω to the other parameters in the model, in particular transition/transversion ratio (κ), and assumed model for codon frequencies (πi’s). After you collect the required data you will determine which assumptions yield the largest and smallest values of S, and what is the effect on ω.
+In this exercise you will investigate the sensitivity of your estimate of ω 
+to the other parameters in the model, in particular transition/transversion ratio (κ), 
+and assumed model for codon frequencies (πi’s). After you collect the required data 
+you will determine which assumptions yield the largest and smallest values of S, 
+and what is the effect on ω.
 
-1. Examine the files for Exercise 2 (downloaded in the previous exercise). It would be best to create a new directory for exercise 2.
+1. Examine the files for Exercise 2 (downloaded in the previous exercise). 
+It would be best to create a new directory for exercise 2.
 2. Run `codeml` using the settings in the control file for exercise 2. Familiarize yourself with the [results](./help_files/ex2_HelpFile.pdf). In addition to the likelihood score you must be able to identify the part of the result file that provides estimates of the following:
 	- Number of synonymous or nonsynonymous sites (S and N)
 	- Synonymous and nonsynonymous rates (dS and dN)
