@@ -100,17 +100,20 @@ To view the planned schedule of course activities, view the class calendar using
     * In lieu of the discussion, read: Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
     * Post at least one comment question in the reading-discussion channel on Slack and answer/comment on another post.
 
-<!--
-* Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
-    See also [News & Views](https://www.nature.com/articles/nature21113).
-
-### Week 12 (Mar 31, Apr 2) -- Coronavirus edition
+### Week 12 (Mar 31, Apr 2) -- COVID-19 edition
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
+    * I will give a short ZOOM intro and will be around (virtually) to help.  
+
+<!--    
 
 * Topic 14: Gene trees and species trees.
     * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
     * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
 
+
+<!--
+* Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
+    See also [News & Views](https://www.nature.com/articles/nature21113).
 <!--
 ### Week 13
 * Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
