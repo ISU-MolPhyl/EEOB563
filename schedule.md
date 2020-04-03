@@ -103,25 +103,23 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 12 (Mar 31, Apr 2) -- COVID-19 edition
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
     * I will give a short ZOOM intro and will be around (virtually) to help.  
-
-<!--    
-
 * Topic 14: Gene trees and species trees.
-    * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
-    * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/content/114/45/12003.full).
+    * Reading: Maddison (1997). Gene Trees in Species Trees. [Systematic Biology 46: 523–536](https://doi.org/10.1093/sysbio/46.3.523).
+    * Discussion: Gatesy and Springer (2014). Phylogenetic analysis at deep timescales: 
+    Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum. 
+    [Molecular Phylogenetics and Evolution 80: 231-266](https://doi.org/10.1016/j.ympev.2014.08.013)A
 
-
-<!--
-* Discussion: Zaremba-Niedzwiedzka et al. (2017). Asgard archaea illuminate the origin of eukaryotic cellular complexity. [Nature, 541:353-358](https://www.nature.com/articles/nature21031).
-    See also [News & Views](https://www.nature.com/articles/nature21113).
-<!--
-### Week 13
+### Week 13 (Apr 7, 9) -- COVID-19 edition
 * Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
-    * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
-<!--    * Discussion: Worobey et al. (2016). 1970s and ‘Patient 0’ {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
-
+    * In lieu of the lecture, read: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
+    * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960. 
+    [Nature 455: 661–664](https://doi.org/10.1038/nature07390). A cool paper that involves molecular clock analyses and paleovirology.
+    * Special discussion paper (optional): Tang et al. (2020). On the origin and continuing evolution of SARS-CoV-2. [National Science Review, nwaa036](https://doi.org/10.1093/nsr/nwaa036). *Note:* This paper is not directly related to the present topic, but shows application of 
+    several techniques we discussed in class.
+    * Remember to post at least one comment/question on either paper in the reading-discussion channel on Slack and answer/comment on another post.
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
 
+<!--
 ### Week 14 
 * Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
