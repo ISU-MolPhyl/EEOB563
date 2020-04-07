@@ -103,7 +103,7 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 12 (Mar 31, Apr 2) -- COVID-19 edition
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
     * I will give a short ZOOM intro and will be around (virtually) to help.  
-* Topic 14: Gene trees and species trees.
+* Topic 14: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/09_Gene_trees_species_trees.pdf)].
     * Reading: Maddison (1997). Gene Trees in Species Trees. [Systematic Biology 46: 523–536](https://doi.org/10.1093/sysbio/46.3.523).
     * Discussion: Gatesy and Springer (2014). Phylogenetic analysis at deep timescales: 
     Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum. 
@@ -112,6 +112,7 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 13 (Apr 7, 9) -- COVID-19 edition
 * Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
     * In lieu of the lecture, read: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
+    * Here is a newer paper that I find very useful: Bromham et al. (2018). Bayesian molecular dating: opening up the black box. [Biological Reviews, 93: 1165-1191](https://doi.org/10.1111/brv.12390)
     * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960. 
     [Nature 455: 661–664](https://doi.org/10.1038/nature07390). A cool paper that involves molecular clock analyses and paleovirology.
     * Special discussion paper (optional): Tang et al. (2020). On the origin and continuing evolution of SARS-CoV-2. [National Science Review, nwaa036](https://doi.org/10.1093/nsr/nwaa036). *Note:* This paper is not directly related to the present topic, but shows application of 
