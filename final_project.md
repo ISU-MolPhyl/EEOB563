@@ -9,7 +9,7 @@ For the outline, simply give a sketch of your phylogenetic question and the prop
 methods in less than 2 pages. Include a short introduction and the source(s) of data.
 
 ## Step 2. Submit complete ms. for a peer review
-### April 14
+### April 16
 
 Be ready to submit your paper for a peer review to two randomly assigned reviewers. 
 Your paper should be a part of your GitHub/GitLab repository. Be ready to review 

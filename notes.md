@@ -32,11 +32,15 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [08. Molecualar Evolution](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_evolution.pdf)
 
-<!--
-[08. Molecular Clocks](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/08_Molecular_clocks.pdf)
+[09. Gene Trees in Species Trees](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/09_Gene_trees_species_trees.pdf)
 
+[10. Molecular Clocks](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/10_Molecular_clocks.pdf)
+
+[11. Ancestral Reconstruction](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/11_Amcestral_reconstructing.pdf)
+
+
+<!--
 [09. Comparative Methods](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/09_Comparative_methods.pdf)
 
-[10. Ancestral States' Reconstruction](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/10_Reconstructing_ancestral_states.pdf)
 
 -->
