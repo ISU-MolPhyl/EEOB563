@@ -123,8 +123,8 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 14 (Apr 14, 16) -- COVID-19 edition
 * Topic 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763) 
-    * Discussion: Starr et al. (2018). Pervasive contingency and entrenchment in a billion
-    years of Hsp90 evolution. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
+    * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
+    
 
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * In lieu of the introduction, read: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
