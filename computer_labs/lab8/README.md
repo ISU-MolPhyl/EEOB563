@@ -53,7 +53,7 @@ variety of primate species; primate phylogenetic trees are in Primates.trees
 * Type `BayesTraits Primates.trees MatingSystems.txt` to start the program. 
 * When prompted for the model of evolution, select MultiState by typing `1`. 
 * When prompted for the analysis method, select Maximum Likelihood by typing `1`.
-* Type run and the program returns the output shown below for each of the 20 
+* Type `run` and the program returns the output shown below for each of the 20 
 trees in the sample (here the output is shown for only the first 5 trees). 
 
 ``` 
@@ -73,7 +73,7 @@ the values of the two rate coefficients and the reconstructed probabilities
 of the two states at the root of the tree. Note that in Likelihood, there is 
 no natural way to combine these results across the trees.
 
-> *Questions to consider:*
+> **Questions to consider:**  
 > What is the overall direction of evolution in primate mating system?  
 > What was the most likely mating system at the root of the tree?
 
@@ -87,7 +87,7 @@ constrained to be the same.
 * Check that the restrictions have been made by typing `info`
 * Run the new model (`run`) and check the log-likelihood scores. A rule of thumb is that if this model is two or more log-likelihood units worse than the unconstrained model, then the two rate coefficients differ.
 
-> *Questions to consider:*
+> **Questions to consider:**  
 > How do you explain this "rule of thumb"?  
 > Can we reject the hypothesis that the two rates are equal?
 
@@ -113,7 +113,7 @@ that here corresponds to the common ancestor to the Great Apes.
 * Type `info` to see the information about these nodes among the trees.  
 To run the program type `run`
 
-> *Questions to consider:*
+> **Questions to consider:**
 > In how many trees Node01 was not present? In how many trees Node02 was not present? Why?
 > What is the ML reconstruction for the type of the mating system in the common ancestor to the Great Apes?
 
