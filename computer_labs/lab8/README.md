@@ -40,7 +40,7 @@ Then the model of evolution will be very simple with two
 states (0 and 1) and two rates (q_01 and q_10) for transitions 
 between the two states:
 
-<img src="./img/1character-model.png" width = "40" align="left" hspace="10">
+<img src="./img/1character-model.png" width = "200" align="left" hspace="10">
 
 The file MatingSystem.txt contains mating system data for a 
 variety of primate species; primate phylogenetic trees are in Primates.trees 
