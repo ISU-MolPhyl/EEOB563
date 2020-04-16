@@ -41,7 +41,7 @@ Then the model of evolution will be very simple with two
 states (0 and 1) and two rates (q_01 and q_10) for transitions 
 between the two states:
 
-<img src="./img/1character-model.png" width = "200" align="left" hspace="10">
+<img src="./img/1character-model.png" width = "300" align="left" hspace="10">
 
 The file MatingSystem.txt contains mating system data for a 
 variety of primate species; primate phylogenetic trees are in Primates.trees 
@@ -83,7 +83,7 @@ no natural way to combine these results across the trees.
 > can enter them in a control file, and then use input redirection to 
 > use them for the analysis:
 > `BayesTraits Primates.trees MatingSystems.txt < ex1.ctl`, 
-> where you control file looks like:  
+> where your control file looks like:  
 > 1  
 > 1  
 > run
@@ -226,7 +226,7 @@ the data in Primates.txt. Look at these files to check their content
 (unix commands `cat`, `head`, and `tail` are useful for this)
 
 The model for the evolution of two traits may look like this:
-<img src="./img/2character-model.jpeg" width = "300" align="left" hspace="10">
+<img src="./img/2characters-model.jpeg" width = "300" align="left" hspace="10">
 
 The test of correlated evolution compares the fit of two models of evolution, 
 one in which the two traits evolve independently on the tree, 
@@ -240,6 +240,7 @@ not female primates prominently advertise their oestrous --
 theory predicts that females will advertise in multimale mating systems (see Pagel and Meade, 2006).
 
 ### Using Maximum Likelihood.
+#### Dependent model
 Open the program by typing `BayesTraits Primates.trees Primates.txt` 
 and select the Dependent model (Option 3) and maximum likelihood analysis (Option 1). 
 Note, that the available options change depending on your dataset!.
@@ -251,21 +252,46 @@ the values of the rate coefficients of the correlated evolution model,
 and probabilities associated with pairs of values at the root. 
 Recall that there are now two binary traits being analyzed, and these specify four possible pairs at the root. 
 
+#### Independent model
 * Repeat this analysis but choosing the Independent model (option 2).
 
-Did it take long to run dependent or independent model?  Why?
-Calculate the likelihood ratio statisticas LR= 2(log-likelihood(Dependent model) – log-likelihood(Independent model)). The likelihood ratio statistic is nominally distributed as a χ2 with degrees of freedom equal to the difference in the number of parameters between the two models. Are the likelihoods of the two models significantly different?  Which model should we choose?
-Using Markov Chain Monte Carlo.
-The analysis of correlated evolution using MCMC is straightforward: simply run a Markov chain that simultaneously samples the posterior distribution of trees contained in the tree file and the parameters of the model of evolution. The overall results are summarized by the harmonic mean.
-Open the program using Open the program by typing "BayesTraits Primates.trees Primates.txt" and select the Dependent model and MCMC analysis.
-Set ratedev to 10 (ratedev 10) and a reverse jump hyperprior seeding to an exponential from a uniform 0-30 distribution and run MCMC
-How many distinct rates categories did the RJ MCMC choose?
-Which parameters are in the same category and which are assigned to the zero (Z) category?
-Does the analysis prefer a dependent or an independent model of evolution of two characters and what does it mean?
-Run for a few million iterations to obtain a stable harmonic mean.
-Repeat this analysis but restrict the RJ chain to Independent models (use the same options for ratedev and rjhp).
-Run for a few million iterations to obtain a stable harmonic mean.
-Compare your results with the log-Bayes Factor test.
+> **Questions to consider:**  
+> What do dependent and independent models actually mean? 
+> Why did it take less time to run independent model analysis?
+
+
+#### LR test
+Calculate the likelihood ratio statistics LR= 2(log-likelihood(Dependent model) – log-likelihood(Independent model)). 
+The likelihood ratio statistic is nominally distributed as a χ2 with degrees of 
+freedom equal to the difference in the number of parameters between the two models. 
+
+> **Questions to consider:**  
+> How many parameters does each model have?
+> Are the likelihoods of the two models significantly different?  
+> Which model should we choose?
+
+### Using Markov Chain Monte Carlo.
+The analysis of correlated evolution using MCMC is straightforward: simply run 
+a Markov chain that simultaneously samples the posterior distribution of trees 
+contained in the tree file and the parameters of the model of evolution.
+
+#### Dependent model
+* Open the program by typing "BayesTraits Primates.trees Primates.txt" and select the Dependent model and MCMC analysis.
+* Set ratedev to 10 (`ratedev 10`) and a reverse jump hyperprior seeding to an exponential from a uniform 0-30 distribution
+* Run MCMC for 5 million generations
+* Estimate marginal likelihood using stepping stone sampling
+
+> **Questions to consider:**  
+> How many distinct rates categories did the RJ MCMC choose?
+> Which parameters are in the same category and which are assigned to the zero (Z) category?
+> Does the analysis prefer a dependent or an independent model of evolution of two characters and what does it mean?
+
+#### Independent model
+* Repeat the previous analysis but restrict the RJ chain to Independent models 
+(use the same options for ratedev and rjhp as in dependent model).
+* Run for a few million iterations;
+* Estimate marginal likelihood using stepping stone sampling
+* Compare dependent and independent model results with the log-Bayes Factor test.
 
 
 
