@@ -78,6 +78,19 @@ no natural way to combine these results across the trees.
 > What is the overall direction of evolution in primate mating system?  
 > What was the most likely mating system at the root of the tree?
 
+> **Alternative way to run BayesTraits**
+> Note, that instead of typing the options at the command prompt, you 
+> can enter them in a control file, and then use input redirection to 
+> use them for the analysis:
+> `BayesTraits Primates.trees MatingSystems.txt < MatingSystemML.ctl`, 
+> where you control file looks like:  
+> 1  
+> 1  
+> run
+
+
+
+
 #### Testing the model
 To see if transitions to multimale mating systems occur at a higher rate than 
 transitions to unimale or monogamy, fit a model in which the two rates are 
