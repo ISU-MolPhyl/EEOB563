@@ -82,14 +82,11 @@ no natural way to combine these results across the trees.
 > Note, that instead of typing the options at the command prompt, you 
 > can enter them in a control file, and then use input redirection to 
 > use them for the analysis:
-> `BayesTraits Primates.trees MatingSystems.txt < MatingSystemML.ctl`, 
+> `BayesTraits Primates.trees MatingSystems.txt < ex1.ctl`, 
 > where you control file looks like:  
 > 1  
 > 1  
 > run
-
-
-
 
 #### Testing the model
 To see if transitions to multimale mating systems occur at a higher rate than 
@@ -171,21 +168,43 @@ given model in the posterior distribution of models is the posterior belief in t
 ### Estimating the model
 Restart the program and choose  MultiState (option 1) and  MCMC (option 2).
 At this stage you could run the model using conventional MCMC (try it, but 
-first set the number of iterations to 1,000,000: "it 1000000")
+first set the number of iterations to 1,000,000: `it 1000000`)
 You will see that the estimated rate coefficients (columns 5 and 6) are rather 
 different from those under maximum likelihood (also the acceptance rate 
-is too high). This situation arises because the uniform priors are not 
-restrictive enough for the amount of data we have. We will use the "hyperprior" 
-approach to deal with this problem (In Bayesian statistics, a hyperprior is a prior distribution on a hyperparameter, that is, on a parameter of a prior distribution).
+is too high). This situation arises because the default priors for the rates are 
+uniform and they are not restrictive enough for the amount of data we have. 
+We will use the "hyperprior" approach to deal with this problem (In Bayesian statistics, 
+a hyperprior is a prior distribution on a hyperparameter, that is, on a parameter of a prior distribution).
 Type `hpall exp 0 30` to specify an exponential prior seeded from a uniform on the interval 0 to 30.
 Rerun the analysis
 
-The column labelled "Harmonic Mean" (column #3) is the logarithm of the running harmonic mean of the likelihoods. It will be used for hypothesis testing (but remember the problem with the harmonic mean we discussed in class).
-What is the harmonic mean for current model? What is the model?
-Finally, we will run Reverse Jump MCMC for model selection: (repeat all the commands above + type "rjhp exp 0 30")
+To calculate the log likelihood of the model, we will use 
+the stepping stone sampler.
+The stepping stone sampler (Xie, Lewis et al. 2011) estimates the marginal likelihood by
+placing a number of ‘stones’ which link the posterior with the prior, the stones are successively
+heated, forcing the chain from the posterior towards the prior, this provides an effective estimate of
+the marginal likelihood. The “stones” command, is used to set the sampler, the command takes the
+number of stones and the number of iterations to run the chain on each stone. An example of
+setting the stones sampler is below, the command sets the sampler to use 100 stones and run each
+stone for 10,000 iterations: `stones 100 10000`
+
+#### Reverse Jump MCMC
+For a complex model the number of possible restrictions is large, and may be impossible to
+test. A reverse jump MCMC method (Green 1995) was developed to integrate results over model
+parameter and model restrictions, for a detailed description see (Pagel and Meade 2006).
+The RevJump (RJ) command is used to select reverse jump MCMC, the command takes a
+prior and prior parameters. For example, the command below uses reverse jump with an
+exponential prior with a mean of 10. The second command uses reverse jump with a hyper
+exponential prior where the mean of the exponential is drawn from a uniform 0 - 100
+RevJump exp 10
+Or
+RJHP exp 0 100
+
+Finally, we will run Reverse Jump MCMC for model selection: (repeat all the commands above + type `rjhp exp 0 30`)
 Run the program and check the output. Notice that new columns appeared: #5 ("No off parameters" sic.) and #7 ("Model")
 How many parameters are in the selected model? What does it mean in terms of rates of change? 
-Reconstructing an ancestral state
+
+### Reconstructing an ancestral state
 
 Start the program and select MultiState and MCMC from the options.
 Use "AddMRCA Node-H GreatApes" command to add a node H to be reconstructed (specifying the common ancestor of the Great Apes).
@@ -199,7 +218,54 @@ Use stepping stone sampling to estimate the marginal likelihood of the model: "S
 The sampler runs after the chain has finished and produces a file with the extension “Stones.txt”, the log marginal likelihood is recorded on the last line of the file. 
 The Bayes Factor test is just twice the difference between these two numbers.
 What was your Bayes Factor and what does it tell us?
-exercise 2: Using BayesTraits to test for corr
+
+## Exercise 2: Using BayesTraits to test for correlated evolution among pairs of traits.
+This exercise explores correlated evolution among pairs of traits. 
+The examples in this section use the trees in Primates.trees and 
+the data in Primates.txt. Look at these files to check their content 
+(unix commands `cat`, `head`, and `tail` are useful for this)
+
+The model for the evolution of two traits may look like this:
+<img src="./img/2character-model.jpeg" width = "300" align="left" hspace="10">
+
+The test of correlated evolution compares the fit of two models of evolution, 
+one in which the two traits evolve independently on the tree, 
+and one in which they evolve in a correlated fashion. Using maximum likelihood 
+the models can be compared using a likelihood ratio statistic. 
+In the MCMC mode, we show how to test for correlated evolution using Bayes Factors.
+
+We will use BayesTraits to do the analysis of correlated 
+evolution between mating system in primates and whether or 
+not female primates prominently advertise their oestrous -- 
+theory predicts that females will advertise in multimale mating systems (see Pagel and Meade, 2006).
+
+### Using Maximum Likelihood.
+Open the program by typing `BayesTraits Primates.trees Primates.txt` 
+and select the Dependent model (Option 3) and maximum likelihood analysis (Option 1). 
+Note, that the available options change depending on your dataset!.
+
+* Type `mltries 25` and then `run`. 
+The mltries command tells the program to use more than the default number (10) of optimization attempts in finding the likelihood.
+The output shows the likelihood associated with each tree, 
+the values of the rate coefficients of the correlated evolution model, 
+and probabilities associated with pairs of values at the root. 
+Recall that there are now two binary traits being analyzed, and these specify four possible pairs at the root. 
+
+* Repeat this analysis but choosing the Independent model (option 2).
+
+Did it take long to run dependent or independent model?  Why?
+Calculate the likelihood ratio statisticas LR= 2(log-likelihood(Dependent model) – log-likelihood(Independent model)). The likelihood ratio statistic is nominally distributed as a χ2 with degrees of freedom equal to the difference in the number of parameters between the two models. Are the likelihoods of the two models significantly different?  Which model should we choose?
+Using Markov Chain Monte Carlo.
+The analysis of correlated evolution using MCMC is straightforward: simply run a Markov chain that simultaneously samples the posterior distribution of trees contained in the tree file and the parameters of the model of evolution. The overall results are summarized by the harmonic mean.
+Open the program using Open the program by typing "BayesTraits Primates.trees Primates.txt" and select the Dependent model and MCMC analysis.
+Set ratedev to 10 (ratedev 10) and a reverse jump hyperprior seeding to an exponential from a uniform 0-30 distribution and run MCMC
+How many distinct rates categories did the RJ MCMC choose?
+Which parameters are in the same category and which are assigned to the zero (Z) category?
+Does the analysis prefer a dependent or an independent model of evolution of two characters and what does it mean?
+Run for a few million iterations to obtain a stable harmonic mean.
+Repeat this analysis but restrict the RJ chain to Independent models (use the same options for ratedev and rjhp).
+Run for a few million iterations to obtain a stable harmonic mean.
+Compare your results with the log-Bayes Factor test.
 
 
 
