@@ -40,7 +40,7 @@ Then the model of evolution will be very simple with two
 states (0 and 1) and two rates (q_01 and q_10) for transitions 
 between the two states:
 
-<img src="./img/1character-model.png" align="right" hspace="10">
+<img src="./img/1character-model.png" scale = 0.5 align="left" hspace="10">
 
 The file MatingSystem.txt contains mating system data for a 
 variety of primate species; primate phylogenetic trees are in Primates.trees 
@@ -100,7 +100,7 @@ to reconstruct. The program then finds the proportion of the likelihood
 associated with each of the possible states at the node. The node must 
 exist in the tree for the command to work.
 
-Alternatively, you can use the AddMRCA or Most Recent Common Ancestor. 
+Alternatively, you can use the `AddMRCA` or Most Recent Common Ancestor. 
 As with Addnode, you give a list of species whose ancestral state you wish 
 to reconstruct. An MRCA reconstruction finds the node in each tree in the 
 sample that minimally contains all of the species (tips) whose common ancestral 
