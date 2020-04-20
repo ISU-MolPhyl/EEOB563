@@ -134,7 +134,7 @@ To view the planned schedule of course activities, view the class calendar using
     * In lieu of the lecture, read: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  [Nature Reviews Genetics.  6: 361-375](https://www.nature.com/articles/nrg1603). (This is old now, but rather classical).
     * Discussion: Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/science/article/pii/S0960982217301999).
 
-<--
+<!--
 
 
 * Topic 18: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
