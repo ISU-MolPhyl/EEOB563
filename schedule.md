@@ -125,18 +125,19 @@ To view the planned schedule of course activities, view the class calendar using
     * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763) 
     * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
     
-
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * In lieu of the introduction, read: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
     * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/21.  
 
-<!--
-### Week 15 (Current and Last!)
-* Lecture 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  [Nature Reviews Genetics.  6: 361-375](https://www.nature.com/articles/nrg1603).
+### Week 15 (Apr 21, 23) -- COVID-19 edition
+* Topic 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    * In lieu of the lecture, read: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  [Nature Reviews Genetics.  6: 361-375](https://www.nature.com/articles/nrg1603). (This is old now, but rather classical).
     * Discussion: Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/science/article/pii/S0960982217301999).
 
-* Lecture 18: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+<--
+
+
+* Topic 18: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407).
 
     

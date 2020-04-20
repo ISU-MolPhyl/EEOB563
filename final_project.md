@@ -11,9 +11,12 @@ methods in less than 2 pages. Include a short introduction and the source(s) of 
 ## Step 2. Submit complete ms. for a peer review
 ### April 16
 
-Be ready to submit your paper for a peer review to two randomly assigned reviewers. 
-Your paper should be a part of your GitHub/GitLab repository. Be ready to review 
-two papers assigned to you.
+Be ready to submit your paper for a peer review! 
+You will be given emails of two randomly selected participants of the class. 
+Please send them an url linking to the GitHub (public) repository that contains 
+you ms. In turn, you will receive links to two repositories to review. 
+When you receive a link, first fork the repository, then clone the forked 
+repository on your computer and write a review inside it named [your lastname]\_review.Rmd. 
 
 The paper should be in the format of a typical research paper with Introduction, 
 Methods, Results, and Discussion.  Length will vary depending on project topics, but 
@@ -22,11 +25,14 @@ and references).  Since the focus of this class is on phylogenetic methods, **yo
 phylogenetic analysis will carry most of the weight** for this project. However, to get a 
 full grade, I expect you to ask (and at least attempt to answer) some additional questions based on 
 the phylogenetic trees that you've inferred (_e.g._, correlated evolution, natural selection,
-testing different topologies, molecular clock analysis, etc.).
+testing different topologies, molecular clock analysis, _etc._).
 
 ### April 21
-Return written reviews to authors. Provide the kind of positive, constructive review 
-you would like to get on your own draft.
+Return written reviews to authors. If you haven't done it already, fork the repository 
+that contains the paper you reviewed and clone it on your computer. 
+Add your review to the repository, push it to GitHub and submit a Pull request (use Google 
+or ask on Slack, if you need more info!)
+Accept the pull requests of your reviewers and start working on the final version of your paper.
 
 ## Step 3. Submit the final version of your paper
 ### April 28 @11:59pm
