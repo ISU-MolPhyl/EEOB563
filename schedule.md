@@ -133,13 +133,12 @@ To view the planned schedule of course activities, view the class calendar using
 * Topic 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * In lieu of the lecture, read: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  [Nature Reviews Genetics.  6: 361-375](https://www.nature.com/articles/nrg1603). (This is old now, but rather classical).
     * Discussion: Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/science/article/pii/S0960982217301999).
+* Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    * In lieu of the lecture, read: Simion et al. (2020). To What Extent Current Limits of Phylogenomics Can Be Overcome?. 
+    In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp. 2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).
+    * Discussion (again): Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/science/article/pii/S0960982217301999).
 
 <!--
-
-
-* Topic 18: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407).
-
     
 * **Revised final project due on 4/28 at 11:59pm (commit to GitHub and email me the link)**
 
