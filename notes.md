@@ -14,9 +14,9 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 ## Lecture notes
 
-[00. Introduction](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/00_Introduction.pdf)
+[00. Introduction](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/00_Introduction.pdf)
 
-[01. Phylogenetic trees](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/01_Phylogenetic_trees.pdf)
+<!--[01. Phylogenetic trees](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/01_Phylogenetic_trees.pdf)
 
 [02. Homology and alignment](https://isu-molphyl.github.io/EEOB563-Spring2020/lecture_notes/02_Homology_and_alignments.pdf)
 
