@@ -24,7 +24,7 @@ Tuesday and Thursday, 9:00-10:50 AM VIRTUAL <a href="https://canvas.iastate.edu/
 <table>
   <tbody>
     <tr>
-      <td><center><a href="https://lavrovlab.github.io/"><b>Dennis Lavrov</b></a><br /><a href="mailto:dlavrov@iastate.edu"><i class="fa fa-envelope"></i></a> <a href="https://github.com/dlavrov"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/lavrov_dv"><i class="fa fa-twitter"></i></a><br><a href="https://lavrovlab.github.io/"><img src="https://avatars2.githubusercontent.com/u/6353241" height="100" width="100"/></a></center></td>
+      <td><a href="https://lavrovlab.github.io/"><b>Dennis Lavrov</b></a><br /><a href="mailto:dlavrov@iastate.edu"><i class="fa fa-envelope"></i></a> <a href="https://github.com/dlavrov"><i class="fa fa-github-square"></i></a> <a href="https://twitter.com/lavrov_dv"><i class="fa fa-twitter"></i></a><br><a href="https://lavrovlab.github.io/"><img src="https://avatars2.githubusercontent.com/u/6353241" height="100" width="100"/></a></td>
     </tr>
   </tbody>
 </table>
@@ -37,7 +37,8 @@ For your convenience, I compiled a list of mathematical symbols used in the text
 ### Accessing Data and Class Files
 
 All of the files used for in-class activities and assignments are published online in a public GitHub repository. 
-It is expected that you will pull any new changes to this repository at the beginning of class. This will enable you to access new data files and scripts needed for in-class activities. 
+It is expected that you will pull any new changes to this repository at the beginning of class. 
+This will enable you to access new data files and scripts needed for in-class activities. 
 
 The 2020 repository can be found at: [https://github.com/ISU-MolPhyl/EEOB563-Spring2021](https://github.com/ISU-MolPhyl/EEOB563-Spring2021). 
 
