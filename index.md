@@ -17,7 +17,7 @@ and combines lecture presentations with computer exercises and discussion of ori
 ### Spring 2021 Time and Location
 
 <!-- Tuesday and Thursday, 9:00-10:50 PM in 203 Bessey Hall -->
-Tuesday and Thursday, 9:00-10:50 AM VIRTUAL <a href="https://canvas.iastate.edu/courses/79905/pages/zoom-sessions"><i class="fas fa-video"></i></a><br>All Zoom links will be posted on <a href="https://canvas.iastate.edu/courses/79905/pages/zoom-sessions">Canvas</a>
+Tuesday and Thursday, 9:00-10:50 AM VIRTUAL <a href="https://canvas.iastate.edu/courses/80773/pages/zoom-sessions"><i class="fas fa-video"></i></a><br>All Zoom links will be posted on <a href="https://canvas.iastate.edu/courses/80773/pages/zoom-sessions">Canvas</a>
 
 ### Instructor
 
@@ -51,4 +51,4 @@ All the topics covered in this course can be found in [Spring 2021 Calendar](htt
 
 A copy of the course syllabus can be found in the course GitHub repository: [Spring 2021 Syllabus](https://isu-molphyl.github.io/EEOB563-Spring2021/syllabus.pdf).
 
-<a href="https://isu-molphyl.github.io/EEOB563-Spring2020/syllabus.pdf"><button type="button" class="btn btn-primary">Course Syllabus</button></a>
+<a href="https://isu-molphyl.github.io/EEOB563-Spring2021/syllabus.pdf"><button type="button" class="btn btn-primary">Course Syllabus</button></a>
