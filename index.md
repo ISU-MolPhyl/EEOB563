@@ -40,7 +40,7 @@ All of the files used for in-class activities and assignments are published onli
 It is expected that you will pull any new changes to this repository at the beginning of class. 
 This will enable you to access new data files and scripts needed for in-class activities. 
 
-The 2020 repository can be found at: [https://github.com/ISU-MolPhyl/EEOB563-Spring2021](https://github.com/ISU-MolPhyl/EEOB563-Spring2021). 
+The class repository can be found at: [https://github.com/ISU-MolPhyl/EEOB563-Spring2021](https://github.com/ISU-MolPhyl/EEOB563-Spring2021). 
 
 ### Course Schedule
 

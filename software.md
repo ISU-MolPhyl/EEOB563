@@ -9,20 +9,30 @@ icon: <i class='fa fa-laptop'></i>
 # EEOB 563 Installation Guide
 
 ## Unix & Git
+### Mac or Linux
+MacOSX and various Linux distributions are UNIX based, so just search for "Terminal" 
+(On MacOSX the Terminal application is located in Applications -> Utilities). 
 
-We will be using UNIX and Git throughout the course. If you are a Linux or MacOS user, you already have these tools installed.
-If you are a Windows user, see the Windows Users section below.  
-In addition, we will be using multiple phylogenetic programs in this class. All of them are free and most of them are already installed on the [HPC-Class](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster), to which you will have access.
-If you want to install them on your computer, use the links provided [here](https://isu-molphyl.github.io/EEOB563/links).
+### Windows
+If you are using a Windows computer, you will need to set up a working command-line environment.
+There are several ways to do this. 
 
+#### Git Bash
+Git Bash is an application for Microsoft Windows environments, which provides 
+an emulation layer for a Git command line experience.
+Git Bash comes as part of the [Git For Windows](https://gitforwindows.org) 
+package. In addition to Git, Git Bash provides an emulator for the Unix Bash shell.
 
-### Windows Users
+#### Windows 10 and later
+If you are using Windows 10 or later, you can follow the steps [outlined here]
+(https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) 
+to run a Unix-like command-line environment on your computer. 
 
-A Unix environment can be emulated using the “​Git Bash​” program [recommended], by partitioning your hard drive and installing Ubuntu (a free version of Linux),​ or by installing Cygwin​. These solutions for PC users may not be ideal for all course exercises and we can provide access to Mac computers if you would prefer to go this route.
-
-* Git Bash: ​[https://openhatch.org/missions/windows-setup/install-git-bash](https://openhatch.org/missions/windows-setup/install-git-bash) 
-* Ubuntu: [​https://help.ubuntu.com/community/Wubi](https://help.ubuntu.com/community/Wubi)
-* Cygwin: ​[https://www.cygwin.com](https://www.cygwin.com)
+## Phylogenetic software
+We will be working on the ISU Classroom HPC Cluster, called 
+[HPC-Class](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster).
+All phylogenetic software will be pre-installed on HPC-Class. If you want to install any program  
+on your computer, use the links [provided](https://isu-molphyl.github.io/EEOB563/links).
 
 ## Text Editors 
 
