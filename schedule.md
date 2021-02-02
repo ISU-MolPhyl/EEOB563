@@ -24,7 +24,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  [Science 310: 979-980](http://science.sciencemag.org/content/310/5750/979.full.pdf).  
 
 ### Week 2 (Feb 2, 4)
-* Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/02_homology_and_msa.pdf)]
+* Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/02-homology_and_msa.pdf)]
     * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. [TIG 16: 227](https://doi.org/10.1016/S0168-9525(00)02005-9).
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1): Introduction to Unix/GitHub/SSH
