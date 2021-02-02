@@ -13,7 +13,8 @@ To view the planned schedule of course activities, view the class calendar using
 
 <a href="https://docs.google.com/spreadsheets/d/1okuP20eZHE3TKdtxlqVbEp3xEcYB6wGZh_O1muiiXb0/edit?usp=sharing"><button type="button" class="btn btn-primary">Class Calendar</button></a>
 
-### Week 1 (Jan 26, 28) Поехали!
+### Week 1 (Jan 26, 28) 
+<!-- Поехали! -->
 * Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/00_Introduction.pdf)]
 	* [Assignment 1](./assignments.md) (**due 1/28**)
 
