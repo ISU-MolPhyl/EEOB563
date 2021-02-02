@@ -62,7 +62,7 @@ Another useful Git setting to enable now is terminal colors:
 
 #### Cloning a repository
 
-Go to the [EEOB563-Spring2020 repository](https://github.com/ISU-MolPhyl/EEOB563-Spring2021) and copy its SSH address under `Clone or Download.`
+Go to the [EEOB563-Spring2021 repository](https://github.com/ISU-MolPhyl/EEOB563-Spring2021) and copy its SSH address under `Clone or Download.`
 
 Run the following command in your home directory on HPC-class:  
 `git clone <repository address>`
