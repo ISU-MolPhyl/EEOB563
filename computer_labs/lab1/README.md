@@ -75,7 +75,7 @@ To update a Git reposity, enter the following command:
 
 ### UNIX tutorial
 
-Lab 1: [Unix, Git, SSH](https://data-skills.github.io/tutorials/UNIX.pdf)
+Lab 1: [Unix, Git, SSH](https://data-skills.github.io/tutorials/UNIX.html)
 
 ### Additional tutorials
 
