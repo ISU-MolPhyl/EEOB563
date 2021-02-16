@@ -92,7 +92,7 @@ Note the forward slash (/); this is important for many commands. Values before t
 `cat paup_mpsearch.log`  
 
 ### Conducting a Parsimony Bootstrap Analysis
-1. Start PAUP*  
+1. Start PAUP\*  
 `paup`
 2. Execute the example data file:  
 **paup>** `exe cob_aa.nxs;`
@@ -104,13 +104,13 @@ Note the forward slash (/); this is important for many commands. Values before t
 **paup>** `bootstrap [bootstrap options] [/hsearch options]`  
 Here, the forward slash separates the bootstrap options from the heuristic search options for each bootstrap pseudoreplicate.  
 **paup>**`bootstrap nreps=200 treefile=boot.tre search=heuristic /start=stepwise addseq=random nreps=10 swap=TBR;`  
-6. If you want to save a tree that has the bootstrap proportions on it, you need to save this tree immediately after the bootstrap analysis is complete by typing: 
+6. If you want to save a tree that has the bootstrap proportions on it, you need to save this tree immediately after the bootstrap analysis is complete by typing:  
 **paup>**`savetrees file=bootMajRule.tree from=1 to=1 savebootp=nodelabels;`  
 In this command, it is necessary to specify the tree you'd like to save using the `from/to` option, even if there is only one tree in memory. We use the `savebootp=nodelabels` option to save the bootstrap proportions as nodelabels. These bootstrap values can then be visualized in other programs (e.g., FigTree). 
 7. We might also want to summarize our bootstrap proportions after the analysis was completed. You might do this if you were combining tree files from multiple analyses run on different computers. So let's make a new consensus tree from our tree file. Open the treefile by typing:  
 **paup>** `gettrees file=boot.tre StoreTreeWts=yes mode=3;`  
 We use `StoreTreeWts=yes` option to downwait multiple trees found for some bootstrap pseudoreplicates. This is important for bootstrap and jackknife replicates and the majority-rule consensus calculator will use them when `USETREEWTS= YES`. We use `mode = 3` (DEFAULT) option to replace all of the trees currently in memory with those imported from file.
-8. Now let's make a majority rule consensus tree and save this tree (see step 6).
+8. Now let's make a majority rule consensus tree and save this tree (see step 6).  
 **paup>** `contree all/strict=no majrule=yes usetreewts=yes treefile=bootMajRule.tre;`
 9. We have now finished our bootstrap analysis. Stop the log file and quit PAUP:  
 **paup>** `log stop; quit;`
