@@ -15,7 +15,7 @@ that can perform maximum parsimony and several other analyses.
 ### First things first
 
 PAUP should be accessible to you on the HPC-class.  
-You can also install it on your computer from the following [site](http://phylosolutions.com/paup-test/).
+You can also install it on your computer from the following [site](http://phylosolutions.com/paup-test/){:target="_blank"}.
 
 ### Getting the sequences
 1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in the class repository.
