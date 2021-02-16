@@ -14,10 +14,11 @@ that can perform maximum parsimony and several other analyses.
 
 ### First things first
 
-PAUP should be accessible to you on the HPC-class.  You can also install it on your computer from the following [site](http://phylosolutions.com/paup-test/).
+PAUP should be accessible to you on the HPC-class.  
+You can also install it on your computer from the following [site](http://phylosolutions.com/paup-test/).
 
 ### Getting the sequences
-1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in EEOB563-Spring2020 repository (EEOB563-Spring2020/computer_labs/lab2).
+1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in the class repository.
 
 ### Starting PAUP
 1. Start PAUP* by typing:  
@@ -32,9 +33,10 @@ Notice, that `<cmdname> ?` shows not only how to use a command, but also current
 5. Convert your aligned file into Nexus format;
 6. Finally, we need to execute this new file (you'll see why later):  
 **paup>** `exe cob_aa.nxs`  
-Did it work?  If not, try to see what went wrong by using the edit command (which opens the vi editor inside paup):  
-**paup>** `edit cob_aa.nxs`  
-After you executed the file, you should get a note that "Processing of input file "cob\_aa.nxs" completed.  
+> Did it work?  If not, try to see what went wrong by using the `edit` command (which opens the vi editor inside paup):  
+> **paup>** `edit cob_aa.nxs`  
+> After you executed the file, you should get a note that "Processing of input file "cob\_aa.nxs" completed.  
+> Notice that there are many sites and tools that can also do [conversion for you](https://www.ebi.ac.uk/Tools/sfc/emboss_seqret/)
 
 **Congratulations!**
 For additional information see [“Quick Start” tutorial](http://paup.phylosolutions.com/tutorials/quick-start/) and the [command reference document](http://www.phylo.org/sub_sections/PAUP_Cmd_ref_v2.pdf). 
