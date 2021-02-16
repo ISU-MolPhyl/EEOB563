@@ -2,9 +2,9 @@
 <img src="./1320160.gif" align="right" hspace="10">
 __PAUP\*__ (pronounced "pop star") is a phylogenetic program first developed in 1993 by David L. Swofford, 
 currently at Duke University. The name PAUP used to mean "Phylogenetic Analysis Using Parsimony" because 
-parsimony was the only optimality criterion employed at the time. The asterisk in the name PAUP* 
-means "and other methods", which were added later. The new name is "Phyogenetic Analysis Using PAUP". 
-PAUP* 4.0 is able to perform distance, parsimony and likelihood analyses using DNA and amino-acid data. 
+parsimony was the only optimality criterion employed at the time. The asterisk in the name PAUP\* 
+means "and other methods", which were added later. The new name is "Phylogenetic Analysis Using PAUP". 
+PAUP\* 4.0 is able to perform distance, parsimony and likelihood analyses using DNA and amino-acid data. 
 Among many strengths of the program are a rich array of options for dealing with phylogenetic trees 
 including importing, combining, comparing, constraining, rooting and testing hypotheses. The program 
 has been updated recently and is expected to be released as an open-source command-line version 
@@ -21,7 +21,7 @@ You can also install it on your computer from the following [site](http://phylos
 1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in the class repository.
 
 ### Starting PAUP
-1. Start PAUP* by typing:  
+1. Start PAUP\* by typing:  
 `paup`
 2. If you will remember just one command in PAUP, remember this one:  
 **paup>** `help` (note that I put "**paup>**" in front of the command to indicate that you are running it in PAUP!
@@ -145,4 +145,4 @@ You can also specify the file at the same time as you invoke paup:
 `paup cob_aa.nxs`
 
 I included some additional examples of PAUP* blocks in the file PAUP_blocks.txt in GitHub..
-An excellent tutorial on PAUP that goes beyond parsimony can be found [here](http://evomics.org/learning/phylogenetics/paup/).
+An excellent tutorial on PAUP that goes beyond parsimony can be found [here](http://evomics.org/learning/phylogenetics/paup/){:target="_blank"}.
