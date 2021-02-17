@@ -44,7 +44,7 @@ To view the planned schedule of course activities, view the class calendar using
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
     * You may want to install ClustalW, Mafft, PAUP\*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
-    * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment3.pdf) (**due 02/23**)
+    * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment3.pdf) (**due 02/25**)
 * Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
