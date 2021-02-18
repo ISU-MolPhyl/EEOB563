@@ -49,12 +49,11 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
-<!--
-### Week 5 (Feb 11, 13)  
+### Week 5 (Feb 23, 25)  
 * Lecture 7: NJ algorithm; Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/04_Distance_methods.pdf)]
-    * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
+    * Reading: (Optional!) Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
-    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment4.pdf) (**due 02/20**)
+    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment4.pdf) (**due 03/04**)
 
 <!--
 * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
