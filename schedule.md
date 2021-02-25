@@ -45,16 +45,15 @@ To view the planned schedule of course activities, view the class calendar using
     * All users, make sure you have a GitHub account!
     * You may want to install ClustalW, Mafft, PAUP\*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
     * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment3.pdf) (**due 02/25**)
-* Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2019/lecture_notes/04_Distance_methods.pdf)]
+* Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
-<!--
-### Week 5 (Feb 11, 13)  
+### Week 5 (Feb 23, 25)  
 * Lecture 7: NJ algorithm; Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/04_Distance_methods.pdf)]
-    * Reading: Reading: Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
+    * Reading: (Optional!) Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
-    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment4.pdf) (**due 02/20**)
+    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment4.pdf) (**due 03/04**)
 
 <!--
 * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
@@ -193,7 +192,7 @@ nature18959).
 ### Week 13
 * Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
     * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355?367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
-<!--    * Discussion: Worobey et al. (2016). 1970s and ?Patient 0? {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
+    * Discussion: Worobey et al. (2016). 1970s and ?Patient 0? {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
 
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
 
@@ -220,4 +219,4 @@ science/article/pii/S0960982217301999).
     
 * **Revised final project due on 4/28 at 11:59pm (commit to GitHub and email me the link)**
 
-<!---  --->
+--->
