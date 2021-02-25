@@ -4,7 +4,7 @@ In this lab we will learn about three phylogenetic programs that can be used for
 
 ## Prerequisites:
 
-### Update your EEOB563-Spring2018 git repository
+### Update your EEOB563-Spring2021 git repository
 - Go to the repository and issue the following command: `git pull origin master`
 
 ### Make sure you have access to the programs
