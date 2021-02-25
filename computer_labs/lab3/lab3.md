@@ -37,11 +37,11 @@ Use `showdist` command to see the distance table.
 Can you figure out what is the command name for the neighbor-joining analysis?
 How about UPGMA?
 
-Run neighbor-joining search with 5 distances listed above.
+Run UPGMA and neighbor-joining search with the GTR distance.
 
-> - How does the distance model chosen affect the tree found by NJ for this data set?  
-> - Can you figure out how to perform a bootstrap analysis (100 replicates, heuristic search using least squares) under the HKY85 model?  
-> - Write a PAUP block that will do several distance analyses automatically for you.
+> - Did you get the same tree? What does "the same" mean?  
+> - Can you figure out how to perform a bootstrap analysis using the NJ search?
+<!-- > - Write a PAUP block that will do several distance analyses automatically for you. -->
 
 ## Part2: PHYLIP
 
