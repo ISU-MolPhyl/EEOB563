@@ -20,7 +20,7 @@ Due 1/28.  (Note: there are answers online – do not read them! We will discuss
 [data](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/a3_cob_nt.fasta)
 
 [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment4.pdf)
-Due 3/4
+(Due 3/4)
 
 <!--
 [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment5.pdf)
