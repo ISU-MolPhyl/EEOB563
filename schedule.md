@@ -61,6 +61,7 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 6 (Mar 2, 4) 
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
+
 <!--
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/05_Maximum_likelihood.pdf)]
     * Discussion (leader _Alexandra_): Zhang, L., Chen, F., Zhang, X. et al. (2021). The water lily genome and the early evolution of flowering plants. [Nature 577, 79–84](https://doi.org/10.1038/s41586-019-1852-5).
