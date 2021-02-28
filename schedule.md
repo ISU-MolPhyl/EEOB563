@@ -88,7 +88,7 @@ To view the planned schedule of course activities, view the class calendar using
 
 ### Week 10: Spring Break!
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/24**)
--->
+
 ### Week 9 (Mar 23, 25)
 * Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/07_Hypothesis_testing.pdf)].
     * In lieu of the lecture, read: Sullivan and Joyce 2005.  Model Selection in Phylogenetics
