@@ -64,7 +64,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Basem Al-Shayeb et al. (202o). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
 
-#### 🔴It's a good time to start working on your final project!🔴
+#### &#10071; It's a good time to start working on your final project! &#10071;
 
 Here are the [instructions](./final_project.md).
 
@@ -80,7 +80,7 @@ Here are the [instructions](./final_project.md).
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2021/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment6.pdf) (**due 03/25**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/hiv.nxs)
 
-#### 🔴 Midterm exam 🔴
+#### &#10071; Midterm exam &#10071;
 - Exam will open on Mar 18, after the class. Will cover weeks 1-7
 - Exam will close on Mar 23 before the class.
 - You will have one 3hr window to complete the exam.
