@@ -64,7 +64,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Basem Al-Shayeb et al. (202o). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
 
-#### &#10071; It's a good time to start working on your final project! &#10071;
+#### &#10071; It's a right time to start working on your final project! &#10071;
 
 Here are the [instructions](./final_project.md).
 
