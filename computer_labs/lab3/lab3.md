@@ -52,7 +52,7 @@ evolution. However, some types of analyses available in PHYLIP are difficult to 
 
 Unlike PAUP, which installs as a single program, PHYLIP is a collection of 35+ programs that are intended to be used sequentially. You start a program by typing its name at the unix prompt.  
 
-Here is outline of the exercise (from a nice chapter in Current Protocols in Bioinformatics) with the name of the programs listed in ALLCAPs. 
+Here is outline of the exercise (from a [nice chapter](./bi0603.pdf) in Current Protocols in Bioinformatics) with the names of the programs listed in ALLCAPs. 
 
 ![IMG](./nbi060301.gif)
 
