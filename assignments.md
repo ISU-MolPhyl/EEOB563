@@ -23,7 +23,7 @@ Due 1/28.  (Note: there are answers online – do not read them! We will discuss
 (Due 3/4)
 
 [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment5.pdf)
-Due 3/16
+(Due 3/16)
 
 <!--
 [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment6.pdf)
