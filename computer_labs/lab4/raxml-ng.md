@@ -1,7 +1,7 @@
 # RAxML-NG tutorial
-**IMPORTANT NOTE**: This tutorial describes the functionality of the latest 
-[RAxML-NG v. 0.8.0](https://github.com/amkozlov/raxml-ng/releases/tag/0.8.0) 
-and is based on the [tutorial](https://github.com/amkozlov/raxml-ng/wiki/Tutorial) 
+**IMPORTANT NOTE**: This tutorial describes the functionality of the latest
+[RAxML-NG v. 1.0.2](https://github.com/amkozlov/raxml-ng)
+and is based on the [tutorial](https://github.com/amkozlov/raxml-ng/wiki/Tutorial)
 provided by its authors.
 
 <!--
@@ -15,43 +15,56 @@ provided by its authors.
 * [Advanced Tutorial](https://github.com/amkozlov/raxml-ng/wiki/Advanced-Tutorial)
 -->
 ## Intro
-RAxML-NG replaces standard RAxML as well as the corresponding supercomputer version ExaML. RAxML-NG does not (yet) support all options of standard RAxML, so you may need to use the [previous implementation](https://cme.h-its.org/exelixis/web/software/raxml/index.html) for some tasks.
+RAxML-NG replaces standard RAxML as well as the corresponding supercomputer
+version ExaML. RAxML-NG does not (yet) support all options of standard RAxML,
+so you may need to use the [previous implementation](https://cme.h-its.org/exelixis/web/software/raxml/index.html) for some tasks.
 
 ### Before you start:
-* Download and install RAxML-NG ([instructions](https://github.com/amkozlov/raxml-ng/wiki/Installation))
-* Update the course repository to download the data files
+* I already installed RAxML-NG in the class directory
+* You can still update the course repository to download the data files
 
-Check that you have RAxML-NG version 0.8.0 BETA or later:
+Check that you have the RAxML-NG version 1.0.2 or later:
+
 ```
 $ raxml-ng -v
 
-RAxML-NG v. 0.8.0 BETA released on 11.01.2019 by The Exelixis Lab.
+RAxML-NG v. 1.0.2 released on 22.02.2021 by The Exelixis Lab.
+...
 ```
 
-## Getting help 
+## Getting help
 #### `--help` option displays the help menu (you can also run `raxml-ng` without parameters).
 
-More comprehensive documentation is available in [GitHub wiki](https://github.com/amkozlov/raxml-ng/wiki). 
+More comprehensive documentation is available in [GitHub wiki](https://github.com/amkozlov/raxml-ng/wiki).
 
 ## Data and Model
-Remember that likelihood is the probability of the data given the model (P(D|M)).  So we have to specify our data and our model in all `raxml-ng` commands.
+Remember that likelihood is the probability of the data given the model (P(D|M)).  
+So we have to specify our data and our model in all `raxml-ng` commands.
 
 #### `--msa <FILE>` option (required) specifies alignment
 RAxML-NG supports alignments in FASTA, PHYLIP and CATG formats.
-By default, RAxML-NG will try to automatically detect alignment format based on the file contents. You can also specify the alignment format explicitly with the `--msa-format` option. 
+By default, RAxML-NG will try to automatically detect alignment format based on
+the file contents. You can also specify the alignment format explicitly with the
+`--msa-format` option.
 
 #### `--model <MODEL>` option (required) specifies the model of evolution.
-Examples of possible models are `GTR+G` for nucleotide data, `JTT+G` for aa data, `BIN` for binary data, `MULTI8_MK` multistate data with 8 categories, among [many others](./models.md).
+Examples of possible models are `GTR+G` for nucleotide data, `JTT+G` for aa data,
+`BIN` for binary data, `MULTI8_MK` multistate data with 8 categories, among
+[many others](./models.md).
 
 ## Output
-#### `--prefix <NAME>` option (optional) addes prefix to output files. 
-RAxML-NG will generate several output files. Use the `--prefix <NAME> ` option to avoid over-writing them. 
+#### `--prefix <NAME>` option (optional) addes prefix to output files.
+RAxML-NG will generate several output files. Use the `--prefix <NAME> ` option
+to avoid over-writing them.
 
 ## Checking/optimizing your data
 
 #### Use the `--check` command to check/optimize your dataset.
 
-`--check` command checks that the MSA can actually be read and doesn't contain sites with only undetermined characters or sequences with undetermined characters or duplicate taxon names, etc. etc. If the problems are found, a "cleaned" file is written.
+`--check` command checks that the MSA can actually be read and doesn't contain
+sites with only undetermined characters or sequences with undetermined characters
+or duplicate taxon names, etc. etc. If the problems are found, a "cleaned" file
+is written.
 
 ```
 raxml-ng --check --msa <DATAFILE> --model <MODEL> --prefix T1
@@ -61,8 +74,8 @@ raxml-ng --check --msa <DATAFILE> --model <MODEL> --prefix T1
 
 In addition to MSA check, `--parse` command will perform two useful operations:
 
-1. Compress alignment patterns and store MSA in the binary format 
-2. Estimate memory requirements and optimal number of CPUs/threads 
+1. Compress alignment patterns and store MSA in the binary format
+2. Estimate memory requirements and optimal number of CPUs/threads
 
 ```
 raxml-ng --parse --msa <DATAFILE> --model <MODEL> --prefix T2
@@ -70,27 +83,33 @@ raxml-ng --parse --msa <DATAFILE> --model <MODEL> --prefix T2
 
 ## Running ML search
 #### `--search` conducts a heurstic search for the ML tree
-By default, `--search` will perform 20 tree searches using 10 random and 10 parsimony-based starting trees, and pick the best-scoring topology. You can add the `--seed <N>` option for reproducibility. 
+By default, `--search` will perform 20 tree searches using 10 random and 10
+parsimony-based starting trees, and pick the best-scoring topology. You can add
+the `--seed <N>` option for reproducibility.
 
 ```
- raxml-ng --msa <DATAFILE> --model <MODEL> --prefix T3 --threads 2 --seed <N> 
+ raxml-ng --msa <DATAFILE> --model <MODEL> --prefix T3 --threads 2 --seed <N>
 ```
 
 #### `--tree pars{N},rand{M}` option specifies the number of starting trees
-Although, the default settings is a reasonable choice for many practical cases, computational resources permitting, we might want to increase the number of starting trees to explore the tree space more thoroughly: 
+Although, the default settings is a reasonable choice for many practical cases,
+computational resources permitting, we might want to increase the number of
+starting trees to explore the tree space more thoroughly:
 
 ```
  raxml-ng --msa <DATAFILE> --model GTR+G --prefix T4 --threads 2 --seed 2 --tree pars{25},rand{25}
 ```
-Conversely, we can perform a quick-and-dirty search from a single random starting tree using the `--search1` command:
+Conversely, we can perform a quick-and-dirty search from a single random starting
+tree using the `--search1` command:
 
 ```
- raxml-ng --search1 --msa <DATAFILE> --model GTR+G --prefix T5 --threads 2 --seed 2 
+ raxml-ng --search1 --msa <DATAFILE> --model GTR+G --prefix T5 --threads 2 --seed 2
 ```
 #### `--rfdist` computes topological Robinson-Foulds (RF) distances among the trees
 
-You may wonder if 20 (or even 50) starting trees were enough for the analysis. The program's ouput showed some veriation in Final logLikelihood values, but was it due to different topologies? 
-We can check this by using the `--rfdist` command to compute the topological Robinson-Foulds (RF) distance among all trees:  
+You may wonder if 20 (or even 50) starting trees were enough for the analysis. The program's ouput showed some variation in the Final logLikelihood values, but was it due to different
+topologies? We can check this by using the `--rfdist` command to compute the
+topological Robinson-Foulds (RF) distance among all trees:  
 
 ```
 raxml-ng --rfdist --tree mltrees --prefix RF
@@ -99,7 +118,9 @@ Use `cat` to examine the `.rfDistances` file.
 
 ## Bootstrapping
 
-**NOTE:** As of v. 0.8.0b, RAxML-NG supports only *standard/slow* bootstrap algorithm (`-b` option in RAxML8). It is much slower than *rapid* bootstrapping implemented in RAxML8 (`-x` or `-f a` options), but gives more accurate support values estimates.
+**NOTE:** As of v. 0.8.0b, RAxML-NG supports only *standard/slow* bootstrap
+algorithm (`-b` option in RAxML8). It is much slower than *rapid* bootstrapping
+implemented in RAxML8 (`-x` or `-f a` options), but gives more accurate support values estimates.
 
 #### `--bootstrap` performs non-parametric bootstrap analysis.
 
@@ -107,26 +128,29 @@ Use `cat` to examine the `.rfDistances` file.
 raxml-ng --bootstrap --msa <DATAFILE> --model GTR+G --prefix T7 --seed 2 --threads 2
 ```
 
-By default, RAxML-NG will perform [MRE-based bootstopping test](https://www.liebertpub.com/doi/abs/10.1089/cmb.2009.0179) after every 50 replicates, and terminate once the diagnostic statistics drops below the cutoff value.
+By default, RAxML-NG will perform [MRE-based bootstopping test](https://www.liebertpub.com/doi/abs/10.1089/cmb.2009.0179) after every 50 replicates, and terminate once the diagnostic
+statistics drops below the cutoff value.
 
-However, you can manually specify the number of replicates with the `--bs-trees <N>` option, where N is the number of replicates. 
+However, you can manually specify the number of replicates with the
+`--bs-trees <N>` option, where N is the number of replicates.
 
-Bootstrap convergence can also be checked post-hoc using the `--bsconverge` command, we can also change the cutoff value to make the test more or less stringent:
+Bootstrap convergence can also be checked post-hoc using the `--bsconverge`
+command, we can also change the cutoff value to make the test more or less stringent:
 ```
 raxml-ng --bsconverge --bs-trees <BOOTSTRAPS> --prefix T9 --seed 2 --threads 2 --bs-cutoff 0.01
 ```
 
-#### `--support` maps bootstrap values on the ML tree 
+#### `--support` maps bootstrap values on the ML tree
 
-We can map bootstrap values onto the best-scoring/best-known ML tree. 
-We will use the ML tree obtained in the run `T3`: 
+We can map bootstrap values onto the best-scoring/best-known ML tree.
+We will use the ML tree obtained in the run `T3`:
 
 ```    
-raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T13 --threads 2 
+raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T13 --threads 2
 ```  
 We can use a tree viewer (I use FigTree a lot) to visualize the ML tree with mapped bootstrap values (you have to choose "label" option under the "display node support".
 
->**Tip:** To view a phylogenetic trees on the terminal, use the `nw_display` program from the `newick_utils` module. 
+>**Tip:** To view a phylogenetic trees on the terminal, use the `nw_display` program from the `newick_utils` module.
 However, you'll need to use the older RISA modules:
 >
 ```
@@ -139,9 +163,9 @@ Alternatively, we can compute so-called *Transfer Bootstrap Expectation* support
 ```
 raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T14 --threads 2 --bs-metric tbe
 ```
-  
+
 ## Running ML search and bootstrap analysis in one step
-#### `--all` command runs both ML search and bootstrap analysis; 
+#### `--all` command runs both ML search and bootstrap analysis;
 * `--bs-metric` option maps these bootstrap values on the ML tree.  
 
 ```  
@@ -156,12 +180,12 @@ One way to answer these question is to compute the likelihoods of MP, NJ, and ML
 
 #### `--evaluate` command calculates likelihood of a tree
 * `--opt-model on/off` you can enable/disable model parameter optimization.
-* `--opt-branches on/off` you can enable/disable branch length optimization. 
+* `--opt-branches on/off` you can enable/disable branch length optimization.
 
 The commands looks like:
 ```
 raxml-ng --evaluate --msa <ALIGNMNET> --threads <N> --model <MODEL> --tree <TREE TO EVALUATE> --prefix <PREFIX>
-``` 
+```
 
 ## Partitioned analysis
 #### Use `--model <file_name>` to specifies partitions.
@@ -190,7 +214,7 @@ In partitioned analyses, there are three common ways to estimate branch lengths 
 - **scaled** (**proportional**): a global set of branch lengths is estimated like in `linked` mode,  but each partition has an individual scaling factor; per-partition branch lengths are obtained by multiplying the global branch lengths with these individual scalers. This approach is a compromise that allows to model distinct evolutionary rates across partitions while introducing only a moderate number of free parameters (`#branches + #partitions`).
 
 ## Topological constraint
-#### `--constraint-tree FILE` option specifies a constraint tree 
+#### `--constraint-tree FILE` option specifies a constraint tree
 
 If the constraint tree is _comprehensive_ (i.e., it includes all taxa found in the MSA), then RAxML will simply resolve polytomies in the way that maximizes the likelihood. Conversely, if some taxa are missing from the constraint, they will be placed freely in the resulting ML tree.
 
@@ -204,7 +228,7 @@ The outgroup can be a single taxon (`--outgroup Human`) or a list of taxa which 
 ## Now it is your turn.
 **1)** Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support using 50 bs replicates.
 
-**2)** Calculate the likelihood score for the following models of DNA evolution: Jukes-Cantor (JC), JC with rate heterogeneity (JC+G), GTR (GTR), GTR with the Gamma model of rate heterogeneity, but empirical base frequencies (GTR+G+FC), same buth with ML estimate of the base frequencies (GTR+G+FO), as previously by with 4 free rates instead of GAMMA-distributed rates (GTR+R4+FO). Use the best tree from above and E1-E6 prefixes for these analyses. 
+**2)** Calculate the likelihood score for the following models of DNA evolution: Jukes-Cantor (JC), JC with rate heterogeneity (JC+G), GTR (GTR), GTR with the Gamma model of rate heterogeneity, but empirical base frequencies (GTR+G+FC), same buth with ML estimate of the base frequencies (GTR+G+FO), as previously by with 4 free rates instead of GAMMA-distributed rates (GTR+R4+FO). Use the best tree from above and E1-E6 prefixes for these analyses.
 
 Check the results with:  
 ```
