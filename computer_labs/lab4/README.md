@@ -26,10 +26,10 @@ to request access to compute nodes on the cluster. For this exercise use the
 `salloc -N 1 -n 8 -t 2:00:00` command to request 8 cores on 1 node for 2 hours.
 
 ## Preliminaries
-1. raxml-ng is already installed in the shared class directory (how do you check
+1. `raxml-ng` is already installed in the shared class directory (how do you check
   the location of a program?);
-2. I also installed nw-display tool that allows you to view phylogenetic trees
-  in the terminal;
+2. I also installed the `nw-display` tool that allows you to view phylogenetic
+  trees on HPC-class;
 3. The data for this lab is in the course repository. Make sure to update it with
  `git pull`
 
@@ -65,4 +65,4 @@ based on the number of nodes and time requested.
 * To see the list of available partitions, issue: `sinfo`
 * For more details on partitions limits, issue: `scontrol show partitions`
 * To see the job queue, issue: `squeue`
-* To cancel job \<job_id\>, issue: `scancel \<job_id\>`
+* To cancel job \<job_id\>, issue: `scancel <job_id>`
