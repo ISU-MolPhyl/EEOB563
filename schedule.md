@@ -76,7 +76,7 @@ Here are the [instructions](./final_project.md).
 
 ### Week 8 (Mar 16, 18)
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/06_Bayesian_phylogenetics.pdf)]
-    * Discussion: Williams et al., 2020. Phylogenomics provides robust support for a two-domains tree of life. [Nature Ecology and Evoluiton, 4:138–147](https://isu-molphyl.github.io/EEOB563-Spring2021/discussion_articles/williams2021_42635.pdf)
+    * Discussion: Williams et al., 2020. Phylogenomics provides robust support for a two-domains tree of life. [Nature Ecology and Evoluiton, 4:138–147](https://isu-molphyl.github.io/EEOB563-Spring2021/discussion_articles/williams2020_42635.pdf)
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2021/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment6.pdf) (**due 03/25**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/hiv.nxs)
 
