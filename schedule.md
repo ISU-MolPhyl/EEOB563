@@ -105,27 +105,27 @@ Here are the [instructions](./final_project.md).
 		Alternative (simpler) reading: Kelchner & Thomas (2007). Model use in
 		phylogenetics: nine key questions. [TREE 22: 87-94](https://doi.org/10.1016/j.tree.2006.10.004)
     * Discussion: Abadi et al. 2019. Model selection may not be a mandatory step for
-    phylogeny reconstruction. [Nature Communications 10:934](https://doi.org/10.1038/s41467-019-08822-w)
-			* There is a critique in [BioRxiv](https://doi.org/10.1101/849018) if you are interested.
-    	* Remember to post at least one comment question in the reading-discussion channel on Slack!
+    phylogeny reconstruction. [Nature Communications 10:934](https://doi.org/10.1038/s41467-019-08822-w)  
+			* There is a critique in [BioRxiv](https://doi.org/10.1101/849018) if you are interested.  
+    	* Remember to post at least one comment question in the reading-discussion channel on Slack!  
 
 ### Week 10 (Mar 30, Apr 1)
 * Lecture 13: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
     * For additional details and examples, read (optional): Yang 2019. Adaptive Molecular Evolution. In. Balding et al. (Eds). [Handbook of Statistical Genomics, 4ed.](https://doi.org/10.1002/9781119487845.ch13).  
-    * Discussion: Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
-    * Remember to post a question/comment in the reading-discussion channel on Slack!
+    * Discussion: Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).  
+    * Remember to post a question/comment in the reading-discussion channel on Slack!  
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
 
-### Week 11 (Apr 6, 8) 
-* Lecture 14: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/09_Gene_trees_species_trees.pdf)].
-    * Reading: Maddison (1997). Gene Trees in Species Trees. [Systematic Biology 46: 523–536](https://doi.org/10.1093/sysbio/46.3.523).
+### Week 11 (Apr 6, 8)
+* Lecture 14: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/09_Gene_trees_species_trees.pdf)].  
+    * Reading: Maddison (1997). Gene Trees in Species Trees. [Systematic Biology 46: 523–536](https://doi.org/10.1093/sysbio/46.3.523).  
     * Discussion: Gatesy and Springer (2014). Phylogenetic analysis at deep timescales:
     Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum.
-    [Molecular Phylogenetics and Evolution 80: 231-266](https://doi.org/10.1016/j.ympev.2014.08.013)
-* Lecture 15: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    [Molecular Phylogenetics and Evolution 80: 231-266](https://doi.org/10.1016/j.ympev.2014.08.013)  
+* Lecture 15: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].  
 		* Reading: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
-		  In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp. 2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).
+		  In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp. 2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).  
 		* Discussion: Hug at al. (2016). A new view of the tree of life.
 			[Nat. Microb. 1: 16048](https://doi.org/10.1038/nmicrobiol.2016.48)
 
