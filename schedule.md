@@ -123,11 +123,11 @@ Here are the [instructions](./final_project.md).
     * Discussion: Gatesy and Springer (2014). Phylogenetic analysis at deep timescales:
     Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum.
     [Molecular Phylogenetics and Evolution 80: 231-266](https://doi.org/10.1016/j.ympev.2014.08.013)  
-* Lecture 15: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].  
+* Lecture 15: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/04_10_18.pdf)].  
 		* Reading: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
-		  In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp. 2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).  
+		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp. 2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).  
 		* Discussion: Hug at al. (2016). A new view of the tree of life.
-			[Nat. Microb. 1: 16048](https://doi.org/10.1038/nmicrobiol.2016.48)
+		[Nat. Microb. 1: 16048](https://doi.org/10.1038/nmicrobiol.2016.48)
 
 <!--
 
