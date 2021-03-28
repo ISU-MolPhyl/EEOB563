@@ -96,14 +96,13 @@ Here are the [instructions](./final_project.md).
 
 ### Week 9 (Mar 23, 25)
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2021/computer_labs/lab5): Bayesian analysis with MrBayes.
-     * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment6.pdf) (**due 03/30**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/hiv.nxs)
-* Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/07_Hypothesis_testing.pdf)].
+     * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment6.pdf) (**due 04/01**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/hiv.nxs)
+* Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/07_Model_use.pdf)].
     * Reading: Posada & Buckley (2004).  Model Selection and Model Averaging in
 		Phylogenetics: Advantages of Akaike Information Criterion and Bayesian
 		Approaches Over Likelihood Ratio Tests.
     [Systematic Biology 53: 793–808](https://doi.org/10.1080/10635150490522304).
-		Alternative (simpler) reading: Kelchner & Thomas (2007). Model use in
-		phylogenetics: nine key questions. [TREE 22: 87-94](https://doi.org/10.1016/j.tree.2006.10.004)
+			* Alternative (simpler) reading: Kelchner & Thomas (2007). Model use in phylogenetics: nine key questions. [TREE 22: 87-94](https://doi.org/10.1016/j.tree.2006.10.004)
     * Discussion: Abadi et al. 2019. Model selection may not be a mandatory step for
     phylogeny reconstruction. [Nature Communications 10:934](https://doi.org/10.1038/s41467-019-08822-w)  
 			* There is a critique in [BioRxiv](https://doi.org/10.1101/849018) if you are interested.  

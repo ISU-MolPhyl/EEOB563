@@ -3,7 +3,7 @@ layout: page
 title: EEOB 563 - Lecture Notes
 sidebar: Notes
 navigation: 5
-icon: <i class='fa fa-clipboard'></i> 
+icon: <i class='fa fa-clipboard'></i>
 ---
 
 # Textbook and lecture notes
@@ -28,8 +28,9 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [06. Bayesian Analysis](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/06_Bayesian_phylogenetics.pdf)
 
+[07. Hypothesis testing](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/07_Model_use.pdf)
+
 <!--
-[07. Hypothesis testing](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/07_Hypothesis_testing.pdf)
 
 [08. Molecualar Evolution](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/08_Molecular_evolution.pdf)
 
