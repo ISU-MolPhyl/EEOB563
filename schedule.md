@@ -101,7 +101,7 @@ Here are the [instructions](./final_project.md).
     * Reading: Posada & Buckley (2004).  Model Selection and Model Averaging in
 		Phylogenetics: Advantages of Akaike Information Criterion and Bayesian
 		Approaches Over Likelihood Ratio Tests.
-    [Systematic Biology 53: 793–808](https://doi.org/10.1080/10635150490522304).
+    [Systematic Biology 53: 793–808](https://doi.org/10.1080/10635150490522304).  
 			* Alternative (simpler) reading: Kelchner & Thomas (2007). Model use in phylogenetics: nine key questions. [TREE 22: 87-94](https://doi.org/10.1016/j.tree.2006.10.004)
     * Discussion: Abadi et al. 2019. Model selection may not be a mandatory step for
     phylogeny reconstruction. [Nature Communications 10:934](https://doi.org/10.1038/s41467-019-08822-w)  
