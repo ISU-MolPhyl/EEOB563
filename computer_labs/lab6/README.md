@@ -1,9 +1,9 @@
 # Lab #6 Hypothesis Testing and Detecting Selection with PAML
 ### Expected learning outcomes
 <img src="./pict/dper_f.jpg" align="right" hspace="10">
-The objective of this activity is to help you understand how to use PAML program, and how to test hypothese using the Maximum Likelihood approach.  There are many more applications of PAML (see below).  Check its [manual](http://abacus.gene.ucl.ac.uk/software/pamlDOC.pdf) and [FAQs](http://abacus.gene.ucl.ac.uk/software/pamlFAQs.pdf) for additional ideas.
+The objective of this activity is to help you understand how to use PAML program, and how to test hypothese using the Maximum Likelihood approach.  There are many more applications of PAML (see below).  Check its [manual](http://abacus.gene.ucl.ac.uk/software/pamlDOC.pdf){:target="_blank"} and [FAQs](http://abacus.gene.ucl.ac.uk/software/pamlFAQs.pdf){:target="_blank"} for additional ideas.
 
-The exercises we will be doing today follow a [tutorial](http://evomics.org/learning/phylogenetics/paml/) prepared by Joe Bielawski based on a [book chapter](./PAML_chapter.pdf) by Bielawski and Yang (2005).
+The exercises we will be doing today follow a [tutorial](http://evomics.org/learning/phylogenetics/paml/){:target="_blank"} prepared by Joe Bielawski based on a [book chapter](./PAML_chapter.pdf){:target="_blank"} by Bielawski and Yang (2005).
 
 ### Introduction
 PAML is *a package* of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood. It is maintained and distributed for academic use free of charge by Ziheng Yang. Examples of analyses that can be performed using the package include:  
@@ -34,7 +34,7 @@ module load paml;
 name_of_the_paml_program
 ```
 
-You can also install PAML on your computer from its [website](http://abacus.gene.ucl.ac.uk/software/paml.html).
+You can also install PAML on your computer from its [website](http://abacus.gene.ucl.ac.uk/software/paml.html){:target="_blank"}.
 
 *Note:* For the exercises below we will use a single program from the paml package: `codeml`.
 
@@ -53,7 +53,7 @@ Check your finding by running CODEML’s hill-climbing algorithm.
   - Pay close attention to the modified control file called codeml.ctl.ex1.
   - When you are ready to run CODEML, delete the .ex1 extension (the control file must be called codeml.ctl for the program to run).  
 2. Move to the directory that contains your files, and run CODEML.  
-3. Familiarize yourself with the [results](./help_files/ex1_HelpFile.pdf).
+3. Familiarize yourself with the [results](./help_files/ex1_HelpFile.pdf){:target="_blank"}.
   - If you have not edited the control file the results will be written to a file called results.txt.
   - Identify the line within the results file that gives the likelihood score for the example dataset.
 4. Now change the control files and re-run CODEML. The objective is to
@@ -74,17 +74,17 @@ and what is the effect on ω.
 
 1. Examine the files for Exercise 2 (downloaded in the previous exercise).
 It would be best to create a new directory for exercise 2.
-2. Run `codeml` using the settings in the control file for exercise 2. Familiarize yourself with the [results](./help_files/ex2_HelpFile.pdf). In addition to the likelihood score you must be able to identify the part of the result file that provides estimates of the following:
+2. Run `codeml` using the settings in the control file for exercise 2. Familiarize yourself with the [results](./help_files/ex2_HelpFile.pdf){:target="_blank"}. In addition to the likelihood score you must be able to identify the part of the result file that provides estimates of the following:
 	- Number of synonymous or nonsynonymous sites (S and N)
 	- Synonymous and nonsynonymous rates (dS and dN)
 3. As in exercise 1, you will need to change the control files and re-run CODEML. The objective is to compute the likelihood of the example dataset under different model assumptions. To do this you must:
 	- Change the name of the main result file (via `outfile=` in the control file) or you will overwrite your previous results
 	- Change the model assumptions about codon frequencies (via CodonFreq=) and kappa (via `kappa=` and `fix_kappa=`).
 4. Repeat step 3 for each set of assumptions about codon frequencies and kappa given as comments at the bottom of the example control file.
-5. In your favorite spreadsheet program create a table like [this](./help_files/TableE2.pdf) and fill it in with your results.
+5. In your favorite spreadsheet program create a table like [this](./help_files/TableE2.pdf){:target="_blank"} and fill it in with your results.
 6. Use your table to determine which assumptions yield the largest and smallest values of S. What is the effect on omega?
 
-### exercise 3: Testing hypotheses about molecular evolution of LDH
+### Exercise 3: Testing hypotheses about molecular evolution of LDH
 <img src="./pict/tree.png" align="right" hspace="20">
 In this exercise we will explore the variation in selective pressure among branches in *Ldh*. The lactate dehydrogenase (Ldh) genes found in mammals originated from a duplication near the origin of vertebrates (Ldh-A and Ldh-B) and a later duplication near the origin of mammals. Previously it was found that the rate of evolution had increased in mammalian Ldh-C sometime following the second duplication event. An unresolved question about this gene family is whether the increased rate of Ldh-C reflects (i) a burst of positive selection for functional divergence following the duplication event, (ii) a long-term change in selective pressure, or (iii) simply an increase in the underlying mutation rate of Ldh-C. In the following, we use the LRT for variable ω ratios among branches to test these evolutionary scenarios.
 
@@ -98,12 +98,12 @@ In this exercise we will explore the variation in selective pressure among branc
 4. As in the previous exercises, you will need to change the control files and re-run `codeml`. The objective is to compute the likelihood, and estimate omega parameters, under different models of how selection pressure changes in different parts of the tree. Because the relevant model information is contained in the tree file, you will need several tree files (obtained from the course web site) and change the control file so that it reads the different tree files.
 	- As previously, you should change the name of the main result file (via `outfile=` in the control file) or you will overwrite your previous results.
 	- Change the model assumptions about branch specific omega values by changing the tree files (viatreefile= and model=) set within the control file.
-5. Repeat step 3 for each of the four tree files that have been provided to you. Again, keep track of your results by using a table like [Table3](./helpfiles/TableE3.pdf). In addition, carry out likelihood ratio tests (LRT) of the hypotheses below. Use 1 degree of freedom for each LRT. Helpful: [Chi-Square Calculator](http://www.socscistatistics.com/pvalues/chidistribution.aspx).
+5. Repeat step 3 for each of the four tree files that have been provided to you. Again, keep track of your results by using a table like [Table3](./helpfiles/TableE3.pdf){:target="_blank"}. In addition, carry out likelihood ratio tests (LRT) of the hypotheses below. Use 1 degree of freedom for each LRT. Helpful: [Chi-Square Calculator](http://www.socscistatistics.com/pvalues/chidistribution.aspx){:target="_blank"}.
 	- H0 vs. H1
 	- H0 vs. H2
 	- H2 vs. H3
 
-### exercise 4: Testing for adaptive evolution in the _nef_ gene of human HIV-2
+### Exercise 4: Testing for adaptive evolution in the _nef_ gene of human HIV-2
 
 The data for this exercise come from Padua et al. 2003, who sequenced 44 _nef_ alleles from a study population of 37 HIV-2-infected people living in Lisbon, Portugal. They found that nucleotide variation in the _nef_ gene, rather than gross structural change, waspotentially correlated with HIV-2 pathogenesis. In order to determine whetherthe _nef_ gene might also be evolving under positive selective pressure in HIV-2, we will analyzed these data here with models of variable ω ratios amongsites. If you find significant evidence for positive selection, then identify the involved sites by using empirical Bayes methods.
 
