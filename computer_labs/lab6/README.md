@@ -50,20 +50,19 @@ Plot log-likelihood scores against the values of ω and determine the maximum li
 Check your finding by running CODEML’s hill-climbing algorithm.  
 
 1. Unzip files for exercise 1 (and 2) and familiarize yourself with them. 
-Pay close attention to the modified control file called codeml.ctl.ex1. 
-When you are ready to run CODEML, delete the .ex1 extension (the control 
-file must be called codeml.ctl for the program to run).  
+  - Pay close attention to the modified control file called codeml.ctl.ex1. 
+  - When you are ready to run CODEML, delete the .ex1 extension (the control file must be called codeml.ctl for the program to run).  
 
 2. Move to the directory that contains your files, and run CODEML.  
 
 3. Familiarize yourself with the [results](./help_files/ex1_HelpFile.pdf). 
-If you have not edited the control file the results will be written to a file called results.txt. 
-Identify the line within the results file that gives the likelihood score for the example dataset. 
+  - If you have not edited the control file the results will be written to a file called results.txt. 
+  - Identify the line within the results file that gives the likelihood score for the example dataset. 
 
 4. Now change the control files and re-run CODEML. The objective is to 
 compute the likelihood of the example dataset given a fixed value of omega.
-	- Change the name of your result file (via `outfile=` in the control file) or you will overwrite your previous results!  
-	- Change the fixed value for omega by changing `omega=` in the control file. The values for this exercise are provided as comments at the bottom of the example control file.  
+  - Change the name of your result file (via `outfile=` in the control file) or you will overwrite your previous results!  
+  - Change the fixed value for omega by changing `omega=` in the control file. The values for this exercise are provided as comments at the bottom of the example control file.  
 5. Repeat step 4 for each value of omega given in the comments of the example control file.  
 6. Plot the likelihood score (y-axis) against the fixed value for omega (x-axis). Use a logarithmic scale for the x-axis.  
 7. From the plot, try to guess the value of omega that will maximize the likelihood score (i.e., the MLE).
