@@ -117,7 +117,7 @@ Here are the [instructions](./final_project.md).
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
 
 ### Week 11 (Apr 6, 8)
-* Lecture 14: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/09_Gene_trees_species_trees.pdf)].  
+* Lecture 14: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/09_Gene_species_trees.pdf)].  
     * Reading: Maddison (1997). Gene Trees in Species Trees. [Systematic Biology 46: 523–536](https://doi.org/10.1093/sysbio/46.3.523).  
     * Discussion: Gatesy and Springer (2014). Phylogenetic analysis at deep timescales:
     Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum.

@@ -32,7 +32,7 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [08. Molecualar Evolution](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/08_Molecular_evolution.pdf)
 
-[09. Gene Trees in Species Trees](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/09_Gene_trees_species_trees.pdf)
+[09. Gene Trees in Species Trees](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/09_Gene_species_trees.pdf)
 
 <!--
 
