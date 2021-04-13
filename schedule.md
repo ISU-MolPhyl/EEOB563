@@ -128,7 +128,12 @@ Here are the [instructions](./final_project.md).
     * Discussion: Hug at al. (2016). A new view of the tree of life. [Nat. Microb. 1: 16048](https://doi.org/10.1038/nmicrobiol.2016.48).  
 
 ### Week 12 (Apr 13, 15)
-* [Computer Lab 7](): Phylogenomics
+* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
+* Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
+    * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
+		* #### &#10071; The first draft of your project is due on Apr 15 &#10071;
+
 
 <!--
 

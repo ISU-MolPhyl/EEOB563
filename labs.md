@@ -3,7 +3,7 @@ layout: page
 title: EEOB 563 - Labs
 sidebar: Labs
 navigation: 3
-icon: <i class='fa fa-flask'></i> 
+icon: <i class='fa fa-flask'></i>
 ---
 
 # Computer Laboratories
@@ -20,6 +20,6 @@ icon: <i class='fa fa-flask'></i>
 
 [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
 
-[Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
+[Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
 
 [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
