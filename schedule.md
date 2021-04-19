@@ -132,7 +132,7 @@ Here are the [instructions](./final_project.md).
 * Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
     * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
-    *  #### &#10071; Final project draft due:  #### &#10071; share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/22.  
+    *  &#10071; Final project draft due:  &#10071; share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/22.  
     
 ### Week 13 (Apr 20, 22)
 
@@ -152,7 +152,8 @@ Here are the [instructions](./final_project.md).
 * Final presentations
 
 ### Week 15 (May 3)
-    * Final presentations  #### &#10071; 8-10 AM  #### &#10071; 
+    * Final presentations  &#10071; 8-10 AM &#10071; 
+
 
 <!--
 
