@@ -1,4 +1,4 @@
----
+--
 layout: page
 title: EEOB 563 - Schedule
 sidebar: Schedule
@@ -132,31 +132,32 @@ Here are the [instructions](./final_project.md).
 * Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
     * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
-		* #### &#10071; The first draft of your project is due on Apr 15 &#10071;
+    *  #### &#10071; Final project draft due:  #### &#10071; share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/22.  
+    
+### Week 13 (Apr 20, 22)
 
+* Lecture 17: Comparative tests [[notes]()].
+    * Reading: Uyeda et al. 2018. Rethinking phylogenetic comparative methods. [Systematic Biology 67: 1091–1109](https://doi.org/10.1093/sysbio/syy031)
+    * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
+* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
+    * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
+
+### Week 14 (Apr 27, 29) 
+ 
+* Lecture 18: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/10_Molecular_clocks.pdf)].
+    * Reading: Bromham et al. (2018). Bayesian molecular dating: opening up the black box. [Biological Reviews, 93: 1165-1191](https://doi.org/10.1111/brv.12390)
+    * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960.
+    [Nature 455: 661–664](https://doi.org/10.1038/nature07390). A cool paper that involves molecular clock analyses and paleovirology.
+      * Remember to post at least one comment/question on either paper in the reading-discussion channel on Slack and answer/comment on another post.
+* Final presentations
+
+### Week 15 (May 3)
+    * Final presentations  #### &#10071; 8-10 AM  #### &#10071; 
 
 <!--
 
+    * Reading (optional): Soul and Wright 2020. Phylogenetic Comparative Methods: A User’s Guide for Paleontologists. [EcoEvoRxiv Preprints](10.32942/osf.io/ytm5x)
 
-* Lecture 16: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/10_Molecular_clocks.pdf)].
-    * In lieu of the lecture, read: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355–367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
-    * Here is a newer paper that I find very useful: Bromham et al. (2018). Bayesian molecular dating: opening up the black box. [Biological Reviews, 93: 1165-1191](https://doi.org/10.1111/brv.12390)
-    * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960.
-    [Nature 455: 661–664](https://doi.org/10.1038/nature07390). A cool paper that involves molecular clock analyses and paleovirology.
-    * Special discussion paper (optional): Tang et al. (2021). On the origin and continuing evolution of SARS-CoV-2. [National Science Review, nwaa036](https://doi.org/10.1093/nsr/nwaa036). *Note:* This paper is not directly related to the present topic, but shows application of
-    several techniques we discussed in class.
-    * Remember to post at least one comment/question on either paper in the reading-discussion channel on Slack and answer/comment on another post.
-
-### Week 13 (Apr 20, 22)
-* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
-
-* Topic 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
-    * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
-
-* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
-    * In lieu of the introduction, read: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
-    * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/21.  
 
 ### Week 14 (Apr 27, 29) -- COVID-19 edition
 * Topic 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
@@ -229,10 +230,6 @@ nature18959).
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
 
 ### Week 14
-* Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * Reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
-    * Discussion: (leaders _Katelyn and Jermaine_) Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/      
-articles/nature17159).
 
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * Reading (again): Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
