@@ -152,6 +152,7 @@ Here are the [instructions](./final_project.md).
 * Final presentations
 
 ### Week 15 (May 3)
+    
     * Final presentations  &#10071; 8-10 AM &#10071; 
 
 
