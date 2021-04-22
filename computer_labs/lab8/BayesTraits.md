@@ -16,9 +16,11 @@ between the two states:
 
 <img src="./img/lab8-fig1.png" width = "300" align="left" hspace="10">  
 
+
 The file MatingSystem.txt contains mating system data for a
 variety of primate species; primate phylogenetic trees are in Primates.trees
 (we use more than one to account for phylogenetic uncertainty).  
+<br>
 
 ### Using Maximum Likelihood.
 #### Estimating the model
@@ -27,6 +29,7 @@ variety of primate species; primate phylogenetic trees are in Primates.trees
 * Type `BayesTraits data/Primates.trees data/MatingSystems.txt` to start the program.
 * When prompted for the model of evolution, select MultiState by typing `1`.
 * When prompted for the analysis method, select Maximum Likelihood by typing `1`.
+* Set the logfile basename to "Run01": `LogFile Run01`
 * Type `run` and the program returns the output shown below for each of the 20
 trees in the sample (here the output is shown for only the first 5 trees).
 
@@ -69,6 +72,7 @@ constrained to be the same.
 * Create this restriction by typing `restrict q01 q10`
 (you have to restart the program and follow the above instructions again)
 * Check that the restrictions have been made by typing `info`
+* Set the logfile basename to "Run02": `LogFile Run02`
 * Run the new model (`run`) and check the log-likelihood scores. A rule of thumb
 is that if this model is two or more log-likelihood units worse than the
 unconstrained model, then the two rate coefficients differ.
@@ -97,6 +101,7 @@ state is of interest. In any given tree the MRCA might also include other specie
 that here corresponds to the common ancestor to the Great Apes.
 * Use `AddMRCA Node2 GreatApes` command to set up a reconstruction for a MRCA of a group of species.
 * Type `info` to see the information about these nodes among the trees.  
+* Set the logfile basename to "Run03": `LogFile Run03`
 To run the program type `run`
 
 > **Questions to consider:**
@@ -379,6 +384,48 @@ Run
 
 The results provide ML value (Lh), the phylogenetically corrected mean of the data
 (the estimated root value), the phylogenetically corrected variance of the data.
+
+What if we want to estimate values for some internal nodes?
+
+### Continuous: Estimating ancestral sates and tip values
+Continuous models can be used to estimate unknown values on the tree, either
+internal nodes or tips. Estimating unknown values is a two-step process,
+first a distribution of models is estimated from available data, secondly the
+models are used to estimate unknown values. The two-step process prevents
+estimated data from affecting the model parameters. Estimating unknown
+values can be used with model A, model B and the regression model **but only using
+MCMC**. The `SaveModels` command is used to save models to a specified file, the
+`LoadModels` command is used to load the models into BayesTraits. The same model
+parameters, including tree transformations, has to be specified when creating a
+model file and when estimating unknown values, only very basic error checking is
+implemented.
+
+#### Estimating unknown values internal nodes
+Start BayesTraits with the “Mammal.trees” file and “MammalBody.txt” data.
+Select model A (4) and MCMC analysis (2). Save the models and run the analysis
+with the commands below, the models will be saved into a file called
+“MamBodyModels.bin”
+
+```
+4
+2
+SaveModels MamBodyModels.bin
+Run
+```
+
+To estimate data, use the same options to start the analysis, load the models,
+define the internal nodes of interest and run the analysis:
+
+```
+4
+2
+LoadModels MamBodyModels.bin
+AddTag Tag01 Whale Hippo Llama Ruminant Pig
+AddTag Tag02 Mouse Rat Hystricid Caviomorph
+AddMRCA Node-01 Tag01
+AddMRCA Node-02 Tag02
+Run
+```
 
 ** See more examples of analyses with continuous characters in the
 [BayesTraits manual](http://www.evolution.rdg.ac.uk/BayesTraitsV3.0.2/Files/BayesTraitsV3.0.2Manual.pdf)
