@@ -133,7 +133,7 @@ Here are the [instructions](./final_project.md).
     * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
     * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
     *  &#10071; Final project draft due:  &#10071; share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/22.  
-    
+
 ### Week 13 (Apr 20, 22)
 
 * Lecture 17: Comparative tests [[notes]()].
@@ -142,18 +142,33 @@ Here are the [instructions](./final_project.md).
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
 
-### Week 14 (Apr 27, 29) 
- 
+### Week 14 (Apr 27, 29)
+
 * Lecture 18: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/10_Molecular_clocks.pdf)].
     * Reading: Bromham et al. (2018). Bayesian molecular dating: opening up the black box. [Biological Reviews, 93: 1165-1191](https://doi.org/10.1111/brv.12390)
     * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960.
     [Nature 455: 661–664](https://doi.org/10.1038/nature07390). A cool paper that involves molecular clock analyses and paleovirology.
       * Remember to post at least one comment/question on either paper in the reading-discussion channel on Slack and answer/comment on another post.
-* Final presentations
+		#### &#10071; The final project report is due by the end of the day on Tuesday! &#10071;
+
+### Final presentations [[Scoring rubric](./scoring_rubric.pdf)]
+* 04/29/21 9-10:50am
+		- Audrey McCombs
+		- Cameron Vannoy + Kaitlyn Barnes + Rachel
+		- Zerui Zhang
+		- Mudith Ekanayake
+		- Mihir Kharate
+		- Kavi Raj Acharya
 
 ### Week 15 (May 3)
-    
-    * Final presentations  &#10071; 8-10 AM &#10071; 
+
+* 05/03/21 8-10am
+		- Jaspreet Rishi,
+		- Ceren Ordas
+		- Yawei Li
+		- Bruno do Rosario Petrucci
+		- Ann Murithi
+
 
 
 <!--
