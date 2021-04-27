@@ -155,7 +155,7 @@ Here are the [instructions](./final_project.md).
 ### Final presentations [[Scoring rubric](./scoring_rubric.pdf)]
 * 04/29/21 9-10:50am  
 		- Audrey McCombs  
-		- Cameron Vannoy + Kaitlyn Barnes + Rachel  
+		- Cameron Vannoy + Kaitlyn Barnes + Rachel Rompala
 		- Zerui Zhang  
 		- Mudith Ekanayake  
 		- Mihir Kharate  
