@@ -149,25 +149,26 @@ Here are the [instructions](./final_project.md).
     * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960.
     [Nature 455: 661–664](https://doi.org/10.1038/nature07390). A cool paper that involves molecular clock analyses and paleovirology.
       * Remember to post at least one comment/question on either paper in the reading-discussion channel on Slack and answer/comment on another post.
-		#### &#10071; The final project report is due by the end of the day on Tuesday! &#10071;
+
+#### &#10071; The final project report is due by the end of the day on Tuesday! &#10071;
 
 ### Final presentations [[Scoring rubric](./scoring_rubric.pdf)]
-* 04/29/21 9-10:50am
-		- Audrey McCombs
-		- Cameron Vannoy + Kaitlyn Barnes + Rachel
-		- Zerui Zhang
-		- Mudith Ekanayake
-		- Mihir Kharate
-		- Kavi Raj Acharya
+* 04/29/21 9-10:50am  
+		- Audrey McCombs  
+		- Cameron Vannoy + Kaitlyn Barnes + Rachel  
+		- Zerui Zhang  
+		- Mudith Ekanayake  
+		- Mihir Kharate  
+		- Kavi Raj Acharya  
 
-### Week 15 (May 3)
+### Week 15 (May 3)  
 
-* 05/03/21 8-10am
-		- Jaspreet Rishi,
-		- Ceren Ordas
-		- Yawei Li
-		- Bruno do Rosario Petrucci
-		- Ann Murithi
+* 05/03/21 8-10am  
+		- Jaspreet Rishi  
+		- Ceren Ordas  
+		- Yawei Li  
+		- Bruno do Rosario Petrucci  
+		- Ann Murithi  
 
 
 
