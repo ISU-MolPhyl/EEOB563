@@ -1,4 +1,4 @@
---
+---
 layout: page
 title: EEOB 563 - Schedule
 sidebar: Schedule
