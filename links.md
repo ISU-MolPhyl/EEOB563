@@ -2,16 +2,16 @@
 layout: page
 title: EEOB 563 - Links
 sidebar: Links
-navigation: 4
-icon: <i class='fa fa-link'></i> 
+navigation: 5
+icon: <i class='fa fa-link'></i>
 ---
 
-# Useful links 
+# Useful links
 ## General  
 * [GenBank](http://www.ncbi.nih.gov/)   
-* [HPC-Class](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster) 
+* [HPC-Class](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster)
 
-## Phylogenetic Programs 
+## Phylogenetic Programs
 This is a small subset of available phylogenetic programs. If you are looking for more programs/options try [this list](http://evolution.genetics.washington.edu/phylip/software.html) compiled by [Joseph Felsenstein](http://evolution.genetics.washington.edu/felsenstein.html).
 
 ### Main phylogenetic programs we will use in class
@@ -31,12 +31,12 @@ This is a small subset of available phylogenetic programs. If you are looking fo
 * [Gblocks](http://molevol.cmima.csic.es/castresana/Gblocks.html) for cleaning alignments
 * [TNT](http://www.lillo.org.ar/phylogeny/tnt/) for a parsimony analysis
 * [PHYLIP](http://evolution.genetics.washington.edu/phylip.html), for various analysis and some obscure methods
-* [TREE-PUZZLE](http://www.tree-puzzle.de/) 
+* [TREE-PUZZLE](http://www.tree-puzzle.de/)
 * [PHYML](http://www.atgc-montpellier.fr/phyml/)  for a simple ML analysis
 * [PhyloBayes & Coevol](http://megasun.bch.umontreal.ca/People/lartillot/www/) for a fancy Bayesian analysis
 * [Dendroscope](http://ab.inf.uni-tuebingen.de/software/dendroscope/) an alternative program for drawing phylogenetic trees
 * [iTOL](https://itol.embl.de/) an online tool for the display, annotation and management of phylogenetic trees
-* [Mesquite](http://mesquiteproject.wikispaces.com/) 
+* [Mesquite](http://mesquiteproject.wikispaces.com/)
 * [TRACER](http://tree.bio.ed.ac.uk/software/tracer/) analyzing Bayesian output
 * [Seq-Gen](http://tree.bio.ed.ac.uk/software/seqgen/) simulate sequence evolution on a phylogeny
 
@@ -50,5 +50,4 @@ Systematics/Phylogenetics Sites
 Blogs
 ---
 * [Doing Bayesian Data Analysis](http://doingbayesiandataanalysis.blogspot.com/)
-* [The Bayesian kitchen](http://bayesiancook.blogspot.com/) 
-
+* [The Bayesian kitchen](http://bayesiancook.blogspot.com/)

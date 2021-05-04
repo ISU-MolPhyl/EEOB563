@@ -2,7 +2,7 @@
 layout: page
 title: EEOB 563 - Labs
 sidebar: Labs
-navigation: 3
+navigation: 4
 icon: <i class='fa fa-flask'></i>
 ---
 
