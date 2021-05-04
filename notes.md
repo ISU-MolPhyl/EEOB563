@@ -36,7 +36,7 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [10. Phylogenomics](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/10_Phylogenomics.pdf)
 
-[11. Ancestral Reconstruction](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/11_Amcestral_reconstruction.pdf)
+[11. Ancestral Reconstruction](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/11_Ancestral_reconstruction.pdf)
 
 [12. Phylogenetic Comparative Methods](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/12_Phylogenetic_comparative_methods.pdf)
 

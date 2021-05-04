@@ -129,14 +129,13 @@ Here are the [instructions](./final_project.md).
 
 ### Week 12 (Apr 13, 15)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
-* Lecture 16: Ancestral State Reconstruction and Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/11_Ancestral_reconstrction.pdf)].
+* Lecture 16: Ancestral State Reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/11_Ancestral_reconstruction.pdf)].
     * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
     * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
     *  &#10071; Final project draft due:  &#10071; share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/22.  
 
 ### Week 13 (Apr 20, 22)
-
-* Lecture 17: Comparative tests [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/12_Phylogenetic_comparative_methods)].
+* Lecture 17: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/12_Phylogenetic_comparative_methods)].
     * Reading: Uyeda et al. 2018. Rethinking phylogenetic comparative methods. [Systematic Biology 67: 1091–1109](https://doi.org/10.1093/sysbio/syy031)
     * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
