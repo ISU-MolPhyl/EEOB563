@@ -127,14 +127,14 @@ Here are the [instructions](./final_project.md).
     Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum.
     [Molecular Phylogenetics and Evolution 80: 231-266](https://doi.org/10.1016/j.ympev.2014.08.013)  
 * Lecture 15: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/10_Phylogenomics.pdf)].  
-		* Reading: Young and Gillung (2020). Phylogenomics – principles, opportunities and pitfalls of big-data phylogenetics. [Systematic Entomology 45: 225–247](https://doi.org/10.1111/syen.12406)
+		* Reading: Young and Gillung (2020). Phylogenomics – principles, opportunities and pitfalls of big-data phylogenetics. [Systematic Entomology 45: 225–247](https://doi.org/10.1111/syen.12406)  
     * Discussion: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
 		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp.  2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).    
 
 ### Week 12 (Apr 13, 15)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
 * Lecture 16: Ancestral State Reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/11_Ancestral_reconstruction.pdf)].
-    * In lieu of the lecture, read: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
+    * Reading: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
     * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
     *  &#10071; Final project draft due:  &#10071; share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/22.  
 
@@ -144,6 +144,11 @@ Here are the [instructions](./final_project.md).
     * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
+
+<!--
+Add: https://ecoevorxiv.org/ytm5x/ (Phylogenetic Comparative Methods: A User’s Guide for Paleontologists
+)
+-->
 
 ### Week 14 (Apr 27, 29)
 
