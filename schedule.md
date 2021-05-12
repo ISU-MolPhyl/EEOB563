@@ -61,8 +61,12 @@ To view the planned schedule of course activities, view the class calendar using
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/05_Maximum_likelihood.pdf)]
-    * Discussion: Basem Al-Shayeb et al. (202o). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
+    * Discussion: Basem Al-Shayeb et al. (2020). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
+
+<!--
+    * Discussion: Hug at al. (2016). A new view of the tree of life. [Nat. Microb. 1: 16048](https://doi.org/10.1038/nmicrobiol.2016.48)
+-->
 
 #### &#10071; It's a right time to start working on your final project! &#10071;
 
@@ -123,9 +127,9 @@ Here are the [instructions](./final_project.md).
     Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum.
     [Molecular Phylogenetics and Evolution 80: 231-266](https://doi.org/10.1016/j.ympev.2014.08.013)  
 * Lecture 15: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/10_Phylogenomics.pdf)].  
-    * Reading: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
-		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp.  2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).  
-    * Discussion: Hug at al. (2016). A new view of the tree of life. [Nat. Microb. 1: 16048](https://doi.org/10.1038/nmicrobiol.2016.48).  
+		* Reading: Young and Gillung (2020). Phylogenomics – principles, opportunities and pitfalls of big-data phylogenetics. [Systematic Entomology 45: 225–247](https://doi.org/10.1111/syen.12406)
+    * Discussion: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
+		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp.  2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).    
 
 ### Week 12 (Apr 13, 15)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
