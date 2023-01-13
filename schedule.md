@@ -13,15 +13,15 @@ To view the planned schedule of course activities, view the class calendar using
 
 <a href="https://docs.google.com/spreadsheets/d/1okuP20eZHE3TKdtxlqVbEp3xEcYB6wGZh_O1muiiXb0/edit?usp=sharing"><button type="button" class="btn btn-primary">Class Calendar</button></a>
 
-### Week 1 (Jan 26, 28)
-* Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/00_Introduction.pdf)]
-	* [Assignment 1](./assignments.md) (**due 1/28**)
-
+### Week 1 (Jan 17, 19)
+* Lecture 1: Introduction to Molecular Phylogenetics [[slides](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/00_Introduction.pdf)]
+	* [Assignment 1](./assignments.md) (**due 1/19**)
 * Lecture 2: Trees and characters [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/01-phylogenetic_trees.pdf)]
     * [Assignment 1](./assignments.md) is due.
     * Reading: Allman and Rhodes (2016).  Chapter 2: Combinatorics of Trees I.  
     * Discussion: Baum et al. (2005). The Tree-Thinking Challenge.  [Science 310: 979-980](http://science.sciencemag.org/content/310/5750/979.full.pdf).  
 
+<!--
 ### Week 2 (Feb 2, 4)
 * Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/02-homology_and_msa.pdf)]
     * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
@@ -54,9 +54,8 @@ To view the planned schedule of course activities, view the class calendar using
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
     * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment4.pdf) (**due 03/04**)
 
-<!--
 * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
--->
+
 ### Week 6 (Mar 2, 4)
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
@@ -64,9 +63,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Basem Al-Shayeb et al. (2020). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
 
-<!--
     * Discussion: Hug at al. (2016). A new view of the tree of life. [Nat. Microb. 1: 16048](https://doi.org/10.1038/nmicrobiol.2016.48)
--->
 
 #### &#10071; It's a right time to start working on your final project! &#10071;
 
@@ -83,20 +80,17 @@ Here are the [instructions](./final_project.md).
     * Discussion: Williams et al., 2020. Phylogenomics provides robust support for a two-domains tree of life. [Nature Ecology and Evoluiton, 4:138–147](https://isu-molphyl.github.io/EEOB563-Spring2021/discussion_articles/williams2020_42635.pdf)
 * Midterm review.
 
-<!--
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2021/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/assignment6.pdf) (**due 03/25**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2021/assignments/hiv.nxs)
--->
+
 #### &#10071; Midterm exam &#10071;
 - Exam will open on Mar 18, after the class. Will cover weeks 1-7
 - Exam will close on Mar 23 before the class.
 - You will have one 3hr window to complete the exam.
 
-<!--
 
 ### Week 10: Spring Break!
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/24**)
--->
 
 ### Week 9 (Mar 23, 25)
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2021/computer_labs/lab5): Bayesian analysis with MrBayes.
@@ -145,10 +139,8 @@ Here are the [instructions](./final_project.md).
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
 
-<!--
 Add: https://ecoevorxiv.org/ytm5x/ (Phylogenetic Comparative Methods: A User’s Guide for Paleontologists
 )
--->
 
 ### Week 14 (Apr 27, 29)
 
@@ -180,7 +172,6 @@ Add: https://ecoevorxiv.org/ytm5x/ (Phylogenetic Comparative Methods: A User’s
 
 
 
-<!--
 
     * Reading (optional): Soul and Wright 2020. Phylogenetic Comparative Methods: A User’s Guide for Paleontologists. [EcoEvoRxiv Preprints](10.32942/osf.io/ytm5x)
 
@@ -197,7 +188,6 @@ Add: https://ecoevorxiv.org/ytm5x/ (Phylogenetic Comparative Methods: A User’s
 		### Week 14 (April 27, 29)
 		* Student presentations
 
-<!--
 
 * **Revised final project due on 4/28 at 11:59pm (commit to GitHub and email me the link)**
 
@@ -238,8 +228,7 @@ Lecture 13 (ha!): Gene trees and species trees.
     * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
     * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/   
 content/114/45/12003.full).
--->
-<!--
+
 ### Week 12
 * Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
