@@ -18,7 +18,7 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [01. Phylogenetic trees](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/01-phylogenetic_trees.pdf)
 
-[02. Homology and alignment](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/02-homology_and_msa.pdf)
+<!--[02. Homology and alignment](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/02-homology_and_msa.pdf)
 
 [03. Maximum Parsimony](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/03_Maximum_parsimony.pdf)
 
@@ -41,3 +41,4 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 [12. Phylogenetic Comparative Methods](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/12_Phylogenetic_comparative_methods.pdf)
 
 [13. Molecular Clocks](https://isu-molphyl.github.io/EEOB563-Spring2021/lecture_notes/13_Molecular_clocks.pdf)
+-->
