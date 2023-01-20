@@ -5,11 +5,14 @@ In this lab we will review some basic
 ## Before the class:
 
 #### 1) Learn/review some basic Unix commands before the class.  
-If you are new to Unix, go through tutorials one and two [here](http://www.ee.surrey.ac.uk/Teaching/Unix/). Note, that you can run unix in your browser! (e.g., [here](https://www.tutorialspoint.com/unix_terminal_online.php))
+- If you are new to Unix, go through tutorials one and two [here](http://www.ee.surrey.ac.uk/Teaching/Unix/). Note, that you can run unix in your browser! (e.g., [here](https://www.tutorialspoint.com/unix_terminal_online.php))
+- It would be very useful to know basics of the `vi(m)` editor.
+I prepared a [tutorial](https://data-skills.github.io/tutorials/vi_tutorial.pdf) for you.
 
 #### 2) Install Git/Git Bash
 - On Mac: Check if Git is installed by typing `git` in your terminal. Follow the instructions if Git is not installed.
 - On Windows: Download the most recent version of the program from [here](https://gitforwindows.org/).
+- To learn more about git go through the following (optional) [tutorial](https://data-skills.github.io/tutorials/git.pdf)
 
 #### 3) Get a GitHub User Account
 
@@ -80,14 +83,13 @@ To update a Git repository, enter the following command:
 `git pull`
 
 
-### UNIX tutorial
+### UNIX
 
-Lab 1: [Unix, Git, SSH](https://data-skills.github.io/tutorials/UNIX.html)
+[Unix exercise](https://data-skills.github.io/tutorials/UNIX.html)
 
-### Additional tutorials
+### Multiple Sequence Alignment
 
-[Git/GitHub](https://data-skills.github.io/tutorials/git.pdf)  
-[VI](https://data-skills.github.io/tutorials/vi_tutorial.pdf)  
+[MSA exercise](msa.pdf)
 
 > ### A useful trick
 >

@@ -58,7 +58,7 @@ When you visualize your alignment, you may observe that some of it's regions are
 Although, this practice is somewhat controversial, many researchers would remove such regions.
 There are two programs you can use to do this, but I recommend two:
 - [Gblocks](http://www.phylogeny.fr/one_task.cgi?task_type=gblocks) is a computer program written in ANSI C language that eliminates poorly aligned positions and divergent regions of an alignment of DNA or protein sequences.
-- [Aliscore](https://bonn.leibniz-lib.de/en/research/research-centres-and-groups/aliscore) identify random similarity within multiple sequence alignments based on Monte Carlo resampling within a sliding window.
+- [TrimAl](https://github.com/inab/trimal) is a tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment.
 
 ## Additional Tools
 [T-coffee](https://tcoffee.crg.eu/apps/tcoffee/index.html) can be used to run+combine and/or compare several alignment algorithms.  
