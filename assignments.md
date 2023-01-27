@@ -15,6 +15,7 @@ All of the material required for grading must be submitted on the [course Canvas
 Due 1/19.  (Note: there are answers online – do not read them! We will discuss these questions in class).
 
 [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment2.pdf)  
+
 <!--
 [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment3.pdf)
 [data](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/a3_cob_nt.fasta)
