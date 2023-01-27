@@ -30,7 +30,6 @@ To view the planned schedule of course activities, view the class calendar using
     * Post any question you may have on Slack.
     * [Assignment 2](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment2.pdf) (**due 02/02**)
 
-<!--
 ### Week 3 (Jan 31, Feb 2)
 * Lecture 4: Parsimony and cladistics. Optimality criteria and character optimization.  
     * Reading:  Allman and Rhodes (2016).  Chapter 3: Parsimony. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/03_Maximum_parsimony.pdf)]
@@ -39,6 +38,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700).
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
+<!--
 ### Week 4 (Feb 16, 18)
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
     * All users, make sure you have a GitHub account!
