@@ -18,11 +18,11 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [01. Phylogenetic trees](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/01-phylogenetic_trees.pdf)
 
-<!--[02. Homology and alignment](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/02-homology_and_msa.pdf)
+[02. Homology and alignment](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/02-homology_and_msa.pdf)
 
 [03. Maximum Parsimony](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/03_Maximum_parsimony.pdf)
 
-[04. Distance Methods](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/04_Distance_methods.pdf)
+<!--[04. Distance Methods](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/04_Distance_methods.pdf)
 
 [05. Maximum Likelihood](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/05_Maximum_likelihood.pdf)
 
