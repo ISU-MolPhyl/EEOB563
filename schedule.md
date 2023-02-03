@@ -38,21 +38,20 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700).
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
-<!--
-### Week 4 (Feb 16, 18)
+### Week 4 (Feb 7, 9)
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Multiple Sequence Alignment and Parsimony analysis.
-    * All users, make sure you have a GitHub account!
-    * You may want to install ClustalW, Mafft, PAUP\*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
-    * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment3.pdf) (**due 02/25**)
+    * You may want to install Mafft, PAUP\*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
+    * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment3.pdf) (**due 02/16**)
 * Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
-### Week 5 (Feb 23, 25)  
+<!--
+### Week 5 (Feb 14, 16)  
 * Lecture 7: NJ algorithm; Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/04_Distance_methods.pdf)]
     * Reading: (Optional!) Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
-    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment4.pdf) (**due 03/04**)
+    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment4.pdf) (**due 02/23**)
 
 * Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
 
