@@ -14,7 +14,7 @@ prompt, enter: `echo $PATH`. I have installed PAUP and TNT in a shared
 directory for the class (/work/class-faculty/dlavrov/eeob563/bin). 
 While you can run these programs by using the full path name: `/work/class-faculty/dlavrov/eeob563/bin/paup`, it's easer to add this directory to the path:
 
-1. Add `/shared/class/eeob563` directory to your path:
+1. Add `/work/class-faculty/dlavrov/eeob563/bin` directory to your path:
 	* Log in to Nova using `ssh <netID>@nova.its.iastate.edu` command.  
 	* Open your bash profile file in vi: `vi ~/.bash_profile`;
 	* Go to the `PATH=...` line using the down arrow;  
@@ -25,9 +25,20 @@ While you can run these programs by using the full path name: `/work/class-facul
 3. Type `paup` to make sure that you can run the program;
 4. Type `q` to quit PAUP.
 
+### Working on the HPC-class partition
+When you log in to a computer cluster you enter the "head node". 
+This node is shared with all the other users of the cluster.
+To "reserve" a "private" node, use the `salloc -p class-long -N 1 -n 2 -t 2:00:00 -A s2023.eeob.563.1` command.
+Running programs on this node will not interfere with the other work on the cluster.
+
 ### Updating the class repository
 
-We also need to update the class repository (`cd EEOB563-Spring2021; git pull`) and go to the `computer_labs/lab2` directory.
+We also need to update the class repository and go to the proper directory:
+- `cd EEOB563-Spring2023; git pull`)  
+- `cd computer_labs/lab2`.
+
+## IMPORTANT: It is likely that NOVA won't be available on Feb. 07. We will do PAUP exercise on our personal computers!  
+Download PAUP from its website: [https://paup.phylosolutions.com](https://paup.phylosolutions.com/)
 
 ## PAUP
 
