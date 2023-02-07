@@ -1,16 +1,15 @@
 # PAUP* Tutorial
 <img src="./1320160.gif" align="right" hspace="10">
 __PAUP\*__ (pronounced "pop star") is a phylogenetic program first developed in 1993 by David L. Swofford, 
-currently at Duke University. The name PAUP used to mean "Phylogenetic Analysis Using Parsimony" because 
-parsimony was the only optimality criterion employed at the time. The asterisk in the name PAUP\* 
-means "and other methods", which were added later. The new name is "Phylogenetic Analysis Using PAUP". 
+currently at Duke University. 
+The name PAUP used to mean "Phylogenetic Analysis Using Parsimony" because parsimony was the only optimality criterion employed at the time. 
+The asterisk in the name PAUP\* means "and other methods", which were added later. 
+The new name is "Phylogenetic Analysis Using PAUP". 
 PAUP\* 4.0 is able to perform distance, parsimony and likelihood analyses using DNA and amino-acid data. 
 Among many strengths of the program are a rich array of options for dealing with phylogenetic trees 
-including importing, combining, comparing, constraining, rooting and testing hypotheses. The program 
-has been updated recently and is expected to be released as an open-source command-line version 
-(but don't hold your breath!). We will be using PAUP for this lab because of its transparency in dealing 
-with the parsimony analysis. [MEGA](https://www.megasoftware.net/) is an alternative program with GUI 
-that can perform maximum parsimony and several other analyses.
+including importing, combining, comparing, constraining, rooting and testing hypotheses. 
+The program has been updated recently and is expected to be released as an open-source command-line version (but don't hold your breath!). 
+We will be using PAUP for this lab because of its transparency in dealing with the parsimony analysis. [MEGA](https://www.megasoftware.net/) is an alternative program with GUI that can perform maximum parsimony and several other analyses.
 
 ### First things first
 
@@ -18,7 +17,7 @@ PAUP should be accessible to you on the HPC-class.
 You can also install it on your computer from the following [site](http://phylosolutions.com/paup-test/){:target="_blank"}.
 
 ### Getting the sequences
-1. We will use a set of cytochorome b aa sequences for this exercise. The sequences are in the class repository.
+1. We will use a set of translated prestin sequences for this exercise. I used the same sequences your investigated in your second assignent, translated them [online](https://www.bioinformatics.org/sms2/translate.html) and aligned with `mafft --auto`. The sequences are in the class repository.
 
 ### Starting PAUP
 1. Start PAUP\* by typing:  
@@ -32,10 +31,10 @@ You can also install it on your computer from the following [site](http://phylos
 Notice, that `<cmdname> ?` shows not only how to use a command, but also current/default settings!
 5. Convert your aligned file into Nexus format;
 6. Finally, we need to execute this new file (you'll see why later):  
-**paup>** `exe cob_aa.nxs`  
+**paup>** `exe prestine_aa_aln.nxs`  
 > Did it work?  If not, try to see what went wrong by using the `edit` command (which opens the vi editor inside paup):  
-> **paup>** `edit cob_aa.nxs`  
-> After you executed the file, you should get a note that "Processing of input file "cob\_aa.nxs" completed.  
+> **paup>** `edit prestine_aa_aln.nxs`  
+> After you executed the file, you should get a note that "Processing of input file "prestine_aa_aln.nxs" completed".  
 > Notice that there are many sites and tools that can also do [conversion for you](https://www.ebi.ac.uk/Tools/sfc/emboss_seqret/)
 
 **Congratulations!**
@@ -52,17 +51,15 @@ _Were you able to run this search?_
 3. Let's try to use branch and bound search instead:  
 **paup>** `BandB`  
 _Were you able to run this search?_
-4. Let's remove some sequences. But first you need to cancel your ongoing search by pressing "control+c" 
-(the same combination is used to cancel most of the unix commands). Now, let's look at the taxa in our dataset  
+4. Let's remove some sequences. But first let's look at the taxa in our dataset:  
 **paup>** `tstatus full`
 We can also check the status of all characters:  
 **paup>** `cstatus full`  
-Let's delete non-placental mammals:  
-**paup>** `delete 1-5`  
-Also delete cat, dog, and pig.  _How many taxa are left?_
+Let's delete the last 10 sequences:  
+**paup>** `delete 17-26`  
 We can also exclude some positions from the alignment, if needed:  
 **paup>** `exclude 1-10 373-382`
-5. Now we may be able to run the exhaustive search, but let's try to run branch and bound search instead.  
+1. Now we may be able to run the exhaustive search, but let's try to run branch and bound search instead.  
 _How long did it take to run this search?_ 
 6. Now let's return deleted taxa and excluded characters to the dataset:  
 **paup>** `undelete all; include all`
@@ -71,14 +68,14 @@ _How long did it take to run this search?_
 Recall, we do heuristic search by making an initial tree, rearrange its branches, 
 and repeat this process multiple times.  Can you find options for these steps?
 A reasonable strategy for running a heuristic search would be to use use a random 
-stepwise addition sequence with TBR branch swapping and 100 replicates:  
-**paup>** `hsearch start=stepwise addseq=random nreps=100 swap=TBR`  
-_What was the best score found by this search?  How many trees had this score? Do we get the same two trees if we increase the number of replicates to 1000?_  
+stepwise addition sequence with TBR branch swapping and 10 replicates:  
+**paup>** `hsearch start=stepwise addseq=random nreps=10 swap=TBR`  
+_What was the best score found by this search?  How many trees had this score? Do we get the same two trees if we increase the number of replicates to 100?_  
 8. There are several commands to look at the best trees:  
 **paup>** `showtrees all`  
 **paup>** `describe`  
 We can define an outgroup before displaying the trees:  
-**paup>** `outgroup 1-2`  
+**paup>** `outgroup 26`  
 We can also incorporate branch length information by describing the optimal tree as a phylogram (a tree with parsimony branch lengths).  
 **paup>** `describe /plot=phylo`  
 Note the forward slash (/); this is important for many commands. Values before the slash indicate which trees you wish to include, options that apply to the primary command (describe) are placed after the slash;  
@@ -95,7 +92,7 @@ Note the forward slash (/); this is important for many commands. Values before t
 1. Start PAUP\*  
 `paup`
 2. Execute the example data file:  
-**paup>** `exe cob_aa.nxs;`
+**paup>** `exe prestine_aa_aln.nxs;`
 3. Start a log file:  
 **paup>** `log file=paup_bootstrap.log;`  
 4. Set the rooting:  
@@ -123,9 +120,9 @@ Let's modify the cob_aa.nxs file to include a PAUP block.
 Open the cob_aa.nxs file in a text editor. Add two additional blocks under the data matrix: 
 
 > BEGIN SETS;  
-> CHARSET beginning = 1-12;  
-> CHARSET end = 379-382;  
-> TAXSET outgroups = 1-2;  
+> CHARSET beginning = 1;  
+> CHARSET end = 747-754;  
+> TAXSET outgroups = 24;  
 > END;  
 >   
 > BEGIN PAUP;  
@@ -135,7 +132,7 @@ Open the cob_aa.nxs file in a text editor. Add two additional blocks under the d
 > hsearch start=stepwise addseq=random nreps=20 swap=TBR;  
 > END;  
 
-The top block defines two character sets, one includes 12 characters and the other includes 4 characters, and a taxon set termed "outgroups" that includes two taxa. 
+The top block defines two character sets, one includes 1 character and the other includes 7 characters, and a taxon set termed "outgroups" that includes opposum. 
 
 The PAUP block uses `exclude` command to exclude two character sets and `outgroup` command to treat two taxa as outgroups (but remember, that changing outgroups only changes the way the tree is displayed and does not change the parsimony score!) In addition, a heuristic search is specified. 
 
@@ -144,5 +141,5 @@ Now execute this file in PAUP using the `execute` command:
 You can also specify the file at the same time as you invoke paup:  
 `paup cob_aa.nxs`
 
-I included some additional examples of PAUP* blocks in the file PAUP_blocks.txt in GitHub..
+I included some additional examples of PAUP* blocks in the file PAUP_blocks.txt in the GitHub..
 An excellent tutorial on PAUP that goes beyond parsimony can be found [here](http://evomics.org/learning/phylogenetics/paup/){:target="_blank"}.

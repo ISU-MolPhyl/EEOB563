@@ -11,15 +11,14 @@ that your shell searches through when you enter a command. Your path
 tells the Unix shell where to look on the system when you request a
 particular program. To find out what your path is, at the Unix shell
 prompt, enter: `echo $PATH`. I have installed PAUP and TNT in a shared
-directory for the class (/shared/class/eeob563). While you can run these
-programs by using the full path name: `/shared/class/eeob563/paup`, it's
-easer to add this directory to the path:
+directory for the class (/work/class-faculty/dlavrov/eeob563/bin). 
+While you can run these programs by using the full path name: `/work/class-faculty/dlavrov/eeob563/bin/paup`, it's easer to add this directory to the path:
 
 1. Add `/shared/class/eeob563` directory to your path:
-	* Log in to HPC class using `ssh <netID>@hpc-class.its.iastate.edu` command.  
+	* Log in to Nova using `ssh <netID>@nova.its.iastate.edu` command.  
 	* Open your bash profile file in vi: `vi ~/.bash_profile`;
 	* Go to the `PATH=...` line using the down arrow;  
-	* type `A` (for add) and add the following text to the end of the line: `:/shared/class/eeob563`
+	* type `A` (for add) and add the following text to the end of the line: `:/work/class-faculty/dlavrov/eeob563/bin`
 	* press `ESC`
 	* type `ZZ` (or `:wq`) to save and quit the file;
 2. Run `source ~/.bashrc`; <!-- can use `exec bash` instead -->
