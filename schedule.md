@@ -44,40 +44,31 @@ To view the planned schedule of course activities, view the class calendar using
     * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment3.pdf) (**due 02/16**)
 * Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
-    * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 
-<!--
 ### Week 5 (Feb 14, 16)  
 * Lecture 7: NJ algorithm; Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/04_Distance_methods.pdf)]
     * Reading: (Optional!) Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
+    * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
     * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment4.pdf) (**due 02/23**)
 
-* Reading: Reading: Allman and Rhodes (2016).  Chapter 7: Model-based Distances.
-
-### Week 6 (Mar 2, 4)
+<!--
+### Week 6 (Feb 21, 23)
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/05_Maximum_likelihood.pdf)]
     * Discussion: Basem Al-Shayeb et al. (2020). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
 
-    * Discussion: Hug at al. (2016). A new view of the tree of life. [Nat. Microb. 1: 16048](https://doi.org/10.1038/nmicrobiol.2016.48)
-
-#### &#10071; It's a right time to start working on your final project! &#10071;
-
-Here are the [instructions](./final_project.md).
-
-### Week 7 (Mar 9, 11)
+### Week 7 (Feb 28, Mar 2)
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
     * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment5.pdf) (**due 03/16**)
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
-### Week 8 (Mar 16, 18)
+### Week 8 (Mar 7, 9)
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Discussion: Williams et al., 2020. Phylogenomics provides robust support for a two-domains tree of life. [Nature Ecology and Evoluiton, 4:138–147](https://isu-molphyl.github.io/EEOB563-Spring2023/discussion_articles/williams2020_42635.pdf)
-* Midterm review.
 
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2023/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment6.pdf) (**due 03/25**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/hiv.nxs)
@@ -88,10 +79,10 @@ Here are the [instructions](./final_project.md).
 - You will have one 3hr window to complete the exam.
 
 
-### Week 10: Spring Break!
+### Week 9: Spring Break!
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/24**)
 
-### Week 9 (Mar 23, 25)
+### Week 10 (Mar 23, 25)
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2023/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment6.pdf) (**due 04/01**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/hiv.nxs)
 * Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/07_Model_use.pdf)].
