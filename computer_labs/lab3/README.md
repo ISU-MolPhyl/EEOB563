@@ -1,21 +1,35 @@
-## Lab 3 - Distance analysis with PAUP, PHYLIP, and FastME 
+## Lab 3 - Distance analysis with PHYLIP, and FastME 
 
 In this lab we will learn about three phylogenetic programs that can be used for distance analysis
 
 ## Prerequisites:
 
-### Update your EEOB563-Spring2021 git repository
+### Login to Nova cluster
+- `ssh yourname@nova.its.iastate.edu`
+- `salloc -p class-long -N 1 -n 1 -t 2:00:00 -A s2023.eeob.563.1`
+
+### Update your EEOB563-Spring2023 git repository
 - Go to the repository and issue the following command: `git pull origin master`
 
-### Make sure you have access to the programs
-- You should already know how to use/install PAUP;  
-- Phylip is installed as a module on HPC-Class (load with  `module load phylip`).  You can also install from its website ([see links]())
-- FastME is installed as a module on HPC-Class. [Online version](http://www.atgc-montpellier.fr/fastme/)
-is also available, but you should avoid it to practice your command line skills.  
+### Accessing the programs
+- Both Phylip and FastME are installed as a modules on Nova (load with  `module load phylip` and `module load fastme`). You can also install them from their websites ([see links page](links.md))
+- [Online version](http://www.atgc-montpellier.fr/fastme/) of fastme  is also available, but you should avoid it to practice your command line skills.  
+
+### EMBOSS package
+[EMBOSS](https://emboss.sourceforge.net/)  is a free Open Source software analysis package specially developed for the needs of the molecular biology user community.
+It can be loaded as a module `module load emboss` or used [online](https://www.ebi.ac.uk/Tools/emboss/).
+Among its many programs, you may be particularly interested in `seqret`, which does sequence conversion among various formats.
+Here are a couple of examples:
+```
+### convert fasta alignment to nexus
+seqret -sequence <input.fa> -outseq <output.nex> -osformat nexus/nexusnon
+### convert fasta alignment to phylip
+seqret -sequence <input.fa> -outseq <output.nex> -osformat phylip/phylipnon
+```
 
 ## Lab tutorial
 
-Lab 3: [PAUP, PHYLIP, and FastME](lab3)
+Lab 3: [PHYLIP, and FastME](lab3)
 
 <!-- ## Additional tutorials
 

@@ -1,4 +1,4 @@
-# Lab #3. Distance analysis with PAUP, PHYLIP, and FastME.
+# Lab #3. Distance analysis with PHYLIP and FastME.
 
 ## General considerations
 
@@ -14,41 +14,13 @@ any distance analysis so we'll have to make two sets of choices:
 
 In some programs (like PHYLIP), these two steps are explicit. In other programs they may be less obvious.  _But they are always there!_
 
-## Part1: PAUP
-
-### Align and load the data (cob_nt.fa)
-We already know how to align sequeces and import them in PAUP so this part should be easy :).
-
-### Select a model for distance calculation
-Specify a distance correction we want to use by using the `dset` command.  We will be using uncorrected (“p”), Jukes-Cantor, Kimura 2-parameter, HKY85, and GTR distances. 
-
-### Examine the distances
-Use `showdist` command to see the distance table.
-
-### Use distances as an optimality criterion
-`set criterion=distance;`  
-`dset objective=me dist=jc;`    
-`hsearch;`
-
-> - What distance and what optimality criterion did we use?
-> - Now evaluate the tree using the Fitch-Margoliash weighted least-squares criterion (inverse squared weighting) and GTR distances.
-
-### Run the neighbor-joining algorithm with the selected distance
-Can you figure out what is the command name for the neighbor-joining analysis?
-How about UPGMA?
-
-Run UPGMA and neighbor-joining search with the GTR distance.
-
-> - Did you get the same tree? What does "the same" mean?  
-> - Can you figure out how to perform a bootstrap analysis using the NJ search?
-<!-- > - Write a PAUP block that will do several distance analyses automatically for you. -->
-
-## Part2: PHYLIP
+## Part1: PHYLIP
 
 [PHYLIP](http://evolution.genetics.washington.edu/phylip.html) is a package of phylogenetic programs written by [Joe Felsenstein](http://evolution.gs.washington.edu/felsenstein.html) group and first released in 1980. 
-The programs can infer phylogenies by parsimony, compatibility, distance matrix methods, and likelihood. You probably won't use PHYLIP for conventional 
-phylogenetic analysis as newer programs are much faster and often incorporate additional models of sequence 
-evolution. However, some types of analyses available in PHYLIP are difficult to impossible to find in other programs. An additional advantage of this package is its thorough, well organized, and up to date [documentation](http://evolution.genetics.washington.edu/phylip/phylip.html). Phylip is installed as a module on HPC-class and can be loaded with `module load phylip`.
+The programs can infer phylogenies by parsimony, compatibility, distance matrix methods, and likelihood. You probably won't use PHYLIP for conventional phylogenetic analysis as newer programs are much faster and often incorporate additional models of sequence evolution.  
+However, some types of analyses available in PHYLIP are difficult to impossible to find in other programs. 
+An additional advantage of this package is its thorough, well organized, and up to date [documentation](http://evolution.genetics.washington.edu/phylip/phylip.html). 
+Phylip is installed as a module on HPC-class and can be loaded with `module load phylip`.
 
 Unlike PAUP, which installs as a single program, PHYLIP is a collection of 35+ programs that are intended to be used sequentially. You start a program by typing its name at the unix prompt.  
 
@@ -57,7 +29,7 @@ Here is outline of the exercise (from a [nice chapter](./bi0603.pdf) in Current 
 ![IMG](./nbi060301.gif)
 
 ### Datasets
-We will use the same datasets for this exercise as you used for your homework: a set of COB nucleotide and corresponding aa sequences (available in data subdirectory).  
+We will use the same datasets for this exercise as you used for your homework: a set of nucleotide and corresponding aa sequences for prestin (available in lab3 subdirectory).  
 
 > Copy these datasets to your lab3 directory and align them with mafft.  
 > Use `--phylipout` option to save your alignments in PHYLIP format;  
@@ -108,7 +80,7 @@ The `fitch` program carries out Fitch-Margoliash, Least Squares, and ME methods 
 > - Build a majority rule consensus tree for resulting trees with `consense` program.
 > - Can you figure out how to do different PHYLIP analysis from a command line (without interactive menues)?
 
-## Part3: FastME (Optional)
+## Part2: FastME
 `FastME` is a newer program from [Olivier Gascuel](http://www.lirmm.fr/~gascuel/) group whose main task is to estimate phylogenies using distance methods from nucleotide or amino acid multiple sequences alignments (MSA). 
 
 The main strengths of FastME lies the availability of several distance algorithms and optimization principles for tree estimation coupled with various options to search the space of phylogenetic tree topologies (NNIs, SPRs). It also provides a parallelized implementation of the non-parametric bootstrap method to evaluate branch supports. 
@@ -119,4 +91,37 @@ FastME is installed as a module on HPC-class and can be loaded with `module load
 
 > - Check the user guide for the program at [http://www.atgc-montpellier.fr/fastme/usersguide.php](http://www.atgc-montpellier.fr/fastme/usersguide.php)
 > - Replicate the analysis we did in the previous sections using FastME.
+
+## Part3: PAUP (optional)
+
+You can also run distance analysis in `paup`. We are not using `paup` as the main program for this exercise so you can experience an alternative command-line interface.
+
+### Align and load the data
+We already know how to align sequeces and import them in PAUP so this part should be easy :).
+
+### Select a model for distance calculation
+Specify a distance correction we want to use by using the `dset` command.  You can use uncorrected (“p”), Jukes-Cantor, Kimura 2-parameter, HKY85, and GTR distances. 
+
+### Examine the distances
+Use `showdist` command to see the distance table.
+
+### Use distances as an optimality criterion
+`set criterion=distance;`  
+`dset objective=me dist=jc;`    
+`hsearch;`
+
+> - What distance and what optimality criterion did we use?
+> - Now evaluate the tree using the Fitch-Margoliash weighted least-squares criterion (inverse squared weighting) and GTR distances.
+
+### Run the neighbor-joining algorithm with the selected distance
+You can also run clustering methods we discussed in class:
+```
+set criterion=distance;
+dset dist=jc;
+nj;
+upgma;
+```
+> - Can you figure out how to perform a bootstrap analysis using the NJ search?
+
+<!-- > - Write a PAUP block that will do several distance analyses automatically for you. -->
 
