@@ -5,11 +5,15 @@ In this lab we will learn about three phylogenetic programs that can be used for
 ## Prerequisites:
 
 ### Login to Nova cluster
-- `ssh yourname@nova.its.iastate.edu`
-- `salloc -p class-long -N 1 -n 1 -t 2:00:00 -A s2023.eeob.563.1`
+```
+# Login
+ssh yourname@nova.its.iastate.edu
+# Also, request a core for yourself
+salloc -p class-long -N 1 -n 1 -t 2:00:00 -A s2023.eeob.563.1
+```
 
 ### Update your EEOB563-Spring2023 git repository
-- Go to the repository and issue the following command: `git pull origin master`
+- Go to the repository and pull the updates: `git pull origin master`
 
 ### Accessing the programs
 - Both Phylip and FastME are installed as a modules on Nova (load with  `module load phylip` and `module load fastme`). You can also install them from their websites ([see links page](links.md))
