@@ -50,9 +50,8 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: (Optional!) Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
-    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment4.pdf) (**due 02/23**)
+    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment4.pdf) (**due 02/28**)
 
-<!--
 ### Week 6 (Feb 21, 23)
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
@@ -60,6 +59,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Basem Al-Shayeb et al. (2020). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
 
+<!--
 ### Week 7 (Feb 28, Mar 2)
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
     * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment5.pdf) (**due 03/16**)
