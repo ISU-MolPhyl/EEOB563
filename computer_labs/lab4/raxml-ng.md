@@ -1,6 +1,6 @@
 # RAxML-NG tutorial
 **IMPORTANT NOTE**: This tutorial describes the functionality of the latest
-[RAxML-NG v. 1.0.2](https://github.com/amkozlov/raxml-ng)
+[RAxML-NG v. 1.1.0](https://github.com/amkozlov/raxml-ng)
 and is based on the [tutorial](https://github.com/amkozlov/raxml-ng/wiki/Tutorial)
 provided by its authors.
 
@@ -23,12 +23,12 @@ so you may need to use the [previous implementation](https://cme.h-its.org/exeli
 * I already installed RAxML-NG in the class directory
 * You can still update the course repository to download the data files
 
-Check that you have the RAxML-NG version 1.0.2 or later:
+Check that you have the RAxML-NG version 1.1.0 or later:
 
 ```
 $ raxml-ng -v
 
-RAxML-NG v. 1.0.2 released on 22.02.2021 by The Exelixis Lab.
+RAxML-NG v. 1.1.0 released on 29.11.2021 by The Exelixis Lab.
 ...
 ```
 
@@ -150,14 +150,14 @@ raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T1
 ```  
 We can use a tree viewer (I use FigTree a lot) to visualize the ML tree with mapped bootstrap values (you have to choose "label" option under the "display node support".
 
->**Tip:** To view a phylogenetic trees on the terminal, use the `nw_display` program from the `newick_utils` module.
-However, you'll need to use the older RISA modules:
+>**Tip:** To view a phylogenetic trees on the terminal, use the `nw_display` program from the `newick_utils` package.
+<!-- However, you'll need to use the older RISA modules:
 >
 ```
 module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core
 module use /opt/rit/modules
 module load newick_utils
-```
+``` -->
 
 Alternatively, we can compute so-called *Transfer Bootstrap Expectation* support metric [(Lemoine et al. 2018)](https://www.nature.com/articles/s41586-018-0043-0), which is supposedly more appropriate for very large trees:   
 ```
@@ -189,7 +189,11 @@ raxml-ng --evaluate --msa <ALIGNMNET> --threads <N> --model <MODEL> --tree <TREE
 
 ## Partitioned analysis
 #### Use `--model <file_name>` to specifies partitions.
-So far, we used a single evolutionary model for all sites in our alignment. This is rather unrealistic biologically, because different genes and/or codon positions typically exhibit distinct substitution patterns. Therefore, it is common to divide alignment sites into subsets or *partitions*, which can be assigned individual evolutionary models. In the simplest case, we can assign identical *models* for all partitions, but allow independent *model parameter* estimates. For example, the dataset we'll use today can be partitioned by individual genes as encoded in the following file:  
+So far, we used a single evolutionary model for all sites in our alignment. 
+This is rather unrealistic biologically, because different genes and/or codon positions typically exhibit distinct substitution patterns. 
+Therefore, it is common to divide alignment sites into subsets or *partitions*, which can be assigned individual evolutionary models. 
+In the simplest case, we can assign identical *models* for all partitions, but allow independent *model parameter* estimates. 
+For example, the dataset we'll use today can be partitioned by individual genes as encoded in the following file:  
 
 ```
 GTR+G+FO, cob=1-1248

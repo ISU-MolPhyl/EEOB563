@@ -59,17 +59,16 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Basem Al-Shayeb et al. (2020). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
 
-<!--
 ### Week 7 (Feb 28, Mar 2)
-* [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in FastML and RAxML.
-    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment5.pdf) (**due 03/16**)
+* [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in RAxML and IQ-Tree.
+    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment5.pdf) (**due 03/09**)
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
+<!--
 ### Week 8 (Mar 7, 9)
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Discussion: Williams et al., 2020. Phylogenomics provides robust support for a two-domains tree of life. [Nature Ecology and Evoluiton, 4:138–147](https://isu-molphyl.github.io/EEOB563-Spring2023/discussion_articles/williams2020_42635.pdf)
-
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2023/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment6.pdf) (**due 03/25**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/hiv.nxs)
 
