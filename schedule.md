@@ -65,21 +65,21 @@ To view the planned schedule of course activities, view the class calendar using
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
-<!--
 ### Week 8 (Mar 7, 9)
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/06_Bayesian_phylogenetics.pdf)]
-    * Discussion: Williams et al., 2020. Phylogenomics provides robust support for a two-domains tree of life. [Nature Ecology and Evoluiton, 4:138–147](https://isu-molphyl.github.io/EEOB563-Spring2023/discussion_articles/williams2020_42635.pdf)
+    * Discussion: Williams et al., 2020. Microbial predators form a new supergroup of eukaryotes [Nature, 612:714-719](https://doi.org/10.1038/s41586-022-05511-5)
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2023/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment6.pdf) (**due 03/25**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/hiv.nxs)
 
+### Week 9: Spring Break!
+* Don’t forget about your [final project](./final_project.md) outline! (**due 3/25**)
+
+<!--
 #### &#10071; Midterm exam &#10071;
 - Exam will open on Mar 18, after the class. Will cover weeks 1-7
 - Exam will close on Mar 23 before the class.
 - You will have one 3hr window to complete the exam.
 
-
-### Week 9: Spring Break!
-* Don’t forget about your [final project](./final_project.md) outline! (**due 3/24**)
 
 ### Week 10 (Mar 23, 25)
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2023/computer_labs/lab5): Bayesian analysis with MrBayes.

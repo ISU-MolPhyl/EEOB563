@@ -151,13 +151,15 @@ raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T1
 We can use a tree viewer (I use FigTree a lot) to visualize the ML tree with mapped bootstrap values (you have to choose "label" option under the "display node support".
 
 >**Tip:** To view a phylogenetic trees on the terminal, use the `nw_display` program from the `newick_utils` package.
+
 <!-- However, you'll need to use the older RISA modules:
 >
 ```
 module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core
 module use /opt/rit/modules
 module load newick_utils
-``` -->
+```
+-->
 
 Alternatively, we can compute so-called *Transfer Bootstrap Expectation* support metric [(Lemoine et al. 2018)](https://www.nature.com/articles/s41586-018-0043-0), which is supposedly more appropriate for very large trees:   
 ```
