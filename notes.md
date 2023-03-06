@@ -28,6 +28,7 @@ E. S. Allman & John A. Rhodes, 2016. [“Lecture Notes: The Mathematics of Phylo
 
 [06. Bayesian Analysis](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/06_Bayesian_phylogenetics.pdf)
 
+
 <!--
 [07. Hypothesis testing](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/07_Model_use.pdf)
 
