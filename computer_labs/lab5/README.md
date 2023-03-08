@@ -11,12 +11,10 @@ The goal of this lab is to introduce you to MrBayes, one of the two major softwa
 ### Getting Started.
 #### Software
 
-`MrBayes` is installed as an (older)  module (called mrbayes) on HPC-class. To use run:
+`MrBayes` is installed as a module on Nova. To use run:
 ```
-module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core
-module use /opt/rit/modules
-module load mrbayes;  
-salloc -N 1 -n 8 -t 2:00:00;  
+salloc -p class-long -N 1 -n 4 -t 2:00:00 -A s2023.eeob.563.1  
+module load mrbayes/3.2.7a-py39-openmpi4-eb7qap6
 mpirun -np 4 mb
 ```
 

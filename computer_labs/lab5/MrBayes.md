@@ -136,7 +136,10 @@ mcmcp filename=conifer-uniform
 Run the analysis by typing `mcmc` and say no to the option to continue sampling once the chain has reached ngen iterations. The convergence diagnostics we've chosen (the maximum standard deviation of split frequencies) monitors the topological similarity of trees sampled by the two independent analyses. A low standard deviation indicates that the data points (split frequencies) tend to be close to the mean, suggesting that the trees sampled by the independent chains are similar and presumably sampled from the same (stationary) distribution. By contrast, high values of the standard deviation suggest that the trees sampled by the independent chains are quite different and presumably not sampled from the same (stationary) distribution
 
 #### Running the stepping-stone sampling
-In the Bayesian framework, model selection is typically performed through the evaluation of a Bayes factor, the ratio of marginal likelihoods for the two models. Commonly, marginal likelihood was calculated by harmonic mean estimator. New techniques to estimate (log) marginal likelihoods, such as path sampling and stepping-stone sampling, offer increased accuracy over the traditional method. In this part of the exercise, we will estimate marginal likelihood of the unpartitioned model using stepping-stone sampling. 
+In the Bayesian framework, model selection is typically performed through the evaluation of a Bayes factor, the ratio of marginal likelihoods for the two models. 
+Commonly, marginal likelihood was calculated by harmonic mean estimator. 
+New techniques to estimate (log) marginal likelihoods, such as [path sampling and stepping-stone sampling](https://doi.org/10.1093/sysbio/syq085), offer increased accuracy over the traditional method. 
+In this part of the exercise, we will estimate marginal likelihood of the unpartitioned model using stepping-stone sampling. 
 
 Specify the parameters of the stepping-stone sampling analysis using the ssp command:
 
