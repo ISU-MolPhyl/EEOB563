@@ -68,7 +68,7 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 8 (Mar 7, 9)
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Discussion: Williams et al., 2020. Microbial predators form a new supergroup of eukaryotes [Nature, 612:714-719](https://doi.org/10.1038/s41586-022-05511-5)
-* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2023/computer_labs/lab5): Bayesian analysis with MrBayes.
+* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment6.pdf) (**due 03/23**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/hiv.nxs)
 
 ### Week 9: Spring Break!
