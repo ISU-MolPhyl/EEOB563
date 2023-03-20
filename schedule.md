@@ -71,185 +71,91 @@ To view the planned schedule of course activities, view the class calendar using
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
      * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment6.pdf) (**due 03/23**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/hiv.nxs)
 
-### Week 9: Spring Break!
-* Don’t forget about your [final project](./final_project.md) outline! (**due 3/25**)
+### Spring Break! (Mar 14, 16)
+* Don’t forget about your [final project](./final_project.md) outline! (**due 3/23**)
 
-<!--
-#### &#10071; Midterm exam &#10071;
-- Exam will open on Mar 18, after the class. Will cover weeks 1-7
-- Exam will close on Mar 23 before the class.
-- You will have one 3hr window to complete the exam.
-
-
-### Week 10 (Mar 23, 25)
-* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563-Spring2023/computer_labs/lab5): Bayesian analysis with MrBayes.
-     * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment6.pdf) (**due 04/01**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/hiv.nxs)
+### Week 9 (Mar 21, 23)
 * Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/07_Model_use.pdf)].
-    * Reading: Posada & Buckley (2004).  Model Selection and Model Averaging in
-		Phylogenetics: Advantages of Akaike Information Criterion and Bayesian
-		Approaches Over Likelihood Ratio Tests.
+    * Reading: Posada & Buckley (2004).  Model Selection and Model Averaging in Phylogenetics: Advantages of Akaike Information Criterion and Bayesian Approaches Over Likelihood Ratio Tests.
     [Systematic Biology 53: 793–808](https://doi.org/10.1080/10635150490522304).  
-			* Alternative (simpler) reading: Kelchner & Thomas (2007). Model use in phylogenetics: nine key questions. [TREE 22: 87-94](https://doi.org/10.1016/j.tree.2006.10.004)
+	* Alternative (simpler) reading: Kelchner & Thomas (2007). Model use in phylogenetics: nine key questions. [TREE 22: 87-94](https://doi.org/10.1016/j.tree.2006.10.004)
     * Discussion: Abadi et al. 2019. Model selection may not be a mandatory step for
     phylogeny reconstruction. [Nature Communications 10:934](https://doi.org/10.1038/s41467-019-08822-w)  
-			* There is a critique in [BioRxiv](https://doi.org/10.1101/849018) if you are interested.  
-    	* Remember to post at least one comment question in the reading-discussion channel on Slack!  
+	* There is a critique in [BioRxiv](https://doi.org/10.1101/849018) if you are interested.  
+    * Remember to post at least one comment question in the reading-discussion channel on Slack!  
+* Lecture 13: * Midterm exam review and [final project](./final_project.md) discussion
+    * Be ready to present your final project outline. Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub repository for the final project and send me the link.
 
-### Week 10 (Mar 30, Apr 1)
-* Lecture 13: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/08_Molecular_evolution.pdf)].
-    * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
-    * For additional details and examples, read (optional): Yang 2019. Adaptive Molecular Evolution. In. Balding et al. (Eds). [Handbook of Statistical Genomics, 4ed.](https://doi.org/10.1002/9781119487845.ch13).  
-    * Discussion: Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).  
-    * Remember to post a question/comment in the reading-discussion channel on Slack!  
+#### &#10071; Midterm exam &#10071;
+- Exam will open on Mar 23, after the class. Will cover weeks 1-8
+- Exam will close on Mar 28 before the class.
+- You will have one 3hr window to complete the exam.
+
+<!-- 
+### Week 10 (Mar 28, 30)
+* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/08_Molecular_evolution.pdf)].
+    * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation. [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
+    * Discussion:  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/nature18959).
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
 
-### Week 11 (Apr 6, 8)
-* Lecture 14: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/09_Gene_species_trees.pdf)].  
+### Week 11 (Apr 4, 6)
+* Lecture 15: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/09_Gene_species_trees.pdf)].  
     * Reading: Maddison (1997). Gene Trees in Species Trees. [Systematic Biology 46: 523–536](https://doi.org/10.1093/sysbio/46.3.523).  
     * Discussion: Gatesy and Springer (2014). Phylogenetic analysis at deep timescales:
     Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum.
     [Molecular Phylogenetics and Evolution 80: 231-266](https://doi.org/10.1016/j.ympev.2014.08.013)  
-* Lecture 15: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/10_Phylogenomics.pdf)].  
-		* Reading: Young and Gillung (2020). Phylogenomics – principles, opportunities and pitfalls of big-data phylogenetics. [Systematic Entomology 45: 225–247](https://doi.org/10.1111/syen.12406)  
+* Lecture 16: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/10_Phylogenomics.pdf)].  
+	* Reading: Kapli et al. (2020) Phylogenetic tree building in the genomic age. [Nature Reviews Genetics 21: 428–444](https://doi.org/10.1038/s41576-020-0233-0)
     * Discussion: Simion et al. (2023). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
 		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp.  2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).    
+<!-- * Lecture 17: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+    * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407). 
 
-### Week 12 (Apr 13, 15)
+### Week 12 (Apr 11, 13)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
-* Lecture 16: Ancestral State Reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/11_Ancestral_reconstruction.pdf)].
+* Lecture 17: Ancestral State Reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/11_Ancestral_reconstruction.pdf)].
     * Reading: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
     * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
-    *  &#10071; Final project draft due:  &#10071; share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/22.  
 
-### Week 13 (Apr 20, 22)
-* Lecture 17: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/12_Phylogenetic_comparative_methods)].
-    * Reading: Uyeda et al. 2018. Rethinking phylogenetic comparative methods. [Systematic Biology 67: 1091–1109](https://doi.org/10.1093/sysbio/syy031)
+### Week 13 (Apr 18, 20)
+* Lecture 18: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/12_Phylogenetic_comparative_methods)].
+    * Reading: O’Meara (2012).  Evolutionary Inferences from Phylogenies: A Review of Methods. [Annu. Rev. Ecol. Evol. Syst. 43:267–285](https://doi.org/10.1146/annurev-ecolsys-110411-160331).
+    <!-- * Reading: Uyeda et al. 2018. Rethinking phylogenetic comparative methods. [Systematic Biology 67: 1091–1109](https://doi.org/10.1093/sysbio/syy031).
+    * Reading (optional): Soul and Wright 2020. Phylogenetic Comparative Methods: A User’s Guide for Paleontologists. [EcoEvoRxiv Preprints](10.32942/osf.io/ytm5x) 
     * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
+    * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your reviews by 4/25.  
 
-Add: https://ecoevorxiv.org/ytm5x/ (Phylogenetic Comparative Methods: A User’s Guide for Paleontologists
-)
-
-### Week 14 (Apr 27, 29)
-
+### Week 14 (Apr 25, 27)
 * Lecture 18: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/13_Molecular_clocks.pdf)].
     * Reading: Bromham et al. (2018). Bayesian molecular dating: opening up the black box. [Biological Reviews, 93: 1165-1191](https://doi.org/10.1111/brv.12390)
-    * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960.
-    [Nature 455: 661–664](https://doi.org/10.1038/nature07390). A cool paper that involves molecular clock analyses and paleovirology.
+    * Discussion: Worobey et al. (2016). 1970s and "Patient 0" {HIV}-1 genomes illuminate early HIV/AIDS history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
+    <!-- * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960.
+    [Nature 455: 661–664](https://doi.org/10.1038/nature07390). 
       * Remember to post at least one comment/question on either paper in the reading-discussion channel on Slack and answer/comment on another post.
+* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
+    * Reading (optional): Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355?367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
 
-#### &#10071; The final project report is due by the end of the day on Tuesday! &#10071;
+#### &#10071; The final project report is due by the end of the day on Sunday! Submit the link to your GitHub repository on Canvas &#10071;
 
-### Final presentations [[Scoring rubric](./scoring_rubric.pdf)]
-* 04/29/21 9-10:50am  
-		- Audrey McCombs  
-		- Cameron Vannoy + Kaitlyn Barnes + Rachel Rompala
-		- Zerui Zhang  
-		- Mudith Ekanayake  
-		- Mihir Kharate  
-		- Kavi Raj Acharya  
-
-### Week 15 (May 3)  
-
-* 05/03/21 8-10am  
-		- Jaspreet Rishi  
-		- Ceren Ordas  
-		- Yawei Li  
-		- Bruno do Rosario Petrucci  
-		- Ann Murithi  
-
-
-
-
-    * Reading (optional): Soul and Wright 2020. Phylogenetic Comparative Methods: A User’s Guide for Paleontologists. [EcoEvoRxiv Preprints](10.32942/osf.io/ytm5x)
-
-
-### Week 14 (Apr 27, 29) -- COVID-19 edition
-* Topic 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * In lieu of the lecture, read: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  [Nature Reviews Genetics.  6: 361-375](https://www.nature.com/articles/nrg1603). (This is old now, but rather classical).
-    * Discussion: Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/science/article/pii/S0960982217301999).
-* Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * In lieu of the lecture, read: Simion et al. (2023). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
-    In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp. 2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).
-    * Discussion (again): Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/science/article/pii/S0960982217301999).
-
-		### Week 14 (April 27, 29)
-		* Student presentations
-
-
-* **Revised final project due on 4/28 at 11:59pm (commit to GitHub and email me the link)**
-
-### Final Presentations [[Scoring rubric](./scoring_rubric.pdf)]:
-* 04/30: 9:00-10:50am
+### Week 15 (May 2, 4): Final presentations  
+[[Scoring rubric](./scoring_rubric.pdf)]
+* 05/02: 9:00-10:45am
   * Elizabeth
   * Lauren  
   * Jing
   * Jermaine
   * Zakayo
-* 05/02: 9:00-10:50am
+* 05/04: 9:00-10:45am
   * Shofi
   * Jade
   * Amruta
   * Jordan
   * Dennis
-* 05/07: 8:00-9:30am
-  * Katelyn
-  * Devin
-  * Christian
-  * Zachary
-
-### Week 11 (Mar 24, 26) -- Coronavirus edition
-* Lecture 12: Model selection and model averaging in Likelihood and Bayesian methods.
-    * Reading and Discussion: Posada and Buckley 2004.  Model selection and model averaging in phylogenetics:
-    advantages of Akaike Information Criterion and Bayesian Approaches over Likelihood Ratio tests. [Systematic Biology, 53:793?808](https://academic.oup.com/sysbio/article/53/5/793/2842928).
 
 
-* Midterm exam review and [final project](./final_project.md) discussion
-    * Be ready to present your final project outline.  Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub/GitLab repository for the final project and send me the
-link.
+    * 
 
-* [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
-  * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/assignment6.pdf) (**due 04/04**) [[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2023/assignments/hiv.nxs)
-
-
-Lecture 13 (ha!): Gene trees and species trees.
-    * Reading: Allman and Rhodes (2016).  Chapter 13: Gene trees and species trees
-    * Discussion: Copetti et al. 2017. Extensive gene tree discordance and hemiplasy shaped the genomes of North American columnar cacti. [Proc Natl Acad Sci U S A: 114: 12003-12008](http://www.pnas.org/   
-content/114/45/12003.full).
-
-### Week 12
-* Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/08_Molecular_evolution.pdf)].
-    * Reading: Bielawski and Yang (2000). Statistical methods for detecting molecular adaptation.  [TREE 15(12): 496-503](http://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(00)01994-7).
-    * Discussion (leaders _Jade and Zachary_):  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment. [Nature 536: 165-170](https://www.nature.com/articles/         
-nature18959).
-
-* [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
-
-### Week 13
-* Lecture 15: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_03_18.pdf)].
-    * Reading: Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355?367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
-    * Discussion: Worobey et al. (2016). 1970s and ?Patient 0? {HIV}-1 genomes illuminate early {HIV}/{AIDS} history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).
-
-* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
-
-### Week 14
-
-* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
-    * Reading (again): Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  Am. Nat. 167:808-825.
-    * **Final project draft due:** share your GitHub/GitLab address with two assigned reviewers.  Perform the kind of positive, constructive review you would like to get on your own draft.  Prepare your    
-reviews by 4/23.  
-
-### Week 15 (Current and Last!)
-* Lecture 17: Phylogenomics and the tree of life [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * Reading: Delsuc et al. 2005.  Phylogenomics and the reconstruction of the tree of life.  [Nature Reviews Genetics.  6: 361-375](https://www.nature.com/articles/nrg1603).
-    * Discussion: Simion et al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. [Current biology 2: 958-967](https://www.sciencedirect.com/    
-science/article/pii/S0960982217301999).
-
-* Lecture 18: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
-    * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407).
-
-
-* **Revised final project due on 4/28 at 11:59pm (commit to GitHub and email me the link)**
 
 --->
