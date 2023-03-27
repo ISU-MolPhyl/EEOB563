@@ -96,7 +96,7 @@ To view the planned schedule of course activities, view the class calendar using
 * Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Vitti et al. (2013). Detecting Natural Selection in Genomic Data. [Annual Review of Genetics 47:97-120](https://doi.org/10.1146/annurev-genet-111212-133526).
     <!-- consider Polygenic adaptation: a unifying framework to understand positive selection -->
-    * Discussion:  Rochman et al. (2021). Ongoing global and regional adaptive evolution of SARS-CoV-2. [Proc Natl Acad Sci U S A 118:e2104241118](https://doi.org/10.1073/pnas.210424111).
+    * Discussion:  Rochman et al. (2021). Ongoing global and regional adaptive evolution of SARS-CoV-2. [Proc Natl Acad Sci U S A 118:e2104241118](https://doi.org/10.1073/pnas.2104241118).
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
   <!-- add EasyCodeML: A visual tool for analysis of selection using CodeML -->
 
