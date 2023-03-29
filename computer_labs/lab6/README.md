@@ -1,12 +1,16 @@
 # Lab #6 Hypothesis Testing and Detecting Selection with PAML
 ### Expected learning outcomes
 <img src="./pict/dper_f.jpg" align="right" hspace="10">
-The objective of this activity is to help you understand how to use PAML program, and how to test hypothese using the Maximum Likelihood approach.  There are many more applications of PAML (see below).  Check its [manual](http://abacus.gene.ucl.ac.uk/software/pamlDOC.pdf){:target="_blank"} and [FAQs](http://abacus.gene.ucl.ac.uk/software/pamlFAQs.pdf){:target="_blank"} for additional ideas.
+The objective of this activity is to help you understand how to use PAML program, and how to test hypothese using the Maximum Likelihood approach.  
+There are many more applications of PAML (see below).  
+Check its [manual](http://abacus.gene.ucl.ac.uk/software/pamlDOC.pdf){:target="_blank"} and [FAQs](http://abacus.gene.ucl.ac.uk/software/pamlFAQs.pdf){:target="_blank"} for additional ideas.
 
 The exercises we will be doing today follow a [tutorial](http://evomics.org/learning/phylogenetics/paml/){:target="_blank"} prepared by Joe Bielawski based on a [book chapter](./PAML_chapter.pdf){:target="_blank"} by Bielawski and Yang (2005).
 
 ### Introduction
-PAML is *a package* of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood. It is maintained and distributed for academic use free of charge by Ziheng Yang. Examples of analyses that can be performed using the package include:  
+PAML is *a package* of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood. 
+It is maintained and distributed for academic use free of charge by Ziheng Yang. 
+Examples of analyses that can be performed using the package include:  
 
 * Comparison and tests of phylogenetic trees (`baseml` and `codeml`);  
 * Estimation of parameters in sophisticated substitution models
@@ -21,20 +25,25 @@ simulation (`evolver`);
 selection in protein-coding DNA sequences (`yn00` and `codeml`).
 * Bayesian estimation of species divergence times incorporating uncertainties in fossil calibrations (`mcmctree`).
 
-The strength of PAML is its collection of sophisticated substitution models.  Tree search algorithms implemented in `baseml` and `codeml` are rather primitive, so except for very small data sets with say, <10 species, you are better off to use another package, such as phylip, paup, or mrBayes, to infer the tree topology.  You can get a collection of trees from other programs and evaluate them using `baseml` or `codeml` as user trees.
+The strength of PAML is its collection of sophisticated substitution models.  
+Tree search algorithms implemented in `baseml` and `codeml` are rather primitive, so except for very small data sets with say, <10 species, you are better off to use another package, such as phylip, paup, or mrBayes, to infer the tree topology.  
+You can get a collection of trees from other programs and evaluate them using `baseml` or `codeml` as user trees.
 
 ### Getting Started.
 #### Software
 
-PAML is alredy installed on the HPC-class (module paml). To use it, run:  
+PAML is alredy installed on the Nova (module paml). 
+To use it, run:  
 
 ```
-salloc -N 1 -n 4 -t 2:00:00;  
-module load paml;  
-name_of_the_paml_program
+salloc -p class-long -N 1 -n 4 -t 2:00:00 -A s2023.eeob.563.1;  
+module load paml/4.10.3-hppxsat;  
+<name_of_the_paml_program>
 ```
 
 You can also install PAML on your computer from its [website](http://abacus.gene.ucl.ac.uk/software/paml.html){:target="_blank"}.
+There are also several GUI to PAML that you can run on your computer [e.g., EasyCodeML](https://github.com/BioEasy/EasyCodeML){:target="_blank"} (they look really scary to me!).
+<!-- There is also a [parallelization script](https://github.com/RetroWWU/paPAML){:target="_blank"} that you can use to run both PAML and HyPhy analyses. -->
 
 *Note:* For the exercises below we will use a single program from the paml package: `codeml`.
 
@@ -105,10 +114,20 @@ In this exercise we will explore the variation in selective pressure among branc
 
 ### Exercise 4: Testing for adaptive evolution in the _nef_ gene of human HIV-2
 
-The data for this exercise come from Padua et al. 2003, who sequenced 44 _nef_ alleles from a study population of 37 HIV-2-infected people living in Lisbon, Portugal. They found that nucleotide variation in the _nef_ gene, rather than gross structural change, waspotentially correlated with HIV-2 pathogenesis. In order to determine whetherthe _nef_ gene might also be evolving under positive selective pressure in HIV-2, we will analyzed these data here with models of variable ω ratios amongsites. If you find significant evidence for positive selection, then identify the involved sites by using empirical Bayes methods.
+The data for this exercise come from Padua et al. 2003, who sequenced 44 _nef_ alleles from a study population of 37 HIV-2-infected people living in Lisbon, Portugal. They found that nucleotide variation in the _nef_ gene, rather than gross structural change, was
+potentially correlated with HIV-2 pathogenesis. In order to determine whether
+the _nef_ gene might also be evolving under positive selective pressure in HIV-
+2, we will analyzed these data here with models of variable ω ratios among
+sites. If you find significant evidence for positive selection, then identify the involved sites by using empirical Bayes methods.
 
-The following models: M0 (one ω), M1a (neutral), M2a (selection),M3 (discrete), M7 (beta), and M8 (beta & ω) will be used. Models M0 and M3 weredescribed above. M1a (neutral) specifies two classes of sites: conserved siteswith ω < 1 estimated from the data and neutral sites with ω = 1.
-M2a (selection) is an extension of M1a (neutral), adding a third ω class that is free to take a value > 1. Under model M7 (beta), ω varies among sites according to a beta distribution with parameters p and q. The beta distribution is restricted to the interval (0, 1); M8 (beta & ω) adds a discrete ω class to the beta distribution thatis free to take a value > 1. Under M8 (beta & ω), a proportion of sites p0is drawn from a beta distribution, with the remainder (p1 = 1 − p0) havingthe ω ratio of the added site class.
+The following models: M0 (one ω), M1a (neutral), M2a (selection),
+M3 (discrete), M7 (beta), and M8 (beta & ω) will be used. Models M0 and M3 were
+described above. M1a (neutral) specifies two classes of sites: conserved sites
+with ω < 1 estimated from the data and neutral sites with ω = 1.
+M2a (selection) is an extension of M1a (neutral), adding a third ω class that is free to take a value > 1. Under model M7 (beta), ω varies among sites according to a beta distribution with parameters p and q. The beta distribution is restricted to the interval (0, 1); M8 (beta & ω) adds a discrete ω class to the beta distribution that
+is free to take a value > 1. Under M8 (beta & ω), a proportion of sites p0
+is drawn from a beta distribution, with the remainder (p1 = 1 − p0) having
+the ω ratio of the added site class.
 
 1. Unzip files for exercise 4 and familiarize yourself with them.
 2. If you plan to run two or more models at the same time, then create a separate directory for each run and place a sequence file, control file and tree file in each one.
