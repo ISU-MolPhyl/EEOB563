@@ -107,22 +107,24 @@ To view the planned schedule of course activities, view the class calendar using
  -->
     * Discussion: Romiguier et al. (2022). Ant phylogenomics reveals a natural selection hotspot preceding the origin of complex eusociality. [Current Biology 32: 2942-2947.e4](https://doi.org/10.1016/j.cub.2022.05.001)  
 * Lecture 16: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/10_Phylogenomics.pdf)].  
-<!--
+ <!--
     * Nice resource: Scornavacca et al. (Eds.) (2020). Phylogenetics in the Genomic Era. [Authors open access book, p.p. 1-568](https://hal.inria.fr/hal-02535070v3).
--->
+ -->
 	* Reading: Kapli et al. (2020) Phylogenetic tree building in the genomic age. [Nature Reviews Genetics 21: 428–444](https://doi.org/10.1038/s41576-020-0233-0)
 	* Reading (optional): Carter et al. (2023). Estimating phylogenies from genomes: A beginners review of commonly used genomic data in vertebrate phylogenomics. [Journal of Heredity 114:1–13](https://doi.org/10.1093/jhered/esac061)
     * Discussion: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
 		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp.  2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).    
-<!-- * Lecture 17: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+ <!-- * Lecture 17: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407). 
--->
+ -->
 
 ### Week 12 (Apr 11, 13)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
 * Lecture 17: Ancestral State Reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/11_Ancestral_reconstruction.pdf)].
     * Reading: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
-    * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
+    * Discussion: Starr et al. (2017). Alternative evolutionary histories in the sequence space of an ancient protein. [Nature 549:409-413](https://doi.org/10.1038/nature23902)
+ <!--   * Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
+ -->
 
 <!--
 ### Week 13 (Apr 18, 20)
