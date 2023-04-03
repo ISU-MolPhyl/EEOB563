@@ -98,21 +98,25 @@ To view the planned schedule of course activities, view the class calendar using
     <!-- consider Polygenic adaptation: a unifying framework to understand positive selection -->
     * Discussion:  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment [Nature 536: 165–170](https://doi.org/10.1038/nature18959).
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
-  <!-- add EasyCodeML: A visual tool for analysis of selection using CodeML -->
 
-<!-- 
 ### Week 11 (Apr 4, 6)
-* Lecture 15: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/09_Gene_species_trees.pdf)].  
-    * Reading: Maddison (1997). Gene Trees in Species Trees. [Systematic Biology 46: 523–536](https://doi.org/10.1093/sysbio/46.3.523).  
-    * Discussion: Gatesy and Springer (2014). Phylogenetic analysis at deep timescales:
-    Unreliable gene trees, bypassed hidden support, and the coalescence/concatalescence conundrum.
-    [Molecular Phylogenetics and Evolution 80: 231-266](https://doi.org/10.1016/j.ympev.2014.08.013)  
+* Lecture 15: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/09_Gene_species_trees.pdf)]. 
+    * Overview: Duchêne (2021). Phylogenomics. [Current Biology 31: PR1177-R1181](https://doi.org/10.1016/j.cub.2021.07.039)
+    * Reading: Mirarab et al. (2021) Multispecies Coalescent: Theory and Applications in Phylogenetics. [Annu. Rev. Ecol. Evol. Syst. 2021. 52:247–68](https://doi.org/10.1146/annurev-ecolsys-012121-095340)
+ <!--    * Reading: Szöllősi et al. (2015). The Inference of Gene Trees with Species Trees. [Systematic Biology 64:e42–e62](https://doi.org/10.1093/sysbio/syu048).  
+ -->
+    * Discussion: Romiguier et al. (2022). Ant phylogenomics reveals a natural selection hotspot preceding the origin of complex eusociality. [Current Biology 32: 2942-2947.e4](https://doi.org/10.1016/j.cub.2022.05.001)  
 * Lecture 16: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/10_Phylogenomics.pdf)].  
+<!--
+    * Nice resource: Scornavacca et al. (Eds.) (2020). Phylogenetics in the Genomic Era. [Authors open access book, p.p. 1-568](https://hal.inria.fr/hal-02535070v3).
+-->
 	* Reading: Kapli et al. (2020) Phylogenetic tree building in the genomic age. [Nature Reviews Genetics 21: 428–444](https://doi.org/10.1038/s41576-020-0233-0)
-    * Discussion: Simion et al. (2023). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
+	* Reading (optional): Carter et al. (2023). Estimating phylogenies from genomes: A beginners review of commonly used genomic data in vertebrate phylogenomics. [Journal of Heredity 114:1–13](https://doi.org/10.1093/jhered/esac061)
+    * Discussion: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
 		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp.  2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).    
 <!-- * Lecture 17: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407). 
+-->
 
 ### Week 12 (Apr 11, 13)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
@@ -120,6 +124,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
     * Discussion: Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
 
+<!--
 ### Week 13 (Apr 18, 20)
 * Lecture 18: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/12_Phylogenetic_comparative_methods)].
     * Reading: O’Meara (2012).  Evolutionary Inferences from Phylogenies: A Review of Methods. [Annu. Rev. Ecol. Evol. Syst. 43:267–285](https://doi.org/10.1146/annurev-ecolsys-110411-160331).
