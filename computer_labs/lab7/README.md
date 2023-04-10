@@ -1,43 +1,51 @@
 # Lab #7 Phylogenomics
-The objective of this activity is to introduce you to main steps and approaches in
-phylogenomic analysis. We will use several programs for this exercise. A few of
-them will be familiar, but many will be novel. So be ready!
+The objective of this activity is to introduce you to main steps and approaches in phylogenomic analysis. 
+We will use several programs for this exercise. 
+A few of them will be familiar, but many will be novel. 
+So be ready!
 
 ## Introduction
 ### What is phylogenomics?
 
-The term “phylogenomics” refers to several areas of research at the interplay
-between genomics and evolution. Here we will use it in a sense of
-inferring species' relationships using genomic scale datasets.
+The term “phylogenomics” refers to several areas of research at the interplay between genomics and evolution. 
+Here we will use it in a sense of inferring species' relationships using genomic scale datasets.
 
 ### To concatenate or not to concatenate...
 
-When dealing with the sequence data in phylogenomic analysis, one of the main decision we have to make is whether to concatenate the data. If **we do**, we
-can use any of the previously discussed phylogenetic methods to infer a species
-tree. It will just take longer. If **we don't**, we can use supertree or concatenation methods. We will try both approaches here.
+When dealing with the sequence data in phylogenomic analysis, one of the main decision we have to make is whether to concatenate the data. 
+If **we do**, we can use any of the previously discussed phylogenetic methods to infer a species tree. 
+It will just take longer. 
+If **we don't**, we can use supertree or coalescent methods. 
+We will try both approaches here.
 
 ### The dataset
 
-We will use one of the dataset from the study by [McCormack et al. (2012)](http://www.genome.org/cgi/doi/10.1101/gr.125864.111) that we have already seen in the Gatesy and Springer's paper. The directory for this lab contains both the sequences and alignments.
+We will use one of the dataset from the study by [McCormack et al. (2012)](http://www.genome.org/cgi/doi/10.1101/gr.125864.111). 
+The directory for this lab contains both the sequences and alignments.
 
 ### Getting started
 
-We will use several new programs in this excercise. All of them are already installed
-on HPC-class, but we need to do a few tricks to simplify their usage:
+We will use several new programs in this excercise. 
+All of them are already installed on Nova, but we'll do a few tricks to simplify their usage:
 
-1. Edit your `.bashrc` file by running the following commands
+1. Login to Nova and request 4 cores for 2 hours:
 ```
-echo "alias amas='python3 /shared/class/eeob563/src/AMAS/amas/AMAS.py'" >> ~/.bashrc
-echo "alias astral='java -jar /shared/class/eeob563/src/Astral/astral.5.7.7.jar'" >> ~/.bashrc
-echo "alias pargenes='/shared/class/eeob563/src/ParGenes/pargenes/pargenes.py'"  >> ~/.bashrc
-echo "alias pargenes-export='python /shared/class/eeob563/src/ParGenes/pargenes/pargenes_src/export.py'"  >> ~/.bashrc
+salloc -p class-long -N 1 -n 4 -t 2:00:00 -A s2023.eeob.563.1
+``` 
+
+2. Edit your `.bashrc` file by running the following commands from your home (~) directory:
+```
+echo "alias amas='python3 /work/class-faculty/dlavrov/eeob563/bin/AMAS.py'" >> ~/.bashrc
+echo "alias astral='java -jar /work/class-faculty/dlavrov/eeob563/src/ASTRAL/Astral/astral.5.7.8.jar'" >> ~/.bashrc
+echo "alias pargenes='/work/class-faculty/dlavrov/eeob563/src/ParGenes/pargenes/pargenes.py'"  >> ~/.bashrc
+echo "alias pargenes-export='/work/class-faculty/dlavrov/eeob563/src/ParGenes/pargenes/pargenes_src/export.py'"  >> ~/.bashrc
 source ~/.bashrc
 ```
 
 ## Part I: Concatenation-based analysis
 
-We will use [AMAS](https://github.com/marekborowiec/AMAS) program to concatenate
-alignments present in the `data/org` directory. To run AMAS type `amas <command> [<args>]`. Running `amas` without a command provides this help guide:
+We will use [AMAS](https://github.com/marekborowiec/AMAS) program to concatenate alignments present in the `data/org` directory. 
+To run AMAS type `amas <command> [<args>]`. Running `amas` without a command provides this help guide:
 
 ```
 usage: AMAS <command> [<args>]
@@ -73,12 +81,10 @@ phylip-formatted file (e.g., for RAxML)
 
 Before running ASTRAL we need to build inidividual trees. We'll do this with `ParGenes`.
 
-[ParGenes](https://github.com/BenoitMorel/ParGenes) is a parallel tool that takes
-as input a set of multiple sequence alignments (typically from different genes)
-and infers their corresponding phylogenetic trees.
+[ParGenes](https://github.com/BenoitMorel/ParGenes) is a parallel tool that takes as input a set of multiple sequence alignments (typically from different genes) and infers their corresponding phylogenetic trees.
 
-Pargenes has many options that you can check [here](https://github.com/BenoitMorel/ParGenes/wiki/Command-line) or by running `pargenes --help`. We won't use most of
-them for this lab.
+Pargenes has many options that you can check [here](https://github.com/BenoitMorel/ParGenes/wiki/Command-line) or by running `pargenes --help`. 
+We won't use most of them for this lab.
 
 1. Run `ParGenes` with the following command:  
 ```
@@ -109,30 +115,33 @@ and can run on small datasets (less than 18 taxa).
 
 #### Installation  
 
-The program is already installed in `/shared/class/eeob563`, but you can dowload
-it from its [github repository](https://github.com/smirarab/ASTRAL/).
+The program is already installed in `/work/class-faculty/dlavrov/eeob563`, but you can dowload it from its [github repository](https://github.com/smirarab/ASTRAL/).
 
 #### EXECUTION:
 * ASTRAL is a java-based application, and should run in any environment (Windows, Linux, Mac, etc.) but you need `java` to run it.
 
+<!-- 
 4. On HPC-Class load `java` with these two modules:
 
 ```
 module load dafoam/1.0
 module load java/1.8.0_51
 ```
+-->
 
-If you created an alias above, run ASTRAL by just typing `astral`. Typing
-`astral --help` will show you a <long> list of options available in ASTRAL:
+If you created an alias above, run ASTRAL by just typing `astral`. 
+Typing `astral --help` will show you a <long> list of options available in ASTRAL:
 
 ```
-================== ASTRAL =====================
+================== ASTRAL ===================== 
 
-This is ASTRAL version 5.7.7
+This is ASTRAL version 5.7.8
 
 Usage:
-  ASTRAL (version5.7.7) [--help] (-i|--input) <input file> [(-o|--output) <output
+  ASTRAL (version5.7.8) [--help] (-i|--input) <input file> [(-o|--output) <output
   file>] [(-q|--score-tree) <score species trees>] [(-t|--branch-annotate) <branch
+  annotation level>] [(-b|--bootstraps) <bootstraps>] [(-r|--reps) <replicates>]
+  [(-s|--seed) <seed>] [-g|--gene-resampling] [--gene-only] [(-k|--keep) <keep>]
 ...
 ```
 
@@ -148,7 +157,7 @@ The output in is Newick format and gives:
 * branch supports measured as [local posterior probabilities](http://mbe.oxfordjournals.org/content/early/2016/05/12/molbev.msw079.short?rss=1).  
 * It can also annotate branches with other quantities, such as quartet support, as described in the [tutorial](astral-tutorial.md).
 
-5. We can run `ASTRAL` as
+4. We can run `ASTRAL` as
 ```
 astral -i gene_trees.tre -o astral.tre
 # or
@@ -157,7 +166,7 @@ astral -i gene_trees.tre -o astral.tre 2> astral.log
 
 ### Viewing results of ASTRAL:
 
-6. The output of ASTRAL is a tree in Newick format. Let's use this [server](https://itol.embl.de/) to look at it.
+5. The output of ASTRAL is a tree in Newick format. Let's use this [server](https://itol.embl.de/) to look at it.
 
 Using either this applications open the `astral.tre` file.
 
