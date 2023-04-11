@@ -38,7 +38,7 @@ salloc -p class-long -N 1 -n 4 -t 2:00:00 -A s2023.eeob.563.1
 echo "alias amas='python3 /work/class-faculty/dlavrov/eeob563/bin/AMAS.py'" >> ~/.bashrc
 echo "alias astral='java -jar /work/class-faculty/dlavrov/eeob563/src/ASTRAL/Astral/astral.5.7.8.jar'" >> ~/.bashrc
 echo "alias pargenes='/work/class-faculty/dlavrov/eeob563/src/ParGenes/pargenes/pargenes.py'"  >> ~/.bashrc
-echo "alias pargenes-export='/work/class-faculty/dlavrov/eeob563/src/ParGenes/pargenes/pargenes_src/export.py'"  >> ~/.bashrc
+echo "alias pargenes-export='python3 /work/class-faculty/dlavrov/eeob563/src/ParGenes/pargenes/pargenes_src/export.py'"  >> ~/.bashrc
 source ~/.bashrc
 ```
 
@@ -115,7 +115,7 @@ and can run on small datasets (less than 18 taxa).
 
 #### Installation  
 
-The program is already installed in `/work/class-faculty/dlavrov/eeob563`, but you can dowload it from its [github repository](https://github.com/smirarab/ASTRAL/).
+The program is already installed in `/work/class-faculty/dlavrov/eeob563`, but you can dowload it from its [github repository](https://github.com/smirarab/ASTRAL/) or use the module `module load astral` (older version).
 
 #### EXECUTION:
 * ASTRAL is a java-based application, and should run in any environment (Windows, Linux, Mac, etc.) but you need `java` to run it.
