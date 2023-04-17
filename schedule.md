@@ -125,12 +125,13 @@ To view the planned schedule of course activities, view the class calendar using
  <!--   * Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
  -->
 
-<!--
 ### Week 13 (Apr 18, 20)
 * Lecture 18: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/12_Phylogenetic_comparative_methods)].
     * Reading: O’Meara (2012).  Evolutionary Inferences from Phylogenies: A Review of Methods. [Annu. Rev. Ecol. Evol. Syst. 43:267–285](https://doi.org/10.1146/annurev-ecolsys-110411-160331).
-    <!-- * Reading: Uyeda et al. 2018. Rethinking phylogenetic comparative methods. [Systematic Biology 67: 1091–1109](https://doi.org/10.1093/sysbio/syy031).
+<!-- 
+    * Reading: Uyeda et al. 2018. Rethinking phylogenetic comparative methods. [Systematic Biology 67: 1091–1109](https://doi.org/10.1093/sysbio/syy031).
     * Reading (optional): Soul and Wright 2020. Phylogenetic Comparative Methods: A User’s Guide for Paleontologists. [EcoEvoRxiv Preprints](10.32942/osf.io/ytm5x) 
+  -->
     * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
@@ -143,11 +144,12 @@ To view the planned schedule of course activities, view the class calendar using
     <!-- * Discussion: Worobey (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960.
     [Nature 455: 661–664](https://doi.org/10.1038/nature07390). 
       * Remember to post at least one comment/question on either paper in the reading-discussion channel on Slack and answer/comment on another post.
-* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
+* [Computer Lab 9](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
     * Reading (optional): Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355?367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
 
 #### &#10071; The final project report is due by the end of the day on Sunday! Submit the link to your GitHub repository on Canvas &#10071;
 
+<!--
 ### Week 15 (May 2, 4): Final presentations  
 [[Scoring rubric](./scoring_rubric.pdf)]
 * 05/02: 9:00-10:45am
