@@ -128,10 +128,6 @@ To view the planned schedule of course activities, view the class calendar using
 ### Week 13 (Apr 18, 20)
 * Lecture 18: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2023/lecture_notes/12_Phylogenetic_comparative_methods)].
     * Reading: O’Meara (2012).  Evolutionary Inferences from Phylogenies: A Review of Methods. [Annu. Rev. Ecol. Evol. Syst. 43:267–285](https://doi.org/10.1146/annurev-ecolsys-110411-160331).  
-
-<!-- * Reading: Uyeda et al. 2018. Rethinking phylogenetic comparative methods. [Systematic Biology 67: 1091–1109](https://doi.org/10.1093/sysbio/syy031).
-    * Reading (optional): Soul and Wright 2020. Phylogenetic Comparative Methods: A User’s Guide for Paleontologists. [EcoEvoRxiv Preprints](10.32942/osf.io/ytm5x) 
--->
     * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
 * [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
     * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
