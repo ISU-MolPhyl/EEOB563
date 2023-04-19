@@ -4,7 +4,7 @@
 <img src="./img/baboons.jpg" align="right" hspace="10">
 The objective of this activity is to help you understand how to conduct comparative analysis using Maximum Likelihood and Bayesian approaches. 
 The exercises come from various versions of the [BayesTraits manual](http://www.evolution.reading.ac.uk/BayesTraitsV4.0.1/Files/BayesTraitsV4.0.0-Manual.pdf) and have been adapted to the current version fo the program (Version 4.0.1).  
-Additional exercises can be found at the AnthroTree [website](http://www.anthrotree.info/wiki/projects/pica/The_AnthroTree_Website.html).
+Additional exercises can be found at the AnthroTree [website](https://wiki.duke.edu/display/AnthroTree/AnthroTree+Home).
 
 ## Introduction
 [BayesTraits](http://www.evolution.reading.ac.uk/BayesTrees.html) is a computer package written by Andrew Meade and Mark Pagel for performing analyses of trait evolution among groups of species for which a phylogeny or sample of phylogenies is available. 
