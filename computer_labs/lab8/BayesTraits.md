@@ -1,25 +1,16 @@
 # BayesTraits Tutorial
 ## Exercise 1: Using BayesTraits to estimate the model of evolution and ancestral states for a binary trait
 
-This is an example showing how to calculate a likelihood and
-estimate the model of evolution using the data on primate
-mating systems reported in a study by Pagel and Meade
-(American Naturalist, 2006). For purposes of this example,
-consider that primate mating systems can be classified as
-multimale (females mate with more than one male) or
-unimale/monogamous. We assign a "1" to primates with a
-multimale mating system and a "0" otherwise.
+This is an example showing how to calculate a likelihood and estimate the model of evolution using the data on primate mating systems reported in a study by Pagel and Meade (American Naturalist, 2006). 
+For purposes of this example, consider that primate mating systems can be classified as multimale (females mate with more than one male) or unimale/monogamous. 
+We assign a "1" to primates with a multimale mating system and a "0" otherwise.
 
-Then the model of evolution will be very simple with two
-states (0 and 1) and two rates (q_01 and q_10) for transitions
-between the two states:
+Then the model of evolution will be very simple with two states (0 and 1) and two rates (q_01 and q_10) for transitions between the two states:
 
 <img src="./img/lab8-fig1.png" width = "300" align="left" hspace="10">  
 
 
-The file MatingSystem.txt contains mating system data for a
-variety of primate species; primate phylogenetic trees are in Primates.trees
-(we use more than one to account for phylogenetic uncertainty).  
+The file MatingSystem.txt contains mating system data for a variety of primate species; primate phylogenetic trees are in Primates.trees(we use more than one to account for phylogenetic uncertainty).  
 <br>
 
 ### Using Maximum Likelihood.
@@ -30,8 +21,8 @@ variety of primate species; primate phylogenetic trees are in Primates.trees
 * When prompted for the model of evolution, select MultiState by typing `1`.
 * When prompted for the analysis method, select Maximum Likelihood by typing `1`.
 * Set the logfile basename to "Run01": `LogFile Run01`
-* Type `run` and the program returns the output shown below for each of the 20
-trees in the sample (here the output is shown for only the first 5 trees).
+* Type `run` and the program runs and exits.
+* Print the LogFile: `cat Run01.Log.txt`. You can see the output for each of the 20 trees in the sample (here the output is shown for only the first 5 trees).
 
 ```
 Tree No Lh                 q01             q10             Root P(0)     Root P(1)
@@ -45,37 +36,44 @@ Tree No Lh                 q01             q10             Root P(0)     Root P(
 
 5         -25.266580     2.693710     1.121501     0.970575     0.029425
 ```
-The output shows the tree number and its likelihood given the model,
-the values of the two rate coefficients and the reconstructed probabilities
-of the two states at the root of the tree. Note that in Likelihood, there is
-no natural way to combine these results across the trees.
+The log file shows the tree number and its likelihood given the model, the values of the two rate coefficients and the reconstructed probabilities of the two states at the root of the tree. 
+Note that in Likelihood, there is no natural way to combine these results across the trees.
 
 > **Questions to consider:**  
 > What is the overall direction of evolution in primate mating system?  
 > What was the most likely mating system at the root of the tree?
+> Does you inference depend on a particular phylogenetic tree?
 
 > **Alternative way to run BayesTraits**
 > Note, that instead of typing the options at the command prompt, you
 > can enter them in a control file, and then use input redirection to
 > use them for the analysis:
-> `BayesTraits Primates.trees MatingSystems.txt < ex1.ctl`,
+> `BayesTraits Primates.trees MatingSystems.txt < input.ctl`,
 > where your control file looks like:  
+> ```
 > 1  
 > 1  
+> LogFile Run01
 > run
+> ```
+> I recommend that you use the latter interface
 
 #### Testing the model
-To see if transitions to multimale mating systems occur at a higher rate than
-transitions to unimale or monogamy, fit a model in which the two rates are
-constrained to be the same.
+To see if transitions to multimale mating systems occur at a higher rate than transitions to unimale or monogamy, fit a model in which the two rates are constrained to be the same.
 
-* Create this restriction by typing `restrict q01 q10`
-(you have to restart the program and follow the above instructions again)
-* Check that the restrictions have been made by typing `info`
-* Set the logfile basename to "Run02": `LogFile Run02`
-* Run the new model (`run`) and check the log-likelihood scores. A rule of thumb
-is that if this model is two or more log-likelihood units worse than the
-unconstrained model, then the two rate coefficients differ.
+Create the following input file:  
+```
+1
+1
+LogFile Run02
+restrict q01 q10
+info
+run
+```
+and run it: `BayesTraits Primates.trees MatingSystems.txt < input.ctl`
+
+Check the results in `Run02.Log.txt`. 
+The rule of thumb is that if this model is two or more log-likelihood units worse than the unconstrained model, then the two rate coefficients differ.
 
 > **Questions to consider:**  
 > How do you explain this "rule of thumb"?  
@@ -84,25 +82,28 @@ unconstrained model, then the two rate coefficients differ.
 #### Reconstructing an ancestral state
 
 BayesTraits has two approaches to reconstructing ancestral states.
-First, you can use the `Addnode` command. The `Addnode` command gives the
-program a list of species whose common ancestor is the node you wish
-to reconstruct. The program then finds the proportion of the likelihood
-associated with each of the possible states at the node. The node must
-exist in the tree for the command to work.
+First, you can use the `Addnode` command. 
+The `Addnode` command gives the  program a list of species whose common ancestor is the node you wish to reconstruct. 
+The program then finds the proportion of the likelihood associated with each of the possible states at the node. 
+The node must exist in the tree for the command to work.
 
 Alternatively, you can use the `AddMRCA` or Most Recent Common Ancestor.
-As with Addnode, you give a list of species whose ancestral state you wish
-to reconstruct. An MRCA reconstruction finds the node in each tree in the
-sample that minimally contains all of the species (tips) whose common ancestral
-state is of interest. In any given tree the MRCA might also include other species.
+As with Addnode, you give a list of species whose ancestral state you wish to reconstruct. 
+An MRCA reconstruction finds the node in each tree in the sample that minimally contains all of the species (tips) whose common ancestral state is of interest. 
+In any given tree the MRCA might also include other species.
 
-*  First, create a "Tag" with a species list: `AddTag GreatApes Pan_paniscus Pan_troglodytes Homo_sapiens Gorilla_gorilla Pongo_pygmaeus Pongo_pygmaeus_abelii`
-* Than, use `AddNode Node1 GreatApes` command to creates a dummy node Node01
-that here corresponds to the common ancestor to the Great Apes.
-* Use `AddMRCA Node2 GreatApes` command to set up a reconstruction for a MRCA of a group of species.
-* Type `info` to see the information about these nodes among the trees.  
-* Set the logfile basename to "Run03": `LogFile Run03`
-To run the program type `run`
+* Create the following input file:  
+```
+1
+1
+LogFile Run03
+AddTag GreatApes Pan_paniscus Pan_troglodytes Homo_sapiens Gorilla_gorilla Pongo_pygmaeus Pongo_pygmaeus_abelii
+AddNode Node1 GreatApes
+AddMRCA Node2 GreatApes
+info
+run
+```
+* Run it: `BayesTraits Primates.trees MatingSystems.txt < input.ctl`
 
 > **Questions to consider:**
 > In how many trees Node01 was not present? In how many trees Node02 was not present? Why?
@@ -110,70 +111,50 @@ To run the program type `run`
 
 #### Testing an ancestral state: Fossilizing a node
 
-Internal nodes can be set to take a fixed value, if
-external information is available or to test if the value
-of one state is significant. The `fossil` command takes a
-name, so the node can be identified in the output, a tag
-that defines the node and the state or states to fossilise
-the node in. Fossilised nodes are found using the most
-recent common ancestor method.
+Internal nodes can be set to take a fixed value, if external information is available or to test if the value of one state is significant. 
+The `fossil` command takes a name, so the node can be identified in the output, a tag that defines the node and the state or states to fossilise the node in. 
+Fossilised nodes are found using the most recent common ancestor method.
 
-
-Let's test whether one type of a mating system is
-'significantly' more likely in the common ancestor of
-great apes.  First, use the `fossil Node1 GreatApes 0`
-command, which sets the Node1 to state 0 and run the
-analysis. Repeat the analysis but set Node1 to state 1 instead.
+Let's test whether one type of a mating system is 'significantly' more likely in the common ancestor of great apes.  
+First, replace the `AddNode` and `AddMRCA` commands in the control file with `fossil Node1 GreatApes 0`, which sets the Node1 to state 0 and run the analysis. 
+Repeat the analysis but set Node1 to state 1 instead.
 
 > **Questions to consider:**  
 > Do you find a significant difference in logL values? (as above, a difference of two log units (for one parameter) is conventionally taken as evidence for a 'significant' difference).
 > What does it mean biologically?
 
 ## Using Markov Chain Monte Carlo.
-We can perform the same analyses as above using MCMC methods. The Bayesian analysis
-can be used to estimate the posterior distribution of parameter values and also
-to test different models using Stepping stone approach. In addition,
-BayesMultistate implements a reversible-jump
-MCMC method (see Pagel and Meade, Am. Nat., 2006) that automatically finds the
+We can perform the same analyses as above using MCMC methods. 
+The Bayesian analysis can be used to estimate the posterior distribution of parameter values and also to test different models using Stepping stone approach. 
+In addition, BayesMultistate implements a reversible-jump MCMC method (see Pagel and Meade, Am. Nat., 2006) that automatically finds the
 posterior distribution of models of evolution for the data.
 
 ### Running MCMC
 Restart the program and choose  MultiState (option 1) and  MCMC (option 2).
 At this stage you could run the model using conventional MCMC by typing `run` (try it!).
-You will see that the estimated rate coefficients (columns 5 and 6) are rather
-different from those under maximum likelihood (also the acceptance rate
-is too high). This situation arises because the default priors for the rates are
-uniform between 0-100 and not restrictive enough for the amount of data we have.
+(If you forgot to specify the logfile, your results will be in `data/MatingSystems.txt.Log.txt`)
+You will see that the estimated rate coefficients (columns 5 and 6) are rather different from those under maximum likelihood (also the acceptance rate is too high). 
+This situation arises because the default priors for the rates are uniform between 0-100 and not restrictive enough for the amount of data we have.
 
-You can change the shape of the priors by using the `PriorAll` command:
-`PriorAll exp 10`. You can check the shape of this distribution at
-[this website](http://www.elektro-energetika.cz/calculations/index.php?language=english)
-
-The output will be saved in a log file, ending “.Log.txt” an a tab
-separated values format. Run to run output will vary and is dependent on the random seed used.
-
-Note that you can also use a "hyperprior", which is a prior distribution on a
-"hyperparameter", which is a parameter of a prior distribution. You set a hyperprior by
-using the `hpall` command. For example, `hpall exp 0 30` will specify an exponential prior
-seeded from a uniform distribution on the interval 0-30.
-
-You can also change the number of MCMC steps by using the `it [number]` command,
-where `it` stands for iteration.
+* Change the shape of the priors by using the `PriorAll` command: `PriorAll exp 10` and rerun the analysis.
+  
+> You can check the shape of this distribution at [this website](http://www.elektro-energetika.cz/calculations/index.php?language=english)
+> Note that you can also use a "hyperprior", which is a prior distribution on a "hyperparameter", which is a parameter of a prior distribution. 
+> You set a hyperprior by using the `hpall` command. 
+> For example, `hpall exp 0 30` will specify an exponential prior seeded from a uniform distribution on the interval 0-30.
+> You can also change the number of MCMC steps by using the `it [number]` command, where `it` stands for iteration.
 
 ### Comparing the models
 #### Stepping stone analysis
 To calculate the log likelihood of the model, we will use the stepping stone sampler.
-The stepping stone sampler (Xie, Lewis et al. 2011) estimates the marginal likelihood by
-placing a number of ‘stones’ which link the posterior with the prior, the stones are successively
-heated, forcing the chain from the posterior towards the prior, providing an effective estimate of
-the marginal likelihood.
+The stepping stone sampler (Xie, Lewis et al. 2011) estimates the marginal likelihood by placing a number of ‘stones’ which link the posterior with the prior, the stones are successively heated, forcing the chain from the posterior towards the prior, providing an effective estimate of the marginal likelihood.
 
 The “stones” command, is used to set the sampler, the command takes the
 number of stones and the number of iterations to run the chain on each stone.
 The following command sets the sampler to use 100 stones and run each
 stone for 1,000 iterations: `stones 100 1000`
 
-- First, re-run the previous analysis, but add the `Stones 100 1000` command:
+* First, re-run the previous analysis, but add the `Stones 100 1000` command:
 
 ```
 1
@@ -183,16 +164,14 @@ Stones 100 1000
 Run
 ```
 
-Once the analysis has finished a file containing the marginal likelihood will
-be created (in the data directory!), MatingSystems.txt.Stones.txt. The last line
-of this file contain the marginal likelihood.
-
-> What is the marginal likelihood of the unconstrained model?
+The file containing the marginal likelihood will be created in `data/MatingSystems.txt.Stones.txt`. 
+The last line of this file contain the marginal likelihood.
 
 <!--
 roughly -27.5.
 -->
-- Second, constrain two rates to be equal (as in ML above) and re-run the analysis:
+
+* Second, constrain two rates to be equal (as in ML above) and re-run the analysis:
 
 ```
 1
@@ -202,9 +181,14 @@ Stones 100 1000
 Restrict q01 q10
 Run
 ```
+> **Questions to consider:**  
+> What is the marginal likelihood of the constrained model?
+> What is the marginal likelihood of the unconstrained model?
+<!--
+roughly -26.5
+-->
 
-To test if the two rates are significantly different, calculate a log Bayes Factor
-between the two models:
+To test if the two rates are significantly different, calculate a log Bayes Factor between the two models:
 
 ```
 Log Bayes Factor = 2(log marginal likelihood complex model – log marginal likelihood simple model)
@@ -219,27 +203,24 @@ Remember that Log Bayes Factors are interpreted something like:
 |5-10| Strong evidence      |
 |>10 | Very strong evidence |
 
-Note that the stepping stone estimate of the marginal likelihood is sensitive to a number of factors,
-including, priors, length of the chain, number of estimated parameters and run to run variation. Care
-should be taken to ensure estimates are accurate and stable, multiple independent run should be
-used, the accuracy of the sampler can be increased by using more stones and/or sampling each
-stone for longer. These options should be investigated if there is large run to run variation.
-
+Note that the stepping stone estimate of the marginal likelihood is sensitive to a number of factors, including, priors, length of the chain, number of estimated parameters and run to run variation. 
+Care should be taken to ensure estimates are accurate and stable, multiple independent run should be used, the accuracy of the sampler can be increased by using more stones and/or sampling each stone for longer. 
+These options should be investigated if there is large run to run variation.
 
 > **Question to consider:**  
 > What are some advantages of a Bayesian (compared to ML) analysis?
 
-#### Reverse Jump MCMC
-For a complex model the number of possible restrictions is large, and may be impossible to
-test. A reverse jump MCMC method (Green 1995) was developed to integrate results over model
-parameter and model restrictions, for a detailed description see (Pagel and Meade 2006).
-The RevJump (RJ) command is used to select reverse jump MCMC, the command takes a
-prior and prior parameters. For example, the command below uses reverse jump with an
-exponential prior with a mean of 10. The second command uses reverse jump with a hyper
-exponential prior where the mean of the exponential is drawn from a uniform 0 - 100:  
-`RevJump exp 10`
-Or
-`RJHP exp 0 100`
+#### Reverse Jump MCMC (Skip this section if you arrived here after 10am)
+For a complex model the number of possible restrictions is large, and may be impossible to test. 
+A reverse jump MCMC method (Green 1995) was developed to integrate results over model parameter and model restrictions, for a detailed description see (Pagel and Meade 2006).
+The RevJump (RJ) command is used to select reverse jump MCMC, the command takes a prior and prior parameters. 
+For example, the command below uses reverse jump with an exponential prior with a mean of 10. 
+The second command uses reverse jump with a hyper exponential prior where the mean of the exponential is drawn from a uniform 0 - 30:  
+
+```
+RevJump exp 10
+RJHP exp 0 30
+```
 
 The prior can be “exp”, “gamma”, or “uniform”
 
@@ -253,14 +234,13 @@ rjhp exp 0 30
 Run
 ```
 
-Run the program and check the output. Notice that new columns appeared: #5 ("No off <sic> parameters" ) and #7 ("Model string")
+Run the program and check the output. Notice that new columns appeared: #4 ("No off <sic> parameters" ) and #6 ("Model string")
 
 > **Question to consider:**  
 > How many parameters are in the selected model?
 > What does it mean in terms of rates of change?
 
-Note that the frequency of a given model in the posterior distribution of models
-is the posterior belief in that ‘hypothesis’.
+Note that the frequency of a given model in the posterior distribution of models is the posterior belief in that ‘hypothesis’.
 
 <!--
 ### Reconstructing an ancestral state
@@ -281,15 +261,10 @@ What was your Bayes Factor and what does it tell us?
 -->
 
 ## Exercise 2: Using BayesTraits to test for correlated evolution among pairs of traits.
-This exercise explores correlated evolution between mating system in
-primates and whether or not female primates prominently advertise their estrus --
-theory predicts that females will advertise in multimale mating systems
-(see Pagel and Meade, 2006).
+This exercise explores correlated evolution between mating system in primates and whether or not female primates prominently advertise their estrus: theory predicts that females will advertise in multimale mating systems (see Pagel and Meade, 2006).
 
-What we want to know is if these two characters evolve independently or depend on
-each other. To answer this question, we compare the fit of two models of evolution,
-one in which the two traits evolve independently on the tree,
-and one in which they evolve in a correlated fashion.
+What we want to know is if these two characters evolve independently or depend on each other. 
+To answer this question, we compare the fit of two models of evolution, one in which the two traits evolve independently on the tree,and one in which they evolve in a correlated fashion.
 
 The model for the evolution of two traits may look like this:
 <img src="./img/2characters-model.jpeg" width = "300" align="left" hspace="10">
@@ -305,11 +280,8 @@ We use Bayesian approach for the example because it better incorporates phylogen
 and model uncertainty.
 
 #### Independent model (discrete: independent)
-Open the program by typing `BayesTraits data/Primates.trees data/Primates.txt`
-and select the Discrete: Independent (Option 2) and MCMC (Option 2).
-(Note, that the available options change depending on your dataset!.)
-The independent model assumes the two traits evolve independently, e.g. the transition
-from 0 → 1 in the first trait is independent of the state of the second trait.
+Open the program by typing `BT4-multi data/Primates.trees data/Primates.txt` (notice the change in menu options) and select the Discrete: Independent (Option 2) and MCMC (Option 2).
+The independent model assumes the two traits evolve independently, e.g. the transition from 0 → 1 in the first trait is independent of the state of the second trait.
 
 Set all priors to exp 10 and use stepping stone method to calculate marginal likelihood.
 Also increase the number of iterations to 5,000,000:
@@ -330,35 +302,39 @@ Run
 before you go to the next part!**
 
 #### Dependent model (discrete: dependent)
-Repeat this analysis above, but choose the Discrete: Dependent option (option 2).
-The dependent model assumes that the traits are correlated and the rate of change
-in one trait is dependent on the state of the other.
+Repeat this analysis above, but choose the Discrete: Dependent option (option 3).
+The dependent model assumes that the traits are correlated and the rate of change in one trait is dependent on the state of the other.
+
+```
+3
+2
+PriorAll exp 10
+Stones 100 1000
+it 5000000
+Run
+```
 
 #### Testing the two models
 
 Use Bayes Factor to decide which model is better.
 
 #### Reverse Jump MCMC and model reduction
-The previous parameter restriction example demonstrated how a model
-could be simplified by setting parameters equal to each other and how to test if
-restrictions were significant. There are 51 possible restrictions for the
-independent model and over 21,000 for the dependent model, which would take a
-long time to test. Reverse jump MCMC (RJ-MCMC) offers an alternative by
-integrating results over the model space, weighting naturally by their probabilities,
-allowing the users to select viable models and parameters. Notice that because independent
-model is a special case of dependent model, we can just use Discrete: Dependent
-option for this analysis:
+The previous parameter restriction example demonstrated how a model could be simplified by setting parameters equal to each other and how to test if restrictions were significant. 
+There are 51 possible restrictions for the independent model and over 21,000 for the dependent model, which would take a long time to test. 
+Reverse jump MCMC (RJ-MCMC) offers an alternative by integrating results over the model space, weighting naturally by their probabilities, allowing the users to select viable models and parameters. 
+Notice that because independent model is a special case of dependent model, we can just use Discrete: Dependent option for this analysis:
 
 ```
 3
 2
-RevJump exp 10
+RevJump exp 30
 Stones 100 1000
 Run
 ```
 
-To test if a data set is correlated compare the marginal likelihood of an independent model
-using RJ MCMC and a dependent model using RJ MCMC.
+<!--
+To test if a data set is correlated compare the marginal likelihood of an independent model using RJ MCMC and a dependent model using RJ MCMC.
+-->
 
 > **Questions to consider:**  
 > How many distinct rates categories did the RJ MCMC choose?
@@ -368,12 +344,10 @@ using RJ MCMC and a dependent model using RJ MCMC.
 ## Exercise 3: Using BayesTraits to reconstruct evolution of continuous tratis.
 
 ### Continuous: Random Walk (Model A) ML
-Start BayesTraits with the tree file “Mammal.trees” and data file “MammalBody.txt”, the
-tree file is a sample of 50 mammal trees and the data is there corresponding body size
-(the trees and data are for illustrative purposes and are not accurate or a good sample):
-`BayesTraits data/Mammal.trees data/MammalBody.Text`
+Start BayesTraits with the tree file “Mammal.trees” and data file “MammalBody.txt”, the tree file is a sample of 50 mammal trees and the data is there corresponding body size (the trees and data are for illustrative purposes and are not accurate or a good sample):
+`BayesTraits data/Mammal.trees data/MammalBody.txt`
 
-Select the options 4 for “Continuous: Random Walk (Model A)” and 2 for maximum
+Select the options 4 for “Continuous: Random Walk (Model A)” and 1 for maximum
 likelihood:
 
 ```
@@ -382,8 +356,7 @@ likelihood:
 Run
 ```
 
-The results provide ML value (Lh), the phylogenetically corrected mean of the data
-(the estimated root value), the phylogenetically corrected variance of the data.
+The results provide ML value (Lh), the phylogenetically corrected mean of the data (Alpha 1), the phylogenetically corrected variance of the data (Sigma^2).
 
 What if we want to estimate values for some internal nodes?
 
