@@ -139,7 +139,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Discussion: Worobey et al. (2016). 1970s and "Patient 0" {HIV}-1 genomes illuminate early HIV/AIDS history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).  
 <!-- * Remember to post at least one comment/question on either paper in the reading-discussion channel on Slack and answer/comment on another post.
 -->
-* [Computer Lab 9](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Taming the BEAST.
+* [Computer Lab 9](https://isu-molphyl.github.io/EEOB563/computer_labs/lab9): Taming the BEAST.
     * Reading (optional): Sauquet (2013). A practical guide to molecular dating. [C. R. Palevol 12. 355?367](https://www.sciencedirect.com/science/article/pii/S1631068313001097)
 
 #### &#10071; The final project report is due by the end of the day on Sunday! Submit the link to your GitHub repository on Canvas &#10071;
