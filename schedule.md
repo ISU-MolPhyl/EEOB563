@@ -144,24 +144,18 @@ To view the planned schedule of course activities, view the class calendar using
 
 #### &#10071; The final project report is due by the end of the day on Sunday! Submit the link to your GitHub repository on Canvas &#10071;
 
-<!--
+
 ### Week 15 (May 2, 4): Final presentations  
 [[Scoring rubric](./scoring_rubric.pdf)]
 * 05/02: 9:00-10:45am
-  * Elizabeth
-  * Lauren  
-  * Jing
-  * Jermaine
-  * Zakayo
+  * Momin
+  * Cavannah
+  * Mahsa  
+
 * 05/04: 9:00-10:45am
-  * Shofi
-  * Jade
-  * Amruta
   * Jordan
-  * Dennis
+  * Dani
+  * Alex
 
-
-    * 
-
-
+<!--
 --->
