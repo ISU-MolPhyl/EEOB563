@@ -1,11 +1,25 @@
-# TNT (Tree analysis using New Technology)**Quick links to:**   
+# TNT (Tree analysis using New Technology)
+
+**Quick links to:**   
 [Basic search](#basic)  
 [New technology search](#advanced)  
-[Evaluating support](#support)## IntroductionTNT is a parsimony program by Pablo Goloboff, Steve Farris, and Kevin Nixon that can:  
+[Evaluating support](#support)
 
-* analyse large data sets (i.e. 300-500 taxa)* in reasonable times (minutes to find a shortest tree, hours to produce a reliable consensus).The program is described in Goloboff PA, Farris JS, Nixon KC (2008).  TNT, a free program for phylogenetic analysis. Cladistics 24:774–786.The program is often used in the Cladistics community.
-## Data file format  
-TNT reads matrices in Hennig86 format, with some refinements.  Normally, the data will be included in a file. Character states may be IUPAC codes, digits (for morphological characters), ? (for missing data), or - (for gaps). Simple Nexus files can also be used with variable success. The basic format for data input is:
+## Introduction
+
+TNT is a parsimony program by Pablo Goloboff, Steve Farris, and Kevin Nixon that can:  
+
+* analyse large data sets (i.e. 300-500 taxa)
+* in reasonable times (minutes to find a shortest tree, hours to produce a reliable consensus).
+
+The program is described in Goloboff PA, Farris JS, Nixon KC (2008).  TNT, a free program for phylogenetic analysis. Cladistics 24:774–786.
+
+The program is often used in the Cladistics community.
+
+## Data file format  
+TNT reads matrices in Hennig86 format, with some refinements.  Normally, the data will be included in a file. Character states may be IUPAC codes, digits (for morphological characters), ? (for missing data), or - (for gaps). Simple Nexus files can also be used with variable success. 
+
+The basic format for data input is:
 
 > xread
 'optional title, starting and ending with quotes (ASCII 39)'  
@@ -70,7 +84,9 @@ For relatively messy, but not very big data sets, the best algorithm consists of
 `mult;` will do a basic analysis consisting of 10 random addition of sequences followed by branch-swapping with TBR, saving up to 10 trees per replication.  
 `bbreak=tbr;` 
 
-The info about the program can be printed with `help mult;`, while parameters can be seen with `mult:;` and changed with `mult:options;`  Once calculated, trees may be viewed by entering `tplot`. To save the trees for later reanalysis, create a file by entering `tsave * [tree_filename]`.
+The info about the program can be printed with `help mult;`, while parameters can be seen with `mult:;` and changed with `mult:options;`  
+
+Once calculated, trees may be viewed by entering `tplot`. To save the trees for later reanalysis, create a file by entering `tsave * [tree_filename]`.
 
 Here is an [example of a TNT search](http://phylobotanist.blogspot.com/2015/03/parsimony-analysis-in-tnt-using-command.html) using mult command:
 > ```
@@ -88,8 +104,7 @@ export - consensus_tree.tre ; 'export > consensus_tree.tre '
 ttags -;  'clear all existing tags'
 ttags = ;  
 collapse tbr ;  
-resample replications 100 ;  
-keep 1 ;  
+resample replications 100 from 0;   
 ttags );  
 export - boots.tre proc/;  
 ```
