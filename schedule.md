@@ -26,7 +26,7 @@ To view the planned schedule of course activities, view the class calendar using
     * Reading: Chatzou et al. 2016. Multiple sequence alignment modeling: methods
 and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https://doi.org/10.1093/bib/bbv099).
     * Discussion: Gabaldón and Koonin (2013). Functional and evolutionary implications of gene orthology. [Nature Reviews Genetics volume 14, pages 360–366](https://doi.org/10.1038/nrg3456).
-  <!--  
+<!--  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. [TIG 16: 227](https://doi.org/10.1016/S0168-9525(00)02005-9).
 -->
   
