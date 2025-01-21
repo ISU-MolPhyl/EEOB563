@@ -29,11 +29,12 @@ Tuesday and Thursday, 1:10-3:00 PM in 203 Bessey Hall
   </tbody>
 </table>
 
-### Books
+### Textbook
 
-Elizabeth S. Allman, John A. Rhodes, 2016 [Lecture Notes: The Mathematics of Phylogenetics](https://jarhodesuaf.github.io/PhyloBook.pdf).
+Elizabeth S. Allman, John A. Rhodes, 2016 [Lecture Notes: The Mathematics of Phylogenetics](https://jarhodesuaf.github.io/PhyloBook.pdf).  
+<!-- 
 Casey W. Dunn, 2024. [Phylogenetic Biology, 2024](https://dunnlab.org/phylogenetic_biology/index.html).
-<!-- For your convenience, I compiled a list of mathematical symbols used in the textbook. -->
+For your convenience, I compiled a list of mathematical symbols used in the textbook. -->
 
 ### Accessing Data and Class Files
 

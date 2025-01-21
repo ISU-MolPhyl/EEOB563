@@ -23,8 +23,13 @@ To view the planned schedule of course activities, view the class calendar using
 
 ### Week 2 (Jan 28, 30)
 * Lecture 3: Homology and Sequence Alignment [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/02-homology_and_msa.pdf)]
-    * Reading: Lemey, Salemi and Vandamme, [Chapter 3: 3.1-3.10](./chapter3.pdf).  
+    * Reading: Chatzou et al. 2016. Multiple sequence alignment modeling: methods
+and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https://doi.org/10.1093/bib/bbv099).
+    * Discussion: Gabaldón and Koonin (2013). Functional and evolutionary implications of gene orthology. [Nature Reviews Genetics volume 14, pages 360–366](https://doi.org/10.1038/nrg3456).
+  <!--  
     * Discussion: Fitch (2000). Homology a personal view on some of the problems. [TIG 16: 227](https://doi.org/10.1016/S0168-9525(00)02005-9).
+-->
+  
 * [Computer Lab 1](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1): Introduction to Unix/Multiple Sequence Alignment (MSA).
     * Complete all [prerequisites](https://isu-molphyl.github.io/EEOB563/computer_labs/lab1) before coming to the class!
     * Post any question you may have on Slack.
