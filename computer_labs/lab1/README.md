@@ -72,7 +72,7 @@ Another useful Git setting to enable now is terminal colors:
 
 #### Cloning a repository
 
-Go to the [EEOB563-Spring2023 repository](https://github.com/ISU-MolPhyl/EEOB563-Spring2023) and copy its SSH address under `Clone or Download.`
+Go to the [EEOB563-Spring2025 repository](https://github.com/ISU-MolPhyl/EEOB563-Spring2025) and copy its SSH address under `Clone or Download.`
 
 Run the following command in your home directory on HPC-class:  
 `git clone <repository address>`
@@ -91,10 +91,10 @@ To update a Git repository, enter the following command:
 
 [MSA exercise](msa.pdf)
 
-> ### A useful trick
->
+<!-- > ### A useful trick
+> 
 > It is rather tedious to type the whole `ssh <netID>@hpc-class.its.iastate.edu` command
-> and to enter the password every time you connect to HPC-class.  So here is a trick for you!
+> and to enter the password every time you connect to HPC-class. So here is a trick for you!
 > On your own laptop computer create an .ssh directory by typing `ssh-keygen` in your home directory.
 > Use the following command to paste info into the config file (which may not yet exist) in .ssh directory:
 >
@@ -107,4 +107,4 @@ To update a Git repository, enter the following command:
 > It will ask you for your hpc-class password.
 >
 > Next time you connect to HPC-class, just enter `ssh hpc-class`.  You won't need either to type anything else or to enter your password!
-> Enjoy!
+> Enjoy! -->
