@@ -14,9 +14,9 @@ icon: <i class='fa fa-clipboard'></i>
 
 [02. Homology and alignment](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/02-homology_and_msa.pdf)
 
-<!--
 [03. Maximum Parsimony](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/03_Maximum_parsimony.pdf)
 
+<!--
 [04. Distance Methods](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/04_Distance_methods.pdf)
 
 [05. Maximum Likelihood](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/05_Maximum_likelihood.pdf)
