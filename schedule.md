@@ -42,7 +42,7 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
     * Discussion: Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700).
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
-### Week 4 (Feb 7, 9)
+### Week 4 (Feb 11, 13)
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Parsimony analysis.
     * You may want to install Mafft, PAUP\*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
     * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment3.pdf) (**due 02/18**)
