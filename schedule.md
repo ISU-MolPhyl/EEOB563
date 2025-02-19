@@ -42,28 +42,28 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
     * Discussion: Baron et al. (2017). A new hypothesis of dinosaur relationships and early dinosaur evolution. [Nature 543: 501-506](https://www.nature.com/articles/nature21700).
     See also [News & Views](https://www.nature.com/articles/543494a), Langer et al. [communication](https://www.nature.com/articles/nature24011), and Baron et al. [reply](https://www.nature.com/articles/nature24012).
 
-### Week 4 (Feb 7, 9)
+### Week 4 (Feb 11, 13)
 * [Computer Lab 2](https://isu-molphyl.github.io/EEOB563/computer_labs/lab2): Parsimony analysis.
     * You may want to install Mafft, PAUP\*, and TNT on your computer [[links](https://isu-molphyl.github.io/EEOB563/links)]. However, we will use HPC-class cluster for the excercises.
     * [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment3.pdf) (**due 02/18**)
 * Lecture 6: Distance matrix methods. Clustering algorithms. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/04_Distance_methods.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 5: Distance Methods.
 
-<!--
-### Week 5 (Feb 14, 16)  
+### Week 5 (Feb 18, 20)  
 * Lecture 7: NJ algorithm; Model-based distances. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/04_Distance_methods.pdf)]
     * Reading: (Optional!) Allman and Rhodes (2016).  Chapter 6: Probabilistic Models of DNA Mutations.
     * Discussion: Naxerova et al. (2017). Origins of lymphatic and distant metastases in human colorectal cancer. [Science 357, 55-60](http://science.sciencemag.org/content/357/6346/55).
 * [Computer Lab 3](https://isu-molphyl.github.io/EEOB563/computer_labs/lab3): Distance analysis with PAUP, PHYLIP, and FastME.  
-    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment4.pdf) (**due 02/28**)
+    * [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment4.pdf) (**due 02/27**)
 
-### Week 6 (Feb 21, 23)
+### Week 6 (Feb 25, 27)
 * Lecture 8: Introduction to Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/05_Maximum_likelihood.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 8: Maximum Likelihood.
 * Lecture 9: Constructing Phylogenetic Trees Using Maximum Likelihood. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/05_Maximum_likelihood.pdf)]
     * Discussion: Basem Al-Shayeb et al. (2020). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
 
+<!--
 ### Week 7 (Feb 28, Mar 2)
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in RAxML and IQ-Tree.
     * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment5.pdf) (**due 03/09**)
