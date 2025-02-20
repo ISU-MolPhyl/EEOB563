@@ -17,12 +17,14 @@ In some programs (like PHYLIP), these two steps are explicit. In other programs 
 ## Part1: PHYLIP
 
 [PHYLIP](http://evolution.genetics.washington.edu/phylip.html) is a package of phylogenetic programs written by [Joe Felsenstein](http://evolution.gs.washington.edu/felsenstein.html) group and first released in 1980. 
-The programs can infer phylogenies by parsimony, compatibility, distance matrix methods, and likelihood. You probably won't use PHYLIP for conventional phylogenetic analysis as newer programs are much faster and often incorporate additional models of sequence evolution.  
+The programs can infer phylogenies by parsimony, compatibility, distance matrix methods, and likelihood. 
+You probably won't use PHYLIP for conventional phylogenetic analysis as newer programs are much faster and often incorporate additional models of sequence evolution.  
 However, some types of analyses available in PHYLIP are difficult to impossible to find in other programs. 
 An additional advantage of this package is its thorough, well organized, and up to date [documentation](http://evolution.genetics.washington.edu/phylip/phylip.html). 
-Phylip is installed as a module on HPC-class and can be loaded with `module load phylip`.
+Phylip is installed as a module on Nova and can be loaded with `module load phylip`.
 
-Unlike PAUP, which installs as a single program, PHYLIP is a collection of 35+ programs that are intended to be used sequentially. You start a program by typing its name at the unix prompt.  
+Unlike PAUP, which installs as a single program, PHYLIP is a collection of 35+ programs that are intended to be used sequentially. 
+You start a program by typing its name at the unix prompt.  
 
 Here is outline of the exercise (from a [nice chapter](./bi0603.pdf) in Current Protocols in Bioinformatics) with the names of the programs listed in ALLCAPs. 
 
@@ -43,7 +45,9 @@ Example of an input file in interleaved format:
 ### Creating distance matrices
 #### `protdist` and `dnadist`
 
-To calculate distances from sequence data you use `protdist` and `dnadist` commands. `protdist` calculates a distance matrix from amino acid sequences, under five different models of amino acid substitutions: the Dayhoff PAM matrix, the JTT (Jones-Taylor-Thornton) model, the PMB (Probability Matrix from Blocks) model, Kimura's distance, and Categories distances). `dnadist` calculates a distance matrix from nucleotide sequences, under Jukes-Cantor, Kimura, and F84 models of sequence evolution.
+To calculate distances from sequence data you use `protdist` and `dnadist` commands. 
+`protdist` calculates a distance matrix from amino acid sequences, under five different models of amino acid substitutions: the Dayhoff PAM matrix, the JTT (Jones-Taylor-Thornton) model, the PMB (Probability Matrix from Blocks) model, Kimura's distance, and Categories distances). 
+`dnadist` calculates a distance matrix from nucleotide sequences, under Jukes-Cantor, Kimura, and F84 models of sequence evolution.
 
 Both programs will use `infile` as a default input file.  If the file name is not found they will ask for a file name.
 
@@ -83,9 +87,15 @@ The `fitch` program carries out Fitch-Margoliash, Least Squares, and ME methods 
 ## Part2: FastME
 `FastME` is a newer program from [Olivier Gascuel](http://www.lirmm.fr/~gascuel/) group whose main task is to estimate phylogenies using distance methods from nucleotide or amino acid multiple sequences alignments (MSA). 
 
-The main strengths of FastME lies the availability of several distance algorithms and optimization principles for tree estimation coupled with various options to search the space of phylogenetic tree topologies (NNIs, SPRs). It also provides a parallelized implementation of the non-parametric bootstrap method to evaluate branch supports. 
+The main strengths of FastME lies the availability of several distance algorithms and optimization principles for tree estimation coupled with various options to search the space of phylogenetic tree topologies (NNIs, SPRs). 
+It also provides a parallelized implementation of the non-parametric bootstrap method to evaluate branch supports. 
 
-FastME is installed as a module on HPC-class and can be loaded with `module load fastme`. You can use it with PHYLIP-like interface or with the command line options. [Online version](http://www.atgc-montpellier.fr/fastme/) is also available (but you should avoid it to practice your command line skills).
+FastME is installed as a module on HPC-class and can be loaded with `module load fastme`. 
+> - What version of FastME did you load?
+> - Make sure you have loaded the most recent version.
+
+You can use it with PHYLIP-like interface or with the command line options. 
+[Online version](http://www.atgc-montpellier.fr/fastme/) is also available (but you should avoid it to practice your command line skills).
 
 ### Exercise:
 
