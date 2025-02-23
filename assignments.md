@@ -19,10 +19,10 @@ Due 1/23.  (Note: there are answers online – do not read them! We will discuss
 [Assignment 3](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment3.pdf)
 [data](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/prestin_nt.fa)
 
-<!--
 [Assignment 4](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment4.pdf)
 [data](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/prestin_nt.fa)
 
+<!--
 [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment5.pdf)
 
 [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment6.pdf)

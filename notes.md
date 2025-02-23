@@ -16,11 +16,11 @@ icon: <i class='fa fa-clipboard'></i>
 
 [03. Maximum Parsimony](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/03_Maximum_parsimony.pdf)
 
-<!--
 [04. Distance Methods](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/04_Distance_methods.pdf)
 
 [05. Maximum Likelihood](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/05_Maximum_likelihood.pdf)
 
+<!--
 [06. Bayesian Analysis](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/06_Bayesian_phylogenetics.pdf)
 
 [07. Hypothesis testing](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/07_Model_use.pdf)

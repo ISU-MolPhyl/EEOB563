@@ -63,13 +63,13 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
     * Discussion: Basem Al-Shayeb et al. (2020). Clades of huge phages from across Earth’s ecosystems. [Nature 578, 425–431](https://doi.org/10.1038/s41586-020-2007-4).
     If you want to brush up your knowledge on bacteriophages, here is a nice [review](https://doi.org/10.1038/s41586-019-1894-8) from the same issue of Nature.
 
-<!--
-### Week 7 (Feb 28, Mar 2)
+### Week 7 (Mar 4, Mar 6)
 * [Computer Lab 4](https://isu-molphyl.github.io/EEOB563/computer_labs/lab4): Likelihood analysis in RAxML and IQ-Tree.
-    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment5.pdf) (**due 03/09**)
+    * [Assignment 5](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment5.pdf) (**due 03/11**)
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
+<!--
 ### Week 8 (Mar 7, 9)
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Discussion: Williams et al., 2020. Microbial predators form a new supergroup of eukaryotes [Nature, 612:714-719](https://doi.org/10.1038/s41586-022-05511-5)
