@@ -237,9 +237,11 @@ The outgroup can be a single taxon (`--outgroup Human`) or a list of taxa which 
 *Please note that outgroup rooting is just a drawing option and will not affect tree inference process or score in any way!*
 
 ## Now it is your turn.
-**1)** Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support using 50 bs replicates.
+**1) Let's run a quick ML analysis:**  
+Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support for it.
 
-**2)** Calculate the likelihood score for the following models of DNA evolution: Jukes-Cantor (JC), JC with rate heterogeneity (JC+G), GTR (GTR), GTR with the Gamma model of rate heterogeneity, but empirical base frequencies (GTR+G+FC), same buth with ML estimate of the base frequencies (GTR+G+FO), as previously by with 4 free rates instead of GAMMA-distributed rates (GTR+R4+FO). Use the best tree from above and E1-E6 prefixes for these analyses.
+**2) Let's see if other models will fit our data better:**  
+Calculate the likelihood score for the following models of DNA evolution: Jukes-Cantor (JC), JC with rate heterogeneity (JC+G), GTR (GTR), GTR with the Gamma model of rate heterogeneity, but empirical base frequencies (GTR+G+FC), same buth with ML estimate of the base frequencies (GTR+G+FO), as previously by with 4 free rates instead of GAMMA-distributed rates (GTR+R4+FO). Use the best tree from above and E1-E6 prefixes for these analyses.
 
 Check the results with:  
 ```
@@ -253,10 +255,11 @@ grep "AIC score" E*.raxml.log
 ```
 > What model had the best (smallest) AIC/BIC score?
 
-**3)** Does it make more sense to partition by gene or by codon position? (use your best tree to evaluate).  Use the best partitioning scheme to infer the ML tree.  Does it have a different topology from your original tree.
+**3) What about partitions?** 
+Does it make more sense to partition by gene or by codon position? (use your best tree to evaluate).  Use the best partitioning scheme to infer the ML tree.  Does it have a different topology from your original tree.
 
-
-**4)** Which of the *branch linkage* modes has the highest likelihood?  Which one should we choose (use your best tree to evaluate). Use the best model to search for the ML tree.  Did it change the resulting likelihoods and/or topology?
+**4) How should we treat the branch lengths in our analysis?**  
+Which of the *branch linkage* modes has the highest likelihood?  Which one should we choose (use your best tree to evaluate). Use the best model to search for the ML tree.  Did it change the resulting likelihoods and/or topology?
 
 <!--
 ```
