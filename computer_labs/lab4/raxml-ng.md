@@ -1,6 +1,6 @@
 # RAxML-NG tutorial
 **IMPORTANT NOTE**: This tutorial describes the functionality of the latest
-[RAxML-NG v. 1.1.0](https://github.com/amkozlov/raxml-ng)
+[RAxML-NG v1.2.2](https://github.com/amkozlov/raxml-ng)
 and is based on the [tutorial](https://github.com/amkozlov/raxml-ng/wiki/Tutorial)
 provided by its authors.
 
@@ -16,19 +16,21 @@ provided by its authors.
 -->
 ## Intro
 RAxML-NG replaces standard RAxML as well as the corresponding supercomputer
-version ExaML. RAxML-NG does not (yet) support all options of standard RAxML,
+version ExaML. 
+RAxML-NG does not (yet) support all options of standard RAxML,
 so you may need to use the [previous implementation](https://cme.h-its.org/exelixis/web/software/raxml/index.html) for some tasks.
 
 ### Before you start:
 * I already installed RAxML-NG in the class directory
 * You can still update the course repository to download the data files
 
-Check that you have the RAxML-NG version 1.1.0 or later:
+Check that you have the RAxML-NG version 1.2.2 or later:
 
 ```
 $ raxml-ng -v
 
-RAxML-NG v. 1.1.0 released on 29.11.2021 by The Exelixis Lab.
+RAxML-NG v. 1.2.2-master released on 30.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
 ...
 ```
 
@@ -148,6 +150,7 @@ We will use the ML tree obtained in the run `T3`:
 ```    
 raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T13 --threads 2
 ```  
+
 We can use a tree viewer (I use FigTree a lot) to visualize the ML tree with mapped bootstrap values (you have to choose "label" option under the "display node support".
 
 >**Tip:** To view a phylogenetic trees on the terminal, use the `nw_display` program from the `newick_utils` package.
@@ -162,6 +165,7 @@ module load newick_utils
 -->
 
 Alternatively, we can compute so-called *Transfer Bootstrap Expectation* support metric [(Lemoine et al. 2018)](https://www.nature.com/articles/s41586-018-0043-0), which is supposedly more appropriate for very large trees:   
+
 ```
 raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T14 --threads 2 --bs-metric tbe
 ```
@@ -203,6 +207,7 @@ GTR+G+FO, cox1=1249-2808
 GTR+G+FO, cox2=2809-3543
 GTR+G+FO, cox3=3544-4482
 ```
+
 A more sophisticated paritioning may involve different substitution matrices and rate heterogeneity models, and also split genes by codon position:  
 
 ```
