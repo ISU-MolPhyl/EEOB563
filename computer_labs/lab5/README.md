@@ -13,8 +13,8 @@ The goal of this lab is to introduce you to MrBayes, one of the two major softwa
 
 `MrBayes` is installed as a module on Nova. To use run:
 ```
-salloc -p class-long -N 1 -n 4 -t 2:00:00 -A s2023.eeob.563.1  
-module load mrbayes/3.2.7a-py39-openmpi4-eb7qap6
+salloc -p instruction -N 1 -n 4 -t 120 -A s2025.eeob.563.1  
+module load mrbayes/3.2.7a-py310-openmpi4-iqz4nxa
 mpirun -np 4 mb
 ```
 
