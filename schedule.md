@@ -69,14 +69,14 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 * Lecture 10: Bayes’ theorem and Bayesian methods in phylogenetics. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Reading: Allman and Rhodes (2016).  Chapter 12: Bayesian Inference.
 
-<!--
-### Week 8 (Mar 7, 9)
+### Week 8 (Mar 11, 13)
 * Lecture 11: Applications of Bayesian methods. [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/06_Bayesian_phylogenetics.pdf)]
     * Discussion: Williams et al., 2020. Microbial predators form a new supergroup of eukaryotes [Nature, 612:714-719](https://doi.org/10.1038/s41586-022-05511-5)
 * [Computer Lab 5](https://isu-molphyl.github.io/EEOB563/computer_labs/lab5): Bayesian analysis with MrBayes.
-     * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment6.pdf) (**due 03/23**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/hiv.nxs)
+     * [Assignment 6](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/assignment6.pdf) (**due 03/27**)[[dataset]](https://isu-molphyl.github.io/EEOB563-Spring2025/assignments/hiv.nxs)
 
-### Spring Break! (Mar 14, 16)
+<!--
+### Spring Break! (Mar 18, 20)
 * Don’t forget about your [final project](./final_project.md) outline! (**due 3/23**)
 
 ### Week 9 (Mar 21, 23)
