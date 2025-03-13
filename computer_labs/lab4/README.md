@@ -19,12 +19,12 @@ Workload manager.
 When we log in to [Nova](https://www.hpc.iastate.edu/guides/nova), we interact with the head module. 
 This is ok if we use simple UNIX commands, but would slow down the system dramatically (and bring down the wrath of other users), if we perform long computational tasks. 
 Instead, we'll use the `salloc` command to request access to compute nodes on the cluster. 
-For this exercise use the `salloc -p class-long -N 1 -n 2 -t 2:00:00 -A s2023.eeob.563.1` command to request 2 cores on 1 node for 2 hours.
+For this exercise use the `salloc -p instruction -N 1 -n 4 -t 120 -A s2025.eeob.563.1` command to request 4 cores on 1 node for 2 hours.
 
 ## Preliminaries
 1. `raxml-ng` is already installed in the shared class directory (how do you check
   the location of a program?);
-2. I also installed the `nw-display` tool that allows you to view phylogenetic
+2. I also installed the `nw_display` tool that allows you to view phylogenetic
   trees on HPC-class;
 3. The data for this lab is in the course repository. Make sure to update it with
  `git pull`
@@ -39,7 +39,7 @@ longer jobs, the batch mode is preferred.  In this case a job script should be
 created and submitted into queue by issuing: `sbatch <job_script_file>`.
 
 #### Slurm Job Script Generator
-The easiest way to create an Slurm job script is to use the
+The easiest way to create an Slurm job script is to use the 
 [Slurm job script generator](https://www.hpc.iastate.edu/guides/nova/slurm-script-generator-for-nova).
 Choose the `class` option in the "Compute node type" as well as the number of compute nodes, number of processor cores per node, maximum time the job may run. 
 **Read specifications for the [class partition](https://www.hpc.iastate.edu/guides/nova/hpc-class) while choosing these numbers**.
@@ -52,8 +52,7 @@ You may submit several jobs in succession if they use different output files.
 Jobs will be scheduled for queues* based on the resources requested. 
 There are limits on each queue regarding the maximum number of simultaneous jobs and maximum number of processors that may be used by one user or class.
 
-*In Slurm queues are called partitions. Only partitions for
-[accelerator nodes](https://www.hpc.iastate.edu/guides/classroom-hpc-cluster/accelerator-nodes) need to be specified when submitting jobs. Otherwise Slurm will submit job into a partition based on the number of nodes and time requested.
+*In Slurm queues are called partitions. Slurm will submit job into a partition based on the number of nodes and time requested.
 
 * To see the list of available partitions, issue: `sinfo`
 * For more details on partitions limits, issue: `scontrol show partitions`

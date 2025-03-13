@@ -1,6 +1,6 @@
 ## Lab 3 - Distance analysis with PHYLIP, and FastME 
 
-In this lab we will learn about three phylogenetic programs that can be used for distance analysis
+In this lab we will learn about two phylogenetic programs that can be used for distance analysis
 
 ## Prerequisites:
 
@@ -8,8 +8,8 @@ In this lab we will learn about three phylogenetic programs that can be used for
 ```
 # Login
 ssh yourname@nova.its.iastate.edu
-# Also, request a core for yourself
-salloc -p class-long -N 1 -n 1 -t 2:00:00 -A s2023.eeob.563.1
+# Also, request two cores for 2 hours
+salloc -p instruction -N 1 -n 3 -t 120 -A s2025.eeob.563.1
 ```
 
 ### Update your EEOB563-Spring2023 git repository

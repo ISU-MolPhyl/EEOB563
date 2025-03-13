@@ -1,6 +1,6 @@
 # RAxML-NG tutorial
 **IMPORTANT NOTE**: This tutorial describes the functionality of the latest
-[RAxML-NG v. 1.1.0](https://github.com/amkozlov/raxml-ng)
+[RAxML-NG v1.2.2](https://github.com/amkozlov/raxml-ng)
 and is based on the [tutorial](https://github.com/amkozlov/raxml-ng/wiki/Tutorial)
 provided by its authors.
 
@@ -16,19 +16,21 @@ provided by its authors.
 -->
 ## Intro
 RAxML-NG replaces standard RAxML as well as the corresponding supercomputer
-version ExaML. RAxML-NG does not (yet) support all options of standard RAxML,
+version ExaML. 
+RAxML-NG does not (yet) support all options of standard RAxML,
 so you may need to use the [previous implementation](https://cme.h-its.org/exelixis/web/software/raxml/index.html) for some tasks.
 
 ### Before you start:
 * I already installed RAxML-NG in the class directory
 * You can still update the course repository to download the data files
 
-Check that you have the RAxML-NG version 1.1.0 or later:
+Check that you have the RAxML-NG version 1.2.2 or later:
 
 ```
 $ raxml-ng -v
 
-RAxML-NG v. 1.1.0 released on 29.11.2021 by The Exelixis Lab.
+RAxML-NG v. 1.2.2-master released on 30.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
 ...
 ```
 
@@ -148,6 +150,7 @@ We will use the ML tree obtained in the run `T3`:
 ```    
 raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T13 --threads 2
 ```  
+
 We can use a tree viewer (I use FigTree a lot) to visualize the ML tree with mapped bootstrap values (you have to choose "label" option under the "display node support".
 
 >**Tip:** To view a phylogenetic trees on the terminal, use the `nw_display` program from the `newick_utils` package.
@@ -162,6 +165,7 @@ module load newick_utils
 -->
 
 Alternatively, we can compute so-called *Transfer Bootstrap Expectation* support metric [(Lemoine et al. 2018)](https://www.nature.com/articles/s41586-018-0043-0), which is supposedly more appropriate for very large trees:   
+
 ```
 raxml-ng --support --tree T3.raxml.bestTree --bs-trees allbootstraps --prefix T14 --threads 2 --bs-metric tbe
 ```
@@ -203,6 +207,7 @@ GTR+G+FO, cox1=1249-2808
 GTR+G+FO, cox2=2809-3543
 GTR+G+FO, cox3=3544-4482
 ```
+
 A more sophisticated paritioning may involve different substitution matrices and rate heterogeneity models, and also split genes by codon position:  
 
 ```
@@ -232,9 +237,11 @@ The outgroup can be a single taxon (`--outgroup Human`) or a list of taxa which 
 *Please note that outgroup rooting is just a drawing option and will not affect tree inference process or score in any way!*
 
 ## Now it is your turn.
-**1)** Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support using 50 bs replicates.
+**1) Let's run a quick ML analysis:**  
+Find the ML tree for the provided dataset using the GTR + gamma model of sequence evolution and calculate bootstrap support for it.
 
-**2)** Calculate the likelihood score for the following models of DNA evolution: Jukes-Cantor (JC), JC with rate heterogeneity (JC+G), GTR (GTR), GTR with the Gamma model of rate heterogeneity, but empirical base frequencies (GTR+G+FC), same buth with ML estimate of the base frequencies (GTR+G+FO), as previously by with 4 free rates instead of GAMMA-distributed rates (GTR+R4+FO). Use the best tree from above and E1-E6 prefixes for these analyses.
+**2) Let's see if other models will fit our data better:**  
+Calculate the likelihood score for the following models of DNA evolution: Jukes-Cantor (JC), JC with rate heterogeneity (JC+G), GTR (GTR), GTR with the Gamma model of rate heterogeneity, but empirical base frequencies (GTR+G+FC), same buth with ML estimate of the base frequencies (GTR+G+FO), as previously by with 4 free rates instead of GAMMA-distributed rates (GTR+R4+FO). Use the best tree from above and E1-E6 prefixes for these analyses.
 
 Check the results with:  
 ```
@@ -248,10 +255,11 @@ grep "AIC score" E*.raxml.log
 ```
 > What model had the best (smallest) AIC/BIC score?
 
-**3)** Does it make more sense to partition by gene or by codon position? (use your best tree to evaluate).  Use the best partitioning scheme to infer the ML tree.  Does it have a different topology from your original tree.
+**3) What about partitions?** 
+Does it make more sense to partition by gene or by codon position? (use your best tree to evaluate).  Use the best partitioning scheme to infer the ML tree.  Does it have a different topology from your original tree.
 
-
-**4)** Which of the *branch linkage* modes has the highest likelihood?  Which one should we choose (use your best tree to evaluate). Use the best model to search for the ML tree.  Did it change the resulting likelihoods and/or topology?
+**4) How should we treat the branch lengths in our analysis?**  
+Which of the *branch linkage* modes has the highest likelihood?  Which one should we choose (use your best tree to evaluate). Use the best model to search for the ML tree.  Did it change the resulting likelihoods and/or topology?
 
 <!--
 ```
