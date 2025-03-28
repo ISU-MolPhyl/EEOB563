@@ -88,25 +88,27 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
     * Be ready to present your final project outline. Include hypotheses, data, and proposed methods for the project. In addition, create a GitHub repository for the final project and send me the link.
 
 #### &#10071; Midterm exam &#10071;
-- Exam will open on Mar 27, after the class. Will cover weeks 1-8
-- Exam will close on Apr 1, before the class.
+- Exam will open on Apr 1, after the class. Will cover weeks 1-8
+- Exam will close on Apr 8, before the class.
 - You will have one 3hr window to complete the exam.
 
-<!--
-### Week 10 (Mar 28, 30)
+### Week 10 (Apr 1, 3)
 * Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/08_Molecular_evolution.pdf)].
-    * Reading: Vitti et al. (2013). Detecting Natural Selection in Genomic Data. [Annual Review of Genetics 47:97-120](https://doi.org/10.1146/annurev-genet-111212-133526).
+    * Reading: Sackton (2020). Studying Natural Selection in the Era of Ubiquitous Genomes. [Trends in Genetics 36: 792-803](https://doi.org/10.1016/j.tig.2020.07.008).
     <!-- consider Polygenic adaptation: a unifying framework to understand positive selection
-    * Discussion:  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment [Nature 536: 165–170](https://doi.org/10.1038/nature18959).
+    * Discussion:  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment [Nature 536: 165–170](https://doi.org/10.1038/nature18959).-->
+    * Discussion: Romiguier et al. (2022). Ant phylogenomics reveals a natural selection hotspot preceding the origin of complex eusociality. [Current Biology 32: 2942-2947.e4](https://doi.org/10.1016/j.cub.2022.05.001)  -->
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
+    * Reading: Álvarez-Carretero et al. (2023). Beginner's Guide on the Use of PAML to Detect Positive Selection. [Molecular Biology and Evolution 40: msad041](https://doi.org/10.1093/molbev/msad041).
 
-### Week 11 (Apr 4, 6)
+ <!--    
+ ### Week 11 (Apr 8, 10)
 * Lecture 15: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/09_Gene_species_trees.pdf)]. 
     * Overview: Duchêne (2021). Phylogenomics. [Current Biology 31: PR1177-R1181](https://doi.org/10.1016/j.cub.2021.07.039)
     * Reading: Mirarab et al. (2021) Multispecies Coalescent: Theory and Applications in Phylogenetics. [Annu. Rev. Ecol. Evol. Syst. 2021. 52:247–68](https://doi.org/10.1146/annurev-ecolsys-012121-095340)
- <!--    * Reading: Szöllősi et al. (2015). The Inference of Gene Trees with Species Trees. [Systematic Biology 64:e42–e62](https://doi.org/10.1093/sysbio/syu048).  
+* Reading: Szöllősi et al. (2015). The Inference of Gene Trees with Species Trees. [Systematic Biology 64:e42–e62](https://doi.org/10.1093/sysbio/syu048).  
 
-    * Discussion: Romiguier et al. (2022). Ant phylogenomics reveals a natural selection hotspot preceding the origin of complex eusociality. [Current Biology 32: 2942-2947.e4](https://doi.org/10.1016/j.cub.2022.05.001)  
+    
 * Lecture 16: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/10_Phylogenomics.pdf)].  
 * Reading: Kapli et al. (2020) Phylogenetic tree building in the genomic age. [Nature Reviews Genetics 21: 428–444](https://doi.org/10.1038/s41576-020-0233-0)
 	* Reading (optional): Carter et al. (2023). Estimating phylogenies from genomes: A beginners review of commonly used genomic data in vertebrate phylogenomics. [Journal of Heredity 114:1–13](https://doi.org/10.1093/jhered/esac061)
