@@ -102,7 +102,7 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
     * Reading: Álvarez-Carretero et al. (2023). Beginner's Guide on the Use of PAML to Detect Positive Selection. [Molecular Biology and Evolution 40: msad041](https://doi.org/10.1093/molbev/msad041).
 
- <!-- ### Week 11 (Apr 8, 10)
+<!-- ### Week 11 (Apr 8, 10)
 * Lecture 15: Gene trees and species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/09_Gene_species_trees.pdf)]. 
     * Overview: Duchêne (2021). Phylogenomics. [Current Biology 31: PR1177-R1181](https://doi.org/10.1016/j.cub.2021.07.039)
     * Reading: Mirarab et al. (2021) Multispecies Coalescent: Theory and Applications in Phylogenetics. [Annu. Rev. Ecol. Evol. Syst. 2021. 52:247–68](https://doi.org/10.1146/annurev-ecolsys-012121-095340)
