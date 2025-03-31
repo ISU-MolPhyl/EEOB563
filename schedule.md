@@ -95,10 +95,12 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 ### Week 10 (Apr 1, 3)
 * Lecture 14: Neutral and adaptive protein evolution [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/08_Molecular_evolution.pdf)].
     * Reading: Sackton (2020). Studying Natural Selection in the Era of Ubiquitous Genomes. [Trends in Genetics 36: 792-803](https://doi.org/10.1016/j.tig.2020.07.008).
+
 <!-- consider Polygenic adaptation: a unifying framework to understand positive selection
     * Discussion:  Tenaillon et al. (2016). Tempo and mode of genome evolution in a 50,000-generation experiment [Nature 536: 165–170](https://doi.org/10.1038/nature18959).
 -->
-    * Discussion: Romiguier et al. (2022). Ant phylogenomics reveals a natural selection hotspot preceding the origin of complex eusociality. [Current Biology 32: 2942-2947.e4](https://doi.org/10.1016/j.cub.2022.05.001)  -->
+
+    * Discussion: Romiguier et al. (2022). Ant phylogenomics reveals a natural selection hotspot preceding the origin of complex eusociality. [Current Biology 32: 2942-2947.e4](https://doi.org/10.1016/j.cub.2022.05.001)  
 * [Computer Lab 6](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6): Hypotheses testing with PAML.
     * Reading: Álvarez-Carretero et al. (2023). Beginner's Guide on the Use of PAML to Detect Positive Selection. [Molecular Biology and Evolution 40: msad041](https://doi.org/10.1093/molbev/msad041).
 
