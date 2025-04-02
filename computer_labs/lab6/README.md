@@ -36,8 +36,8 @@ PAML is alredy installed on the Nova (module paml).
 To use it, run:  
 
 ```
-salloc -p class-long -N 1 -n 4 -t 2:00:00 -A s2023.eeob.563.1;  
-module load paml/4.10.3-hppxsat;  
+salloc -p instruction -N 1 -n 4 -t 120 -A s2025.eeob.563.1 ;  
+module load paml/4.10.7-ctgh7xc;  
 <name_of_the_paml_program>
 ```
 
