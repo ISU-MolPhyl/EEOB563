@@ -114,7 +114,8 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
     * Discussion: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
 		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp.  2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).    
 
- <!-- * Lecture 17: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
+<!-- 
+ * Lecture 17: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
     * Discussion: Philippe et al. 2017. Pitfalls in supermatrix phylogenomics. [European Journal of Taxonomy 283: 1-25](http://www.europeanjournaloftaxonomy.eu/index.php/ejt/article/view/407). 
     * Nice resource: Scornavacca et al. (Eds.) (2020). Phylogenetics in the Genomic Era. [Authors open access book, p.p. 1-568](https://hal.inria.fr/hal-02535070v3).
     * Overview: Duchêne (2021). Phylogenomics. [Current Biology 31: PR1177-R1181](https://doi.org/10.1016/j.cub.2021.07.039)
@@ -122,8 +123,6 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 * Reading: Szöllősi et al. (2015). The Inference of Gene Trees with Species Trees. [Systematic Biology 64:e42–e62](https://doi.org/10.1093/sysbio/syu048).  
 	* Reading (optional): Carter et al. (2023). Estimating phylogenies from genomes: A beginners review of commonly used genomic data in vertebrate phylogenomics. [Journal of Heredity 114:1–13](https://doi.org/10.1093/jhered/esac061)
 
-
-	
 ### Week 12 (Apr 15, 17)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
 * Lecture 17: Ancestral State Reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/11_Ancestral_reconstruction.pdf)].
