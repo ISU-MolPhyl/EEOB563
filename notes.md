@@ -20,7 +20,6 @@ icon: <i class='fa fa-clipboard'></i>
 
 [05. Maximum Likelihood](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/05_Maximum_likelihood.pdf)
 
-<!--
 [06. Bayesian Analysis](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/06_Bayesian_phylogenetics.pdf)
 
 [07. Hypothesis testing](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/07_Model_use.pdf)
@@ -29,6 +28,7 @@ icon: <i class='fa fa-clipboard'></i>
 
 [09. Gene Trees in Species Trees](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/09_Gene_species_trees.pdf)
 
+<!--
 [10. Phylogenomics](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/10_Phylogenomics.pdf)
 
 [11. Ancestral Reconstruction](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/11_Ancestral_reconstruction.pdf)
