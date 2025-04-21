@@ -117,7 +117,7 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
 * Lecture 17: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/12_Phylogenetic_comparative_methods)].
     * Reading: Cornwell and Nakagawa (2017). Phylogenetic comparative methods. [Current Biology 27:R333 - R336](https://doi.org/10.1016/j.cub.2017.03.049)
-    * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
+    * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).  
 <!--
     * Reading: O’Meara (2012).  Evolutionary Inferences from Phylogenies: A Review of Methods. [Annu. Rev. Ecol. Evol. Syst. 43:267–285](https://doi.org/10.1146/annurev-ecolsys-110411-160331).  
 -->
