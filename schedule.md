@@ -115,7 +115,6 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 
 ### Week 13 (Apr 22, 24)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
-
 * Lecture 17: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/12_Phylogenetic_comparative_methods)].
     * Reading: Cornwell and Nakagawa (2017). Phylogenetic comparative methods. [Current Biology 27:R333 - R336](https://doi.org/10.1016/j.cub.2017.03.049)
     * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
@@ -129,7 +128,7 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 * Lecture 18: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/13_Molecular_clocks.pdf)].
     * Reading: Bromham et al. (2018). Bayesian molecular dating: opening up the black box. [Biological Reviews, 93: 1165-1191](https://doi.org/10.1111/brv.12390)
     * Discussion: Worobey et al. (2016). 1970s and "Patient 0" {HIV}-1 genomes illuminate early HIV/AIDS history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).  
-#### &#10071; The final project report is due by the end of the day on May 1st! Submit on Canvas &#10071;
+#### &#10071; The project report is due by the end of the day on May 1st! Submit on Canvas &#10071;
 
 ### Week 15 (May 6, 8): Final presentations  
 [[Scoring rubric](./scoring_rubric.pdf)]
