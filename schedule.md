@@ -108,11 +108,32 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 * Lecture 15: Gene trees in species trees [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/09_Gene_species_trees.pdf)]. 
     * Reading: Maddison W.P. (1997). Gene trees in species trees. [Systematic Biology 46: 523–536.](https://doi.org/10.1093/sysbio/46.3.523)
 
-    
 * Lecture 16: Phylogenomics and the tree of life  [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/10_Phylogenomics.pdf)].  
     * Reading: Kapli et al. (2020) Phylogenetic tree building in the genomic age. [Nature Reviews Genetics 21: 428–444](https://doi.org/10.1038/s41576-020-0233-0)
     * Discussion: Simion et al. (2021). To What Extent Current Limits of Phylogenomics Can Be Overcome?.
 		In Scornavacca et al., editors, [Phylogenetics in the Genomic Era, chapter No. 2.1, pp.  2.1:1–2.1:34](https://hal.archives-ouvertes.fr/hal-02535366/document).    
+
+### Week 13 (Apr 22, 24)
+* [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
+
+* Lecture 17: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/12_Phylogenetic_comparative_methods)].
+    * Reading: Cornwell and Nakagawa (2017). Phylogenetic comparative methods. [Current Biology 27:R333 - R336](https://doi.org/10.1016/j.cub.2017.03.049)
+    * Discussion: Watts et al. 2016. Ritual human sacrifice promoted and sustained the evolution of stratified societies. [Nature 532: 228-231](https://www.nature.com/articles/nature17159).
+<!--
+    * Reading: O’Meara (2012).  Evolutionary Inferences from Phylogenies: A Review of Methods. [Annu. Rev. Ecol. Evol. Syst. 43:267–285](https://doi.org/10.1146/annurev-ecolsys-110411-160331).  
+-->
+
+### Week 14 (Apr 29, May 1)
+* [Computer Lab 8](https://isu-molphyl.github.io/EEOB563/computer_labs/lab8): BayesTraits.
+    * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
+* Lecture 18: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/13_Molecular_clocks.pdf)].
+    * Reading: Bromham et al. (2018). Bayesian molecular dating: opening up the black box. [Biological Reviews, 93: 1165-1191](https://doi.org/10.1111/brv.12390)
+    * Discussion: Worobey et al. (2016). 1970s and "Patient 0" {HIV}-1 genomes illuminate early HIV/AIDS history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).  
+#### &#10071; The final project report is due by the end of the day on May 1st! Submit on Canvas &#10071;
+
+### Week 15 (May 6, 8): Final presentations  
+[[Scoring rubric](./scoring_rubric.pdf)]
+
 
 <!-- 
  * Lecture 17: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
@@ -122,14 +143,13 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
     * Reading: Mirarab et al. (2021) Multispecies Coalescent: Theory and Applications in Phylogenetics. [Annu. Rev. Ecol. Evol. Syst. 2021. 52:247–68](https://doi.org/10.1146/annurev-ecolsys-012121-095340)
 * Reading: Szöllősi et al. (2015). The Inference of Gene Trees with Species Trees. [Systematic Biology 64:e42–e62](https://doi.org/10.1093/sysbio/syu048).  
 	* Reading (optional): Carter et al. (2023). Estimating phylogenies from genomes: A beginners review of commonly used genomic data in vertebrate phylogenomics. [Journal of Heredity 114:1–13](https://doi.org/10.1093/jhered/esac061)
-
-### Week 12 (Apr 15, 17)
+### Week 13 (Apr 22, 24)
 * [Computer Lab 7](https://isu-molphyl.github.io/EEOB563/computer_labs/lab7): Phylogenomics.
+
 * Lecture 17: Ancestral State Reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/11_Ancestral_reconstruction.pdf)].
     * Reading: Joy et al. 2016. Ancestral reconstruction. [PLoS Comput. Biol. 12(7): e1004763](https://doi.org/10.1371/journal.pcbi.1004763)
     * Discussion: Starr et al. (2017). Alternative evolutionary histories in the sequence space of an ancient protein. [Nature 549:409-413](https://doi.org/10.1038/nature23902)
- <!--   * Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
-
+<!--   * Crisp and Cook (2005). Do early branching lineages signify ancestral traits? [Trends Ecol. Evol. 20:122-128](https://doi.org/10.1016/j.tree.2004.11.010)
 
 ### Week 13 (Apr 22, 24)
 * Lecture 18: Phylogenetic comparative methods [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/12_Phylogenetic_comparative_methods)].
