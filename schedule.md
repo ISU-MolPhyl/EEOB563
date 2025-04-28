@@ -128,7 +128,7 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
     * Introductory reading: Pagel and Meade (2006).  Bayesian Analysis of Correlated Evolution of Discrete Characters by  Reversible-Jump Markov Chain Monte Carlo.  [Am. Nat. 167:808-825](https://doi.org/10.1086/503444).
 * Lecture 18: Timing the evolutionary events [[notes](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/13_Molecular_clocks.pdf)].
     * Reading: Bromham et al. (2018). Bayesian molecular dating: opening up the black box. [Biological Reviews, 93: 1165-1191](https://doi.org/10.1111/brv.12390)
-    * Discussion: Worobey et al. (2016). 1970s and "Patient 0" {HIV}-1 genomes illuminate early HIV/AIDS history in North America. [Nature 539: 98-101](https://www.nature.com/articles/nature19827).  
+    * Discussion: Worobey et al. (2008). Direct evidence of extensive diversity of HIV-1 in Kinshasa by 1960. [Nature 455: 661-664](https://doi.org/10.1038/nature07390).  
 #### &#10071; The project report is due by the end of the day on May 1st! Submit on Canvas &#10071;
 
 ### Week 15 (May 6, 8): Final presentations  

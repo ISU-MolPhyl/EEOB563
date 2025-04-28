@@ -16,7 +16,7 @@ The file MatingSystem.txt contains mating system data for a variety of primate s
 ### Using Maximum Likelihood.
 #### Estimating the model
 
-* Start by changing into the directory where the files are located (e.g., `cd ~/EEOB563-Spring2021/computer_labs/lab8`).
+* Start by changing into the directory where the files are located (e.g., `cd ~/EEOB563-Spring2025/computer_labs/lab8`).
 * Type `BayesTraits data/Primates.trees data/MatingSystems.txt` to start the program.
 * When prompted for the model of evolution, select MultiState by typing `1`.
 * When prompted for the analysis method, select Maximum Likelihood by typing `1`.
@@ -48,7 +48,7 @@ Note that in Likelihood, there is no natural way to combine these results across
 > Note, that instead of typing the options at the command prompt, you
 > can enter them in a control file, and then use input redirection to
 > use them for the analysis:
-> `BayesTraits Primates.trees MatingSystems.txt < input.ctl`,
+> `BayesTraits data/Primates.trees data/MatingSystems.txt < input.ctl`,
 > where your control file looks like:  
 > ```
 > 1  
@@ -70,7 +70,7 @@ restrict q01 q10
 info
 run
 ```
-and run it: `BayesTraits Primates.trees MatingSystems.txt < input.ctl`
+and run it: `data/BayesTraits Primates.trees data/MatingSystems.txt < input.ctl`
 
 Check the results in `Run02.Log.txt`. 
 The rule of thumb is that if this model is two or more log-likelihood units worse than the unconstrained model, then the two rate coefficients differ.
@@ -103,10 +103,10 @@ AddMRCA Node2 GreatApes
 info
 run
 ```
-* Run it: `BayesTraits Primates.trees MatingSystems.txt < input.ctl`
+* Run it: `BayesTraits data/Primates.trees data/MatingSystems.txt < input.ctl`
 
 > **Questions to consider:**
-> In how many trees Node01 was not present? In how many trees Node02 was not present? Why?
+> What do you think is the difference between the ways we defined Node1 and Node2?
 > What is the ML reconstruction for the type of the mating system in the common ancestor to the Great Apes?
 
 #### Testing an ancestral state: Fossilizing a node
@@ -116,7 +116,8 @@ The `fossil` command takes a name, so the node can be identified in the output, 
 Fossilised nodes are found using the most recent common ancestor method.
 
 Let's test whether one type of a mating system is 'significantly' more likely in the common ancestor of great apes.  
-First, replace the `AddNode` and `AddMRCA` commands in the control file with `fossil Node1 GreatApes 0`, which sets the Node1 to state 0 and run the analysis. 
+First, replace the `AddNode` and `AddMRCA` commands in the control file with `fossil Node1 GreatApes 0`, which sets the Node1 to state 0.
+Update the name of the log file and run the analysis. 
 Repeat the analysis but set Node1 to state 1 instead.
 
 > **Questions to consider:**  
@@ -126,14 +127,13 @@ Repeat the analysis but set Node1 to state 1 instead.
 ## Using Markov Chain Monte Carlo.
 We can perform the same analyses as above using MCMC methods. 
 The Bayesian analysis can be used to estimate the posterior distribution of parameter values and also to test different models using Stepping stone approach. 
-In addition, BayesMultistate implements a reversible-jump MCMC method (see Pagel and Meade, Am. Nat., 2006) that automatically finds the
-posterior distribution of models of evolution for the data.
+In addition, BayesMultistate implements a reversible-jump MCMC method (see Pagel and Meade, Am. Nat., 2006) that automatically finds the posterior distribution of models of evolution for the data.
 
 ### Running MCMC
 Restart the program and choose  MultiState (option 1) and  MCMC (option 2).
 At this stage you could run the model using conventional MCMC by typing `run` (try it!).
 (If you forgot to specify the logfile, your results will be in `data/MatingSystems.txt.Log.txt`)
-You will see that the estimated rate coefficients (columns 5 and 6) are rather different from those under maximum likelihood (also the acceptance rate is too high). 
+You will see that the estimated rate coefficients (columns 4 and 5) are rather different from those under maximum likelihood (also the acceptance rate is too high). 
 This situation arises because the default priors for the rates are uniform between 0-100 and not restrictive enough for the amount of data we have.
 
 * Change the shape of the priors by using the `PriorAll` command: `PriorAll exp 10` and rerun the analysis.
@@ -208,9 +208,10 @@ Care should be taken to ensure estimates are accurate and stable, multiple indep
 These options should be investigated if there is large run to run variation.
 
 > **Question to consider:**  
+> Do the numbers above make sense?  
 > What are some advantages of a Bayesian (compared to ML) analysis?
 
-#### Reverse Jump MCMC (Skip this section if you arrived here after 10am)
+#### Reverse Jump MCMC (Skip this section if you arrived here after 2pm)
 For a complex model the number of possible restrictions is large, and may be impossible to test. 
 A reverse jump MCMC method (Green 1995) was developed to integrate results over model parameter and model restrictions, for a detailed description see (Pagel and Meade 2006).
 The RevJump (RJ) command is used to select reverse jump MCMC, the command takes a prior and prior parameters. 
