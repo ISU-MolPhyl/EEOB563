@@ -28,12 +28,12 @@ icon: <i class='fa fa-clipboard'></i>
 
 [09. Gene Trees in Species Trees](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/09_Gene_species_trees.pdf)
 
-<!--
 [10. Phylogenomics](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/10_Phylogenomics.pdf)
 
-[11. Ancestral Reconstruction](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/11_Ancestral_reconstruction.pdf)
-
 [12. Phylogenetic Comparative Methods](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/12_Phylogenetic_comparative_methods.pdf)
+
+<!--
+[11. Ancestral Reconstruction](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/11_Ancestral_reconstruction.pdf)
 
 [13. Molecular Clocks](https://isu-molphyl.github.io/EEOB563-Spring2025/lecture_notes/13_Molecular_clocks.pdf)
 -->
