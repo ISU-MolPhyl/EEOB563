@@ -134,6 +134,20 @@ and applications [Briefings in Bioinformatics, 17(6), 2016, 1009–1023](https:/
 ### Week 15 (May 6, 8): Final presentations  
 [[Scoring rubric](./scoring_rubric.pdf)]
 
+#### Presentations: 
+**05/06**
+- Sigornie
+- Thao
+- Ginushka
+- Gretta
+- Fan
+
+**05/08**
+- Pamela
+- Sharmistha
+- Supantha
+- Puja
+
 
 <!-- 
  * Lecture 17: Signal vs. noise in phylogenetic reconstruction [[notes](https://isu-molphyl.github.io/EEOB563-Spring2018/lecture_notes/04_10_18.pdf)].
