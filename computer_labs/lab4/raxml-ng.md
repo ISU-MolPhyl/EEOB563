@@ -225,7 +225,7 @@ In partitioned analyses, there are three common ways to estimate branch lengths 
 - **scaled** (**proportional**): a global set of branch lengths is estimated like in `linked` mode,  but each partition has an individual scaling factor; per-partition branch lengths are obtained by multiplying the global branch lengths with these individual scalers. This approach is a compromise that allows to model distinct evolutionary rates across partitions while introducing only a moderate number of free parameters (`#branches + #partitions`).
 
 ## Topological constraint
-#### `--constraint-tree FILE` option specifies a constraint tree
+#### `--tree-constraint FILE` option specifies a constraint tree
 
 If the constraint tree is _comprehensive_ (i.e., it includes all taxa found in the MSA), then RAxML will simply resolve polytomies in the way that maximizes the likelihood. Conversely, if some taxa are missing from the constraint, they will be placed freely in the resulting ML tree.
 
